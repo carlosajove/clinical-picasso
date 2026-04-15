@@ -168,6 +168,9 @@ linkage and every query:
 
 ## 4. Architectural Stance (default choices; deviate only with reason)
 
+> The operational pipeline spec lives in `PIPELINE.md`. That doc is the agreement
+> between collaborators on phase boundaries and outputs; this section is the *why*.
+
 ### 4.1 Shape of the system
 
 A **hybrid agentic RAG + knowledge graph**, not pure vector search:
