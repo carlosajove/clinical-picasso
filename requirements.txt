@@ -1,0 +1,9 @@
+PyMuPDF
+python-docx
+beautifulsoup4
+numpy
+scipy
+scikit-learn
+matplotlib
+seaborn
+jupyter
