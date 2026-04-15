@@ -136,3 +136,13 @@ version, or section. Keep strings verbatim (e.g. "per Protocol v2.1 §7.2",
 
 Return ONLY the structured output matching the schema. No commentary.
 """
+
+
+USER_PROMPT_TEMPLATE: str = """\
+Extract structured metadata from the clinical-trial document below.
+
+Filename: {filename}
+
+Treat the filename as a weak hint only — every extracted field must be grounded
+in the document content itself. Return ONLY the structured output.
+"""

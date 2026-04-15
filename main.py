@@ -12,6 +12,10 @@ from __future__ import annotations
 import asyncio
 from pathlib import Path
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 from extraction import cache
 from extraction.extract import DEFAULT_MODEL, DocumentExtractor
 from extraction.schema import ExtractionRecord
@@ -19,7 +23,7 @@ from src.preprocessing import DocumentRecord as Doc
 from src.preprocessing import Preprocessing
 
 
-DATA_DIR = Path("data/sample")
+DATA_DIR = Path("data/")
 OUT_DIR = Path("out/records")
 MODEL = DEFAULT_MODEL
 CONCURRENCY = 4
@@ -46,7 +50,7 @@ async def _extract_or_cache(
 
 
 async def run() -> int:
-    pre = Preprocessing(DATA_DIR).load_all().deduplicate()
+    pre = Preprocessing('data/').load_all().deduplicate().deduplicate_near().extract_content()
     summary = pre.summary()
     print(
         f"Preprocessing: {summary['total_files']} files, "
