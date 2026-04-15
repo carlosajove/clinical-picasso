@@ -1,0 +1,115 @@
+1. TITLE
+
+A Phase III, Randomized, Double-Blind, Placebo-Controlled, Multicenter
+Study to Evaluate the Efficacy and Safety of an Investigational
+Anti-PCSK9 Monoclonal Antibody in Statin-Intolerant Patients with
+Heterozygous Familial Hypercholesterolaemia
+
+
+2. SYNOPSIS
+
+Study Phase:        Phase III
+Design:             Randomized, double-blind, placebo-controlled, 1:1
+Primary Endpoint:   % change from baseline in LDL-C at Week 24
+Target Enrollment:  360 patients
+Treatment:          Subcutaneous injection every 4 weeks (at clinic)
+Duration:           52 weeks treatment + 24 weeks follow-up
+
+
+3. BACKGROUND AND RATIONALE
+
+Heterozygous familial hypercholesterolaemia (HeFH) is an autosomal dominant
+disorder causing lifelong LDL-C elevation and markedly increased cardiovascular
+risk. Statins are first-line treatment but intolerance affects 5-10% of patients
+on high-intensity therapy.
+
+PCSK9 inhibition has emerged as the most effective lipid-lowering strategy for
+statin-intolerant patients. Approved PCSK9 inhibitors require fortnightly dosing.
+The investigational product evaluated in this study has an extended half-life
+(~17 days) enabling monthly administration, potentially improving adherence.
+
+Phase I data in healthy volunteers established safety, tolerability, and
+pharmacokinetic profile. Monthly dosing achieved exposures consistent with
+robust PCSK9 inhibition per PK/PD modelling.
+
+
+4. STUDY OBJECTIVES
+
+PRIMARY OBJECTIVE
+To evaluate the effect of the investigational product versus placebo on LDL-C
+as measured by percent change from baseline at Week 24.
+
+SECONDARY OBJECTIVES
+  1. % change from baseline in ApoB at Week 24
+  2. % change from baseline in Lp(a) at Week 24
+  3. % change from baseline in non-HDL-C at Week 24
+  4. Proportion achieving LDL-C <1.8 mmol/L at Week 24
+  5. Proportion achieving LDL-C <1.4 mmol/L at Week 24
+  6. MACE through Week 52 (adjudicated)
+  7. Safety and tolerability
+
+
+5. PATIENT ELIGIBILITY
+
+INCLUSION CRITERIA
+  1. Age >= 18 years
+  2. Confirmed HeFH (Simon Broome or Dutch Lipid Clinic criteria, score >=6)
+  3. LDL-C >= 3.5 mmol/L on stable non-statin therapy for >= 8 weeks
+  4. Documented statin intolerance:
+       a. CK elevation >= 4x ULN on >= 2 statins, OR
+       b. Myalgia with symptom recurrence on rechallenge with >= 2 statins
+  5. No PCSK9 inhibitor therapy in the prior 12 months
+  6. Fasting triglycerides < 4.5 mmol/L
+
+EXCLUSION CRITERIA
+  1. Homozygous FH
+  2. Active liver disease or ALT/AST > 3x ULN
+  3. eGFR < 30 mL/min
+  4. MI, stroke, or coronary revascularisation within 3 months
+  5. Known hypersensitivity to monoclonal antibody therapy
+  6. Current participation in another interventional trial
+  7. Pregnancy or breastfeeding
+
+
+6. INVESTIGATIONAL PRODUCT
+
+Fully human IgG1 anti-PCSK9 monoclonal antibody, 150 mg/mL, SC injection.
+Dose: 150 mg SC every 4 weeks.
+Route: Subcutaneous, administered by study nurse at clinic.
+Supply: Pre-filled single-use auto-injector, 1 mL.
+Placebo: Matching auto-injector containing vehicle only.
+
+
+7. SCHEDULE OF ASSESSMENTS (ABBREVIATED)
+
+Visit               D1    Wk4   Wk8   Wk12  Wk24  Wk36  Wk52  FU
+-----------------------------------------------------------------------
+Fasting lipid panel  X     X     X     X     X     X     X     X
+Hepatic panel        X     X     X     X     X     X     X     X
+Vital signs          X     X           X     X           X     X
+IMP injection        X     X     X     X     X     X     X
+EQ-5D-5L             X                 X     X           X     X
+
+
+8. STATISTICAL ANALYSIS
+
+360 patients (180 per arm) provides 95% power to detect a 50 percentage point
+difference in LDL-C change at two-sided alpha 0.05.
+
+Primary: MMRM with % change from baseline in LDL-C; fixed effects: treatment,
+visit, treatment-by-visit, baseline LDL-C, stratification factors.
+
+Missing data: Multiple imputation under MAR; tipping-point sensitivity.
+
+
+9. ETHICAL CONSIDERATIONS
+
+Conducted in accordance with Declaration of Helsinki (2013), ICH E6(R2) GCP,
+and applicable national regulations. Ethics Committee approval required before
+enrollment. All patients provide written informed consent.
+
+
+10. DOCUMENT HISTORY
+
+  Version 1.0   Original protocol
+  Version 2.0   Amendment 1 -- eligibility update, Belgium addition

@@ -1,0 +1,71 @@
+FOR IMMEDIATE RELEASE
+
+Contact: Investors & Media Relations
+Biorce Therapeutics S.L.
+ir@biorce.com | +34 91 500 1299
+14 July 2022
+
+
+BIORCE THERAPEUTICS INITIATES PHASE III CLINICAL TRIAL OF BRC-209
+(VELAGOSTAT) IN EARLY ALZHEIMER'S DISEASE
+
+-- Phase III VELAD-3 Study Enrolling Patients Across Five Countries --
+-- Builds on Significant Phase II Tau PET and Cognitive Results --
+
+MADRID, SPAIN -- Biorce Therapeutics S.L., a clinical-stage biopharmaceutical
+company focused on transformative therapies for neurological and metabolic
+diseases, today announced the initiation of patient enrolment in the Phase III
+VELAD-3 study (BIORCE-NEU-2022-004) evaluating BRC-209 (velagostat) in
+patients with early Alzheimer's disease (AD).
+
+"The initiation of the VELAD-3 Phase III study represents a pivotal milestone
+for Biorce and for the Alzheimer's field," said Dr. Rafael Moreno, CEO of
+Biorce Therapeutics. "Our Phase II data demonstrated statistically significant
+target engagement -- a 31% reduction in tau PET signal -- along with encouraging
+cognitive outcomes. Velagostat's mechanism, which targets tau aggregation rather
+than amyloid clearance, offers a differentiated therapeutic strategy."
+
+ABOUT THE VELAD-3 PHASE III STUDY
+
+Design: Randomized, double-blind, placebo-controlled, multicenter Phase III
+Patients: 480 (320 velagostat / 160 placebo), aged 50-80
+Population: MCI or mild AD dementia, amyloid-confirmed, CDR global 0.5 or 1.0
+Primary endpoint: Change from baseline in CDR-Sum of Boxes at Week 78
+Treatment duration: 96 weeks
+Sites: 42 sites across Spain, UK, Sweden, Netherlands, Canada
+Registration: EudraCT 2022-003891-28; NCT05482910
+First patient enrolled: 12 July 2022
+
+PHASE II RESULTS
+
+VELAD-2 study (BIORCE-NEU-2020-002, n=94, 18 months):
+  Tau PET SUVR (entorhinal): -31% velagostat vs -4% placebo (p=0.003)
+  CDR-SB slowing at 18 months: -0.54 points (p=0.035) -- 30% slowing
+  Plasma p-tau 181: -34% vs -1% placebo (p=0.001)
+  Safety: no ARIA, no hepatotoxicity, no serious CNS adverse events
+
+ABOUT BRC-209 (VELAGOSTAT)
+
+Velagostat is an oral tau aggregation inhibitor. It stabilises tau monomers
+in a non-pathological conformation, preventing seeding and propagation of
+tau aggregates. Unlike anti-amyloid therapies, it does not deplete amyloid
+plaques, positioning it as potentially complementary to amyloid-targeting agents.
+
+ABOUT BIORCE THERAPEUTICS
+
+Clinical-stage biopharmaceutical company, Madrid, Spain. Pipeline:
+  BRC-471 (lumitanib, Phase II, EGFR-mutant NSCLC)
+  BRC-209 (velagostat, Phase III, Alzheimer's disease)
+  BRC-883 (cardanezumab, Phase III, familial hypercholesterolaemia)
+
+Founded 2018. Backed by Novo Holdings, EQT Life Sciences, Sofinnova Partners.
+
+FORWARD-LOOKING STATEMENTS
+This press release contains forward-looking statements. Actual results may
+differ materially due to clinical trial results, regulatory decisions, and
+other factors. Biorce undertakes no obligation to update forward-looking
+statements.
+
+# # #
+Biorce Therapeutics S.L. | Calle de Serrano 41 | 28001 Madrid
+www.biorce.com | ir@biorce.com

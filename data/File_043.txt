@@ -1,0 +1,74 @@
+COMITÉ DE PROTECTION DES PERSONNES
+ILE-DE-FRANCE VI
+Hôpital Pitié-Salpêtrière
+47-83 Boulevard de l'Hôpital, 75013 Paris
+cpp.idf6@aphp.fr
+
+                                        Paris, le 28 février 2023
+
+Réf. dossier CPP : IDF6-2023-A00412-39
+
+À l'attention de :
+Dr. Christian Dupont
+Investigateur Principal, Institut Gustave Roussy
+114 Rue Édouard Vaillant, 94800 Villejuif, France
+
+Objet : Avis favorable — Étude BIORCE-ONC-2023-001 — Protocole v1.0
+
+Monsieur le Docteur,
+
+Le Comité de Protection des Personnes Île-de-France VI s'est réuni en
+séance plénière le 22 février 2023 pour examiner votre demande d'avis
+concernant la recherche interventionnelle susmentionnée.
+
+IDENTIFICATION DE LA RECHERCHE
+
+Titre :
+  Étude de Phase II, en ouvert, multicentrique, visant à évaluer
+  l'efficacité et la tolérance de BRC-471 (Lumitanib) chez des patients
+  atteints d'un cancer bronchique non à petites cellules (CBNPC) avec
+  mutation EGFR, en progression après osimertinib en première ligne.
+
+Promoteur   : Biorce Therapeutics S.L., Madrid, Espagne
+Numéro EudraCT : 2023-001234-11
+Protocole   : BIORCE-ONC-2023-001, version 1.0, 14 mars 2023
+Produit     : BRC-471 (Lumitanib), 200 mg deux fois par jour, voie orale
+Catégorie   : Recherche Interventionnelle à Risques et Contraintes Minimes
+
+AVIS DU COMITÉ
+
+Après délibération, le CPP IDF VI émet un AVIS FAVORABLE à la
+réalisation de cette recherche sur le site de l'Institut Gustave Roussy,
+sous réserve des observations suivantes :
+
+OBSERVATIONS OBLIGATOIRES (avant tout début d'inclusion) :
+
+  1. Notice d'information (Section 5 — Risques) : Mentionner
+     explicitement le risque de pneumopathie interstitielle avec
+     fréquence indicative (~5% tous grades). Le libellé actuel est
+     insuffisamment précis.
+
+  2. Section 9 (Données personnelles) : Ajouter référence explicite
+     au RGPD (Règlement UE 2016/679) et préciser les droits des
+     participants (accès, rectification, effacement).
+
+OBSERVATIONS INFORMATIVES (sans blocage) :
+
+  3. Le CPP recommande de décrire plus précisément la procédure de
+     biopsie tumorale dans la notice d'information.
+
+  4. Le CPP recommande que les résultats de la recherche soient
+     communiqués aux participants à l'issue de l'étude.
+
+VALIDITÉ ET OBLIGATIONS
+
+Le présent avis est valable pour la version du protocole citée ci-dessus.
+Toute modification substantielle devra faire l'objet d'une nouvelle
+soumission avant mise en oeuvre.
+
+La Présidente du CPP IDF VI
+
+Pr. Marie-Claire Fontaine
+[Signature]
+
+Référence : CPP IDF6-2023-A00412-39 — Avis favorable du 28/02/2023

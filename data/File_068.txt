@@ -1,0 +1,66 @@
+INFORMED CONSENT FORM
+Study BIORCE-CAR-2024-007
+ICF Version 2.0 | Date: 20 September 2024     <-- VERSION 2.0 (liver update)
+CONFIDENTIAL
+
+Site: Hospital Universitario La Paz, Madrid   <-- SITE: ES-02
+Principal Investigator: Dr. Ignacio Fernandez-Ruiz
+
+===========================================================================
+[Pages 1-3 of consent text -- abbreviated for this record]
+
+You are being invited to take part in a clinical research study testing
+BRC-883 (Cardanezumab), a monthly injection to lower LDL cholesterol in
+patients with familial high cholesterol who cannot take statins.
+
+Key change in this version vs v1.0:
+  More frequent liver blood tests added (Weeks 4, 8, 12, 24) following
+  a safety update in the ongoing Phase III study.
+
+===========================================================================
+SECTION 12 -- CONSENT DECLARATION
+===========================================================================
+
+[X] I have read and understood this form (ICF v2.0, 20 Sep 2024). Init: MG
+
+[X] I have had enough time to ask questions; all answered. Init: MG
+
+[X] I understand participation is voluntary. Init: MG
+
+[X] I agree to data collection. Init: MG
+
+[X] I agree to take part. Init: MG
+
+
+Participant: MARIA GARCIA LOPEZ
+                                        [-- DATE CONFLICT BELOW --]
+Participant signature: [SIGNED]
+Date (DD/MM/YYYY):     14/08/2024    <-- *** SIGNED 14 AUG 2024
+                                         BUT ICF VERSION IS DATED
+                                         20 SEP 2024 -- IMPOSSIBLE:
+                                         PARTICIPANT SIGNED BEFORE
+                                         THIS VERSION EXISTED ***
+
+Person taking consent: Dr. Lucia Castillo
+                                        [-- SITE NAME CONFLICT --]
+Signature: [SIGNED]
+Date:      14/08/2024
+
+Site: Hospital Universitario Ramon y Cajal    <-- *** SITE ES-01 IN
+                                                  SIGNATURE BLOCK, BUT
+                                                  HEADER SAYS ES-02 ***
+
+===========================================================================
+CRA QUERY NOTE (monitoring visit 15 October 2024):
+
+Query Q-ES02-ICF-007:
+  Issue 1: Participant signature date (14/08/2024) predates ICF version
+           date (20/09/2024). Patient was likely consented under ICF v1.0
+           and v2.0 form used in error.
+  Issue 2: Site name in signature block reads "Ramon y Cajal" (ES-01)
+           but patient enrolled at "La Paz" (ES-02). Copy-paste error.
+  Status: OPEN -- awaiting investigator clarification by 30 Oct 2024.
+
+===========================================================================
+ICF v2.0 | BIORCE-CAR-2024-007 | (C) 2024 Biorce Therapeutics S.L.
+===========================================================================

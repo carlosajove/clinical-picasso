@@ -1,0 +1,132 @@
+Mechanisms of Resistance to Third-Generation EGFR Inhibitors in
+Non-Small Cell Lung Cancer: A Systematic Review
+
+Park J, Williams AR, Hoffmann K, Nakamura T, Martinez-Garcia E
+
+Journal of Precision Oncology, Volume 6, 2022
+DOI: 10.1200/PO.21.00500 (fictional DOI)
+Open Access -- CC BY 4.0
+Published: 14 March 2022
+
+Funding: National Cancer Institute (R01 CA254891) and ERC (ERC-2020-COG-101001827)
+Conflicts of interest: The authors declare no conflicts of interest.
+
+
+ABSTRACT
+
+PURPOSE
+  Osimertinib is the standard first-line treatment for EGFR-mutant advanced NSCLC.
+  However, resistance is nearly universal. The molecular landscape of osimertinib
+  resistance is heterogeneous. This systematic review synthesises current knowledge.
+
+METHODS
+  Systematic search: PubMed, EMBASE, Cochrane Library, January 2018 to December 2021.
+  Studies reporting molecular profiling of osimertinib-resistant NSCLC included.
+  47 studies encompassing 3,218 patients analysed.
+
+RESULTS
+  Resistance mechanisms identified in approximately 70% of profiled patients.
+
+  On-target (EGFR-dependent) mechanisms ~30%:
+    C797S mutation:         ~19%
+    EGFR amplification:      ~7%
+    Other EGFR alterations:  ~4%
+
+  Off-target (bypass) mechanisms ~40%:
+    MET amplification:       ~15%
+    HER2 amplification:      ~12%
+    KRAS mutation:            ~5%
+    PIK3CA mutation:          ~4%
+    BRAF V600E:               ~3%
+    Other:                    ~1%
+
+  Histologic transformation to SCLC: ~5%
+  No mechanism identified: ~30%
+
+  Co-occurrence of multiple mechanisms in a single patient: ~22% of those
+  with identified mechanisms.
+
+CONCLUSIONS
+  Osimertinib resistance is molecularly diverse. HER2 and MET amplification
+  represent the most actionable targets. Comprehensive molecular profiling
+  at progression -- ideally combining tissue biopsy with plasma ctDNA -- is
+  recommended to guide treatment selection.
+
+
+INTRODUCTION
+
+Non-small cell lung cancer (NSCLC) is the most common form of lung cancer,
+accounting for approximately 85% of all cases. Somatic activating mutations
+in EGFR are present in approximately 15% of Western and 40-50% of Asian NSCLC
+patients. The development of EGFR tyrosine kinase inhibitors (TKIs) has
+transformed management.
+
+Third-generation TKIs, specifically osimertinib, are now standard first-line
+treatment (FLAURA, FLAURA2 trials). Despite efficacy, acquired resistance
+develops in virtually all patients after a median of 18-22 months. Unlike
+first-generation TKI resistance (dominated by T790M), osimertinib resistance
+is molecularly diverse, complicating the development of standard post-
+osimertinib treatment algorithms.
+
+
+METHODS
+
+Search strategy: PubMed, EMBASE, and Cochrane Library using terms:
+  ("osimertinib" OR "AZD9291" OR "tagrisso") AND
+  ("resistance" OR "acquired resistance") AND
+  ("NSCLC" OR "non-small cell lung cancer")
+
+Eligible studies: prospective or retrospective studies reporting molecular
+profiling at progression on osimertinib.
+
+Quality assessment: Newcastle-Ottawa Scale for cohort studies.
+
+
+RESULTS
+
+47 studies included (n=3,218 patients, publication years 2018-2021).
+
+Resistance mechanism frequency (above). Co-occurrence observed in 22%.
+
+Clinical implications by mechanism:
+  C797S: renders osimertinib inactive; novel 4th-gen TKIs in development
+  MET amplification: capmatinib, tepotinib, savolitinib; Phase II promising
+  HER2 amplification: dual EGFR/HER2 inhibitors; newer agents in development
+  KRAS: G12C inhibitors active (sotorasib, adagrasib); others unmet need
+  SCLC transformation: platinum/etoposide +/- atezolizumab recommended
+
+Profiling sensitivity: ctDNA ~55-70%; tissue ~75-85%; combined ~90%.
+
+
+DISCUSSION
+
+The molecular heterogeneity of osimertinib resistance has profound implications
+for drug development. Several strategies under evaluation:
+  1. Matched targeted therapy by resistance mechanism
+  2. Combinations addressing co-occurring mechanisms
+  3. Chemotherapy + immunotherapy for uncharacterized resistance
+  4. Novel agents with activity across multiple resistance mechanisms
+
+Re-biopsy at progression is now widely endorsed in clinical guidelines.
+
+
+CONCLUSIONS
+
+Osimertinib resistance is molecularly diverse. Comprehensive profiling at
+progression is essential. HER2 and MET amplification are the most actionable
+mechanisms. Co-occurrence is common. Phase II/III trials in stratified
+post-osimertinib populations expected to produce practice-changing data.
+
+
+REFERENCES (selected)
+
+1. Soria JC et al. Osimertinib in untreated EGFR-mutated advanced NSCLC.
+   N Engl J Med. 2018;378:113-25.
+
+2. Ramalingam SS et al. Overall survival with osimertinib in untreated,
+   EGFR-mutated advanced NSCLC. N Engl J Med. 2020;382:41-50.
+
+3. Leonetti A et al. Resistance mechanisms to osimertinib in EGFR-mutated
+   NSCLC. Br J Cancer. 2019;121:725-37.
+
+Published under Creative Commons Attribution 4.0 (CC BY 4.0).

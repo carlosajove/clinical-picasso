@@ -1,0 +1,89 @@
+5. SAFETY RESULTS
+
+5.1 Overview of Adverse Events
+
+A total of 148 patients received at least one dose of study treatment
+(74 active, 74 placebo). The median duration of exposure was 23.8 weeks
+(range 1.1-24.6) for the active arm and 23.4 weeks (range 0.9-24.4)
+for the placebo arm.
+
+  Safety parameter             Active (n=74)   Placebo (n=74)
+  ------------------------------------------------------------
+  Any TEAE                      68.9%           67.6%
+  Grade >=3 TEAE                 5.4%            6.8%
+  SAE                            2.7%            3.9%
+  Discontinuation due to AE      1.4%            1.4%
+  Deaths                         0               0
+
+No deaths occurred during the study. The two SAEs in the active arm were
+a hospitalisation for cellulitis (unrelated) and an ALT elevation (possibly
+related; resolved). The four SAEs in the placebo arm comprised two
+cardiovascular events and two infections, all unrelated to study treatment.
+
+5.2 Common Treatment-Emergent Adverse Events
+
+TEAEs occurring in >= 3% of patients in either arm:
+
+  TEAE (MedDRA PT)          Active n(%)   Placebo n(%)
+  ------------------------------------------------------
+  Injection site reaction     6 (8.1%)     3 (3.9%)
+  Nasopharyngitis             5 (6.8%)     5 (7.1%)
+  Back pain                   4 (5.4%)     5 (6.5%)
+  Headache                    3 (4.1%)     4 (5.2%)
+  Myalgia                     2 (3.4%)     3 (4.5%)
+  Influenza                   2 (2.7%)     3 (4.1%)
+  ALT increased               1 (1.4%)     0
+
+All injection site reactions were Grade 1-2. Mean duration 1.8 days
+(range 1-4 days). No anaphylactic reactions. No discontinuations.
+
+Myalgia was not elevated in the active arm vs placebo (3.4% vs 4.5%),
+an important finding given the statin-intolerant study population.
+
+5.3 Cardiovascular Events
+
+All potential cardiovascular events were adjudicated by an independent CEC.
+During the 24-week treatment period:
+
+  MACE (adjudicated): 0 events (active) vs 2 events (placebo)
+
+The two MACE events in the placebo arm were attributable to underlying
+high-risk cardiovascular disease. The study was not powered for MACE.
+
+5.4 Hepatic Safety
+
+One patient in the active arm experienced ALT elevation to 3.2x ULN at
+Week 8. Asymptomatic, detected on routine monitoring. Drug held 3 weeks;
+ALT returned to 1.1x ULN. Patient rechallenged without recurrence. Assessed
+as possibly related to study drug.
+
+No bilirubin elevation. No Hy's Law criteria met.
+
+Mean ALT change Week 24: +3.2 U/L (active) vs +1.8 U/L (placebo), p=0.41.
+
+Given the emerging hepatic signal in the ongoing Phase III study (3 additional
+ALT >5x ULN cases), enhanced LFT monitoring has been added to the Phase III
+protocol as an amendment.
+
+5.5 Immunogenicity
+
+ADA incidence: 4.1% (3/74). No neutralising antibodies. No relationship
+between ADA status and PK, efficacy, or adverse events.
+
+5.6 Neurocognitive Safety
+
+CANTAB battery at baseline and Week 24 (exploratory). No statistically
+significant or clinically meaningful differences on any domain (sustained
+attention, spatial working memory, pattern recognition memory). Consistent
+with published data for approved PCSK9 inhibitors.
+
+5.7 Conclusions -- Safety
+
+The investigational product at 150 mg SC q4w demonstrated a favourable
+safety profile over 24 weeks. No deaths. SAE rate lower in active arm.
+Injection site reactions mild and self-limiting. Single hepatic enzyme
+elevation resolved on drug hold. No myalgia excess. No neurocognitive
+safety signal. No immunogenicity impact.
+
+The safety profile supports continued development at 150 mg SC q4w.
+Enhanced hepatic monitoring implemented in the Phase III programme.

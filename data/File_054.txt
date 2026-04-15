@@ -1,0 +1,112 @@
+BIORCE THERAPEUTICS
+MEDICAL AFFAIRS -- SCIENTIFIC SLIDE DECK
+
+BRC-471 (LUMITANIB): CLINICAL DATA SUMMARY FOR
+HEALTHCARE PROFESSIONAL EDUCATION
+
+Version 2.1 | January 2024
+For use by trained Medical Science Liaisons only
+NOT FOR PROMOTIONAL USE -- NOT FOR DISTRIBUTION TO PATIENTS
+
+================================================================================
+
+[SLIDE 1 -- TITLE]
+BRC-471 (Lumitanib) in EGFR-Mutant NSCLC:
+Clinical Evidence and Positioning in the Post-Osimertinib Setting
+
+Medical Affairs | Biorce Therapeutics S.L.
+Data current as of: 01 December 2023
+
+Speaker note: Remind audience this is an investigational product.
+All data from clinical trials. BRC-471 not approved anywhere.
+
+[SLIDE 2 -- THE UNMET NEED]
+
+EGFR-mutant NSCLC: ~15% of Western NSCLC patients
+Osimertinib: standard first-line therapy (FLAURA, FLAURA2)
+Median PFS with first-line osimertinib: 18-22 months
+Resistance: virtually universal
+
+Resistance mechanisms (Park et al. 2022, n=3,218):
+  HER2 amplification:   ~12%
+  C797S mutation:        ~19%
+  MET amplification:     ~15%
+  No mechanism found:    ~30%
+
+Key message: NO APPROVED STANDARD OF CARE post-osimertinib.
+Historical ORR with chemotherapy: 8-12%.
+
+[SLIDE 3 -- MECHANISM OF ACTION]
+
+BRC-471 is a dual EGFR/HER2 inhibitor targeting the two most
+actionable resistance mechanisms.
+
+              EGFR (C797S)    HER2 (amplified)
+  IC50:          4.2 nM           6.8 nM
+  Selectivity:   >100x kinase panel
+  Oral:          BID tablet
+
+Preclinical: 78% TGI in PC9-OR xenograft (30 mg/kg QD)
+Not active against MET or KRAS-driven resistance.
+
+Speaker note: Ready for CNS penetration question -- P-gp substrate,
+limited BBB crossing; 1 CNS response in Phase I expansion.
+
+[SLIDE 4 -- PHASE I RESULTS]
+
+Phase I BIORCE-ONC-2021-003 (n=42):
+  MTD: 250 mg BID | RP2D: 200 mg BID
+
+Safety at RP2D (expansion cohort, n=20):
+  Grade >=3 AEs: 35%
+  Diarrhoea 71%, rash 62%, nausea 48%
+  ILD/pneumonitis: 5% (1 Grade 3, resolved)
+
+Efficacy (post-osimertinib NSCLC, n=20):
+  ORR: 30% | DCR: 75%
+  HER2-amplified subgroup (n=6): ORR 83%
+
+[SLIDE 5 -- PHASE II INTERIM]
+
+Phase II BIORCE-ONC-2023-001 (n=55 evaluable, data cut Sep 2023):
+
+  Confirmed ORR (BICR): 29.1% (16/55; 95% CI 17.6-42.9)
+  DCR: 70.9%
+  Median PFS: 5.4 months
+  Median DoR: 7.8 months
+  HER2-amplified (n=18): ORR 44.4%
+  HER2-negative (n=37):  ORR 21.6%
+
+Simon Stage 1 criterion MET. Proceeding to Stage 2 (n=120 total).
+
+[SLIDE 6 -- POSITIONING]
+
+Post-osimertinib landscape:
+  1st line: Osimertinib (standard)
+  2nd line: NO APPROVED TARGETED THERAPY
+
+BRC-471 potential positioning (investigational):
+  2nd line post-osimertinib, especially HER2-amplified
+  Biomarker selection: HER2 amp and/or C797S
+
+Speaker note: Do not position as alternative to approved therapy.
+Frame as investigational option within clinical trial context only.
+
+[SLIDE 7 -- DEVELOPMENT STATUS]
+
+Phase II (BIORCE-ONC-2023-001): Enrolling | Readout expected Q4 2025
+FDA Breakthrough Therapy Designation: Under review (submitted Nov 2023)
+Draft SmPC: In preparation (pre-submission)
+
+Planned Phase III: Under regulatory discussion | Start anticipated 2026
+Companion Dx: HER2 FISH/IHC partnership under discussion
+
+================================================================================
+IMPORTANT LEGAL NOTICE
+For Medical Science Liaison use in scientific exchange only.
+Not for promotional use. Not for patient distribution.
+Consistent with Investigator Brochure BRC-471, Edition 2, October 2023.
+Prepared by: Medical Affairs, Biorce Therapeutics S.L.
+Approved by: CMO | Version 2.1 | 08 January 2024
+(C) 2024 Biorce Therapeutics S.L. All rights reserved.
+================================================================================

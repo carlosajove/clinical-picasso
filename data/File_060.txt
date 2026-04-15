@@ -1,0 +1,31 @@
+eCRF -- CYCLE 1 DAY 8 VISIT
+Study: BIORCE-ONC-2023-001 | Form v2.1 | Site: ES-01 | Patient: BRC471-ES01-011
+Visit date: 13 January 2024 | Entered: R.Dominguez | Verified: Dr. A. Beltran
+
+VITAL SIGNS
+  BP: 132/84 mmHg | HR: 76 bpm | Temp: 37.0 degrees C | SpO2: 98% | Weight: 82.1 kg
+
+LABORATORY RESULTS (C1D8)
+
+  Haematology:
+    Hb: 13.8 g/dL [N] | ANC: 4.1 x10^9/L [N] | Platelets: 228 x10^9/L [N]
+
+  Chemistry:
+    ALT: 38 U/L [N -- slightly elevated from baseline 22 U/L, still <ULN]
+    AST: 29 U/L [N] | Creatinine: 74 umol/L [N] | K: 4.2 mmol/L [N]
+
+  Note on ALT: increase 22 to 38 U/L, both below ULN (45 U/L at this site).
+  No action required. Will monitor at C2D1.
+
+ADVERSE EVENTS
+  AE#1: Diarrhoea, Grade 2 -- onset Day 4 -- ongoing
+    Action: Loperamide 2mg QID prescribed. Patient counselled.
+    Relationship: Probably related. SAE: No.
+  AE#2: Dry mouth, Grade 1 -- onset Day 5 -- ongoing
+    Relationship: Possibly related. No action.
+
+DRUG COMPLIANCE (patient self-report)
+  Missed doses since C1D1: 1 (Day 6 morning)
+  Compliance: 55/56 tablets = 98.2%
+
+Investigator: Dr. A. Beltran   Sig: [SIGNED]   Date: 13/01/2024

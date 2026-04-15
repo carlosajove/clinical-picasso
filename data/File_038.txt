@@ -1,0 +1,84 @@
+================================================================================
+EMAIL THREAD EXPORT — BIORCE INTERNAL DISTRIBUTION
+Thread: [URGENT] BIORCE-CAR-2024-007 -- Amendment 1 APPROVED -- Action Required
+================================================================================
+
+------------------------------------------------------------------------
+FROM:    Elena Vázquez <e.vazquez@biorce.com>
+TO:      All-ClinicalOps <clinops@biorce.com>
+CC:      Rafael Moreno <r.moreno@biorce.com>
+DATE:    10 July 2024, 09:14
+SUBJECT: [URGENT] BIORCE-CAR-2024-007 -- Amendment 1 APPROVED
+------------------------------------------------------------------------
+
+Team,
+
+Amendment 1 to Protocol BIORCE-CAR-2024-007 received Central Ethics
+Committee approval yesterday (09 July 2024). The amendment is now in effect.
+
+WHAT CHANGED:
+
+  1. ELIGIBILITY -- LDL-C THRESHOLD LOWERED
+     Old: LDL-C >= 3.5 mmol/L
+     New: LDL-C >= 2.6 mmol/L
+     Reason: 38% screen failure rate (vs 20% projected). Aligns with
+     ESC/EAS 2023 guidelines for very high-risk patients.
+
+  2. ELIGIBILITY -- BACKGROUND THERAPY LANGUAGE
+     Old: "maximally tolerated non-statin lipid-lowering therapy"
+     New: "any stable non-statin lipid-lowering therapy for >= 8 weeks"
+
+  3. COUNTRY ADDITION -- BELGIUM
+     2 sites (Leuven + Ghent). First patient expected September 2024.
+
+  4. SAMPLE SIZE -- UNCHANGED at 360 patients.
+
+ACTION REQUIRED -- ALL SITES:
+  - DO NOT enroll new patients until local EC has approved Amendment 1
+  - Updated protocol v2.0 uploaded to Veeva Vault by EOD tomorrow
+  - Distribute Investigator Notification Letter to PIs by Friday 12 July
+  - Already-enrolled patients: no re-consent required
+
+Carmen -- please update TMF Index once approved versions are in Vault.
+
+Elena Vázquez | VP Clinical Development | Biorce Therapeutics S.L.
+
+------------------------------------------------------------------------
+FROM:    Lena Fischer <l.fischer@biorce.com>
+TO:      Elena Vázquez <e.vazquez@biorce.com>
+DATE:    10 July 2024, 10:52
+SUBJECT: RE: Amendment 1 APPROVED
+------------------------------------------------------------------------
+
+Elena, understood. Current local EC status:
+
+  ES-01 (Ramón y Cajal)  -- Submission pending. Will submit today.
+  ES-02 (La Paz)         -- Submitted 05 Jul. Awaiting.
+  DE-01 (Charité)        -- Submitted 05 Jul. Confirmed receipt.
+  DE-02 (LMU Munich)     -- NOT YET SUBMITTED. Escalating today.
+  NL-01 (AMC Amsterdam)  -- Submitted 05 Jul. ~4 weeks.
+  PL-01 (Warsaw)         -- Submitted 01 Jul. Expecting approval 22 Jul.
+  BE-01/02               -- Site contracts not signed. Not yet started.
+
+Will update SharePoint action log by EOD.
+
+------------------------------------------------------------------------
+FROM:    Camille Dupont <c.dupont@biorce.com>
+TO:      All-ClinicalOps
+DATE:    10 July 2024, 15:08
+SUBJECT: RE: Amendment 1 -- eligibility clarification
+------------------------------------------------------------------------
+
+Clarification on updated eligibility (LDL-C >= 2.6 mmol/L):
+
+  - Patients already enrolled (Day 1 done): NOT AFFECTED
+  - Patients in screening with ICF signed but Day 1 pending:
+    Contact me individually for case-by-case Medical Monitor review
+  - New patients screened AFTER local EC approval of Amendment 1:
+    New threshold of >= 2.6 mmol/L applies
+
+Please include this in your site briefings.
+
+================================================================================
+ATTACHMENT REFERENCED: BIORCE-CAR-2024-007_Protocol_v2.0_Amendment1.pdf
+================================================================================

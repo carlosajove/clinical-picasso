@@ -1,0 +1,38 @@
+eCRF -- CYCLE 2 DAY 1 VISIT
+Study: BIORCE-NEU-2022-004 | Form v1.1 | Site: ES-02 | Patient: VEL209-ES02-004
+Visit date: 28 October 2022 | Entered: R.Dominguez | Verified: Dr. I. Fernandez
+
+VITAL SIGNS
+  BP: 138/86 mmHg [slightly elevated -- noted, no action]
+  HR: 78 bpm | Temp: 36.4 degrees C | Weight: 71.2 kg
+
+STUDY DRUG DISPENSING
+  Kit: VEL-ES02-008 | Tablets dispensed: 30 (400mg QD)
+  Dose: [X] 400mg QD
+  Compliance check (returned C1 tablets): 2 returned
+    Expected: 30 | Returned: 2 | Taken: 28 = 93.3%
+    [Note: patient reports missing 2 morning doses -- documented]
+
+COGNITIVE ASSESSMENTS (brief -- full assessment at Week 13 visit)
+  MMSE: 24 (baseline: 25 -- change -1, within expected variability)
+  [Full CDR-SB, ADAS-Cog, ADCS-ADL at Week 13 only]
+
+FALLS ASSESSMENT
+  Falls since baseline: 1 (tripped on stairs, no injury)
+  Morse Fall Scale: 35 -- MEDIUM risk
+  Action: Physiotherapy referral discussed with patient and family.
+
+ADVERSE EVENTS
+  AE#1: Headache, Grade 1 -- onset Week 2 -- RESOLVED Week 4
+    Relationship: Possibly related | SAE: No | Action: Paracetamol PRN
+  AE#2: Dizziness, Grade 1 -- onset Week 3 -- ongoing
+    Relationship: Possibly related | Action: Advised slow positional changes
+
+  No ARIA symptoms. MRI not due until Week 26.
+
+STUDY PARTNER PRESENT: [X] Yes -- spouse
+PARTNER OBSERVATIONS: "Some improvement in finding words, but still
+  forgetting appointments. Overall feels more like himself."
+  [Documented verbatim per SOP]
+
+Investigator: Dr. I. Fernandez   Sig: [SIGNED]   Date: 28/10/2022

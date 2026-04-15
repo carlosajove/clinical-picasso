@@ -1,0 +1,30 @@
+eCRF -- END OF TREATMENT (EOT) VISIT
+Study: BIORCE-ONC-2023-001 | Form v2.1 | Site: FR-01 | Patient: BRC471-FR01-005
+EOT Date: 08 December 2023 | Last dose: 07 December 2023
+Entered: M.Leconte | Verified: Dr. C. Dupont (Medical Monitor)
+
+REASON FOR DISCONTINUATION
+  [X] Radiographic disease progression (RECIST v1.1)
+  Date of progression confirmed by BICR: 28 November 2023
+  Cycle at discontinuation: Cycle 6 (Day 168)
+
+TOTAL TREATMENT DURATION
+  First dose: 15 June 2023 | Last dose: 07 December 2023
+  Cycles completed: 5 (partial cycle 6)
+  Total planned dose: 11,200 mg | Actual: 10,360 mg
+  Relative Dose Intensity: 92.5%
+  Dose reductions: 0 | Dose interruptions: 1 (14 days, C4, nausea)
+
+BEST OVERALL RESPONSE (per BICR)
+  [X] Partial Response (PR) -- first response C2 (Day 58)
+  Duration of response: 98 days
+
+EOT ASSESSMENTS
+  Physical exam: Yes | Blood tests: Yes | CT scan: Yes
+  ECG: Yes | ctDNA sample: Yes | PROs: Yes
+
+POST-STUDY TREATMENT
+  Next therapy: Platinum-based chemotherapy (carboplatin/pemetrexed)
+  ctDNA resistance profiling: Results pending (3 weeks)
+
+Investigator: Dr. C. Moreau   Sig: [SIGNED]   Date: 08/12/2023

@@ -1,0 +1,92 @@
+Edition 3 | Confidential | January 2025
+
+1. SUMMARY OF CHANGES FROM PREVIOUS EDITION
+
+This edition updates the clinical safety and efficacy sections following
+completion of enrolment in the Phase III study and availability of the
+Week 52 interim analysis data (data cut-off: 30 September 2024, n=412
+randomised, n=389 with at least one post-baseline assessment).
+
+Key updates:
+
+  1.1  New hepatic safety signal -- Grade 3 ALT elevation
+       Three additional cases of ALT >5x ULN confirmed since Edition 2,
+       bringing overall incidence to 2.1% (4/189 exposed in Phase III).
+       All cases resolved on drug hold. One patient permanently discontinued;
+       three successfully rechallenged.
+
+  1.2  Cardiac safety -- QTcF monitoring clarification
+       Pre-specified cardiac safety analysis at 200-patient interim showed
+       no QTcF >500ms, no clinically meaningful change in mean QTcF (+3.2ms).
+       Existing ECG monitoring schedule considered sufficient.
+
+  1.3  Updated PK -- renal impairment subgroup
+       PK sub-study (n=24): AUC increased 38% in moderate renal impairment
+       (eGFR 30-44 mL/min). Dose reduction to 100 mg SC q4w now recommended
+       for patients with eGFR 30-44 mL/min. Patients with eGFR <30 excluded.
+
+  1.4  Immunogenicity update
+       Cumulative ADA incidence in Phase III (n=189): 5.3% (10/189).
+       No neutralising antibodies. No PK or safety impact.
+
+  1.5  Paediatric data update
+       Pilot (n=12, adolescents 14-17, 75mg SC q4w, 24 weeks): LDL-C -48%,
+       sustained. No new safety signals. No paediatric indication claimed.
+
+2. UPDATED PK (steady-state, 150 mg SC q4w)
+
+  Parameter               Phase II (n=74)    Phase III interim (n=189)
+  -----------------------------------------------------------------------
+  Cmax,ss (ug/mL)          22.4 (26%)         23.1 (24%)
+  AUCtau (ug.day/mL)       198 (22%)          204 (21%)
+  T1/2 terminal (days)     17.4               17.8
+  Bioavailability SC       71%                73%
+  ADA incidence            4.1%               5.3%
+  Neutralising ADA         0%                 0%
+
+  Renal impairment PK sub-study:
+    eGFR Normal (>=60): AUC 1.00 (reference) -- standard dose 150mg
+    eGFR Mild (45-59):  AUC 1.18 -- standard dose 150mg
+    eGFR Moderate (30-44): AUC 1.38 -- reduce to 100mg q4w
+    eGFR Severe (<30): not studied -- excluded from trial
+
+3. PHASE III INTERIM EFFICACY (Week 52, n=389, data cut 30 Sep 2024)
+
+  LDL-C change:     -56.8% (BRC-883) vs -3.1% (placebo), p<0.0001
+  ApoB:             -45.2% vs -1.4% (p<0.0001)
+  Non-HDL-C:        -50.7% vs -2.3% (p<0.0001)
+  Lp(a):            -22.4% vs +1.8% (p=0.003)
+  MACE (52wk):      11 events vs 14 events -- HR 0.76 (NS -- not powered)
+
+  LDL-C targets:
+    <1.8 mmol/L Week 52: 66% (BRC-883) vs 3% (placebo)
+    <1.4 mmol/L Week 52: 39% vs 1%
+
+4. PHASE III SAFETY (n=412, data cut 30 Sep 2024)
+
+  Any TEAE:              71.4% vs 69.2%
+  Grade >=3:              7.3% vs 8.1%
+  SAE:                    4.4% vs 5.1%
+  Discontinuation:        2.1% vs 1.5%
+  Injection site reaction: 9.2% vs 4.1% (all Grade 1-2)
+  ALT >5x ULN:            2.1% vs 0% (4 cases -- see 1.1 above)
+
+5. UPDATED HEPATIC MONITORING GUIDANCE
+
+  ALT/AST at: screening, Week 4, 8, 12, 24 (mandatory)
+  ALT >3x ULN: repeat within 2 weeks; may continue drug
+  ALT >5x ULN: hold drug; notify Sponsor within 48h; repeat weekly
+  Rechallenge: permitted after resolution to <2x ULN (Sponsor approval)
+  Permanent DC: if ALT >5x ULN recurs on rechallenge
+
+6. BENEFIT-RISK ASSESSMENT
+
+Benefit-risk remains favourable. LDL-C reduction ~57% consistent across
+Phase II and Phase III interim. Hepatic signal (ALT >5x ULN, 2.1%)
+manageable with enhanced monitoring. No new safety signals of concern.
+This document will be updated following Phase III primary analysis (Q3 2025).
+
+DOCUMENT HISTORY
+  Edition 1   05 Sep 2023   Initial IB
+  Edition 2   01 Aug 2024   Phase III safety interim, hepatic signal, paed.
+  Edition 3   15 Jan 2025   Phase III Week 52 interim, renal PK, immunogenicity

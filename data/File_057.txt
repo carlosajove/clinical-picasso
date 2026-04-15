@@ -1,0 +1,75 @@
+BIORCE THERAPEUTICS S.L.
+Calle de Serrano 41 | 28001 Madrid | Spain
+
+                                                15 October 2023
+
+To: All Principal Investigators and Sub-Investigators
+    Study BIORCE-ONC-2023-001
+
+Re: Distribution of Investigator Brochure (IB), Edition 2 --
+    BRC-471 (Lumitanib) -- and Mandatory Acknowledgement
+
+Dear Investigator,
+
+Please find enclosed Investigator Brochure Edition 2 for BRC-471 (Lumitanib),
+dated 15 October 2023. This edition supersedes Edition 1 (01 December 2022)
+and must be read in full before enrolling or treating any further patients.
+
+Edition 2 contains the following material updates which may affect your
+assessment of the benefit-risk profile and your conduct of the study:
+
+1. UPDATED PHASE II INTERIM EFFICACY DATA
+   Phase II study (n=55 evaluable, data cut 01 September 2023):
+   Confirmed ORR 29% (16/55; 95% CI 17.6-42.9) by BICR, exceeding the 25%
+   threshold. Median PFS 5.4 months. HER2-amplified subgroup ORR 44%.
+
+2. UPDATED ILD/PNEUMONITIS SIGNAL -- ACTION REQUIRED
+   Two additional Grade 3 cases confirmed since Edition 1, total now 4 cases
+   (incidence 3.7%). All resolved. IMMEDIATE ACTIONS:
+
+   a) Review updated risk-minimisation guidance in Section 4.3 of IB Edition 2:
+      - Baseline HRCT required for all newly enrolled patients
+      - Low threshold for drug hold at any new respiratory symptoms
+
+   b) Brief all site staff on updated ILD/pneumonitis guidance
+
+   c) Complete and return the IB Acknowledgement Form within 14 days
+
+3. NEW DRUG-DRUG INTERACTION DATA (CYP3A4)
+   DDI study (n=12): 2.3-fold increase in BRC-471 AUC with itraconazole.
+   If strong CYP3A4 inhibitor unavoidable: reduce BRC-471 to 100 mg BID.
+   Please review all concomitant medications at the next patient visit.
+
+ACTION REQUIRED -- IB ACKNOWLEDGEMENT
+
+All investigators and sub-investigators must sign and return the acknowledgement
+below within 14 days. Return to: c.lopez@biorce.com or Vault ID: VV-BRC-ONC-001-IB-Ed2-ACK
+
+Do not enrol any new patients until you have read and acknowledged IB Edition 2.
+
+Medical questions: Dr. Elena Vázquez (e.vazquez@biorce.com)
+Logistical questions: Carmen López (c.lopez@biorce.com)
+
+Yours sincerely,
+Dr. Elena Vázquez, VP Clinical Development
+
+================================================================================
+IB ACKNOWLEDGEMENT FORM
+
+Study: BIORCE-ONC-2023-001 | IB Edition 2 | 15 October 2023
+
+I confirm that I have received and read IB Edition 2 for BRC-471 (Lumitanib)
+and understand the updated safety and efficacy information.
+
+Name (PRINT): _________________________________________________
+
+Role: [ ] Principal Investigator   [ ] Sub-Investigator
+
+Site code: _____________
+
+Signature: _________________________________________________
+
+Date: _____ / _____ / __________
+
+Return to: c.lopez@biorce.com by 29 October 2023
+================================================================================

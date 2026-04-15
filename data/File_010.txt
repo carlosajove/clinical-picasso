@@ -1,0 +1,121 @@
+================================================================================
+CLINICAL STUDY PROTOCOL
+BIORCE-CAR-2024-007
+VERSION 1.0 | 22 JANUARY 2024
+CONFIDENTIAL
+================================================================================
+
+SPONSOR
+  Biorce Therapeutics S.L.
+  Calle de Serrano 41, 28001 Madrid, Spain
+  Medical Monitor: Dr. Camille Dupont (c.dupont@biorce.com)
+
+INVESTIGATIONAL PRODUCT
+  BRC-883 (Cardanezumab) -- Anti-PCSK9 monoclonal antibody, 150 mg/mL SC
+
+TITLE
+  A Phase III, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate
+  the Efficacy and Safety of BRC-883 (Cardanezumab) in Statin-Intolerant
+  Patients with Heterozygous Familial Hypercholesterolaemia
+
+EUDRACT NUMBER: 2024-000217-43
+CLINICALTRIALS.GOV: NCT06100234
+
+--------------------------------------------------------------------------------
+SECTION 1 -- PROTOCOL SYNOPSIS
+--------------------------------------------------------------------------------
+
+Study Phase             : Phase III
+Design                  : Randomized, double-blind, placebo-controlled, 1:1
+Primary Endpoint        : % change from baseline in LDL-C at Week 24
+Secondary Endpoints     : ApoB, non-HDL-C, Lp(a), MACE (Week 52), safety
+Target Enrollment       : 360 patients (180 BRC-883 / 180 placebo)
+Treatment Duration      : 52 weeks
+Follow-up               : 24 weeks post-treatment
+Countries               : Spain, Germany, Netherlands, Poland
+IMP Administration      : 150 mg SC injection every 4 weeks (at clinic)
+
+--------------------------------------------------------------------------------
+SECTION 2 -- BACKGROUND AND RATIONALE
+--------------------------------------------------------------------------------
+
+Familial hypercholesterolaemia (FH) is an autosomal dominant disorder caused
+by loss-of-function mutations in the LDL receptor (LDLR), leading to lifelong
+elevation of LDL cholesterol and markedly increased cardiovascular risk.
+Heterozygous FH (HeFH) affects approximately 1 in 250 individuals worldwide.
+
+Statins are first-line treatment for HeFH. However, statin intolerance affects
+5-10% of patients on high-intensity statin therapy. Current alternatives
+(ezetimibe, bile acid sequestrants) produce modest LDL-C reductions of 15-25%.
+
+PCSK9 inhibitors reduce LDL-C by 50-60% but require fortnightly dosing.
+BRC-883 (Cardanezumab) is a novel fully human IgG1 anti-PCSK9 monoclonal
+antibody with an extended half-life (~17 days) enabling monthly (q4w) dosing,
+potentially improving adherence while maintaining comparable efficacy.
+
+Phase II data (BIORCE-CAR-2022-005, n=148, 24 weeks):
+  LDL-C reduction: -57.3% (BRC-883) vs -2.8% (placebo), p<0.0001
+  ApoB reduction: -46.9%, p<0.0001
+  Lp(a) reduction: -23.8%, p=0.002
+  Injection site reactions: 8.1% (mild, none requiring discontinuation)
+  No MACE, no neutralizing antibodies
+
+--------------------------------------------------------------------------------
+SECTION 3 -- STUDY OBJECTIVES
+--------------------------------------------------------------------------------
+
+PRIMARY OBJECTIVE
+  To evaluate effect of BRC-883 vs. placebo on LDL-C (% change from baseline
+  at Week 24).
+
+SECONDARY OBJECTIVES
+  1. % change from baseline in ApoB at Week 24
+  2. % change from baseline in Lp(a) at Week 24
+  3. % change from baseline in non-HDL-C at Week 24
+  4. Proportion achieving LDL-C <1.8 mmol/L at Week 24
+  5. Proportion achieving LDL-C <1.4 mmol/L at Week 24
+  6. MACE through Week 52 (CV death, non-fatal MI, non-fatal stroke)
+  7. Safety and tolerability
+
+--------------------------------------------------------------------------------
+SECTION 4 -- PATIENT ELIGIBILITY
+--------------------------------------------------------------------------------
+
+INCLUSION CRITERIA
+  1. Age >=18 years
+  2. Confirmed HeFH (Simon Broome or Dutch Lipid Clinic criteria, score >=6)
+  3. LDL-C >=3.5 mmol/L on stable non-statin therapy >=8 weeks, or no therapy
+  4. Documented statin intolerance:
+       a. CK elevation >=4x ULN on >=2 statins, OR
+       b. Myalgia confirmed on rechallenge with >=2 statins
+  5. No PCSK9 inhibitor in prior 12 months
+  6. Fasting TG <4.5 mmol/L
+
+EXCLUSION CRITERIA
+  1. Homozygous FH
+  2. Active liver disease or ALT/AST >3x ULN
+  3. eGFR <30 mL/min
+  4. MI, stroke, or coronary revascularisation within 3 months
+  5. Known hypersensitivity to monoclonal antibody therapy
+  6. Concurrent interventional trial
+  7. Pregnancy or breastfeeding
+
+--------------------------------------------------------------------------------
+SECTION 5 -- STATISTICAL ANALYSIS
+--------------------------------------------------------------------------------
+
+Sample size: 360 patients (180/arm) provides 95% power to detect -52% LDL-C
+reduction vs -2% placebo, two-sided alpha 0.05 (10% dropout assumed).
+
+Primary analysis: MMRM -- % change from baseline in LDL-C; fixed effects:
+treatment, visit, treatment-by-visit, baseline LDL-C, country.
+
+--------------------------------------------------------------------------------
+DOCUMENT HISTORY
+--------------------------------------------------------------------------------
+
+Version 1.0   22 Jan 2024   Original protocol
+
+================================================================================
+CONFIDENTIAL -- BIORCE-CAR-2024-007 v1.0 -- (C) 2024 Biorce Therapeutics S.L.
+================================================================================

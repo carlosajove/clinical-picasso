@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8">
+<style>
+  body{font-family:Arial,sans-serif;max-width:860px;margin:0 auto;padding:28px;color:#111;font-size:13px;line-height:1.5}
+  .ecrf-header{background:#1a3a5c;color:white;padding:12px 16px;display:flex;justify-content:space-between;align-items:center;margin-bottom:2px}
+  .ecrf-header .title{font-size:15px;font-weight:bold}
+  .subheader{background:#e8eff6;padding:8px 16px;font-size:12px;display:flex;gap:32px;margin-bottom:18px;border-bottom:2px solid #1a3a5c}
+  .section-header{background:#2d5a8e;color:white;padding:6px 12px;font-weight:bold;font-size:12px;margin:20px 0 10px;border-radius:2px}
+  table.cdr{width:100%;border-collapse:collapse;font-size:12px;margin:8px 0}
+  table.cdr th{background:#1a3a5c;color:white;padding:6px 10px;text-align:left}
+  table.cdr td{border:1px solid #bbb;padding:6px 10px}
+  table.cdr tr:nth-child(even) td{background:#f0f4f8}
+  .total-row td{background:#1a3a5c!important;color:white!important;font-weight:bold}
+  .alert-note{background:#fff3cd;border:1px solid #e0a800;padding:8px 12px;font-size:12px;margin:10px 0}
+  .sign-row{display:flex;gap:40px;margin-top:24px;padding-top:16px;border-top:2px solid #1a3a5c}
+  .sign-field{flex:1}
+  .sign-field .line{border-bottom:1px solid #333;height:24px;margin-bottom:4px}
+  .sign-field .desc{font-size:11px;color:#666}
+</style></head>
+<body>
+<div class="ecrf-header">
+  <div class="title">eCRF — COGNITIVE ASSESSMENT MODULE<br>
+    <span style="font-size:12px;font-weight:normal;color:#b8cce4">Study BIORCE-NEU-2022-004 | Form NEU-CRF-004 v1.1</span>
+  </div>
+  <div style="font-size:11px;text-align:right">Module v1.1 | Medidata Rave</div>
+</div>
+<div class="subheader">
+  <div><div style="font-size:10px;color:#666">Patient Code</div><div style="font-weight:bold">VEL209-___-____</div></div>
+  <div><div style="font-size:10px;color:#666">Site ID</div><div style="font-weight:bold">______</div></div>
+  <div><div style="font-size:10px;color:#666">Visit</div>
+    <select style="font-size:12px;border:1px solid #999;background:#fffff0">
+      <option>-- Select --</option>
+      <option>Baseline (Week 0)</option>
+      <option>Week 13</option><option>Week 26</option>
+      <option>Week 52</option><option>Week 78</option><option>EOT</option>
+    </select>
+  </div>
+  <div><div style="font-size:10px;color:#666">Date</div><div style="font-weight:bold;border-bottom:1px solid #999">__ / __ / ______</div></div>
+</div>
+<div class="alert-note">⚠ Complete all assessments BEFORE study drug dispensing. Quiet, private room. Study partner waits outside.</div>
+<div class="section-header">A. CDR — CLINICAL DEMENTIA RATING</div>
+<table class="cdr">
+  <tr><th>Domain</th><th>0 — Normal</th><th>0.5 — Questionable</th><th>1 — Mild</th><th>2 — Moderate</th><th>3 — Severe</th></tr>
+  <tr><td><strong>Memory</strong></td><td><input type="radio" name="mem"></td><td><input type="radio" name="mem"></td><td><input type="radio" name="mem"></td><td><input type="radio" name="mem"></td><td><input type="radio" name="mem"></td></tr>
+  <tr><td><strong>Orientation</strong></td><td><input type="radio" name="ori"></td><td><input type="radio" name="ori"></td><td><input type="radio" name="ori"></td><td><input type="radio" name="ori"></td><td><input type="radio" name="ori"></td></tr>
+  <tr><td><strong>Judgement &amp; Problem Solving</strong></td><td><input type="radio" name="jps"></td><td><input type="radio" name="jps"></td><td><input type="radio" name="jps"></td><td><input type="radio" name="jps"></td><td><input type="radio" name="jps"></td></tr>
+  <tr><td><strong>Community Affairs</strong></td><td><input type="radio" name="ca"></td><td><input type="radio" name="ca"></td><td><input type="radio" name="ca"></td><td><input type="radio" name="ca"></td><td><input type="radio" name="ca"></td></tr>
+  <tr><td><strong>Home &amp; Hobbies</strong></td><td><input type="radio" name="hh"></td><td><input type="radio" name="hh"></td><td><input type="radio" name="hh"></td><td><input type="radio" name="hh"></td><td><input type="radio" name="hh"></td></tr>
+  <tr><td><strong>Personal Care</strong></td><td><input type="radio" name="pc"></td><td><input type="radio" name="pc"></td><td><input type="radio" name="pc"></td><td><input type="radio" name="pc"></td><td><input type="radio" name="pc"></td></tr>
+  <tr class="total-row"><td colspan="5"><strong>CDR-SB (sum all 6 domains, 0–18)</strong></td></tr>
+</table>
+<div class="section-header">B. MMSE</div>
+<table class="cdr">
+  <tr><th>Domain</th><th>Max</th><th>Score</th></tr>
+  <tr><td>Orientation to time</td><td>5</td><td><input type="text" style="width:40px"></td></tr>
+  <tr><td>Orientation to place</td><td>5</td><td><input type="text" style="width:40px"></td></tr>
+  <tr><td>Registration (3 words)</td><td>3</td><td><input type="text" style="width:40px"></td></tr>
+  <tr><td>Attention &amp; Calculation</td><td>5</td><td><input type="text" style="width:40px"></td></tr>
+  <tr><td>Recall (3 words)</td><td>3</td><td><input type="text" style="width:40px"></td></tr>
+  <tr><td>Language (naming, repeat, command, read, write)</td><td>8</td><td><input type="text" style="width:40px"></td></tr>
+  <tr><td>Visuospatial (copy pentagons)</td><td>1</td><td><input type="text" style="width:40px"></td></tr>
+  <tr class="total-row"><td><strong>MMSE TOTAL</strong></td><td><strong>30</strong></td><td><input type="text" style="width:40px;background:#fffff0;border:2px solid #e05c2a"></td></tr>
+</table>
+<div class="section-header">C. FALLS ASSESSMENT</div>
+<p style="font-size:12px">Falls since last visit: [ ] None &nbsp; [ ] 1 &nbsp; [ ] 2 &nbsp; [ ] 3+<br>
+Any fall with injury? [ ] Yes — document as AE &nbsp; [ ] No<br>
+Morse Fall Scale Total: _______ &nbsp; Risk: [ ] Low (0-24) &nbsp; [ ] Medium (25-44) &nbsp; [ ] High (>=45)</p>
+<div class="sign-row">
+  <div class="sign-field"><div class="line"></div><div class="desc">Assessor Name (PRINT)</div></div>
+  <div class="sign-field"><div class="line"></div><div class="desc">Assessor Signature</div></div>
+  <div class="sign-field"><div class="line"></div><div class="desc">Date (DD/MM/YYYY)</div></div>
+</div>
+</body></html>

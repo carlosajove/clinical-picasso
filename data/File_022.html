@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8">
+<style>
+  body{font-family:Arial,sans-serif;max-width:800px;margin:0 auto;padding:36px;color:#111;font-size:13px}
+  .invoice-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:24px}
+  .vendor-name{font-size:20px;font-weight:bold;color:#2e7d32}
+  .vendor-sub{font-size:11px;color:#666;line-height:1.6}
+  .invoice-box{background:#2e7d32;color:white;padding:12px 18px;text-align:right;border-radius:4px}
+  .invoice-box .inv-num{font-size:18px;font-weight:bold}
+  .invoice-box .inv-meta{font-size:11px;color:#a5d6a7;margin-top:4px}
+  .to-from{display:flex;gap:40px;background:#f5f5f5;padding:14px;margin-bottom:20px}
+  .to-from .block{flex:1}
+  .to-from .label{font-size:10px;text-transform:uppercase;color:#888;margin-bottom:6px;font-weight:bold}
+  table.items{width:100%;border-collapse:collapse;font-size:13px;margin-bottom:14px}
+  table.items th{background:#2e7d32;color:white;padding:8px 10px;text-align:left}
+  table.items td{border-bottom:1px solid #ddd;padding:8px 10px}
+  .total-table{width:40%;margin-left:auto;font-size:13px;border-collapse:collapse}
+  .total-table td{padding:5px 10px}
+  .total-table .total-row td{background:#2e7d32;color:white;font-weight:bold;font-size:14px}
+  .payment-box{border:1px solid #ccc;padding:12px;font-size:12px;margin-top:16px;background:#fafafa}
+  .inv-footer{margin-top:24px;font-size:11px;color:#888;text-align:center;border-top:1px solid #eee;padding-top:10px}
+</style></head>
+<body>
+<div class="invoice-header">
+  <div>
+    <div class="vendor-name">Sabores Mediterráneos S.L.</div>
+    <div class="vendor-sub">Carrer de Provença 213, 08036 Barcelona<br>
+    NIF: B-63241789 · Tel: +34 93 451 2233<br>
+    IBAN: ES43 2100 0418 4502 0012 6789</div>
+  </div>
+  <div class="invoice-box">
+    <div class="inv-num">INV-2023-CAT-0441</div>
+    <div class="inv-meta">Invoice Date: 14 September 2023<br>Due Date: 14 October 2023<br>Status: AWAITING PAYMENT</div>
+  </div>
+</div>
+<div class="to-from">
+  <div class="block">
+    <div class="label">Bill To</div>
+    <strong>Biorce Therapeutics S.L.</strong><br>
+    Calle de Serrano 41, 28001 Madrid<br>
+    NIF: B-87654321<br>
+    Attention: Lucía Mendoza, Events &amp; Meetings
+  </div>
+  <div class="block">
+    <div class="label">Event Details</div>
+    Event: BRC-471 Investigator Meeting 2023<br>
+    Dates: 08–09 September 2023<br>
+    Venue: Hotel Arts Barcelona<br>
+    Guest count: 58
+  </div>
+</div>
+<table class="items">
+  <tr><th>Service</th><th>Qty</th><th>Unit Price (€)</th><th>Total (€)</th></tr>
+  <tr><td>Welcome cocktail reception (Day 1, 18:00–19:30)</td><td>58 pax</td><td>42.00</td><td>2,436.00</td></tr>
+  <tr><td>Gala dinner (Day 1, 20:00) — 3-course, wine pairing</td><td>58 pax</td><td>95.00</td><td>5,510.00</td></tr>
+  <tr><td>Coffee breaks × 2 (Day 2)</td><td>58 pax × 2</td><td>18.00</td><td>2,088.00</td></tr>
+  <tr><td>Working lunch buffet (Day 2, 13:00)</td><td>58 pax</td><td>55.00</td><td>3,190.00</td></tr>
+  <tr><td>Audio-visual equipment rental (Day 2)</td><td>1 day</td><td>850.00</td><td>850.00</td></tr>
+  <tr><td>Service staff — 2 waiters × 2 days × 8 hours</td><td>32 hours</td><td>22.00</td><td>704.00</td></tr>
+</table>
+<table class="total-table">
+  <tr><td>Subtotal</td><td style="text-align:right">€14,778.00</td></tr>
+  <tr><td>IVA (21%)</td><td style="text-align:right">€3,103.38</td></tr>
+  <tr class="total-row"><td><strong>TOTAL DUE</strong></td><td style="text-align:right"><strong>€17,881.38</strong></td></tr>
+</table>
+<div class="payment-box">
+  <strong>Payment Instructions</strong><br>
+  Transfer within 30 days to: Sabores Mediterráneos S.L.<br>
+  IBAN: ES43 2100 0418 4502 0012 6789 | BIC: CAIXESBBXXX<br>
+  Reference: INV-2023-CAT-0441 / Biorce-Sep23
+</div>
+<div class="inv-footer">Sabores Mediterráneos S.L. · NIF B-63241789 · Questions: contabilidad@saboresmediterraneos.es</div>
+</body></html>

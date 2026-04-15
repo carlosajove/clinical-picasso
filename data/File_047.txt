@@ -1,0 +1,89 @@
+ BIORCt THER4PEUTICS                                  [SCAN - PAGE 1 OF 3]
+ ________________________________________________________________________
+
+ CASE  REPOR T  FORM  --  CYCLE  2  DAY  1   V IS IT
+ Study:  BIORCE- ONC- 2023- 001         Form  Version:  2.1
+ ________________________________________________________________________
+
+ S i t e  ID:   IT - 01              Patient  Code:    BRC471 - IT01- 004
+ V i s i t  Date:  14/  10 /2023      Entered  by:   G.Ferretti
+                                      Verified  by:  [ILLEGIBLE]
+
+ SECTION  1  --  V I T A L   S I G N S   ( pre - dose )
+ ________________________________________________________________________
+
+ Systolic  BP:    1 2 8      mmHg     [handwritten: "2nd reading
+ Diastolic  BP:    8 2      mmHg       taken 5 min later -- 124/80"]
+ Heart  Rate:      7 4      bpm
+ Temperature:    3 6. 8     degrees C
+ Weight:           7 1. 5   kg        [handwritten: "patient reports +1kg
+                                        since last visit - no oedema"]
+
+ SECTION  2  --  ECOG  PS
+ [X]  Score  1
+
+ SECTION  3  --  STUDY  DRUG  DISPENSING
+ Kit  dispensed:     K IT- 471 - IT01 - 006
+ Tablets  (100mg):   5 6
+ Dose:             [X]  200mg  BID
+ Ondansetron:      [X]  Yes
+   [handwritten]:  "pt asked if she can take domperidone instead --
+    told NO, must use ondansetron per protocol. Follow up next visit."
+
+ SECTION  4  --  CONCOMITANT  MEDICATIONS
+ Omeprazole  20mg  QD      -- GERD          -- Jan-2021  -- ongoing
+ Levothyroxine  75mcg  QD  -- Hypothyroidism -- 2019     -- ongoing
+ Ibuprofen  400mg  PRN     -- Back  pain     -- [DATE?]  -- No
+   [handwritten: "approx Oct 2023 self-reported OTC"]
+   [sticky  note]:  "NOTE for Monitor: ibuprofen weak CYP inhibitor --
+    discussed w/ PI, no action. Will add to conmed at C3. -- GF 14/10"
+
+ ________________________________________________________________________
+                                                [SCAN - PAGE 2 OF 3]
+ ________________________________________________________________________
+
+ SECTION  5  --  ADVERSE  EVENTS
+ AE#1:  Verbatim:  "mild  nausea  mornings  Cycle 1 week 2"
+   MedDRA PT:  Nausea
+   Grade: [X] 1   Relationship: [X] Possibly  SAE: [X] No
+   Action:  Ondansetron  prescribed
+   Ongoing: No  End:  10/10/2023
+
+ AE#2:  Verbatim:  "rash  on  face  pimple-like"
+   MedDRA PT:  Acneif0rm  dermatitis     [OCR error: "0" for "o"]
+   Grade: [X] 1   Relationship: [X] Probably  SAE: [X] No
+   Action:  Topical  clindamycin
+   Ongoing: Yes
+
+ SECTION  6  --  PRO  QUESTIONNAIRES
+ EORTC  QLQ-C30:  [X] Completed
+ EORTC  QLQ-LC13: [X] Completed
+ [Water stain -- lower section partially obscured]
+ G l o b a l  s c o r e: . . . . [ ILLEGIBLE ]
+
+ ________________________________________________________________________
+                                                [SCAN - PAGE 3 OF 3]
+ ________________________________________________________________________
+
+ LABORATORIO  ANALISI  CLINICHE
+ Istituto  Nazionale  Tumori,  Milano
+ Paziente:  BRC471-IT01-004    Data:  14/10/2023
+
+ EMOCROMO
+ Hb:        11.8  g/dL  [*L*]  Rif: 12.0-16.0  BASSO
+ ANC:        3.4  x10^9/L  [N]
+ Piastrine:  214  x10^9/L  [N]
+
+ CHIMICA
+ ALT:   28  U/L  [N]  Rif: <35
+ Creat: 62  umol/L  [N]
+
+ [handwritten next to Hb]: "discussed w/ pt -- fatigue already AE Grade 1
+  Repeat Hb at C3D1. -- EC"
+
+ Firma: Dott.ssa Francesca Marino   Data: 14/10/2023
+
+ ________________________________________________________________________
+ [END  OF  SCAN  --  3  PAGES]
+ [Scanned by: G.Ferretti | Date: 15/10/2023 | File: Scan_0094.pdf]
+ ________________________________________________________________________

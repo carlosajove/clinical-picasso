@@ -1,0 +1,82 @@
+================================================================================
+CLINICAL STUDY REPORT — FINAL
+BIORCE-CAR-2022-005
+31 JANUARY 2024 | CONFIDENTIAL
+================================================================================
+
+TITLE: A Phase II, Randomized, Double-Blind, Placebo-Controlled Study
+       of BRC-883 (Cardanezumab) in Statin-Intolerant HeFH Patients
+
+SPONSOR         : Biorce Therapeutics S.L., Madrid, Spain
+DATA CUT-OFF    : 30 November 2023
+TOTAL PATIENTS  : 148 (BRC-883: n=74; Placebo: n=74)
+
+================================================================================
+SYNOPSIS
+================================================================================
+
+PRIMARY ENDPOINT: % change from baseline in LDL-C at Week 24
+
+  BRC-883:  -57.3%  (95% CI -62.1 to -52.5)
+  Placebo:   -2.8%  (95% CI  -5.4 to  -0.2)
+  Difference: -54.5 percentage points (p<0.0001)
+
+CONCLUSION: PRIMARY ENDPOINT MET.
+
+KEY SECONDARY ENDPOINTS (Week 24):
+  ApoB:     -46.9% vs -1.2% (p<0.0001)
+  Lp(a):    -23.8% vs +1.4% (p=0.002)
+  Non-HDL-C: -51.2% vs -2.1% (p<0.0001)
+
+TARGET ACHIEVEMENT:
+  LDL-C <1.8 mmol/L at Week 24: 68% (BRC-883) vs 4% (placebo)
+  LDL-C <1.4 mmol/L at Week 24: 41% (BRC-883) vs 1% (placebo)
+
+================================================================================
+PATIENT DISPOSITION
+================================================================================
+
+                          BRC-883 (n=74)   Placebo (n=74)
+-----------------------------------------------------------------
+Completed 24 weeks          69 (93.2%)       67 (90.5%)
+Discontinued                 5  (6.8%)        7  (9.5%)
+  AE                          2               1
+  Withdrawal of consent       2               4
+  Lost to follow-up           1               2
+
+================================================================================
+SAFETY
+================================================================================
+
+  Parameter                        BRC-883    Placebo
+  ----------------------------------------------------------
+  Any TEAE                          68.9%      67.6%
+  Grade >=3 TEAE                     5.4%       6.8%
+  SAE                                2.7%       3.9%
+  Discontinuation due to AE          1.4%       1.4%
+  Deaths                             0          0
+
+  Injection site reactions: 8.1% (BRC-883) vs 3.9% (placebo)
+    All Grade 1-2; mean duration 1.8 days; no discontinuations
+  ALT >3x ULN: 1.4% (BRC-883) vs 0.6% (placebo) -- 1 case; resolved
+  Myalgia: 3.4% vs 4.5% -- NO excess vs placebo
+  MACE (adjudicated): 0 events in either arm
+
+  ADA incidence: 4.1% (BRC-883); no neutralizing antibodies detected
+  Neurocognitive (CANTAB): no difference between arms at Week 24
+
+================================================================================
+CONCLUSIONS
+================================================================================
+
+BRC-883 150 mg SC q4w demonstrated highly significant LDL-C reduction
+(-57.3%) with a favorable safety profile in statin-intolerant HeFH patients.
+Safety favorable: no deaths, SAE rate lower than placebo, injection site
+reactions mild and self-limiting.
+
+These data strongly support Phase III investigation of BRC-883.
+Phase III study (BIORCE-CAR-2024-007) has been initiated.
+
+================================================================================
+CONFIDENTIAL -- BIORCE-CAR-2022-005 -- (C) 2024 Biorce Therapeutics S.L.
+================================================================================

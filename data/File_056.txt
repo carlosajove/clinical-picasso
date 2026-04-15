@@ -1,0 +1,89 @@
+CURRICULUM VITAE
+
+================================================================================
+PERSONAL DETAILS
+================================================================================
+
+Name:           Elena Conti, MD, PhD
+Title:          Associate Professor of Medical Oncology
+Institution:    Istituto Nazionale dei Tumori, Milano, Italy
+Department:     Thoracic Tumours Unit
+Email:          e.conti@istitutotumori.mi.it
+Date of birth:  14 April 1978
+Medical Licence: Ordine dei Medici, Provincia di Milano #38721
+
+================================================================================
+EDUCATION
+================================================================================
+
+2008  PhD, Molecular Oncology, Università degli Studi di Milano
+      Thesis: "Mechanisms of acquired resistance to EGFR inhibitors in NSCLC"
+2004  MD (Laurea in Medicina e Chirurgia), summa cum laude, Milano
+
+================================================================================
+POSTGRADUATE TRAINING
+================================================================================
+
+2005-2008  Residency, Medical Oncology, Istituto Nazionale dei Tumori
+2009-2010  Research Fellowship, Memorial Sloan Kettering Cancer Center, New York
+           Laboratory of Dr. William Pao (Thoracic Oncology)
+
+================================================================================
+CURRENT POSITION
+================================================================================
+
+2018-present  Associate Professor, Università degli Studi di Milano /
+              Istituto Nazionale dei Tumori
+2014-present  Senior Consultant, Thoracic Tumours Unit, INT Milano
+
+================================================================================
+CLINICAL RESEARCH
+================================================================================
+
+PRINCIPAL INVESTIGATOR (selected):
+
+  BIORCE-ONC-2023-001   Biorce Therapeutics   2023-ongoing
+    Phase II, BRC-471, EGFR-mutant NSCLC post-osimertinib
+    Site: IT-01 | Enrolled: 9 patients (Dec 2023)
+
+  ORCHARD (BioNTech/AstraZeneca)              2021-2023
+    Phase II platform trial, 2nd-line NSCLC | Enrolled: 14 patients
+
+  MARIPOSA-2 (Janssen/AstraZeneca)            2022-2023
+    Phase III, amivantamab + lazertinib | Enrolled: 11 patients
+
+  PAPILLON (Janssen)                          2020-2022
+    Phase III, amivantamab + chemo, EGFR exon 20 | Enrolled: 8 patients
+
+GCP TRAINING: ICH E6(R2) -- last completed March 2023
+              EU CTR 536/2014 training -- completed June 2022
+
+================================================================================
+SELECTED PUBLICATIONS (last 5 years)
+================================================================================
+
+1. Conti E et al. Real-world outcomes of osimertinib in EGFR-mutant NSCLC:
+   Italian cohort. Lung Cancer. 2023;178:32-41. IF: 5.3
+
+2. Conti E, Marchetti F et al. HER2 amplification as resistance mechanism
+   to osimertinib. ESMO Open. 2022;7(4):100548. IF: 7.1
+
+3. Conti E et al. Liquid biopsy for EGFR monitoring during osimertinib.
+   Journal of Thoracic Oncology. 2021;16(8):1394-1403. IF: 20.4
+
+Total publications: 67 | H-index: 22 | Citations: 1,847
+
+================================================================================
+FINANCIAL DISCLOSURES (last 3 years)
+================================================================================
+
+Advisory boards / Honoraria:
+  AstraZeneca, Janssen, Roche, MSD, BMS, Biorce Therapeutics
+
+Research grants (institutional):
+  AstraZeneca (ADAURA sub-study), Janssen (PAPILLON translational)
+
+Stocks / equity: None
+
+Signature: _______________________  Date: January 2024
+================================================================================

@@ -1,0 +1,89 @@
+Version: 7  |  Period covered: January - March 2024  |  Owner: Clinical Ops
+Last updated: 02 April 2024  |  Status: ACTIVE -- open deviations flagged
+
+
+PROTOCOL DEVIATION LOG
+------------------------------------------------------------------------
+
+Dev.#   Site     Patient          Type        Description
+------------------------------------------------------------------------
+
+DEV-007  NL-01  [CODE]-NL01-003  Visit window  C4D1 visit on Day 31
+                                               (window D28 +/- 3 days).
+                                               Delay: public holiday.
+         Date occurred: 08 Jan 2024
+         Date reported: 10 Jan 2024
+         Category: Minor
+         Patient impact: None
+         Data impact: Assessments valid per IMR review
+         Corrective action: IRT calendar updated with Dutch holidays
+         Status: CLOSED
+
+DEV-008  ES-01  [CODE]-ES01-014  Eligibility   Screening ECG QTcF 483ms
+                                               (threshold: <=480ms).
+                                               Patient enrolled in error.
+                                               QTcF at C1D1: 477ms.
+         Date occurred: 15 Jan 2024
+         Date reported: 19 Jan 2024
+         Category: MAJOR
+         Patient impact: None. QTcF normalised by C1D1. Patient continues.
+         Data impact: Excluded from PP population. Included in Safety/ITT.
+         Corrective action: Central ECG reader confirmation now required
+                            before enrollment. All ES sites retrained.
+         Reportable to Ethics Committee: YES -- reported 24 Jan 2024
+         Status: CLOSED
+
+DEV-009  DE-02  [CODE]-DE02-001  Consent       Patient signed consent dated
+                                               15 Nov 2023 (pre-Amendment 2)
+                                               2 days after local EC approval
+                                               of Amendment 2 (18 Jan 2024).
+         Date occurred: 20 Jan 2024
+         Date reported: 23 Jan 2024
+         Category: Minor
+         Note: 2-day gap between EC approval and consent switch.
+               Patient re-consented with Amendment 2 ICF on 27 Jan 2024.
+         Status: CLOSED
+
+DEV-010  BE-01  [CODE]-BE01-002  Lab           Fasting requirement not met
+                                               at Week 12 lipid panel.
+                                               Patient ate breakfast before
+                                               attending.
+         Date occurred: 05 Feb 2024
+         Date reported: 07 Feb 2024
+         Category: Minor
+         Data impact: Week 12 LDL-C excluded from primary analysis.
+                      Patient returned 5 days later for fasting draw.
+         Corrective action: Written fasting instructions in Dutch provided.
+                            Coordinator confirms fasting by phone evening before.
+         Status: CLOSED
+
+DEV-011  PL-01  [CODE]-PL01-SITE  IMP         Storage temperature excursion:
+                                               31.4 degrees C for 4 hours on
+                                               14 Feb 2024 (heating malfunction).
+         Date occurred: 14 Feb 2024
+         Date reported: 15 Feb 2024
+         Category: Moderate
+         IMP affected: Kit numbers PL01-K019 through PL01-K024 (6 kits)
+         Sponsor QP assessment: Product quality confirmed UNAFFECTED.
+                                 (Stability supports up to 35C for 72h.)
+         Corrective action: Backup temperature alarm installed.
+         Status: CLOSED
+
+DEV-012  ES-03  [CODE]-ES03-008  Visit window  CT scan Cycle 6 performed
+                                               Day 169 (window Day 168 +/- 3).
+         Category: Minor | Status: CLOSED
+
+
+SUMMARY -- Q1 2024
+
+  New deviations this period:      6 (DEV-007 to DEV-012)
+  Major:                           1 (DEV-008)
+  Moderate:                        1 (DEV-011)
+  Minor:                           4
+  Open at period end:              0
+  Cumulative major (total):        2 (DEV-003, DEV-008)
+  Ethics Committee reports filed:  1 (DEV-008)
+
+------------------------------------------------------------------------
+Prepared by: Carmen Lopez | Reviewed by: Elena Vazquez
+------------------------------------------------------------------------

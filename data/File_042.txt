@@ -1,0 +1,73 @@
+================================================================================
+EMAIL + ATTACHMENT EXPORT
+Thread: ICF Distribution -- BIORCE-CAR-2024-007 -- ICF v1.0 APPROVED
+================================================================================
+
+FROM:    Carmen López <c.lopez@biorce.com>
+TO:      site-coordinators-CAR007@biorce.com
+CC:      Camille Dupont <c.dupont@biorce.com>
+DATE:    03 March 2024, 11:22
+SUBJECT: APPROVED ICF v1.0 now in Vault -- BIORCE-CAR-2024-007
+
+Dear Site Coordinators,
+
+The Ethics Committee-approved ICF v1.0 (dated 01 March 2024) for Study
+BIORCE-CAR-2024-007 is now available in Veeva Vault:
+  Path: TMF > 02-Regulatory > 02.07-ICF > ICF_v1.0_APPROVED
+
+IMPORTANT: All new patients enrolled from today must sign ICF v1.0.
+
+The approved ICF text is reproduced below for offline reference.
+
+------------------------------------------------------------------------
+ATTACHMENT: ICF_BIORCE-CAR-2024-007_v1.0_01Mar2024.txt
+------------------------------------------------------------------------
+
+================================================================================
+PARTICIPANT INFORMATION AND INFORMED CONSENT FORM
+Study: BIORCE-CAR-2024-007 | Version 1.0 | Date: 01 March 2024
+================================================================================
+
+TITLE: A Phase III Study of BRC-883 (Cardanezumab) in Patients with
+Familial High Cholesterol Who Cannot Take Statins
+
+WHY ARE YOU BEING INVITED?
+You have Heterozygous Familial Hypercholesterolaemia (HeFH) -- a genetic
+condition causing high LDL cholesterol -- and cannot tolerate statins.
+
+WHAT IS THE PURPOSE?
+We are testing BRC-883 (Cardanezumab), a monthly injection that blocks a
+protein called PCSK9 to lower LDL cholesterol. In earlier studies (n=148):
+  - LDL-C reduced by average 57%
+  - No heart attacks or strokes occurred
+  - Injection site reactions (mild redness) in ~1 in 12 patients
+
+WHAT WILL HAPPEN?
+  - 1 in 2 chance of receiving BRC-883 (vs placebo)
+  - Injection every 4 weeks at the clinic (not self-injected at home)
+  - 52 weeks treatment + 24 weeks follow-up
+  - Blood tests (fasting) at every visit
+
+POSSIBLE RISKS
+  - Injection site reaction (redness, mild pain): ~8% patients, mild
+  - Liver enzyme rise: rare (1-2%); resolved on drug hold
+  - Unknown risks possible -- closely monitored throughout
+
+VOLUNTARY
+Participation is entirely voluntary. You may withdraw at any time.
+
+CONTACT: 24/7 safety line: +34 900 345 678
+
+CONSENT
+[ ] I have read and understood this form (v1.0, 01 Mar 2024).      Initials: ___
+[ ] I have had time to ask questions; all answered satisfactorily.  Initials: ___
+[ ] I understand I may withdraw at any time without consequences.    Initials: ___
+[ ] I agree to data collection and processing as described.         Initials: ___
+[ ] I freely agree to take part.                                    Initials: ___
+
+Participant signature: _____________________  Date: ___/___/______
+Investigator signature: ____________________  Date: ___/___/______
+
+================================================================================
+(C) 2024 Biorce Therapeutics S.L. | ICF v1.0 | BIORCE-CAR-2024-007
+================================================================================

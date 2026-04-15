@@ -1,0 +1,85 @@
+================================================================================
+INVESTIGATOR BROCHURE
+BRC-883 (CARDANEZUMAB)
+EDITION 1 | 05 SEPTEMBER 2023 | CONFIDENTIAL
+================================================================================
+Sponsor: Biorce Therapeutics S.L., Madrid, Spain
+
+SECTION 1 -- SUMMARY
+----------------------
+
+BRC-883 (Cardanezumab) is a fully human IgG1 monoclonal antibody inhibiting
+PCSK9, under development for statin-intolerant HeFH. Administered SC q4w.
+
+Phase II data (BIORCE-CAR-2022-005, n=148, 24 weeks):
+  LDL-C reduction: -57.3% vs -2.8% placebo (p<0.0001)
+  Safety: well tolerated; injection site reactions 8.1% (mild)
+
+SECTION 2 -- MECHANISM OF ACTION
+-----------------------------------
+
+PCSK9 binds LDLR on hepatocytes and promotes lysosomal degradation, reducing
+LDLR recycling. Inhibition of PCSK9 by BRC-883 increases LDLR surface density.
+
+BRC-883 binds human PCSK9 with Kd = 0.4 nM (SPR).
+No cross-reactivity with PCSK7 or PCSK8.
+
+SECTION 3 -- PHARMACEUTICAL PROPERTIES
+-----------------------------------------
+
+Formulation  : 150 mg/mL solution, 20 mM histidine pH 6.0
+Presentation : 1 mL single-use pre-filled auto-injector (150 mg)
+Storage      : 2-8 degrees C; do NOT freeze; protect from light
+Shelf life   : 24 months
+
+SECTION 4 -- NONCLINICAL PHARMACOKINETICS
+--------------------------------------------
+
+Cynomolgus monkey (10 mg/kg SC):
+  Bioavailability: 78%
+  Tmax: 4.8 days (median)
+  Terminal T1/2: 14.2 days
+  Vss: 65 mL/kg
+
+SECTION 5 -- CLINICAL PK (Phase II, 150 mg SC q4w)
+-----------------------------------------------------
+
+  Parameter               Phase II steady-state
+  -----------------------------------------------
+  Tmax (days, median)     3-7
+  Cmax,ss (ug/mL)         22.4
+  AUCtau (ug.day/mL)      198
+  T1/2 terminal (days)    17.4
+  Bioavailability SC      71%
+  ADA incidence           4.1%
+  Neutralising ADA        0%
+
+SECTION 6 -- CLINICAL SAFETY (Phase II, n=148, 24 weeks)
+-----------------------------------------------------------
+
+  TEAE                       BRC-883 (%)   Placebo (%)
+  ------------------------------------------------------
+  Injection site reaction       8.1           3.9
+  Nasopharyngitis               6.8           7.1
+  Back pain                     5.4           6.5
+  Headache                      4.1           5.2
+  Myalgia                       3.4           4.5
+  ALT >3x ULN                   1.4           0.6
+  SAE                           2.7           3.9
+  MACE (adjudicated)            0             0
+
+SECTION 7 -- CLINICAL EFFICACY (Phase II)
+-------------------------------------------
+
+Primary: % change LDL-C at Week 24:
+  BRC-883: -57.3%  Placebo: -2.8%  Difference: -54.5pp  p<0.0001
+
+ApoB: -46.9% vs -1.2% (p<0.0001)
+Lp(a): -23.8% vs +1.4% (p=0.002)
+
+DOCUMENT HISTORY
+  Edition 1   05 Sep 2023   Initial IB
+
+================================================================================
+CONFIDENTIAL (C) 2023 Biorce Therapeutics S.L.
+================================================================================

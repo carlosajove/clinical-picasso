@@ -1,0 +1,68 @@
+================================================================================
+CHARITÉ – UNIVERSITÄTSMEDIZIN BERLIN
+Institut für Laboratoriumsmedizin, Klinische Chemie und Pathobiochemie
+Campus Mitte | Charitéplatz 1 | 10117 Berlin
+labor.ccm@charite.de
+================================================================================
+
+REFERENZBEREICHE — KLINISCHE STUDIEN
+Studie: BIORCE-ONC-2023-001
+Standortcode: DE-01 | Prüfarzt: Dr. Horst Schmidt
+Akkreditierungsnummer: DAkkS D-ML-13149-01-00
+Gültig ab: 01. Januar 2023
+
+--------------------------------------------------------------------------------
+HÄMATOLOGIE
+--------------------------------------------------------------------------------
+
+Parameter                   Einheit    Frauen          Männer
+------------------------------------------------------------------------
+Leukozyten (WBC)            10^9/L     4,0 – 10,0      4,0 – 10,0
+Neutrophile (ANC)           10^9/L     1,8 – 7,5       1,8 – 7,5
+Lymphozyten                 10^9/L     1,0 – 4,8       1,0 – 4,8
+Hämoglobin                  g/dL       12,0 – 16,0     13,5 – 17,5
+Thrombozyten                10^9/L     150 – 400       150 – 400
+
+Methode: Impedanzmessung + optische Streuung (Sysmex XN-9100)
+
+--------------------------------------------------------------------------------
+KLINISCHE CHEMIE — LEBER
+--------------------------------------------------------------------------------
+
+Parameter                   Einheit    Referenzbereich     Kritisch
+------------------------------------------------------------------------
+ALT (SGPT)                  U/L        <35 (F) / <45 (M)   >200
+AST (SGOT)                  U/L        <35 (F) / <40 (M)   >200
+Gesamtbilirubin             µmol/L     3,4 – 20,5          >170
+Albumin                     g/L        35 – 52             <20
+
+NCI CTCAE v5.0 Grenzwerte:
+  ALT Grad 1: >OGW – 3x OGW
+  ALT Grad 2: >3x – 5x OGW       → Meldepflicht Prüfarzt
+  ALT Grad 3: >5x – 20x OGW      → Meldepflicht Sponsor (48h)
+  ALT Grad 4: >20x OGW           → Sofortige Meldung (SAE)
+
+--------------------------------------------------------------------------------
+NIERENFUNKTION
+--------------------------------------------------------------------------------
+
+Kreatinin      µmol/L   44–80 (F) / 62–106 (M)
+eGFR (CKD-EPI) mL/min   >60 (normal)
+Natrium        mmol/L   136–145
+Kalium         mmol/L   3,5–5,1
+
+Protokollrelevant: CrCl >=50 mL/min (Einschlusskriterium I7)
+
+--------------------------------------------------------------------------------
+QUALITÄTSSICHERUNG
+--------------------------------------------------------------------------------
+
+Labor akkreditiert nach DIN EN ISO 15189:2022
+DAkkS D-ML-13149-01-00 | Gültig bis 31. Dezember 2024
+
+Laborleiter: Prof. Dr. Klaus-Peter Brandner
+Unterschrift: ___________________________ Datum: 02. Januar 2023
+
+================================================================================
+CHARITÉ BERLIN — Studie BIORCE-ONC-2023-001 — DE-01 — Gültig 01.01.2023
+================================================================================

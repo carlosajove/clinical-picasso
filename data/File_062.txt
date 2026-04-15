@@ -1,0 +1,33 @@
+eCRF -- CYCLE 5 DAY 1 / TUMOUR ASSESSMENT VISIT
+Study: BIORCE-ONC-2023-001 | Form v2.1 | Site: DE-01 | Patient: BRC471-DE01-001
+Visit date: 03 December 2023 | Entered: M.Weber | Verified: Dr. H. Schmidt
+
+VITAL SIGNS
+  BP: 124/78 mmHg | HR: 72 bpm | SpO2: 97% | Weight: 76.4 kg
+
+ECOG PS: [X] 0 -- Fully active
+
+TUMOUR ASSESSMENT (CT Chest/Abdomen/Pelvis -- performed 01 Dec 2023)
+  Radiologist report date: 02 December 2023
+
+  Site assessment (per RECIST v1.1):
+    Target lesion 1 (RUL, 28mm baseline): 14mm -- DECREASE
+    Target lesion 2 (mediastinal node, 22mm baseline): 11mm -- DECREASE
+    Target lesion 3 (LLL, 18mm baseline): 9mm -- DECREASE
+    Sum of diameters: 34mm (baseline: 68mm) -- change: -50.0%
+    New lesions: NONE
+    Non-target lesions: STABLE
+
+  Site assessment: PARTIAL RESPONSE (PR)
+  [Confirmatory scan scheduled C7D1, 29 Jan 2024]
+  CONFIRMED PR: [X] Yes
+  Date of first PR: 07 October 2023 | Confirmation: 03 December 2023
+
+STUDY DRUG DISPENSING
+  Kit: KIT-471-DE01-012 | Tablets: 56 x 100mg | Dose: 200mg BID
+  Ondansetron: Yes
+
+ADVERSE EVENTS (since last visit -- none new)
+  Ongoing: Acneiform rash Grade 1 (stable, topical Rx ongoing)
+
+Investigator: Dr. H. Schmidt   Sig: [SIGNED]   Date: 03/12/2023

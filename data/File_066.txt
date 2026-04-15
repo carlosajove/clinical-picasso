@@ -1,0 +1,85 @@
+================================================================================
+eCRF MODULE: CYCLE 4 DAY 1 VISIT
+Study: BIORCE-ONC-2023-001          [PAGE 1]
+Form Version: 2.1
+Site ID: ES-03    Patient Code: BRC471-ES03-006
+Visit Date: 18/11/2023    Entered by: J.Rueda    Verified: Dr. C. Fuentes
+================================================================================
+
+SECTION 1 -- VITAL SIGNS (pre-dose)
+  Systolic BP: 126 mmHg | Diastolic: 80 mmHg | HR: 70 bpm
+  Weight: 67.4 kg | SpO2: 98% | Temp: 36.5 degrees C
+
+SECTION 2 -- ECOG PS: [X] 1
+
+SECTION 3 -- STUDY DRUG DISPENSING
+  Kit: KIT-471-ES03-014 | Tablets (100mg): 56 | Dose: [X] 200mg BID
+  Ondansetron: [X] Yes
+
+SECTION 4 -- CONCOMITANT MEDICATIONS
+  Omeprazole 20mg QD -- GERD -- since 2019 -- ongoing
+  Atorvastatin 40mg QD -- Hypercholesterolaemia -- since 2020 -- ongoing
+
+================================================================================
+[PAGE 2 -- ADVERSE EVENTS]
+Study: BIORCE-ONC-2023-001    Patient: BRC471-ES03-006
+================================================================================
+
+SECTION 5 -- ADVERSE EVENTS
+  AE#1: Acneiform rash face/chest -- Grade 1 -- ongoing from C1D8
+    Relationship: Probably related | SAE: No
+    Action: Topical clindamycin; stable
+
+  AE#2: Fatigue -- Grade 1 -- ongoing -- possibly related -- no action
+
+  AE#3: Dry eyes -- Grade 1 -- new this cycle
+    Onset: approx 05/11/2023 | Relationship: Possibly related | SAE: No
+    Action: Artificial tears (ophthalmology, 10/11/2023)
+
+SECTION 6 -- PRO QUESTIONNAIRES
+  EORTC QLQ-C30: [X] Completed | EORTC QLQ-LC13: [X] Completed
+
+================================================================================
+[PAGE 3 -- LABORATORY RESULTS ATTACHMENT]
+Study: BIORCE-NEU-2022-004              <-- *** CONFLICTING STUDY NUMBER ***
+Patient: BRC471-ES03-006    Lab date: 18/11/2023
+[NOTE: lab report header pre-printed with wrong study code -- known site
+ error reported as DEV-ES03-002; correct study is BIORCE-ONC-2023-001;
+ values verified against source by CRA Marcos Iglesias 22/11/2023]
+================================================================================
+
+HAEMATOLOGY
+  WBC:  6.2  x10^9/L  [N]   Ref: 4.0-10.0
+  ANC:  3.8  x10^9/L  [N]   Ref: 1.8-7.5
+  Hb:  12.1  g/dL     [N]   Ref: 12.0-16.0
+  Plt:  198  x10^9/L  [N]   Ref: 150-400
+
+CHEMISTRY
+  ALT:  31  U/L     [N]   Ref: <35
+  AST:  27  U/L     [N]   Ref: <35
+  Creat: 68  umol/L  [N]   Ref: 44-80
+  Na:  138  mmol/L  [N]   Ref: 136-145
+
+================================================================================
+[PAGE 4 -- INVESTIGATOR SIGN-OFF]
+Study: BIORCE-ONC-2023-001    Patient: BRC471-ES03-006
+================================================================================
+
+I confirm that the data recorded on pages 1-4 accurately reflect the
+source documents held at this site. The study number discrepancy on
+page 3 (lab header) has been documented as protocol deviation DEV-ES03-002
+and does not affect the validity of the laboratory results.
+
+                                        [-- DATE CONFLICT BELOW --]
+Investigator: Dr. Carmen Fuentes
+Signature:    [SIGNED]
+Date:         03/11/2023      <-- *** PREDATES visit date of 18/11/2023 ***
+
+[Handwritten correction:]
+  "Date error -- should read 18/11/2023. Signed same day as visit.
+   Corrected per SDV query Q-ES03-004. -- CF 22/11/2023"
+
+================================================================================
+END OF CRF -- CYCLE 4 DAY 1 -- SITE ES-03 -- PATIENT BRC471-ES03-006
+Scanned by J.Rueda, 22/11/2023
+================================================================================

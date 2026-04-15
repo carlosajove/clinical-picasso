@@ -1,0 +1,34 @@
+eCRF -- CYCLE 3 DAY 1 VISIT
+Study: BIORCE-ONC-2023-001 | Form v2.1 | Site: NL-01 | Patient: BRC471-NL01-002
+Visit date: 22 November 2023 | Entered: K.Visser | Verified: [pending]
+
+VITAL SIGNS (pre-dose)
+  Systolic BP:  118 mmHg | Diastolic: 74 mmHg | HR: 68 bpm
+  Weight: 58.2 kg | SpO2: 97% | Temp: 36.6 degrees C
+
+ECOG PS: [X] 1 -- Ambulatory, restricted strenuous activity
+
+STUDY DRUG DISPENSING
+  Kit dispensed: KIT-471-NL01-008
+  Tablets (100mg): 56
+  Dose: [X] 200mg BID (no reductions to date)
+  Ondansetron 8mg dispensed: [X] Yes (per Amendment 2, from C2D1)
+
+DOSE MODIFICATIONS SINCE LAST VISIT: None
+
+CONCOMITANT MEDICATIONS
+  Levothyroxine 50mcg QD -- Hypothyroidism -- since 2015 -- ongoing
+  Paracetamol 1g PRN -- headache -- since C1 -- ongoing (OTC)
+  No CYP3A4 inhibitors or inducers identified.
+
+ADVERSE EVENTS (since last visit)
+  AE#1: Acneiform rash, face/chest -- Grade 1 -- ongoing from C1D8
+    Relationship: Probably related   SAE: No
+    Action: Topical doxycycline; stable, no worsening
+  AE#2: Fatigue -- Grade 1 -- ongoing -- possibly related -- no action
+  No new AEs
+
+PRO QUESTIONNAIRES
+  EORTC QLQ-C30: [X] Completed   QLQ-LC13: [X] Completed
+
+Investigator: Dr. R. de Boer   Sig: [SIGNED]   Date: 22/11/2023

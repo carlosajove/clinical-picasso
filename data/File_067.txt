@@ -1,0 +1,79 @@
+================================================================================
+INVESTIGATOR BROCHURE
+BRC-209 (VELAGOSTAT)
+EDITION 2                              <-- COVER SAYS EDITION 2
+Date: 20 January 2023 | CONFIDENTIAL
+================================================================================
+Sponsor: Biorce Therapeutics S.L., Madrid, Spain
+
+WHAT'S NEW IN THIS EDITION
+
+1. 18-month extension data from Phase II (n=71 completers)
+2. New biomarker data: plasma NfL and p-tau 181 results
+3. CYP2C19 poor metabolizer guidance
+4. Updated falls risk guidance
+
+===========================================================================
+SECTION 1 -- UPDATED EFFICACY DATA (Phase II 18-Month Extension)
+===========================================================================
+
+CDR-SB at 18 months:
+  BRC-209:  +1.24 (LS mean change from baseline)
+  Placebo:  +1.78
+  Difference: -0.54 points (p=0.035) -- statistically significant
+
+Tau PET SUVR (temporal composite) at Week 52:
+  BRC-209: -28% | Placebo: -4% | p<0.001
+
+Plasma p-tau 181 at Week 52:
+  BRC-209: -34% (p=0.001) -- novel finding reported in this edition
+
+Plasma NfL at Week 52: no significant difference (p=0.31) -- exploratory
+
+===========================================================================
+SECTION 2 -- CYP2C19 POOR METABOLIZERS
+===========================================================================
+
+Pharmacogenomic sub-study (n=18): 4 CYP2C19 poor metabolizers with
+2.8-fold higher BRC-209 AUC. Two experienced Grade 2 dizziness.
+CYP2C19 genotyping recommended; PM patients start at 200 mg QD.
+
+===========================================================================
+SECTION 3 -- FALLS RISK GUIDANCE
+===========================================================================
+
+Falls incidence over 18 months: 19% (BRC-209) vs 24% (placebo).
+No excess risk attributable to BRC-209. Morse Fall Scale encouraged.
+
+===========================================================================
+SECTION 4 -- SAFETY SUMMARY (Phase II, n=94, 52 weeks)
+===========================================================================
+
+  Adverse Event         BRC-209 (n=63)   Placebo (n=31)
+  --------------------------------------------------------
+  Headache              28%              19%
+  Nausea                22%              13%
+  Diarrhoea             19%              16%
+  Dizziness             18%              10%
+  Fatigue               17%              13%
+  ALT increase           8%               3%
+  Falls                 19%              24%
+  ARIA-E (MRI)           0%               0%
+  SAEs                  10%              13%
+
+===========================================================================
+DOCUMENT HISTORY
+===========================================================================
+
+  Edition   Date              Description
+  ---------------------------------------------------------------
+  1         10 January 2021   Initial IB      <-- *** DATE ERROR: should
+                                                   be 10 January 2022 ***
+  2         20 January 2023   Current edition
+
+===========================================================================
+                                          [FOOTER -- ALL PAGES]
+BRC-209 (Velagostat) | Investigator Brochure | Edition 1  <-- FOOTER SAYS
+20 January 2023 | CONFIDENTIAL                               EDITION 1,
+(C) 2023 Biorce Therapeutics S.L.                           COVER SAYS 2
+===========================================================================

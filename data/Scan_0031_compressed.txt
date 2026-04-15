@@ -1,0 +1,65 @@
+ ============================================================
+ [FAX  TRANSMISSION  --  RECEIVED  BY  SITE  ES-03]
+ ============================================================
+ FROM:   Biorce  Therapeutics  S.L.,  Regulatory  Affairs
+ TO:     Dr.  Carmen  Fuentes,  Hospital  Clinic  Barcelona
+ DATE:   16/03/2023   PAGES:  4  of  4
+ RE:     Protocol  Synopsis  --  BIORCE-ONC-2023-001  v1.0
+ ============================================================
+
+ [POOR  FAX  QUALITY  --  SOME  TEXT  ILLEGIBLE]
+
+ CLINICAL  STUDY  PROTOCOL  SYNOPSIS
+ ---------------------------------------------------------------
+ Study:    BIORCE - ONC - 2023 - 001
+ Product:  BRC- 471  (Lum1tanib)           [OCR: "1" for "i"]
+ Sponsor:  B1orce  Therapeutics  S.L.      [OCR: "1" for "i"]
+ Phase:    II   Version: 1.0   Date: 14  March  2023
+ ---------------------------------------------------------------
+
+ TITLE
+ A Phase II,  Open-Label,  Multicenter  Study  to Evaluate  the
+ Efficacy  and  Safety  of  BRC-471  (Lumitanib)  in  Patients
+ with  EGFR-Mutant  Advanced  NSCLC  Following  Progression  on
+ First-Line  Osimertinib
+
+ DESIGN         : Open-label,  single-arm,  multicenter
+ PRIMARY ENDPOINT: ORR  per  RECIST  v1.1  (BICR)
+ ENROLLMENT     : 120  patients
+ COUNTRIES      : Spain,  France,  Germany,  Italy
+
+ INCLUSION  (abbreviated)
+ 1. Age  >=18  years
+ 2. Confirmed  advanced  NSCLC  Stage IIIB/IV
+ 3. Documented  EGFR  mutation  (ex19del  or  L858R)
+ 4. Progression  on/after  first-line  osimertinib
+ 5. >=1  measurable  lesion  per  RECIST  v1.1
+ 6. ECOG  PS  0-2
+ 7. Adequate  organ  function
+ 8. Signed  informed  consent
+
+ EXCLUSION  (abbreviated)
+ 1. Prior  EGFR/HER2  dual  inhibitor
+ 2. Active  CNS  metastases  requiring  steroids
+ 3. History  of  ILD  or  drug-induced  pneumonitis
+ 4. QTcF  >480ms
+ 5. Pregnancy  or  breastfeeding
+
+ [BLACK  BAND  ARTEFACT  --  TEXT  PARTIALLY  OBSCURED]
+ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+ STATISTICS
+ Simon  two-stage  design
+ Stage 1:  35  evaluable  --  need  >=8  responses  to  proceed
+ Stage 2:  110  evaluable  --  power  80%
+ H0:  ORR=10%    H1:  ORR=25%
+
+ [FAINT  TEXT:]
+ For  f.ll  pr.tocol  incl.ding  SoA,  SAP,  eth.cal
+ cons.derations  refer  to  full  doc.ment  v1.0  in  Ve.va  Vault.
+
+ Q.estions:  c.lopez@biorce.com  or  e.vazquez@biorce.com
+
+ [END  OF  FAX  TRANSMISSION]
+ [Vault ref: VV-BRC-ONC-001-CSP-v1.0]
+ ============================================================
