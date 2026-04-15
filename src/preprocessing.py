@@ -11,6 +11,7 @@ class DocumentRecord:
     sha256: str
     raw_bytes: bytes
     is_duplicate: bool = False
+    content: str | bytes | None = None
 
 
 class Preprocessing:
@@ -105,6 +106,45 @@ class Preprocessing:
             print(f"Warning: text extraction failed for {doc.filename}: {e}")
             return ""
         return doc.raw_bytes.decode("utf-8", errors="replace")
+
+    def extract_content(self) -> "Preprocessing":
+        """Populate content: str for text formats, bytes (PDF) for pdf/docx."""
+        for doc in self.kept:
+            ext = Path(doc.filename).suffix.lower()
+            if ext == ".pdf":
+                doc.content = doc.raw_bytes
+            elif ext == ".docx":
+                doc.content = self._docx_to_pdf(doc)
+            else:
+                doc.content = self._extract_text(doc)
+        return self
+
+    def _docx_to_pdf(self, doc: "DocumentRecord") -> bytes:
+        import docx
+        from fpdf import FPDF
+
+        d = docx.Document(io.BytesIO(doc.raw_bytes))
+        pdf = FPDF()
+        pdf.set_margin(10)
+        pdf.add_page()
+        pdf.set_auto_page_break(auto=True, margin=10)
+        font_path = "/System/Library/Fonts/Helvetica.ttc"
+        if Path(font_path).exists():
+            pdf.add_font("uni", "", font_path, uni=True)
+            pdf.set_font("uni", size=9)
+        else:
+            pdf.set_font("Helvetica", size=9)
+        w = pdf.w - pdf.l_margin - pdf.r_margin
+        for para in d.paragraphs:
+            text = para.text.strip()
+            if text:
+                pdf.multi_cell(w, 4, text)
+        for table in d.tables:
+            for row in table.rows:
+                line = " | ".join(cell.text for cell in row.cells)
+                if line.strip():
+                    pdf.multi_cell(w, 4, line)
+        return bytes(pdf.output())
 
     def summary(self) -> dict:
         by_ext = {}
