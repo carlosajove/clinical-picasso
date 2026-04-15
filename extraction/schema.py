@@ -1,7 +1,7 @@
 """Pydantic models for Pass 1 document extraction.
 
-The LLM returns an `LLMExtraction`. The pipeline wraps it into a `DocumentRecord`
-by adding the non-LLM fields (`source_file`, `content_hash`).
+The LLM returns an `LLMExtraction`. The pipeline wraps it into an `ExtractionRecord`
+by pulling `filename` and `raw_sha256` from the upstream preprocessing Doc.
 """
 
 from enum import Enum
@@ -76,8 +76,8 @@ class LLMExtraction(BaseModel):
     references_to: list[str] = []
 
 
-class DocumentRecord(LLMExtraction):
-    """Persisted Pass 1 output. Adds pipeline-filled fields to the LLM extraction."""
+class ExtractionRecord(LLMExtraction):
+    """Persisted Pass 1 output. Adds provenance fields from preprocessing."""
 
-    source_file: str
-    content_hash: str
+    filename: str       # original file name, from preprocessing
+    raw_sha256: str     # sha256 of raw bytes, from preprocessing — also the cache key
