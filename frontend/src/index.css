@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@source "../src/**/*.{ts,tsx,js,jsx}";
 
 @theme {
   --color-primary: #1e3a5f;
@@ -33,4 +34,13 @@ body {
 
 #root {
   min-height: 100vh;
+}
+
+/* Pipeline stage icon breathing animation */
+@keyframes pipeline-icon {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.18); }
+}
+.animate-pipeline-icon {
+  animation: pipeline-icon 1.5s ease-in-out infinite;
 }

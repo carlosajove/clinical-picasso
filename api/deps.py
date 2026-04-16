@@ -105,7 +105,7 @@ def build_graph() -> None:
         all_lines.append({
             "type": "Trial",
             "data": {
-                "protocol_id": trial_key,
+                "trial_key": trial_key,
                 **meta,
             },
         })

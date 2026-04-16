@@ -3,15 +3,9 @@ import { useNavigate } from 'react-router-dom';
 import { useDropzone } from 'react-dropzone';
 import { useQueryClient } from '@tanstack/react-query';
 import { sseUpload } from '@/api/client';
-import { getDocColor } from '@/lib/colors';
 import type { IngestStep, IngestClassification, IngestResult } from '@/types';
-import { Upload, FileText, CheckCircle, Loader2, AlertCircle, Zap, Network } from 'lucide-react';
-
-const STEPS = [
-  { key: 'preprocessing', label: 'Preprocessing' },
-  { key: 'extraction', label: 'Extracting Metadata (LLM)' },
-  { key: 'ingestion', label: 'Graph Ingestion' },
-];
+import { Upload, FileText, Zap, Network } from 'lucide-react';
+import PipelineAnimation from './PipelineAnimation';
 
 export default function IngestView() {
   const navigate = useNavigate();
@@ -109,103 +103,40 @@ export default function IngestView() {
         )}
       </div>
 
-      {/* Processing stepper */}
+      {/* Pipeline animation — replaces the old 3-step stepper + classification card */}
       {fileName && (
-        <div className="bg-white rounded-xl border border-slate-200 p-5">
-          <div className="flex items-center gap-2 mb-4">
+        <>
+          <div className="flex items-center gap-2">
             <FileText size={16} className="text-slate-400" />
             <span className="text-sm font-medium text-slate-700">{fileName}</span>
           </div>
-
-          <div className="space-y-3">
-            {STEPS.map(({ key, label }) => {
-              const step = steps[key];
-              const status: string = step?.status ?? 'pending';
-
-              return (
-                <div key={key} className="flex items-center gap-3">
-                  {status === 'running' && <Loader2 size={16} className="text-blue-500 animate-spin" />}
-                  {status === 'done' && <CheckCircle size={16} className="text-green-500" />}
-                  {status === 'error' && <AlertCircle size={16} className="text-red-500" />}
-                  {status === 'pending' && <div className="w-4 h-4 rounded-full border-2 border-slate-200" />}
-                  <span className={`text-sm ${status === 'running' ? 'text-blue-600 font-medium' : status === 'done' ? 'text-green-700' : status === 'error' ? 'text-red-600' : 'text-slate-400'}`}>
-                    {label}
-                  </span>
-                  {step?.cached && <span className="text-[10px] text-slate-400 bg-slate-100 px-1.5 py-0.5 rounded">cached</span>}
-                </div>
-              );
-            })}
-          </div>
-        </div>
+          <PipelineAnimation
+            steps={steps}
+            classification={classification}
+            result={result}
+          />
+        </>
       )}
 
-      {/* Classification result */}
-      {classification && (
-        <div className="bg-white rounded-xl border border-slate-200 p-5">
-          <h3 className="text-sm font-semibold text-slate-700 mb-3">Classification Result</h3>
-          <div className="flex items-center gap-3">
-            <span className={`px-3 py-1 rounded-full text-sm font-medium ${getDocColor(classification.document_type).bg} ${getDocColor(classification.document_type).text} border ${getDocColor(classification.document_type).border}`}>
-              {classification.document_type}
-            </span>
-            <div className="flex items-center gap-2">
-              <div className="w-20 h-2 bg-slate-100 rounded-full overflow-hidden">
-                <div
-                  className={`h-full rounded-full ${classification.confidence >= 0.8 ? 'bg-green-500' : classification.confidence >= 0.6 ? 'bg-amber-500' : 'bg-red-500'}`}
-                  style={{ width: `${classification.confidence * 100}%` }}
-                />
-              </div>
-              <span className="text-xs text-slate-500">{(classification.confidence * 100).toFixed(0)}%</span>
-            </div>
-            {classification.trial && (
-              <span className="text-xs text-slate-500 bg-slate-50 px-2 py-1 rounded">{classification.trial}</span>
-            )}
-          </div>
-        </div>
-      )}
-
-      {/* Ingest result */}
+      {/* Action buttons after pipeline completes */}
       {result && (
-        <div className="bg-white rounded-xl border border-slate-200 p-5">
-          <h3 className="text-sm font-semibold text-slate-700 mb-3">Ingestion Changes</h3>
-          <div className="space-y-2">
-            {result.changes.map((c, i) => (
-              <div key={i} className="flex items-center gap-2 text-sm">
-                <span className={`text-[10px] px-2 py-0.5 rounded font-medium ${
-                  c.action === 'created_node' ? 'bg-green-50 text-green-700' :
-                  c.action === 'created_edge' ? 'bg-blue-50 text-blue-700' :
-                  'bg-amber-50 text-amber-700'
-                }`}>
-                  {c.action}
-                </span>
-                <span className="text-slate-600">{c.target_type}</span>
-              </div>
-            ))}
-          </div>
-
-          {result.is_orphan && (
-            <p className="text-xs text-amber-600 mt-3 bg-amber-50 p-2 rounded-lg">
-              This document has no connections to other documents or trials.
-            </p>
-          )}
-
-          <div className="flex gap-2 mt-4">
+        <div className="flex gap-2">
+          <button
+            onClick={() => navigate(`/graph`)}
+            className="flex items-center gap-2 px-4 py-2 bg-primary text-white rounded-lg text-sm font-medium hover:bg-primary-light transition-colors"
+          >
+            <Network size={14} />
+            View in Graph
+          </button>
+          {hasSupersedes && (
             <button
-              onClick={() => navigate(`/graph`)}
-              className="flex items-center gap-2 px-4 py-2 bg-primary text-white rounded-lg text-sm font-medium hover:bg-primary-light transition-colors"
+              onClick={() => navigate(`/cascade/${result.doc_id}`)}
+              className="flex items-center gap-2 px-4 py-2 bg-white text-primary border border-primary rounded-lg text-sm font-medium hover:bg-blue-50 transition-colors"
             >
-              <Network size={14} />
-              View in Graph
+              <Zap size={14} />
+              Run Cascade Analysis
             </button>
-            {hasSupersedes && (
-              <button
-                onClick={() => navigate(`/cascade/${result.doc_id}`)}
-                className="flex items-center gap-2 px-4 py-2 bg-white text-primary border border-primary rounded-lg text-sm font-medium hover:bg-blue-50 transition-colors"
-              >
-                <Zap size={14} />
-                Run Cascade Analysis
-              </button>
-            )}
-          </div>
+          )}
         </div>
       )}
     </div>

@@ -20,7 +20,7 @@ export default function Sidebar() {
       <div className="px-6 py-6 border-b border-slate-200">
         <h1 className="text-xl font-bold text-primary flex items-center gap-2">
           <span className="text-2xl">🎨</span>
-          Clinical Picasso
+          Picasso
         </h1>
         <p className="text-xs text-muted mt-1">Document Intelligence Platform</p>
       </div>

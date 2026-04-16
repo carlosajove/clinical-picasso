@@ -514,6 +514,20 @@ class OmniGraphClient:
         if name == "all_trials":
             return [self._trial_prefix(t) for t in self._nodes.get("Trial", {}).values()]
 
+        if name == "all_edges":
+            return [
+                {"edge_type": et, "from": f, "to": t, **d}
+                for et, f, t, d in self._edges
+            ]
+
+        # Fallback for LLM-generated queries: return full graph snapshot
+        # so the LLM can answer from the data.
+        if name == "nl_query":
+            rows: list[dict] = []
+            rows.extend(self._trial_prefix(t) for t in self._nodes.get("Trial", {}).values())
+            rows.extend(self._doc_prefix(d) for d in self._nodes.get("Document", {}).values())
+            return rows
+
         raise ValueError(f"Unknown query: {name!r}")
 
     def _execute_mutation(self, name: str, params: dict) -> dict:
