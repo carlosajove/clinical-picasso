@@ -13,3 +13,4 @@ node_modules/
 graph_repo/
 frontend/dist/
 frontend/.vite/
+graph_repo
