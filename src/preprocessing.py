@@ -119,7 +119,13 @@ class Preprocessing:
         for doc in self.kept:
             ext = Path(doc.filename).suffix.lower()
             if ext == ".pdf":
-                doc.content = doc.raw_bytes
+                import fitz
+                pdf = fitz.open(stream=doc.raw_bytes, filetype="pdf")
+                if len(pdf) > 100:
+                    print(f"Warning: {doc.filename} has {len(pdf)} pages, falling back to text")
+                    doc.content = "\n".join(page.get_text() for page in pdf)
+                else:
+                    doc.content = doc.raw_bytes
             else:
                 doc.content = self._extract_text(doc)
         return self
