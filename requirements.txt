@@ -13,3 +13,7 @@ matplotlib
 seaborn
 jupyter
 fpdf2
+fastapi>=0.110
+uvicorn>=0.30
+sse-starlette>=2.0
+python-multipart>=0.0.9
