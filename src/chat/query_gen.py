@@ -27,26 +27,26 @@ class GeneratedQuery(BaseModel):
     explanation: str
 
 
-_SYSTEM_PROMPT = """\
+_SYSTEM_PROMPT_TEMPLATE = """\
 You are an OmniGraph query generator. Given a graph schema and a natural
 language question, you produce a valid .gq query that answers the question.
 
 # OmniGraph .gq syntax
 
 ```
-query name($param: Type) {
-    match {
-        $var: NodeType {{ property: value }}
-        $var: NodeType {{ property: $param }}
+query name() {{
+    match {{
+        $var: NodeType
+        $var: NodeType {{ property: "value" }}
         $a edgeName $b              // single hop
         $a edgeName{{1,5}} $b        // multi-hop (bounded)
         $var.field > 42             // comparison
         not {{ $a edgeName $b }}     // negation
-    }
+    }}
     return {{ $var.field1, $var.field2 }}
     order {{ $var.field desc }}
     limit 20
-}
+}}
 ```
 
 ## Rules
@@ -95,7 +95,7 @@ def ask(
     3. Return structured results
     """
     schema_text = _load_schema(schema_path)
-    system = _SYSTEM_PROMPT.format(schema=schema_text)
+    system = _SYSTEM_PROMPT_TEMPLATE.replace("{schema}", schema_text)
 
     agent: Agent[None, GeneratedQuery] = Agent(
         model=model,
