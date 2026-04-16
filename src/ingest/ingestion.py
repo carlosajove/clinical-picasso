@@ -12,7 +12,12 @@ from dataclasses import dataclass, field
 
 from src.extraction.schema import ExtractionRecord
 from src.graph.client import OmniGraphClient
-from src.graph.serializer import serialize, _pick_trial_key
+from src.graph.serializer import (
+    serialize_document,
+    serialize_trial,
+    serialize_belongs_to_trial,
+    _pick_trial_key,
+)
 from src.ingest.version_resolver import resolve_version, VersionMatch
 from src.ingest.linker import discover_edges, DiscoveredEdge
 
@@ -50,26 +55,37 @@ def ingest(
     primary_type = record.classes[0].class_name.value
     changes: list[GraphChange] = []
 
-    # 1. Load Document node (and Trial + BelongsToTrial if applicable)
-    lines = serialize(record)
-    client.load_jsonl(lines)
-
+    # 1. Load Document node
+    lines = [serialize_document(record)]
     changes.append(GraphChange(
         action="created_node",
         target_type="Document",
         details={"doc_id": doc_id, "document_type": primary_type, "source_file": record.filename},
     ))
+
+    # Only create Trial node if it doesn't already exist
     if trial_key is not None:
-        changes.append(GraphChange(
-            action="created_node",
-            target_type="Trial",
-            details={"protocol_id": trial_key},
-        ))
+        existing = client.query("find_trial", {"protocol_id": trial_key})
+        if not existing:
+            trial_line = serialize_trial(record)
+            if trial_line is not None:
+                lines.append(trial_line)
+            changes.append(GraphChange(
+                action="created_node",
+                target_type="Trial",
+                details={"protocol_id": trial_key},
+            ))
+
+        edge_line = serialize_belongs_to_trial(record)
+        if edge_line is not None:
+            lines.append(edge_line)
         changes.append(GraphChange(
             action="created_edge",
             target_type="BelongsToTrial",
             details={"from": doc_id, "to": trial_key},
         ))
+
+    client.load_jsonl(lines)
 
     log.info("Loaded %s (%s) — %d JSONL lines", doc_id, primary_type, len(lines))
 
