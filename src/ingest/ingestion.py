@@ -89,35 +89,35 @@ def ingest(
 
     log.info("Loaded %s (%s) — %d JSONL lines", doc_id, primary_type, len(lines))
 
-    # 2. Version resolution
-    version_match = resolve_version(record, client)
-    if version_match is not None:
+    # 2. Version resolution (bidirectional — handles out-of-order ingestion)
+    version_matches = resolve_version(record, client)
+    for vm in version_matches:
         client.mutate("add_supersedes", {
-            "new_id": doc_id,
-            "old_id": version_match.superseded_doc_id,
-            "reason": version_match.reason,
+            "new_id": vm.superseder_doc_id,
+            "old_id": vm.superseded_doc_id,
+            "reason": vm.reason,
         })
-        client.mutate("mark_superseded", {"doc_id": version_match.superseded_doc_id})
+        client.mutate("mark_superseded", {"doc_id": vm.superseded_doc_id})
 
         changes.append(GraphChange(
             action="created_edge",
             target_type="Supersedes",
             details={
-                "from": doc_id,
-                "to": version_match.superseded_doc_id,
-                "reason": version_match.reason,
+                "from": vm.superseder_doc_id,
+                "to": vm.superseded_doc_id,
+                "reason": vm.reason,
             },
         ))
         changes.append(GraphChange(
             action="updated_status",
             target_type="Document",
             details={
-                "doc_id": version_match.superseded_doc_id,
+                "doc_id": vm.superseded_doc_id,
                 "status": "superseded",
             },
         ))
 
-        log.info("  Supersedes %s (%s)", version_match.superseded_doc_id, version_match.reason)
+        log.info("  %s (%s)", vm.reason, vm.direction)
 
     # 3. Edge discovery
     edges = discover_edges(record, client)

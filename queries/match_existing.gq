@@ -5,7 +5,7 @@ query find_version_match($doc_type: String, $trial_id: String) {
         $doc belongsToTrial $trial
         not { $newer supersedes $doc }
     }
-    return { $doc.doc_id, $doc.version, $doc.status, $doc.source_file }
+    return { $doc.doc_id, $doc.version, $doc.version_ordinal, $doc.status, $doc.source_file }
 }
 
 query find_trial($trial_key: String) {

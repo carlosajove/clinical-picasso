@@ -2,7 +2,7 @@
   "classes": [
     {
       "class_name": "ICF",
-      "reasoning": "The document is explicitly titled 'INFORMED CONSENT FORM' with ICF version number 2.0, dated 22 August 2023. It contains standard consent elements including study purpose, risks/benefits table, voluntary participation statements, and signature blocks for participant and investigator.",
+      "reasoning": "Document explicitly titled 'INFORMED CONSENT FORM' with consent checkboxes, participant and investigator signature blocks, and version control stating 'ICF Version 2.0'.",
       "confidence": 1.0
     }
   ],
@@ -21,13 +21,15 @@
   "indication": "EGFR-mutant NSCLC that has progressed on osimertinib",
   "therapeutic_area": "Oncology",
   "phase": null,
-  "summary": "This is a superseded Informed Consent Form (version 2.0, dated 22 August 2023) for study BIORCE-ONC-2023-001, sponsored by Biorce Therapeutics S.L. The consent document explains the study purpose, risks, and patient rights for a trial testing BRC-471 (Lumitanib) in EGFR-mutant NSCLC patients who progressed on osimertinib. This version was replaced by ICF v2.1 on 09 November 2023 and is marked 'DO NOT USE FOR NEW CONSENTS.'",
+  "version": "2.0",
+  "version_ordinal": 2,
+  "country": null,
+  "site_id": null,
+  "summary": "This is an Informed Consent Form version 2.0 dated 22 August 2023 for study BIORCE-ONC-2023-001 testing BRC-471 (Lumitanib) in patients with EGFR-mutant NSCLC progressing on osimertinib. This version has been superseded by ICF v2.1 on 09 November 2023 and is marked DO NOT USE FOR NEW CONSENTS; patients originally consented on v2.0 were later re-consented using v3.0.",
   "references_to": [
     "ICF v2.1 on 09 November 2023",
-    "version 2.0, dated 22 August 2023",
     "v3.0 (December 2023)"
   ],
   "filename": "FINAL FINAL use this consent v2 SIGNED.md",
-  "raw_sha256": "500e3bedb1ffb718f993dfa55925a4d62e2feba0655228bf7113d09b9173f912",
-  "content": "# INFORMED CONSENT FORM\n## Study BIORCE-ONC-2023-001\n### ICF Version 2.0 | Date: 22 August 2023\n### ⚠ SUPERSEDED — This version was replaced by ICF v2.1 on 09 November 2023\n### DO NOT USE FOR NEW CONSENTS\n\n**Sponsor:** Biorce Therapeutics S.L., Madrid, Spain\n**EudraCT:** 2023-001234-11\n\n## Introduction\n\nYou are being asked to take part in a clinical research study. You have been\ndiagnosed with EGFR-mutant NSCLC that has progressed on osimertinib.\n\n## Purpose\n\nTesting BRC-471 (Lumitanib), an experimental dual EGFR/HER2 inhibitor. Not\napproved anywhere. Aims: shrink cancer, assess duration of benefit, characterise\nside effects and pharmacokinetics.\n\n## Duration\n\nTreatment until progression or unacceptable toxicity. Follow-up every 12 weeks\nfor at least one year after stopping.\n\n## Possible Risks\n\n| Side Effect | How Common | Usually Mild? |\n|---|---|---|\n| Diarrhoea | ~7 in 10 | Usually |\n| Skin rash | ~6 in 10 | Usually |\n| Nausea | ~5 in 10 | Usually |\n| Fatigue | ~5 in 10 | Usually |\n| Lung inflammation (pneumonitis) | ~1 in 20 | Can be serious |\n\n## Your Right to Withdraw\n\nParticipation is entirely voluntary. Withdraw at any time without penalty.\n\n## Contact\n\nUrgent safety (24/7): +34 900 123 456\n\n## Consent\n\n☐ I have read and understood this form (version **2.0**, dated **22 August 2023**). Initials: _______\n\n☐ I have had the opportunity to ask questions; all answered satisfactorily. Initials: _______\n\n☐ I understand participation is voluntary and I may withdraw at any time. Initials: _______\n\n☐ I agree to data collection and processing as described. Initials: _______\n\n☐ I agree to take part in this study. Initials: _______\n\n| | |\n|---|---|\n| **Participant Signature:** | Date: |\n| **Investigator Signature:** | Date: |\n\n> **VERSION NOTE:** ICF v2.0 differs from the current approved version (v2.1,\n> 09 November 2023) in three respects: (1) No ondansetron prophylaxis mention;\n> (2) No Cycle 3 ctDNA blood sample notice; (3) Version number and date.\n> Patients consented on v2.0 were re-consented using v3.0 (December 2023).\n\n*SUPERSEDED DOCUMENT — © 2023 Biorce Therapeutics S.L.*\n"
+  "raw_sha256": "500e3bedb1ffb718f993dfa55925a4d62e2feba0655228bf7113d09b9173f912"
 }

@@ -2,7 +2,7 @@
   "classes": [
     {
       "class_name": "ICF",
-      "reasoning": "The document explicitly self-identifies as 'PARTICIPANT INFORMATION SHEET AND INFORMED CONSENT FORM' with signature blocks for participant, study partner, and investigator consent. The header states 'ICF Version 1.0 · 15 August 2022'.",
+      "reasoning": "This document is explicitly titled 'PARTICIPANT INFORMATION SHEET AND INFORMED CONSENT FORM' with signature blocks for participant, study partner, and investigator, and contains consent language ('I agree to take part').",
       "confidence": 1.0
     }
   ],
@@ -21,11 +21,14 @@
   "indication": "early Alzheimer's disease",
   "therapeutic_area": "Neurology",
   "phase": null,
-  "summary": "This is an Informed Consent Form (ICF version 1.0, dated 15 August 2022) for study BIORCE-NEU-2022-004 sponsored by Biorce Therapeutics. The form explains a randomized, placebo-controlled trial testing BRC-209 (Velagostat) in early Alzheimer's disease patients, with treatment duration up to 96 weeks, and includes signature blocks for participant, study partner, and investigator consent.",
+  "version": "1.0",
+  "version_ordinal": 1,
+  "country": null,
+  "site_id": null,
+  "summary": "This is an informed consent form for study BIORCE-NEU-2022-004, testing BRC-209 (Velagostat) in participants with early Alzheimer's disease. The document explains that participants will be randomly assigned (2:1 ratio) to receive either BRC-209 or placebo for up to 96 weeks, with the goal of slowing memory and thinking problems by preventing tau protein buildup in brain cells.",
   "references_to": [
     "ICF v1.0, 15 August 2022"
   ],
   "filename": "File_040.html",
-  "raw_sha256": "c2a9b51fb0583793a4a33def7206bce3ae0da9e6afd3db66f7c96fe99ecdb174",
-  "content": "\n\n\n\n\n\n\n\n\n\n\n\nBIORCE \nTHERAPEUTICS\n\n\nPARTICIPANT INFORMATION SHEET AND INFORMED CONSENT FORM\n\n\nStudy: BIORCE-NEU-2022-004  |  ICF Version 1.0 · 15 August 2022\nEudraCT: 2022-003891-28\n\n\nWhat is this study about?\n\n\n\n\nWhy is this research being done?\n\n\nWe are testing BRC-209 (Velagostat) to see whether it can slow memory and thinking problems caused by early Alzheimer's disease. It works by trying to stop a harmful protein called tau from building up in brain cells.\n\n\n\n\n\n\nDo I have to take part?\n\n\nNo. Participation is entirely your choice. If you decide not to join, or change your mind later, your regular medical care will not be affected in any way.\n\n\n\n\nWhat will happen?\n\n\n\n\nWhich treatment will I receive?\n\n\nYou will be randomly allocated to receive either BRC-209 (the study medicine) or a placebo (a dummy tablet). You have a 2-in-3 chance of receiving BRC-209. Neither you, your carer, nor your doctors will know which you are taking. One tablet every morning for up to 96 weeks.\n\n\n\n\nPossible Risks\n\n\nBRC-209 is experimental. There may be unknown side effects. You will be carefully monitored.\n\n\nSide effect\nHow common?\nUsually mild?\n\n\nHeadache\n~1 in 3\nYes\n\n\nNausea\n~1 in 4\nYes\n\n\nDizziness\n~1 in 5\nUsually — report if falls\n\n\nFatigue\n~1 in 6\nYes\n\n\nBrain imaging finding (ARIA)\nNot observed yet\nBeing monitored closely\n\n\nContact\n\n\nFor...\nContact\n\n\nStudy questions\nYour study doctor\n\n\nYour rights\nLocal Ethics Committee\n\n\nUrgent safety (24/7)\n+34 900 234 567\n\n\nYour Consent\n\n\nI have read and understood this form (ICF v1.0, 15 August 2022).\n\n\nI have had enough time and been able to ask questions.\n\n\nI understand I can withdraw at any time without reason.\n\n\nI agree to take part.\n\n\n\n  Participant signature: _____________________ Date: ___/___/______\n\n  Study partner signature: __________________ Date: ___/___/______\n\n  Investigator signature: ___________________ Date: ___/___/______\n\n\n\n\n\nBIORCE-NEU-2022-004 · ICF v1.0 · 15 August 2022\n\n\nCONFIDENTIAL © 2022 Biorce Therapeutics S.L.\n\n\n\n\n\n"
+  "raw_sha256": "c2a9b51fb0583793a4a33def7206bce3ae0da9e6afd3db66f7c96fe99ecdb174"
 }

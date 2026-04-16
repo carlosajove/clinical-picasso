@@ -61,6 +61,7 @@ a structured `ExtractionRecord` constrained to the Pydantic schema.
 | `eu_ct_id` | `str?` | EU CT number |
 | `sponsor_protocol_id` | `str?` | Sponsor's internal protocol ID |
 | `version` | `str?` | Document version string |
+| `version_ordinal` | `int?` | Normalized integer for ordering (e.g. "v2.1" → 2, "Amendment 3" → 3) |
 | `country` | `str?` | ISO country |
 | `site_id` | `str?` | Site identifier |
 | `references_to` | `list[str]` | Raw citation strings (resolved in Phase 4) |
@@ -132,9 +133,11 @@ Each document is ingested one at a time against the live graph. The function:
 1. **Loads** the Document node and Trial node (if a trial ID exists).
 2. **Checks for existing duplicates** by content hash (skips if already present).
 3. **Resolves versions** — `src/ingest/version_resolver.py::resolve_version()` detects
-   if the new document supersedes an existing one in the same trial + document type.
-   Compares numeric version strings (e.g. 2.2 > 2.1). Creates **Supersedes** edges and
-   marks older docs with `status = "superseded"`.
+   version relationships bidirectionally: the new document may supersede existing ones,
+   or existing ones may supersede the new document (handles out-of-order ingestion).
+   Prefers `version_ordinal` (LLM-extracted integer) for comparison, falls back to
+   numeric version string parsing. Creates **Supersedes** edges and marks older docs
+   with `status = "superseded"`. Can supersede multiple older versions in one pass.
 4. **Discovers edges** — `src/ingest/linker.py` runs three deterministic passes:
    - `_discover_references()`: matches raw citation strings from `references_to[]` against
      existing documents by source filename or document type.

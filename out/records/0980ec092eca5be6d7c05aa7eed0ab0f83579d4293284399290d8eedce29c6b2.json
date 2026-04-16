@@ -2,7 +2,7 @@
   "classes": [
     {
       "class_name": "CSR",
-      "reasoning": "The document explicitly identifies itself as 'CSR-001 — CLINICAL STUDY REPORT' in the title and as 'FINAL REPORT' for study BIORCE-ONC-2021-003. It contains all hallmark CSR sections: synopsis with outcome tables, introduction, patient demographics, safety analysis, pharmacokinetics, efficacy results, and conclusions prepared for regulatory submission.",
+      "reasoning": "The document explicitly identifies itself as 'CSR-001 — CLINICAL STUDY REPORT' in the title and contains all hallmark sections of a full Clinical Study Report: synopsis table with trial outcomes (MTD, RP2D, DLTs, ORR, DCR), introduction, patient demographics, comprehensive safety tables with TEAEs by grade, pharmacokinetics, efficacy endpoints, and conclusions. The header states 'FINAL REPORT' and includes data cut-off date (15 November 2022) and report preparation details.",
       "confidence": 1.0
     }
   ],
@@ -18,16 +18,15 @@
   "trial_title": "Phase I Dose-Escalation Study of BRC-471 (Lumitanib) in Advanced Solid Tumours",
   "trial_acronym": null,
   "intervention": "BRC-471 (Lumitanib)",
-  "indication": "Advanced solid tumours (with focus on NSCLC with EGFR-activating mutations)",
+  "indication": "Advanced Solid Tumours (NSCLC expansion cohort with EGFR mutations)",
   "therapeutic_area": "Oncology",
   "phase": "1",
-  "summary": "This is the final Clinical Study Report for study BIORCE-ONC-2021-003, a Phase I dose-escalation study of BRC-471 (Lumitanib) in advanced solid tumours with NSCLC expansion cohort. The report summarizes the complete trial results including safety, pharmacokinetics, and efficacy data with a data cut-off of 15 November 2022, establishing the recommended Phase 2 dose at 200 mg BID.",
-  "references_to": [
-    "Data Cut-off: 15 November 2022",
-    "Report Prepared by: Dr. Elena Vázquez, Biorce Clinical Development",
-    "Date: 28 February 2023"
-  ],
+  "version": "FINAL REPORT",
+  "version_ordinal": 1,
+  "country": null,
+  "site_id": null,
+  "summary": "This is a Clinical Study Report for a Phase I dose-escalation study of BRC-471 (Lumitanib) in advanced solid tumours with NSCLC expansion cohort, protocol BIORCE-ONC-2021-003. The final report presents comprehensive safety, pharmacokinetic, and preliminary efficacy data (data cut-off 15 November 2022), establishing the recommended Phase 2 dose at 200 mg BID with encouraging activity in HER2-amplified patients.",
+  "references_to": [],
   "filename": "File_012.md",
-  "raw_sha256": "0980ec092eca5be6d7c05aa7eed0ab0f83579d4293284399290d8eedce29c6b2",
-  "content": "# CSR-001 — CLINICAL STUDY REPORT\n## Study: BIORCE-ONC-2021-003\n## Phase I Dose-Escalation Study of BRC-471 (Lumitanib) in Advanced Solid Tumours\n### FINAL REPORT | Date: 28 February 2023 | CONFIDENTIAL\n\n**Data Cut-off:** 15 November 2022\n**Report Prepared by:** Dr. Elena Vázquez, Biorce Clinical Development\n\n## SYNOPSIS\n\n| Outcome | Result |\n|---|---|\n| MTD | 250 mg BID |\n| RP2D | 200 mg BID |\n| DLTs (300 mg BID) | Grade 3 diarrhoea (n=2); Grade 3 rash (n=1) |\n| Confirmed ORR (NSCLC expansion, n=20) | 30% (6 PR, 0 CR) |\n| DCR | 75% |\n| Median DoR | Not reached (range 2.8-14.6+ months) |\n| Grade >=3 TEAEs | 33% |\n| Discontinuations due to AEs | 7% |\n\n## 1. INTRODUCTION\n\nNSCLC represents the most common lung cancer histology. EGFR-activating\nmutations drive oncogenesis in ~15% of Western patients. Osimertinib has\ntransformed first-line management, but resistance is universal after a median\nof 18-22 months. BRC-471 was designed to address the most prevalent resistance\nmechanisms (HER2 amplification, C797S mutation).\n\n## 2. PATIENT DEMOGRAPHICS (N=42)\n\n| Characteristic | Value |\n|---|---|\n| Median age (range) | 62 years (38-79) |\n| Female / Male | 57% / 43% |\n| ECOG PS 0 / 1 / 2 | 29% / 57% / 14% |\n| Median prior lines | 2 (range 1-5) |\n| EGFR ex19del / L858R | 57% / 43% (expansion) |\n| HER2 amplification | 30% (expansion) |\n\n## 3. SAFETY (ALL PATIENTS, N=42)\n\n| TEAE | Any Grade n (%) | Grade 3 n (%) | Grade 4 n (%) |\n|---|---|---|---|\n| Diarrhoea | 30 (71) | 4 (10) | 0 |\n| Acneiform rash | 26 (62) | 3 (7) | 0 |\n| Nausea | 20 (48) | 2 (5) | 0 |\n| Fatigue | 19 (45) | 1 (2) | 0 |\n| Paronychia | 14 (33) | 0 | 0 |\n| ALT increase | 7 (17) | 2 (5) | 0 |\n| ILD/Pneumonitis | 2 (5) | 1 (2) | 0 |\n\nDeaths: 2 (disease progression; none related to BRC-471)\n\n## 4. PHARMACOKINETICS (200 mg BID, n=12, Day 15)\n\n| Parameter | Mean (CV%) |\n|---|---|\n| Cmax,ss | 892 ng/mL (31%) |\n| AUC0-12h,ss | 18,420 ng·h/mL (28%) |\n| T½ | 7.3h (24%) |\n| Accumulation ratio | 1.9 |\n\nDose proportionality approximately linear 100-250 mg BID. No food effect.\n\n## 5. EFFICACY (EXPANSION COHORT, N=20)\n\n| Endpoint | Result |\n|---|---|\n| Confirmed ORR (BICR) | 30% (6/20) |\n| DCR | 75% |\n| Median PFS | 4.8 months (95% CI 3.1-NR) |\n| HER2-amplified subgroup (n=6) | ORR 83% (5/6) |\n\n## 6. CONCLUSIONS\n\nBRC-471 200 mg BID has a manageable safety profile. PK is predictable and\ndose-proportional. Preliminary efficacy encouraging, particularly in HER2-\namplified subgroup. RP2D 200 mg BID selected for Phase II.\n\n*FINAL REPORT | BIORCE-ONC-2021-003 | CONFIDENTIAL*\n*© 2023 Biorce Therapeutics S.L.*\n"
+  "raw_sha256": "0980ec092eca5be6d7c05aa7eed0ab0f83579d4293284399290d8eedce29c6b2"
 }

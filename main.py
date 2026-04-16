@@ -21,10 +21,17 @@ from src.extraction.extract import DEFAULT_MODEL, DocumentExtractor
 from src.extraction.schema import ExtractionRecord
 from src.preprocessing import DocumentRecord as Doc
 from src.preprocessing import Preprocessing
+from src.graph.client import OmniGraphClient
+from src.ingest.ingestion import ingest
+from src.ingest.refinement import refine
+from src.cascade.inconsistency_checker import check_all
 
 
 DATA_DIR = Path("data/")
 OUT_DIR = Path("out/records")
+GRAPH_DIR = Path("out/graph")
+SCHEMA_PATH = Path("schema/clinical.pg")
+QUERIES_DIR = Path("queries")
 MODEL = DEFAULT_MODEL
 CONCURRENCY = 4
 
@@ -88,9 +95,45 @@ async def run() -> int:
         )
 
     print(
-        f"\nDone: {extracted} extracted, {cached} cached, {failed} failed. "
+        f"\nExtraction done: {extracted} extracted, {cached} cached, {failed} failed. "
         f"Records at {OUT_DIR}"
     )
+
+    # Collect successful records for graph ingestion
+    records = [outcome for _, outcome, _ in results if not isinstance(outcome, Exception)]
+    if not records:
+        print("No records to ingest.")
+        return 2
+
+    # --- Phase 3-4: Graph init + per-doc ingestion ---
+    print(f"\n--- Graph ingestion ({len(records)} records) ---")
+    client = OmniGraphClient(GRAPH_DIR, SCHEMA_PATH, QUERIES_DIR)
+    client.init(SCHEMA_PATH)
+
+    for rec in records:
+        result = ingest(rec, client)
+        status = "orphan" if result.is_orphan else f"{len(result.changes)} changes"
+        print(f"  INGEST {rec.filename} -> {result.document_type} ({status})")
+
+    # --- Phase 5: Refinement sweep ---
+    print("\n--- Refinement ---")
+    ref_result = refine(client)
+    print(
+        f"  {len(ref_result.reclassified)} low-conf, "
+        f"{len(ref_result.orphans_connected)} orphans, "
+        f"{ref_result.trials_merged} dup trials"
+    )
+
+    # --- Phase 6: Audit ---
+    print("\n--- Audit ---")
+    report = check_all(client)
+    print(
+        f"  {report.error_count} errors, {report.warning_count} warnings, "
+        f"{len(report.issues)} total issues"
+    )
+    for issue in report.issues:
+        print(f"  [{issue.severity}] {issue.category}: {issue.description}")
+
     return 0 if failed == 0 else 2
 
 

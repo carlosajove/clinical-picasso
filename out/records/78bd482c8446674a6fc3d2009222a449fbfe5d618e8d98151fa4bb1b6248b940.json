@@ -2,7 +2,7 @@
   "classes": [
     {
       "class_name": "Medical Publications",
-      "reasoning": "This is a conference abstract explicitly submitted to the European Society for Medical Oncology (ESMO) Annual Congress 2023, indicated by header 'CONFERENCE ABSTRACT' and submission metadata. It is a published/presented research paper summarizing trial results, not a regulatory trial artifact.",
+      "reasoning": "This is a conference abstract submitted to ESMO (European Society for Medical Oncology) Annual Congress 2023, with submission date, acceptance status, and author affiliations from multiple institutions. It is a published medical literature artifact presenting trial results, not a trial operational document.",
       "confidence": 0.98
     }
   ],
@@ -18,14 +18,18 @@
   "trial_title": null,
   "trial_acronym": null,
   "intervention": "BRC-471 (Lumitanib), a dual EGFR/HER2 inhibitor",
-  "indication": "EGFR-mutant advanced NSCLC with documented progression on osimertinib",
+  "indication": "EGFR-mutant advanced non-small cell lung cancer (NSCLC) with progression on osimertinib",
   "therapeutic_area": "Oncology",
   "phase": "2",
-  "summary": "This is a conference abstract submitted to ESMO Annual Congress 2023 presenting interim Phase II results for study BIORCE-ONC-2023-001. The abstract reports efficacy and safety data for BRC-471 (Lumitanib), a dual EGFR/HER2 inhibitor, in 55 patients with EGFR-mutant NSCLC after osimertinib failure, showing 29.1% ORR and median PFS of 5.4 months.",
+  "version": null,
+  "version_ordinal": 1,
+  "country": null,
+  "site_id": null,
+  "summary": "This is a conference abstract submitted to and accepted for oral presentation at the ESMO 2023 Annual Congress. It presents Phase II interim results for BRC-471 (Lumitanib) in EGFR-mutant NSCLC patients who progressed on osimertinib, reporting efficacy and safety outcomes from the BIORCE-ONC-2023-001 trial.",
   "references_to": [
+    "BIORCE-ONC-2023-001",
     "RECIST v1.1"
   ],
   "filename": "File_001.md",
-  "raw_sha256": "78bd482c8446674a6fc3d2009222a449fbfe5d618e8d98151fa4bb1b6248b940",
-  "content": "# CSR-005 — CONFERENCE ABSTRACT\n## Submitted to: European Society for Medical Oncology (ESMO) Annual Congress 2023\n## Submission Date: 14 April 2023 | Status: ACCEPTED (Oral Presentation)\n\n**Title:** BRC-471 (Lumitanib), a Dual EGFR/HER2 Inhibitor, Demonstrates Encouraging\nActivity in EGFR-Mutant NSCLC After Osimertinib: Phase II Interim Results\n\n**Authors:** Vázquez E¹, Marchetti F², Kowalski A³, Dupont C⁴, Schmidt H⁵,\nTanaka Y⁶, Okonkwo B⁷, Chen L⁸, Fernández M¹\n(1=Biorce Therapeutics; 2=Institut Curie; 3=Maria Sklodowska-Curie NRI;\n4=Gustave Roussy; 5=Charité Berlin; 6=NCC Tokyo; 7=UCLH; 8=Shanghai Chest Hospital)\n\n**Background:** Virtually all patients with EGFR-mutant NSCLC develop resistance\nto osimertinib. BRC-471 is an oral dual EGFR/HER2 inhibitor designed to overcome\nHER2-amplification and C797S-mediated resistance.\n\n**Methods:** BIORCE-ONC-2023-001 is a Phase II, open-label, single-arm study.\nEligible patients had EGFR-mutant advanced NSCLC with documented progression on\nosimertinib. All received BRC-471 200 mg BID continuously. Primary endpoint:\nORR per RECIST v1.1 (BICR). This interim report includes 55 evaluable patients\n(data cut: 01 Sep 2023).\n\n**Results:** Confirmed ORR: 29.1% (16/55; 95% CI 17.6-42.9). DCR: 70.9%.\nMedian PFS: 5.4 months (95% CI 4.1-7.2). Median DoR: 7.8 months (95% CI 5.1-NR).\nHER2-amplified subgroup (n=18): ORR 44.4% (8/18). Grade >=3 TEAEs: 38%.\nILD/pneumonitis: 6% (all grades); 2 Grade 3 cases, both managed with drug\nhold and steroids.\n\n**Conclusions:** BRC-471 demonstrates clinically meaningful antitumour activity\nin EGFR-mutant NSCLC post-osimertinib. Activity particularly pronounced in\nHER2-amplified tumours. Enrolment ongoing; final data expected 2025.\n\n*Disclosure: Study sponsored by Biorce Therapeutics S.L.*\n"
+  "raw_sha256": "78bd482c8446674a6fc3d2009222a449fbfe5d618e8d98151fa4bb1b6248b940"
 }

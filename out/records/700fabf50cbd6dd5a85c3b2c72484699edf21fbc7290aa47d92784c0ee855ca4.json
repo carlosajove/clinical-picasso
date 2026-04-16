@@ -2,7 +2,7 @@
   "classes": [
     {
       "class_name": "CSP",
-      "reasoning": "Document is titled 'Clinical Study Protocol' with protocol number BIORCE-ONC-2023-001 Version 1.0. Contains all standard protocol sections: title, synopsis table, background, objectives, eligibility criteria, investigational product details, and statistical analysis plan.",
+      "reasoning": "Document explicitly titled 'Clinical Study Protocol' with comprehensive protocol sections including title, synopsis, background, objectives, eligibility criteria, investigational product, and statistical analysis plan. Contains full protocol structure with version 1.0 dated 14 March 2023.",
       "confidence": 1.0
     }
   ],
@@ -17,17 +17,20 @@
   "sponsor_name": "Biorce Therapeutics S.L.",
   "trial_title": "A Phase II, Open-Label, Multicenter Study to Evaluate the Efficacy and Safety of BRC-471 (Lumitanib) in Patients with EGFR-Mutant Advanced Non-Small Cell Lung Cancer Following Progression on First-Line Osimertinib",
   "trial_acronym": null,
-  "intervention": "BRC-471 (Lumitanib) - oral EGFR/HER2 dual inhibitor, 200 mg BID",
+  "intervention": "BRC-471 (Lumitanib) — oral EGFR/HER2 dual inhibitor",
   "indication": "EGFR-Mutant Advanced Non-Small Cell Lung Cancer Following Progression on First-Line Osimertinib",
   "therapeutic_area": "Oncology",
   "phase": "2",
-  "summary": "This is a Phase II clinical study protocol (Version 1.0, dated 14 March 2023) for protocol BIORCE-ONC-2023-001, sponsored by Biorce Therapeutics S.L. The protocol describes an open-label, single-arm, multicenter trial evaluating BRC-471 (Lumitanib), an oral EGFR/HER2 dual inhibitor, in 120 patients with EGFR-mutant advanced non-small cell lung cancer who have progressed on first-line osimertinib. The study will be conducted in Spain, France, Germany, and Italy with a primary endpoint of overall response rate per RECIST v1.1.",
+  "version": "1.0",
+  "version_ordinal": 1,
+  "country": null,
+  "site_id": null,
+  "summary": "This is the original version of a Phase II clinical study protocol evaluating BRC-471 (Lumitanib), an oral EGFR/HER2 dual inhibitor, in patients with EGFR-mutant advanced non-small cell lung cancer who have progressed on first-line osimertinib. The protocol is an open-label, single-arm, multicenter study planned across Spain, France, Germany, and Italy with a target enrollment of 120 patients and a Simon two-stage design to evaluate objective response rate as the primary endpoint.",
   "references_to": [
     "RECIST v1.1",
     "EORTC QLQ-C30",
     "LC13"
   ],
   "filename": "File_031.md",
-  "raw_sha256": "700fabf50cbd6dd5a85c3b2c72484699edf21fbc7290aa47d92784c0ee855ca4",
-  "content": "# Clinical Study Protocol\n## BIORCE-ONC-2023-001\n### Version 1.0 | Date: 14 March 2023 | CONFIDENTIAL\n\n**Sponsor:** Biorce Therapeutics S.L., Calle de Serrano 41, 28001 Madrid\n**Investigational Product:** BRC-471 (Lumitanib) — oral EGFR/HER2 dual inhibitor\n**EudraCT Number:** 2023-001234-11\n\n## 1. TITLE\n\nA Phase II, Open-Label, Multicenter Study to Evaluate the Efficacy and\nSafety of BRC-471 (Lumitanib) in Patients with EGFR-Mutant Advanced\nNon-Small Cell Lung Cancer Following Progression on First-Line Osimertinib\n\n## 2. PROTOCOL SYNOPSIS\n\n| Field | Details |\n|---|---|\n| Study Phase | Phase II |\n| Design | Open-label, single-arm, multicenter |\n| Primary Endpoint | ORR per RECIST v1.1 (BICR) |\n| Secondary Endpoints | PFS, OS, DoR, DCR, safety |\n| Target Enrollment | 120 patients |\n| Duration | 36 months (12 enrolment + 24 follow-up) |\n| Countries | Spain, France, Germany, Italy |\n\n## 3. BACKGROUND\n\nNSCLC accounts for ~85% of lung cancer cases. EGFR-activating mutations\npresent in ~15% of Western patients. Osimertinib is now standard first-line\ntreatment but resistance is universal after a median of 18–22 months.\nResistance mechanisms include C797S mutation (~19%), MET amplification (~15%),\nHER2 amplification (~12%). BRC-471 is a novel dual EGFR/HER2 inhibitor\ndesigned to overcome HER2-amplification and C797S-mediated resistance.\n\n## 4. STUDY OBJECTIVES\n\n**Primary:** Evaluate antitumour activity — ORR per RECIST v1.1 by BICR.\n\n**Secondary:** PFS, OS, DoR, DCR, safety & tolerability, PK parameters.\n\n**Exploratory:** Biomarkers of response via ctDNA; PROs (EORTC QLQ-C30, LC13).\n\n## 5. PATIENT ELIGIBILITY\n\n**Key Inclusion:**\n1. Age >=18 years\n2. Confirmed advanced NSCLC (Stage IIIB/IV)\n3. Documented activating EGFR mutation (ex19del or L858R)\n4. Radiographic progression on/after first-line osimertinib\n5. >=1 measurable lesion per RECIST v1.1\n6. ECOG PS 0–2\n\n**Key Exclusion:**\n1. Prior EGFR/HER2 dual inhibitor\n2. Active CNS metastases requiring steroids\n3. History of ILD or drug-induced pneumonitis\n4. QTcF >480 ms\n5. Pregnancy or breastfeeding\n\n## 6. INVESTIGATIONAL PRODUCT\n\nBRC-471 200 mg BID orally (two 100 mg tablets), continuous 28-day cycles.\nDose reductions: 150 mg BID then 100 mg BID. Discontinue if below 100 mg BID.\n\n## 7. STATISTICAL ANALYSIS\n\nSimon two-stage design. H0: ORR=10%; H1: ORR=25%. Stage 1: 35 evaluable\npatients — need >=8 responses to proceed. Stage 2: 110 evaluable. Power 80%,\none-sided alpha 0.10. Total 120 patients (10% non-evaluable assumed).\n\n## 8. DOCUMENT HISTORY\n\n| Version | Date | Description |\n|---|---|---|\n| 1.0 | 14 Mar 2023 | Original protocol |\n\n*CONFIDENTIAL — © 2023 Biorce Therapeutics S.L.*\n"
+  "raw_sha256": "700fabf50cbd6dd5a85c3b2c72484699edf21fbc7290aa47d92784c0ee855ca4"
 }

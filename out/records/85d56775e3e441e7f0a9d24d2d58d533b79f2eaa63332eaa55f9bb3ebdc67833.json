@@ -2,7 +2,7 @@
   "classes": [
     {
       "class_name": "ICF",
-      "reasoning": "The document explicitly identifies itself as 'INFORMED CONSENT FORM' in the header, includes ICF version number (2.0), contains a consent declaration section with checkboxes, participant and investigator signature blocks, and describes the patient consent process for study BIORCE-CAR-2024-007.",
+      "reasoning": "Document explicitly titled 'INFORMED CONSENT FORM' with signature blocks, consent declaration checkboxes, participant and investigator signatures, and all structural elements typical of an ICF. Contains signed consent from participant MARIA GARCIA LOPEZ dated 14/08/2024.",
       "confidence": 1.0
     }
   ],
@@ -21,15 +21,17 @@
   "indication": "familial high cholesterol in patients who cannot take statins",
   "therapeutic_area": "Cardiology",
   "phase": "3",
-  "summary": "This is version 2.0 of the Informed Consent Form for study BIORCE-CAR-2024-007, dated 20 September 2024, used at Hospital Universitario La Paz (site ES-02) in Madrid. The document contains a signed consent declaration from participant Maria Garcia Lopez dated 14 August 2024, though the CRA monitoring note identifies data integrity issues including signature date preceding the ICF version date and site name conflicts in the signature block.",
+  "version": "2.0",
+  "version_ordinal": 2,
+  "country": "ES",
+  "site_id": "ES-02",
+  "summary": "This is an Informed Consent Form (ICF) version 2.0 dated 20 September 2024 for study BIORCE-CAR-2024-007, testing BRC-883 (Cardanezumab) for lowering LDL cholesterol in patients with familial hypercholesterolemia who cannot take statins. The document contains a signed patient consent declaration from participant MARIA GARCIA LOPEZ dated 14/08/2024, with a CRA query noting dating and site identification inconsistencies that require investigator clarification.",
   "references_to": [
     "ICF v1.0",
-    "ICF v2.0, 20 Sep 2024",
-    "ongoing Phase III study",
+    "safety update in the ongoing Phase III study",
     "Query Q-ES02-ICF-007",
     "monitoring visit 15 October 2024"
   ],
   "filename": "File_068.txt",
-  "raw_sha256": "85d56775e3e441e7f0a9d24d2d58d533b79f2eaa63332eaa55f9bb3ebdc67833",
-  "content": "INFORMED CONSENT FORM\nStudy BIORCE-CAR-2024-007\nICF Version 2.0 | Date: 20 September 2024     <-- VERSION 2.0 (liver update)\nCONFIDENTIAL\n\nSite: Hospital Universitario La Paz, Madrid   <-- SITE: ES-02\nPrincipal Investigator: Dr. Ignacio Fernandez-Ruiz\n\n===========================================================================\n[Pages 1-3 of consent text -- abbreviated for this record]\n\nYou are being invited to take part in a clinical research study testing\nBRC-883 (Cardanezumab), a monthly injection to lower LDL cholesterol in\npatients with familial high cholesterol who cannot take statins.\n\nKey change in this version vs v1.0:\n  More frequent liver blood tests added (Weeks 4, 8, 12, 24) following\n  a safety update in the ongoing Phase III study.\n\n===========================================================================\nSECTION 12 -- CONSENT DECLARATION\n===========================================================================\n\n[X] I have read and understood this form (ICF v2.0, 20 Sep 2024). Init: MG\n\n[X] I have had enough time to ask questions; all answered. Init: MG\n\n[X] I understand participation is voluntary. Init: MG\n\n[X] I agree to data collection. Init: MG\n\n[X] I agree to take part. Init: MG\n\n\nParticipant: MARIA GARCIA LOPEZ\n                                        [-- DATE CONFLICT BELOW --]\nParticipant signature: [SIGNED]\nDate (DD/MM/YYYY):     14/08/2024    <-- *** SIGNED 14 AUG 2024\n                                         BUT ICF VERSION IS DATED\n                                         20 SEP 2024 -- IMPOSSIBLE:\n                                         PARTICIPANT SIGNED BEFORE\n                                         THIS VERSION EXISTED ***\n\nPerson taking consent: Dr. Lucia Castillo\n                                        [-- SITE NAME CONFLICT --]\nSignature: [SIGNED]\nDate:      14/08/2024\n\nSite: Hospital Universitario Ramon y Cajal    <-- *** SITE ES-01 IN\n                                                  SIGNATURE BLOCK, BUT\n                                                  HEADER SAYS ES-02 ***\n\n===========================================================================\nCRA QUERY NOTE (monitoring visit 15 October 2024):\n\nQuery Q-ES02-ICF-007:\n  Issue 1: Participant signature date (14/08/2024) predates ICF version\n           date (20/09/2024). Patient was likely consented under ICF v1.0\n           and v2.0 form used in error.\n  Issue 2: Site name in signature block reads \"Ramon y Cajal\" (ES-01)\n           but patient enrolled at \"La Paz\" (ES-02). Copy-paste error.\n  Status: OPEN -- awaiting investigator clarification by 30 Oct 2024.\n\n===========================================================================\nICF v2.0 | BIORCE-CAR-2024-007 | (C) 2024 Biorce Therapeutics S.L.\n===========================================================================\n"
+  "raw_sha256": "85d56775e3e441e7f0a9d24d2d58d533b79f2eaa63332eaa55f9bb3ebdc67833"
 }

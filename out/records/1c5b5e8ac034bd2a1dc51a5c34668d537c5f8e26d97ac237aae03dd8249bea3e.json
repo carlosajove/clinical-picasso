@@ -2,7 +2,7 @@
   "classes": [
     {
       "class_name": "CRF",
-      "reasoning": "Document is explicitly titled 'eCRF MODULE: CYCLE 4 DAY 1 VISIT' and contains structured case report form sections capturing per-patient, per-visit clinical data including vital signs, ECOG performance status, study drug dispensing, concomitant medications, adverse events, PRO questionnaires, laboratory results, and investigator sign-off. All hallmarks of a Case Report Form.",
+      "reasoning": "The document explicitly identifies itself as 'eCRF MODULE: CYCLE 4 DAY 1 VISIT' and contains case report form sections including vital signs, ECOG PS, study drug dispensing, concomitant medications, adverse events, PRO questionnaires, laboratory results, and investigator sign-off for a specific patient visit.",
       "confidence": 1.0
     }
   ],
@@ -17,21 +17,23 @@
   "sponsor_name": null,
   "trial_title": null,
   "trial_acronym": null,
-  "intervention": "100mg tablets administered at 200mg BID dose",
+  "intervention": "100mg tablets, 200mg BID dosing",
   "indication": null,
-  "therapeutic_area": "Oncology",
+  "therapeutic_area": null,
   "phase": null,
-  "summary": "This is a Case Report Form capturing data from the Cycle 4 Day 1 visit for patient BRC471-ES03-006 at site ES-03 in study BIORCE-ONC-2023-001. The four-page eCRF (form version 2.1, visit date 18/11/2023) documents vital signs, ECOG performance status, study drug dispensing (200mg BID, 100mg tablets), concomitant medications, three adverse events (acneiform rash, fatigue, dry eyes), PRO questionnaire completion, and laboratory results, with investigator sign-off by Dr. Carmen Fuentes.",
+  "version": "2.1",
+  "version_ordinal": 2,
+  "country": "ES",
+  "site_id": "ES-03",
+  "summary": "This is an electronic Case Report Form (eCRF) documenting a Cycle 4 Day 1 visit for patient BRC471-ES03-006 at site ES-03 in study BIORCE-ONC-2023-001. The form captures vital signs, ECOG performance status, study drug dispensing details, concomitant medications, adverse events, PRO questionnaires, laboratory results, and investigator certification, with multiple documented corrections and protocol deviations.",
   "references_to": [
-    "Form Version: 2.1",
-    "Kit: KIT-471-ES03-014",
     "protocol deviation DEV-ES03-002",
     "SDV query Q-ES03-004",
+    "Study BIORCE-NEU-2022-004 (erroneous lab header)",
     "EORTC QLQ-C30",
     "EORTC QLQ-LC13",
-    "Study BIORCE-NEU-2022-004 (conflicting study number noted as error)"
+    "Kit KIT-471-ES03-014"
   ],
   "filename": "File_066.txt",
-  "raw_sha256": "1c5b5e8ac034bd2a1dc51a5c34668d537c5f8e26d97ac237aae03dd8249bea3e",
-  "content": "================================================================================\neCRF MODULE: CYCLE 4 DAY 1 VISIT\nStudy: BIORCE-ONC-2023-001          [PAGE 1]\nForm Version: 2.1\nSite ID: ES-03    Patient Code: BRC471-ES03-006\nVisit Date: 18/11/2023    Entered by: J.Rueda    Verified: Dr. C. Fuentes\n================================================================================\n\nSECTION 1 -- VITAL SIGNS (pre-dose)\n  Systolic BP: 126 mmHg | Diastolic: 80 mmHg | HR: 70 bpm\n  Weight: 67.4 kg | SpO2: 98% | Temp: 36.5 degrees C\n\nSECTION 2 -- ECOG PS: [X] 1\n\nSECTION 3 -- STUDY DRUG DISPENSING\n  Kit: KIT-471-ES03-014 | Tablets (100mg): 56 | Dose: [X] 200mg BID\n  Ondansetron: [X] Yes\n\nSECTION 4 -- CONCOMITANT MEDICATIONS\n  Omeprazole 20mg QD -- GERD -- since 2019 -- ongoing\n  Atorvastatin 40mg QD -- Hypercholesterolaemia -- since 2020 -- ongoing\n\n================================================================================\n[PAGE 2 -- ADVERSE EVENTS]\nStudy: BIORCE-ONC-2023-001    Patient: BRC471-ES03-006\n================================================================================\n\nSECTION 5 -- ADVERSE EVENTS\n  AE#1: Acneiform rash face/chest -- Grade 1 -- ongoing from C1D8\n    Relationship: Probably related | SAE: No\n    Action: Topical clindamycin; stable\n\n  AE#2: Fatigue -- Grade 1 -- ongoing -- possibly related -- no action\n\n  AE#3: Dry eyes -- Grade 1 -- new this cycle\n    Onset: approx 05/11/2023 | Relationship: Possibly related | SAE: No\n    Action: Artificial tears (ophthalmology, 10/11/2023)\n\nSECTION 6 -- PRO QUESTIONNAIRES\n  EORTC QLQ-C30: [X] Completed | EORTC QLQ-LC13: [X] Completed\n\n================================================================================\n[PAGE 3 -- LABORATORY RESULTS ATTACHMENT]\nStudy: BIORCE-NEU-2022-004              <-- *** CONFLICTING STUDY NUMBER ***\nPatient: BRC471-ES03-006    Lab date: 18/11/2023\n[NOTE: lab report header pre-printed with wrong study code -- known site\n error reported as DEV-ES03-002; correct study is BIORCE-ONC-2023-001;\n values verified against source by CRA Marcos Iglesias 22/11/2023]\n================================================================================\n\nHAEMATOLOGY\n  WBC:  6.2  x10^9/L  [N]   Ref: 4.0-10.0\n  ANC:  3.8  x10^9/L  [N]   Ref: 1.8-7.5\n  Hb:  12.1  g/dL     [N]   Ref: 12.0-16.0\n  Plt:  198  x10^9/L  [N]   Ref: 150-400\n\nCHEMISTRY\n  ALT:  31  U/L     [N]   Ref: <35\n  AST:  27  U/L     [N]   Ref: <35\n  Creat: 68  umol/L  [N]   Ref: 44-80\n  Na:  138  mmol/L  [N]   Ref: 136-145\n\n================================================================================\n[PAGE 4 -- INVESTIGATOR SIGN-OFF]\nStudy: BIORCE-ONC-2023-001    Patient: BRC471-ES03-006\n================================================================================\n\nI confirm that the data recorded on pages 1-4 accurately reflect the\nsource documents held at this site. The study number discrepancy on\npage 3 (lab header) has been documented as protocol deviation DEV-ES03-002\nand does not affect the validity of the laboratory results.\n\n                                        [-- DATE CONFLICT BELOW --]\nInvestigator: Dr. Carmen Fuentes\nSignature:    [SIGNED]\nDate:         03/11/2023      <-- *** PREDATES visit date of 18/11/2023 ***\n\n[Handwritten correction:]\n  \"Date error -- should read 18/11/2023. Signed same day as visit.\n   Corrected per SDV query Q-ES03-004. -- CF 22/11/2023\"\n\n================================================================================\nEND OF CRF -- CYCLE 4 DAY 1 -- SITE ES-03 -- PATIENT BRC471-ES03-006\nScanned by J.Rueda, 22/11/2023\n================================================================================\n"
+  "raw_sha256": "1c5b5e8ac034bd2a1dc51a5c34668d537c5f8e26d97ac237aae03dd8249bea3e"
 }

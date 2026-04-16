@@ -2,8 +2,8 @@
   "classes": [
     {
       "class_name": "CRF",
-      "reasoning": "This document is explicitly titled 'eCRF -- END OF TREATMENT (EOT) VISIT' and captures per-patient data for a specific visit including treatment discontinuation details, dosing history, response assessment, and EOT assessments for Patient BRC471-FR01-005. It includes data entry and verification signatures typical of case report forms.",
-      "confidence": 0.98
+      "reasoning": "Explicitly labeled 'eCRF -- END OF TREATMENT (EOT) VISIT' with structured per-patient data fields including patient ID (BRC471-FR01-005), site ID (FR-01), visit date, treatment cycles, dose information, response assessments, and investigator signature block typical of case report forms.",
+      "confidence": 1.0
     }
   ],
   "nct_id": null,
@@ -17,19 +17,22 @@
   "sponsor_name": null,
   "trial_title": null,
   "trial_acronym": null,
-  "intervention": "Not explicitly stated (dosing data provided but drug name not specified)",
+  "intervention": null,
   "indication": null,
-  "therapeutic_area": null,
+  "therapeutic_area": "Oncology",
   "phase": null,
-  "summary": "This is an electronic Case Report Form documenting the End of Treatment visit for patient BRC471-FR01-005 at site FR-01 in study BIORCE-ONC-2023-001. The patient discontinued treatment on 07 December 2023 due to radiographic disease progression after achieving partial response, having completed 5 full cycles with a relative dose intensity of 92.5%.",
+  "version": "v2.1",
+  "version_ordinal": 2,
+  "country": "FR",
+  "site_id": "FR-01",
+  "summary": "This is an electronic Case Report Form documenting the end-of-treatment visit for patient BRC471-FR01-005 enrolled at site FR-01 in study BIORCE-ONC-2023-001. The form captures the reason for discontinuation (radiographic disease progression), treatment duration from June to December 2023 spanning 5 complete cycles and part of cycle 6, best overall response of partial response lasting 98 days, and post-study treatment plans.",
   "references_to": [
-    "Form v2.1",
     "RECIST v1.1",
     "Cycle 6 (Day 168)",
-    "C2 (Day 58)",
-    "C4"
+    "Cycle 2 (Day 58)",
+    "C4",
+    "carboplatin/pemetrexed"
   ],
   "filename": "File_061.txt",
-  "raw_sha256": "7b359020ded75c04ea451186089a8371bcac3ed9c95093d1888e943d418e6adf",
-  "content": "eCRF -- END OF TREATMENT (EOT) VISIT\nStudy: BIORCE-ONC-2023-001 | Form v2.1 | Site: FR-01 | Patient: BRC471-FR01-005\nEOT Date: 08 December 2023 | Last dose: 07 December 2023\nEntered: M.Leconte | Verified: Dr. C. Dupont (Medical Monitor)\n\nREASON FOR DISCONTINUATION\n  [X] Radiographic disease progression (RECIST v1.1)\n  Date of progression confirmed by BICR: 28 November 2023\n  Cycle at discontinuation: Cycle 6 (Day 168)\n\nTOTAL TREATMENT DURATION\n  First dose: 15 June 2023 | Last dose: 07 December 2023\n  Cycles completed: 5 (partial cycle 6)\n  Total planned dose: 11,200 mg | Actual: 10,360 mg\n  Relative Dose Intensity: 92.5%\n  Dose reductions: 0 | Dose interruptions: 1 (14 days, C4, nausea)\n\nBEST OVERALL RESPONSE (per BICR)\n  [X] Partial Response (PR) -- first response C2 (Day 58)\n  Duration of response: 98 days\n\nEOT ASSESSMENTS\n  Physical exam: Yes | Blood tests: Yes | CT scan: Yes\n  ECG: Yes | ctDNA sample: Yes | PROs: Yes\n\nPOST-STUDY TREATMENT\n  Next therapy: Platinum-based chemotherapy (carboplatin/pemetrexed)\n  ctDNA resistance profiling: Results pending (3 weeks)\n\nInvestigator: Dr. C. Moreau   Sig: [SIGNED]   Date: 08/12/2023\n"
+  "raw_sha256": "7b359020ded75c04ea451186089a8371bcac3ed9c95093d1888e943d418e6adf"
 }

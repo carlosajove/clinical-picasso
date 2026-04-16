@@ -2,7 +2,7 @@
   "classes": [
     {
       "class_name": "IB",
-      "reasoning": "Document is explicitly titled 'INVESTIGATOR BROCHURE BRC-883 (CARDANEZUMAB)' and contains the standard IB sections: summary of the investigational drug, mechanism of action, pharmaceutical properties, nonclinical pharmacokinetics, clinical PK and safety data, and efficacy data from Phase II studies.",
+      "reasoning": "The document explicitly identifies itself as 'INVESTIGATOR BROCHURE' in the header and follows the standard IB structure with sections on mechanism of action, pharmaceutical properties, nonclinical pharmacokinetics, clinical PK, safety, and efficacy data for the investigational drug BRC-883 (Cardanezumab).",
       "confidence": 1.0
     }
   ],
@@ -17,15 +17,18 @@
   "sponsor_name": "Biorce Therapeutics S.L.",
   "trial_title": null,
   "trial_acronym": null,
-  "intervention": "BRC-883 (Cardanezumab), a fully human IgG1 monoclonal antibody inhibiting PCSK9",
-  "indication": "Statin-intolerant HeFH (heterozygous familial hypercholesterolemia)",
+  "intervention": "BRC-883 (Cardanezumab), fully human IgG1 monoclonal antibody inhibiting PCSK9, 150 mg SC q4w",
+  "indication": "statin-intolerant HeFH (heterozygous familial hypercholesterolemia)",
   "therapeutic_area": "Cardiology",
   "phase": "2",
-  "summary": "This is Edition 1 of the Investigator Brochure for BRC-883 (Cardanezumab), a fully human monoclonal antibody PCSK9 inhibitor being developed by Biorce Therapeutics for statin-intolerant heterozygous familial hypercholesterolemia. The IB summarizes the mechanism of action, pharmaceutical properties, nonclinical and clinical pharmacokinetics, and Phase II safety and efficacy data (24-week study, n=148) showing -57.3% LDL-C reduction with good tolerability.",
+  "version": "Edition 1",
+  "version_ordinal": 1,
+  "country": null,
+  "site_id": null,
+  "summary": "This is Edition 1 of the Investigator Brochure for BRC-883 (Cardanezumab), a fully human IgG1 monoclonal antibody PCSK9 inhibitor developed by Biorce Therapeutics for statin-intolerant heterozygous familial hypercholesterolemia. The IB summarizes the mechanism of action, pharmaceutical properties, nonclinical and clinical pharmacokinetics, and Phase II safety and efficacy data showing -57.3% LDL-C reduction versus placebo with a well-tolerated safety profile.",
   "references_to": [
-    "BIORCE-CAR-2022-005"
+    "BIORCE-CAR-2022-005, n=148, 24 weeks"
   ],
   "filename": "File_037.txt",
-  "raw_sha256": "6ed5ee23f87842624469cfb8ec9cb9acb93a1d3c0cb164625833e9f438c4714e",
-  "content": "================================================================================\nINVESTIGATOR BROCHURE\nBRC-883 (CARDANEZUMAB)\nEDITION 1 | 05 SEPTEMBER 2023 | CONFIDENTIAL\n================================================================================\nSponsor: Biorce Therapeutics S.L., Madrid, Spain\n\nSECTION 1 -- SUMMARY\n----------------------\n\nBRC-883 (Cardanezumab) is a fully human IgG1 monoclonal antibody inhibiting\nPCSK9, under development for statin-intolerant HeFH. Administered SC q4w.\n\nPhase II data (BIORCE-CAR-2022-005, n=148, 24 weeks):\n  LDL-C reduction: -57.3% vs -2.8% placebo (p<0.0001)\n  Safety: well tolerated; injection site reactions 8.1% (mild)\n\nSECTION 2 -- MECHANISM OF ACTION\n-----------------------------------\n\nPCSK9 binds LDLR on hepatocytes and promotes lysosomal degradation, reducing\nLDLR recycling. Inhibition of PCSK9 by BRC-883 increases LDLR surface density.\n\nBRC-883 binds human PCSK9 with Kd = 0.4 nM (SPR).\nNo cross-reactivity with PCSK7 or PCSK8.\n\nSECTION 3 -- PHARMACEUTICAL PROPERTIES\n-----------------------------------------\n\nFormulation  : 150 mg/mL solution, 20 mM histidine pH 6.0\nPresentation : 1 mL single-use pre-filled auto-injector (150 mg)\nStorage      : 2-8 degrees C; do NOT freeze; protect from light\nShelf life   : 24 months\n\nSECTION 4 -- NONCLINICAL PHARMACOKINETICS\n--------------------------------------------\n\nCynomolgus monkey (10 mg/kg SC):\n  Bioavailability: 78%\n  Tmax: 4.8 days (median)\n  Terminal T1/2: 14.2 days\n  Vss: 65 mL/kg\n\nSECTION 5 -- CLINICAL PK (Phase II, 150 mg SC q4w)\n-----------------------------------------------------\n\n  Parameter               Phase II steady-state\n  -----------------------------------------------\n  Tmax (days, median)     3-7\n  Cmax,ss (ug/mL)         22.4\n  AUCtau (ug.day/mL)      198\n  T1/2 terminal (days)    17.4\n  Bioavailability SC      71%\n  ADA incidence           4.1%\n  Neutralising ADA        0%\n\nSECTION 6 -- CLINICAL SAFETY (Phase II, n=148, 24 weeks)\n-----------------------------------------------------------\n\n  TEAE                       BRC-883 (%)   Placebo (%)\n  ------------------------------------------------------\n  Injection site reaction       8.1           3.9\n  Nasopharyngitis               6.8           7.1\n  Back pain                     5.4           6.5\n  Headache                      4.1           5.2\n  Myalgia                       3.4           4.5\n  ALT >3x ULN                   1.4           0.6\n  SAE                           2.7           3.9\n  MACE (adjudicated)            0             0\n\nSECTION 7 -- CLINICAL EFFICACY (Phase II)\n-------------------------------------------\n\nPrimary: % change LDL-C at Week 24:\n  BRC-883: -57.3%  Placebo: -2.8%  Difference: -54.5pp  p<0.0001\n\nApoB: -46.9% vs -1.2% (p<0.0001)\nLp(a): -23.8% vs +1.4% (p=0.002)\n\nDOCUMENT HISTORY\n  Edition 1   05 Sep 2023   Initial IB\n\n================================================================================\nCONFIDENTIAL (C) 2023 Biorce Therapeutics S.L.\n================================================================================\n"
+  "raw_sha256": "6ed5ee23f87842624469cfb8ec9cb9acb93a1d3c0cb164625833e9f438c4714e"
 }

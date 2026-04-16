@@ -6,6 +6,7 @@ node Document {
     classification_confidence:  F64
     raw_classes:                String?
     version:                    String?
+    version_ordinal:            I64?
     status:                     String  @index
     country:                    String?  @index
     site_id:                    String?  @index

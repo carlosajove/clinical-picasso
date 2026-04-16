@@ -41,6 +41,7 @@ def serialize_document(record: ExtractionRecord) -> dict:
                 [c.model_dump(mode="json") for c in record.classes]
             ),
             "version": record.version,
+            "version_ordinal": record.version_ordinal,
             "status": "active",
             "country": record.country,
             "site_id": record.site_id,
