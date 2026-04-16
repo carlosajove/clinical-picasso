@@ -81,3 +81,4 @@ class ExtractionRecord(LLMExtraction):
 
     filename: str       # original file name, from preprocessing
     raw_sha256: str     # sha256 of raw bytes, from preprocessing — also the cache key
+    content: str | bytes | None = None

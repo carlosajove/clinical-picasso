@@ -74,4 +74,5 @@ class DocumentExtractor:
             **llm_out.model_dump(),
             filename=doc.filename,
             raw_sha256=doc.sha256,
+            content=doc.content,
         )
