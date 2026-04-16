@@ -94,9 +94,18 @@ def check_all(client: OmniGraphClient) -> AuditReport:
     return report
 
 
+def _safe_query(client: OmniGraphClient, query_name: str, params: dict | None = None) -> list[dict]:
+    """Run a query, returning [] on failure so one bad check doesn't kill the report."""
+    try:
+        return client.query(query_name, params)
+    except Exception as e:
+        log.warning("Query %r failed: %s", query_name, e)
+        return []
+
+
 def _check_stale_parents(client: OmniGraphClient, report: AuditReport) -> None:
     """Docs that derive from a superseded parent."""
-    rows = client.query("stale_parents")
+    rows = _safe_query(client, "stale_parents")
     for row in rows:
         report.add(Issue(
             severity="error",
@@ -117,7 +126,7 @@ def _check_stale_parents(client: OmniGraphClient, report: AuditReport) -> None:
 
 def _check_stale_references(client: OmniGraphClient, report: AuditReport) -> None:
     """Docs that reference a superseded document."""
-    rows = client.query("stale_references")
+    rows = _safe_query(client, "stale_references")
     for row in rows:
         report.add(Issue(
             severity="warning",
@@ -138,7 +147,7 @@ def _check_stale_references(client: OmniGraphClient, report: AuditReport) -> Non
 
 def _check_stale_governance(client: OmniGraphClient, report: AuditReport) -> None:
     """Governance docs that govern a superseded document."""
-    rows = client.query("stale_governance")
+    rows = _safe_query(client, "stale_governance")
     for row in rows:
         report.add(Issue(
             severity="warning",
@@ -159,7 +168,7 @@ def _check_stale_governance(client: OmniGraphClient, report: AuditReport) -> Non
 
 def _check_orphans(client: OmniGraphClient, report: AuditReport) -> None:
     """Documents with no edges at all."""
-    rows = client.query("find_orphans")
+    rows = _safe_query(client, "find_orphans")
     for row in rows:
         report.add(Issue(
             severity="warning",
@@ -174,7 +183,7 @@ def _check_orphans(client: OmniGraphClient, report: AuditReport) -> None:
 
 def _check_low_confidence(client: OmniGraphClient, report: AuditReport) -> None:
     """Documents with uncertain classification."""
-    rows = client.query("low_confidence", {"threshold": LOW_CONFIDENCE_THRESHOLD})
+    rows = _safe_query(client, "low_confidence", {"threshold": LOW_CONFIDENCE_THRESHOLD})
     for row in rows:
         report.add(Issue(
             severity="warning",
@@ -190,10 +199,10 @@ def _check_low_confidence(client: OmniGraphClient, report: AuditReport) -> None:
 
 def _check_missing_doc_types(client: OmniGraphClient, report: AuditReport) -> None:
     """Trials that are missing expected document types."""
-    trials = client.query("all_trials")
+    trials = _safe_query(client, "all_trials")
     for trial_row in trials:
         pid = trial_row["trial.trial_key"]
-        docs = client.query("trial_documents", {"trial_key": pid})
+        docs = _safe_query(client.query("trial_documents", {"trial_key": pid}))
         types_present = {row.get("doc.document_type") for row in docs}
 
         for expected in EXPECTED_TYPES:
@@ -209,7 +218,7 @@ def _check_missing_doc_types(client: OmniGraphClient, report: AuditReport) -> No
 
 def _check_version_gaps(client: OmniGraphClient, report: AuditReport) -> None:
     """Version sequences with gaps (e.g., v1.0 and v3.0 but no v2.0)."""
-    all_docs = client.query("all_documents")
+    all_docs = _safe_query(client, "all_documents")
 
     # Group by (trial-related fields, document_type)
     groups: dict[tuple, list[str]] = defaultdict(list)
@@ -248,10 +257,10 @@ def _check_version_gaps(client: OmniGraphClient, report: AuditReport) -> None:
 
 def _check_metadata_conflicts(client: OmniGraphClient, report: AuditReport) -> None:
     """Documents in the same trial with conflicting metadata."""
-    trials = client.query("all_trials")
+    trials = _safe_query(client, "all_trials")
     for trial_row in trials:
         pid = trial_row["trial.trial_key"]
-        docs = client.query("trial_documents", {"trial_key": pid})
+        docs = _safe_query(client.query("trial_documents", {"trial_key": pid}))
 
         sponsors = set()
         phases = set()

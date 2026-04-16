@@ -63,24 +63,56 @@ def build_graph() -> None:
     # Phase 1: load all document/trial nodes + BelongsToTrial edges
     records = get_records()
     all_lines: list[dict] = []
-    seen_trials: set[str] = set()
 
+    from src.graph.serializer import (
+        serialize_document,
+        serialize_belongs_to_trial,
+        _pick_trial_key,
+    )
+
+    # Aggregate trial metadata across all records so the Trial node
+    # gets the richest data available (not just from the first record).
+    trial_meta: dict[str, dict] = {}  # trial_key → merged fields
     for record in records.values():
-        from src.graph.serializer import (
-            serialize_document,
-            serialize_trial,
-            serialize_belongs_to_trial,
-            _pick_trial_key,
-        )
-        all_lines.append(serialize_document(record))
-
         trial_key = _pick_trial_key(record)
-        if trial_key and trial_key not in seen_trials:
-            trial_line = serialize_trial(record)
-            if trial_line:
-                all_lines.append(trial_line)
-                seen_trials.add(trial_key)
+        if not trial_key:
+            continue
+        if trial_key not in trial_meta:
+            trial_meta[trial_key] = {
+                "nct_id": None, "eudract_id": None,
+                "title": None, "phase": None,
+                "intervention": None, "indication": None,
+            }
+        meta = trial_meta[trial_key]
+        meta["nct_id"] = meta["nct_id"] or record.nct_id
+        meta["eudract_id"] = meta["eudract_id"] or record.eudract_id
+        # Prefer English titles; among those, prefer longer (more descriptive)
+        if record.trial_title:
+            cur = meta["title"]
+            new = record.trial_title
+            new_is_ascii = all(ord(c) < 128 for c in new)
+            cur_is_ascii = cur and all(ord(c) < 128 for c in cur)
+            if not cur or (new_is_ascii and not cur_is_ascii) or (
+                new_is_ascii == cur_is_ascii and len(new) > len(cur)
+            ):
+                meta["title"] = new
+        meta["phase"] = meta["phase"] or record.phase
+        meta["intervention"] = meta["intervention"] or record.intervention
+        meta["indication"] = meta["indication"] or record.indication
 
+    # Create Trial nodes from aggregated metadata
+    for trial_key, meta in trial_meta.items():
+        all_lines.append({
+            "type": "Trial",
+            "data": {
+                "protocol_id": trial_key,
+                **meta,
+            },
+        })
+
+    # Create Document nodes + BelongsToTrial edges
+    for record in records.values():
+        all_lines.append(serialize_document(record))
         edge_line = serialize_belongs_to_trial(record)
         if edge_line:
             all_lines.append(edge_line)
@@ -88,7 +120,7 @@ def build_graph() -> None:
     if all_lines:
         client.load_jsonl(all_lines)
         log.info("Loaded %d JSONL lines (%d docs, %d trials)",
-                 len(all_lines), len(records), len(seen_trials))
+                 len(all_lines), len(records), len(trial_meta))
 
     # Phase 2: version resolution + edge discovery per document
     from src.ingest.version_resolver import resolve_version

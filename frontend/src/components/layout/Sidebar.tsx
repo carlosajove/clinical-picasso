@@ -4,7 +4,6 @@ import {
   Network,
   MessageSquare,
   Upload,
-  ShieldCheck,
 } from 'lucide-react';
 
 const links = [
@@ -12,7 +11,7 @@ const links = [
   { to: '/graph', icon: Network, label: 'Knowledge Graph' },
   { to: '/chat', icon: MessageSquare, label: 'Chat' },
   { to: '/ingest', icon: Upload, label: 'Upload' },
-  { to: '/audit', icon: ShieldCheck, label: 'Audit Report' },
+
 ];
 
 export default function Sidebar() {

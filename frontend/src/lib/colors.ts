@@ -20,19 +20,22 @@ export function getDocColor(type: string) {
 
 /** Node colors for React Flow (hex). */
 export const DOC_TYPE_HEX: Record<string, string> = {
-  CSP: '#3b82f6',
-  ICF: '#22c55e',
-  IB: '#f97316',
+  CSP: '#2563eb',
+  ICF: '#16a34a',
+  IB: '#ea580c',
   CRF: '#8b5cf6',
-  CSR: '#06b6d4',
-  eTMF: '#64748b',
-  'SmPC / DSUR / DSMB Charter': '#ec4899',
-  Synopsis: '#eab308',
-  'Patient Questionnaire': '#6366f1',
-  'Info Sheet': '#14b8a6',
-  'Medical Publications': '#f43f5e',
+  CSR: '#0891b2',
+  eTMF: '#475569',
+  'SmPC / DSUR / DSMB Charter': '#c026d3',
+  Synopsis: '#ca8a04',
+  'Patient Questionnaire': '#4f46e5',
+  'Info Sheet': '#0d9488',
+  'Medical Publications': '#be185d',
   NOISE: '#9ca3af',
 };
+
+/** Trial node color (hex). */
+export const TRIAL_HEX = '#dc2626';
 
 export function getDocHex(type: string): string {
   return DOC_TYPE_HEX[type] ?? '#94a3b8';
