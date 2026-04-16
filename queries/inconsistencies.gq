@@ -1,0 +1,67 @@
+query stale_parents() {
+    match {
+        $child: Document
+        $parent: Document
+        $newer: Document
+        $child derivedFrom $parent
+        $newer supersedes $parent
+        not { $even_newer: Document
+              $even_newer supersedes $child }
+    }
+    return {
+        $child.doc_id, $child.document_type, $child.country, $child.site_id, $child.source_file,
+        $parent.doc_id, $parent.document_type, $parent.version,
+        $newer.doc_id, $newer.version
+    }
+}
+
+query stale_references() {
+    match {
+        $doc: Document
+        $ref: Document
+        $newer: Document
+        $doc references $ref
+        $newer supersedes $ref
+        not { $even_newer: Document
+              $even_newer supersedes $doc }
+    }
+    return {
+        $doc.doc_id, $doc.document_type, $doc.source_file,
+        $ref.doc_id, $ref.document_type, $ref.version,
+        $newer.doc_id, $newer.version
+    }
+}
+
+query stale_governance() {
+    match {
+        $gov: Document
+        $doc: Document
+        $newer: Document
+        $gov governs $doc
+        $newer supersedes $doc
+        not { $even_newer: Document
+              $even_newer supersedes $gov }
+    }
+    return {
+        $gov.doc_id, $gov.document_type, $gov.source_file,
+        $doc.doc_id, $doc.document_type, $doc.version,
+        $newer.doc_id, $newer.version
+    }
+}
+
+query superseded_documents() {
+    match {
+        $doc: Document { status: "superseded" }
+    }
+    return { $doc.doc_id, $doc.document_type, $doc.version, $doc.source_file }
+}
+
+query current_documents() {
+    match {
+        $doc: Document
+        not { $newer: Document
+              $newer supersedes $doc }
+        $doc.status != "archived"
+    }
+    return { $doc.doc_id, $doc.document_type, $doc.version, $doc.status, $doc.country, $doc.site_id, $doc.source_file, $doc.sponsor_name, $doc.classification_confidence }
+}

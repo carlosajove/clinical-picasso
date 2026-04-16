@@ -1,1 +1,1 @@
-"""Cascade analysis — impact traversal and reporting."""
+"""Graph audit — inconsistency detection and reporting."""
