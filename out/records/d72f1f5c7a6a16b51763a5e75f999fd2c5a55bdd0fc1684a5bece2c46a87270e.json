@@ -1,0 +1,29 @@
+{
+  "classes": [
+    {
+      "class_name": "eTMF",
+      "reasoning": "This is an Investigational Medicinal Product Accountability Log (titled 'eTMF-004 — INVESTIGATIONAL MEDICINAL PRODUCT ACCOUNTABILITY LOG') tracking IMP receipt, dispensing, and returns at a clinical trial site. It is a regulated TMF document for drug accountability that does not fit the more specific classes like CSP, ICF, CRF, or CSR.",
+      "confidence": 0.98
+    }
+  ],
+  "nct_id": null,
+  "eudract_id": null,
+  "eu_ct_id": null,
+  "isrctn_id": null,
+  "utn_id": null,
+  "ind_number": null,
+  "cta_number": null,
+  "sponsor_protocol_id": "BIORCE-ONC-2023-001",
+  "sponsor_name": null,
+  "trial_title": null,
+  "trial_acronym": null,
+  "intervention": "BRC-471 (Lumitanib) 100 mg tablets",
+  "indication": null,
+  "therapeutic_area": "Oncology",
+  "phase": null,
+  "summary": "This is an Investigational Medicinal Product (IMP) accountability log for study BIORCE-ONC-2023-001 at site ES-02 (Hospital Universitario La Paz, Madrid). It tracks receipt, dispensing, returns, and inventory balance of BRC-471 (Lumitanib) 100 mg tablets from April through November 2023, maintained by pharmacist Dra. Patricia Ruiz.",
+  "references_to": [],
+  "filename": "File_030.md",
+  "raw_sha256": "d72f1f5c7a6a16b51763a5e75f999fd2c5a55bdd0fc1684a5bece2c46a87270e",
+  "content": "# eTMF-004 — INVESTIGATIONAL MEDICINAL PRODUCT ACCOUNTABILITY LOG\n## Study: BIORCE-ONC-2023-001\n## Site: Hospital Universitario La Paz, Madrid | Site Code: ES-02\n## IMP: BRC-471 (Lumitanib) 100 mg tablets\n## Pharmacist: Dra. Patricia Ruiz | Period: April–November 2023\n\n| Date | Transaction | Kit Number | Batch | Expiry | Qty Rcvd | Qty Disp | Qty Ret | Balance | Patient | Visit | By |\n|---|---|---|---|---|---|---|---|---|---|---|---|\n| 10 Apr 2023 | Receipt | KIT-ES02-001 | BRC471-B2303 | 31 Oct 2024 | 120 | — | — | 120 | — | — | P. Ruiz |\n| 18 Apr 2023 | Dispensing | KIT-ES02-001 | BRC471-B2303 | 31 Oct 2024 | — | 56 | — | 64 | ES02-001 | C1D1 | P. Ruiz |\n| 18 Apr 2023 | Dispensing | KIT-ES02-001 | BRC471-B2303 | 31 Oct 2024 | — | 56 | — | 8 | ES02-002 | C1D1 | P. Ruiz |\n| 22 Apr 2023 | Receipt | KIT-ES02-002 | BRC471-B2303 | 31 Oct 2024 | 240 | — | — | 248 | — | — | P. Ruiz |\n| 16 May 2023 | Dispensing | KIT-ES02-002 | BRC471-B2303 | 31 Oct 2024 | — | 56 | — | 192 | ES02-001 | C2D1 | P. Ruiz |\n| 16 May 2023 | Dispensing | KIT-ES02-002 | BRC471-B2303 | 31 Oct 2024 | — | 56 | — | 136 | ES02-002 | C2D1 | P. Ruiz |\n| 16 May 2023 | Return | KIT-ES02-001 | BRC471-B2303 | 31 Oct 2024 | — | — | 4 | 140 | ES02-002 | C1 return | P. Ruiz |\n| 14 Jun 2023 | Dispensing | KIT-ES02-002 | BRC471-B2303 | 31 Oct 2024 | — | 42 | — | 98 | ES02-001 | C3D1 (150mg) | P. Ruiz |\n| 14 Jun 2023 | Dispensing | KIT-ES02-002 | BRC471-B2303 | 31 Oct 2024 | — | 56 | — | 42 | ES02-003 | C1D1 | P. Ruiz |\n\n**Temperature monitoring:** Min 16°C / Max 27°C. All within 15–30°C range.\n**Discrepancies:** None. Running balance reconciled 30 Nov 2023 by Dra. Ruiz.\n"
+}

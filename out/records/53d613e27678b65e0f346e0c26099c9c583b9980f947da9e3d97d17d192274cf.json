@@ -1,0 +1,38 @@
+{
+  "classes": [
+    {
+      "class_name": "eTMF",
+      "reasoning": "This is a reference ranges document from a clinical laboratory supporting site DE-01 for study BIORCE-ONC-2023-001. It includes accreditation information, signature block, and serves as a regulated site file document that does not fit other specific TMF categories.",
+      "confidence": 0.95
+    }
+  ],
+  "nct_id": null,
+  "eudract_id": null,
+  "eu_ct_id": null,
+  "isrctn_id": null,
+  "utn_id": null,
+  "ind_number": null,
+  "cta_number": null,
+  "sponsor_protocol_id": "BIORCE-ONC-2023-001",
+  "sponsor_name": null,
+  "trial_title": null,
+  "trial_acronym": null,
+  "intervention": null,
+  "indication": null,
+  "therapeutic_area": "Oncology",
+  "phase": null,
+  "summary": "This is a laboratory reference ranges document issued by Charité Berlin's Institute for Laboratory Medicine for clinical study BIORCE-ONC-2023-001, site DE-01. It defines normal ranges for hematology, liver function, and renal function parameters, includes NCI CTCAE v5.0 grading criteria for adverse events, and documents laboratory accreditation under DIN EN ISO 15189:2022.",
+  "references_to": [
+    "Studie: BIORCE-ONC-2023-001",
+    "Standortcode: DE-01",
+    "Prüfarzt: Dr. Horst Schmidt",
+    "Akkreditierungsnummer: DAkkS D-ML-13149-01-00",
+    "NCI CTCAE v5.0",
+    "DIN EN ISO 15189:2022",
+    "Einschlusskriterium I7",
+    "Laborleiter: Prof. Dr. Klaus-Peter Brandner"
+  ],
+  "filename": "File_044.txt",
+  "raw_sha256": "53d613e27678b65e0f346e0c26099c9c583b9980f947da9e3d97d17d192274cf",
+  "content": "================================================================================\nCHARITÉ – UNIVERSITÄTSMEDIZIN BERLIN\nInstitut für Laboratoriumsmedizin, Klinische Chemie und Pathobiochemie\nCampus Mitte | Charitéplatz 1 | 10117 Berlin\nlabor.ccm@charite.de\n================================================================================\n\nREFERENZBEREICHE — KLINISCHE STUDIEN\nStudie: BIORCE-ONC-2023-001\nStandortcode: DE-01 | Prüfarzt: Dr. Horst Schmidt\nAkkreditierungsnummer: DAkkS D-ML-13149-01-00\nGültig ab: 01. Januar 2023\n\n--------------------------------------------------------------------------------\nHÄMATOLOGIE\n--------------------------------------------------------------------------------\n\nParameter                   Einheit    Frauen          Männer\n------------------------------------------------------------------------\nLeukozyten (WBC)            10^9/L     4,0 – 10,0      4,0 – 10,0\nNeutrophile (ANC)           10^9/L     1,8 – 7,5       1,8 – 7,5\nLymphozyten                 10^9/L     1,0 – 4,8       1,0 – 4,8\nHämoglobin                  g/dL       12,0 – 16,0     13,5 – 17,5\nThrombozyten                10^9/L     150 – 400       150 – 400\n\nMethode: Impedanzmessung + optische Streuung (Sysmex XN-9100)\n\n--------------------------------------------------------------------------------\nKLINISCHE CHEMIE — LEBER\n--------------------------------------------------------------------------------\n\nParameter                   Einheit    Referenzbereich     Kritisch\n------------------------------------------------------------------------\nALT (SGPT)                  U/L        <35 (F) / <45 (M)   >200\nAST (SGOT)                  U/L        <35 (F) / <40 (M)   >200\nGesamtbilirubin             µmol/L     3,4 – 20,5          >170\nAlbumin                     g/L        35 – 52             <20\n\nNCI CTCAE v5.0 Grenzwerte:\n  ALT Grad 1: >OGW – 3x OGW\n  ALT Grad 2: >3x – 5x OGW       → Meldepflicht Prüfarzt\n  ALT Grad 3: >5x – 20x OGW      → Meldepflicht Sponsor (48h)\n  ALT Grad 4: >20x OGW           → Sofortige Meldung (SAE)\n\n--------------------------------------------------------------------------------\nNIERENFUNKTION\n--------------------------------------------------------------------------------\n\nKreatinin      µmol/L   44–80 (F) / 62–106 (M)\neGFR (CKD-EPI) mL/min   >60 (normal)\nNatrium        mmol/L   136–145\nKalium         mmol/L   3,5–5,1\n\nProtokollrelevant: CrCl >=50 mL/min (Einschlusskriterium I7)\n\n--------------------------------------------------------------------------------\nQUALITÄTSSICHERUNG\n--------------------------------------------------------------------------------\n\nLabor akkreditiert nach DIN EN ISO 15189:2022\nDAkkS D-ML-13149-01-00 | Gültig bis 31. Dezember 2024\n\nLaborleiter: Prof. Dr. Klaus-Peter Brandner\nUnterschrift: ___________________________ Datum: 02. Januar 2023\n\n================================================================================\nCHARITÉ BERLIN — Studie BIORCE-ONC-2023-001 — DE-01 — Gültig 01.01.2023\n================================================================================\n"
+}

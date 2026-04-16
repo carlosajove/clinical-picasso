@@ -1,0 +1,31 @@
+{
+  "classes": [
+    {
+      "class_name": "NOISE",
+      "reasoning": "This is a commercial real estate lease agreement for office space, not a clinical trial document. The document describes rental terms, premises, rent, service charges, and permitted office use—none of which relate to clinical trial conduct, protocol, patient consent, data collection, or regulatory filings.",
+      "confidence": 1.0
+    }
+  ],
+  "nct_id": null,
+  "eudract_id": null,
+  "eu_ct_id": null,
+  "isrctn_id": null,
+  "utn_id": null,
+  "ind_number": null,
+  "cta_number": null,
+  "sponsor_protocol_id": null,
+  "sponsor_name": null,
+  "trial_title": null,
+  "trial_acronym": null,
+  "intervention": null,
+  "indication": null,
+  "therapeutic_area": null,
+  "phase": null,
+  "summary": "This is a commercial office lease agreement between Inversiones Castellana 41, S.A. (lessor) and Biorce Therapeutics S.L. (lessee) for 1,240 m² of office space in Madrid. The 5-year lease commences March 1, 2022, with monthly rent of €31,000 plus service charges. It is not a clinical trial document and should be excluded from the trial master file.",
+  "references_to": [
+    "Annexe A, floor plans"
+  ],
+  "filename": "File_013.md",
+  "raw_sha256": "bce617b1471067f9559242f672c0a55d3e002d8a1a1064e7fc8d915c08681ed2",
+  "content": "# OFFICE LEASE AGREEMENT\n## Biorce Therapeutics S.L. — Madrid HQ\n### Contract Reference: PROP-2022-MAD-007 | Date: 01 February 2022\n\n**PARTIES**\n\n**Lessor:** Inversiones Castellana 41, S.A.\nNIF B-78234561\n\n**Lessee:** Biorce Therapeutics S.L.\nNIF B-87654321, represented by Dr. Rafael Moreno, CEO\n\n---\n\n**1. PREMISES**\nOffice premises at Calle de Serrano 41, Floors 4 and 5, 28001 Madrid, Spain.\nTotal net usable area: **1,240 m²** (per Annexe A, floor plans).\n\n**2. TERM**\nInitial term: **5 years** commencing 01 March 2022, expiring 28 February 2027.\nOption to renew for additional 3 years on 6 months' written notice.\n\n**3. RENT**\nMonthly base rent: **€31,000**, payable on the 1st of each month.\nIBAN: ES76 0049 1805 9121 0012 3456 | BIC: BSCHESMM\nAnnual rent review: CPI-linked, capped at +3% per annum.\n\n**4. SECURITY DEPOSIT**\n€93,000 (3 months' rent) paid upon signing, held in escrow by\nNotaría Martínez & Asociados, Madrid.\n\n**5. PERMITTED USE**\nAdministrative and commercial offices only. Laboratory or pharmaceutical\nmanufacturing activities are expressly prohibited.\n\n**6. SERVICE CHARGES**\nMonthly service charges: €4,200 — covering building maintenance, security,\ncommon area cleaning, and car park access (8 spaces).\n\n**Signed in Madrid, 28 January 2022**\n\nLessor: _____________________  Lessee: _____________________\n"
+}

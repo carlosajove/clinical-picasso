@@ -1,0 +1,34 @@
+{
+  "classes": [
+    {
+      "class_name": "eTMF",
+      "reasoning": "Document is a Serious Adverse Event (SAE) Report with reference BIORCE-SAE-2023-008, including clinical narrative, causality assessment, and regulatory actions. This is a regulated Trial Master File document tracking a SUSAR (Suspected Unexpected Serious Adverse Reaction) in study BIORCE-ONC-2023-001.",
+      "confidence": 1.0
+    }
+  ],
+  "nct_id": null,
+  "eudract_id": null,
+  "eu_ct_id": null,
+  "isrctn_id": null,
+  "utn_id": null,
+  "ind_number": null,
+  "cta_number": null,
+  "sponsor_protocol_id": "BIORCE-ONC-2023-001",
+  "sponsor_name": "Biorce Therapeutics S.L.",
+  "trial_title": null,
+  "trial_acronym": null,
+  "intervention": "BRC-471",
+  "indication": "EGFR-mutant (exon 19 deletion) Stage IVA NSCLC",
+  "therapeutic_area": "Oncology",
+  "phase": null,
+  "summary": "This is a final (3rd) Serious Adverse Event report documenting a Grade 3 drug-induced pneumonitis (SUSAR) in a 71-year-old female patient enrolled in study BIORCE-ONC-2023-001 receiving BRC-471. The event occurred on Day 111, led to permanent discontinuation of study drug, required hospitalization and steroids, and resolved by 05 October 2023. Expedited regulatory submissions to EudraVigilance and national competent authorities were completed within required timelines.",
+  "references_to": [
+    "BIORCE-SAE-2023-008",
+    "BIORCE-ONC-2023-001",
+    "EudraVigilance: EV-2023-EU-047821",
+    "Patient Code BRC471-FR01-003"
+  ],
+  "filename": "File_034.html",
+  "raw_sha256": "2bbfd86894e963d60b4ad64a38715a45aa5a85a546f4559d343a2cbc69dd5845",
+  "content": "\n\n\n\n\n\n\n\n\n\n\n\nSERIOUS ADVERSE EVENT REPORT\n\n\nBiorce Therapeutics S.L. · Pharmacovigilance\n\n\n\n\nSAE Reference: \nBIORCE-SAE-2023-008\nStudy: BIORCE-ONC-2023-001\nReport Type: Final (3rd Report)\nEudraVigilance: EV-2023-EU-047821\n\n\n\n\n⚠ EXPEDITED REPORT — SUSAR — 7-DAY SUBMISSION ⚠\n\n\n\n\nPatient Code\nBRC471-FR01-003\n\n\nAge / Sex\n71 years / Female\n\n\nWeight\n58 kg\n\n\nStudy drug / Dose\nBRC-471 200 mg BID\n\n\nFirst dose date\n03 May 2023\n\n\nDays on treatment\n111 days\n\n\nSAE onset date\n22 August 2023\n\n\nInvestigator aware\n24 August 2023\n\n\nSponsor notified\n25 Aug 2023 ✓ (within 24h)\n\n\n\n\n1. Event\n\n\n\n\nField\nValue\n\n\nMedDRA PT\nPneumonitis\n\n\nMedDRA SOC\nRespiratory, Thoracic and Mediastinal Disorders\n\n\nMaximum CTCAE Grade\nGrade 3 — Severe (O₂ supplementation required)\n\n\nOutcome\n✅ Resolved — confirmed by CT scan 05 October 2023\n\n\n\n\n2. Clinical Narrative\n\n\n\nA 71-year-old female with EGFR-mutant (exon 19 deletion) Stage IVA NSCLC\nenrolled in BIORCE-ONC-2023-001 presented on 22 August 2023 (Day 111) with\n5-day history of progressive dyspnoea and dry cough. HRCT showed bilateral\nground-glass opacities, peripheral distribution, lower lobes bilaterally —\nconsistent with drug-induced pneumonitis. BAL negative for all pathogens.\nBRC-471 permanently discontinued 24 August. Prednisolone 1 mg/kg initiated\n25 August. Hospitalised 14 days (24 Aug–07 Sep). O₂ discontinued 01 Sep.\nFinal HRCT 05 October: near-complete resolution.\n\n\n\n3. Causality\n\n\nProbably related to BRC-471.\n Temporal relationship, characteristic bilateral GGO pattern, exclusion of infection, improvement on drug hold + steroids.\n\n\n4. Regulatory Actions\n\n\n\n\nAction\nDate\nStatus\n\n\nEudraVigilance SUSAR submission\n28 Aug 2023\n✅ 7-day report filed\n\n\nNational CA notifications (FR, ES, DE, IT)\n29–31 Aug 2023\n✅ Filed\n\n\nEthics Committee notification\n29 Aug 2023\n✅ Filed\n\n\n\n\n\n\nBIORCE-SAE-2023-008 · Final Report · BIORCE-ONC-2023-001\n\n\nCONFIDENTIAL © 2023 Biorce Therapeutics S.L.\n\n\n\n\n\n"
+}

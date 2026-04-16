@@ -1,0 +1,35 @@
+{
+  "classes": [
+    {
+      "class_name": "SmPC / DSUR / DSMB Charter",
+      "reasoning": "The document is explicitly titled 'DATA SAFETY MONITORING BOARD — Meeting Minutes (Third Scheduled Review)' and contains detailed DSMB deliberations, safety data review, and formal recommendations for study BIORCE-ONC-2023-001. It is marked 'CONFIDENTIAL — UNBLINDED — Restricted Distribution' with DSMB member signatures and approval.",
+      "confidence": 1.0
+    }
+  ],
+  "nct_id": null,
+  "eudract_id": null,
+  "eu_ct_id": null,
+  "isrctn_id": null,
+  "utn_id": null,
+  "ind_number": null,
+  "cta_number": null,
+  "sponsor_protocol_id": "BIORCE-ONC-2023-001",
+  "sponsor_name": null,
+  "trial_title": null,
+  "trial_acronym": null,
+  "intervention": null,
+  "indication": null,
+  "therapeutic_area": "Oncology",
+  "phase": null,
+  "summary": "This is the final approved minutes (version 1.1) of the third scheduled Data Safety Monitoring Board (DSMB) review meeting held on 18 October 2023 for study BIORCE-ONC-2023-001. The DSMB reviewed unblinded safety and efficacy data for 67 treated patients, identified a higher-than-expected ILD/pneumonitis incidence (6%), and recommended urgent protocol amendments including enhanced HRCT monitoring and prophylactic antiemetics while allowing the study to continue enrollment.",
+  "references_to": [
+    "Phase I",
+    "IB Edition 1",
+    "Protocol Amendment 2 (approved 09 November 2023)",
+    "Minutes Version 1.0 (25 Oct 2023)",
+    "Minutes Version 1.1 (02 Nov 2023)"
+  ],
+  "filename": "File_058.md",
+  "raw_sha256": "b3508dae89a6cf7572f8f4628c295c1f6627dcd83205437c572d11f1fd906d7e",
+  "content": "# DATA SAFETY MONITORING BOARD — Meeting Minutes (Third Scheduled Review)\n## Study: BIORCE-ONC-2023-001\n## Meeting Date: 18 October 2023 | Format: Videoconference\n## Minutes Version: 1.1 (Final) | Approved: 02 November 2023\n## CONFIDENTIAL — UNBLINDED — Restricted Distribution\n\n---\n\n## 1. Attendees\n\n| Name | Role | Affiliation |\n|---|---|---|\n| Prof. Astrid Lindqvist (Chair) | Medical Oncologist | Karolinska Institutet |\n| Dr. Marcus Webb | Biostatistician | University of Cambridge |\n| Dr. Yoko Taniguchi | Pulmonologist / ILD Specialist | NCC Tokyo |\n| Dr. Arnaud Lefebvre | Independent Statistician (unblinded) | STAT-CONSULT SA |\n\nSponsor (Pharmacovigilance Medical Monitor only): Dr. Camille Dupont — present\nfor open session only; withdrew before deliberations.\n\n---\n\n## 2. Safety Data Presented\n\n| Parameter | n=67 treated | Notes |\n|---|---|---|\n| Any Grade >=3 TEAE | 38% (25/67) | Consistent with Phase I |\n| ILD/pneumonitis (all grades) | 6.0% (4/67) | See detailed review below |\n| Grade 3 nausea | 4.5% (3/67) | All Cycle 1 |\n| Grade 3 diarrhoea | 9.0% (6/67) | Manageable |\n| SAEs | 15.0% (10/67) | |\n| Deaths (all cause) | 3.0% (2/67) | Both disease progression |\n| Discontinuations due to AE | 9.0% (6/67) | |\n\n**ILD/Pneumonitis Cases (n=4):**\n\n| Case | Grade | Onset (day) | Management | Outcome |\n|---|---|---|---|---|\n| FR01-003 | 3 | Day 111 | Drug DC + pred 1mg/kg | Resolved |\n| ES01-007 | 2 | Day 45 | Drug hold + pred | Resolved; restarted |\n| DE01-004 | 3 | Day 88 | Drug DC + pred 1mg/kg | Ongoing at data cut |\n| ES02-006 | 2 | Day 62 | Drug hold + steroids | Resolved; restarted |\n\nOverall ILD incidence 6.0% exceeds pre-specified stopping rule threshold\nfor Grade 4 (not triggered). Grade 3 incidence (3.0%) warrants enhanced monitoring.\n\n---\n\n## 3. DSMB Deliberations (Sponsor not present)\n\nThe DSMB deliberated independently for approximately 40 minutes.\n\n**ILD/Pneumonitis:** Prof. Lindqvist noted the 6% incidence is higher than\nosimertinib (~2%) and the ~3% in IB Edition 1. Dr. Taniguchi reviewed imaging\ndescriptions: all 4 consistent with drug-induced pneumonitis (bilateral peripheral\nGGO). All responded appropriately to drug hold and corticosteroids. Class-effect\nmechanism, manageable. Stopping rule not triggered.\n\n**Nausea:** Dr. Webb noted nausea concentrated in Cycle 1. Prophylactic\nantiemetics (ondansetron) recommended for Days 1-7 of each cycle.\n\n**Overall Benefit-Risk:** Unblinded efficacy data reviewed (ORR 29%, median PFS\n5.4 months). DSMB unanimously agreed benefit-risk remains favourable. Study\nshould continue.\n\n---\n\n## 4. DSMB Recommendations\n\n**RECOMMENDATION 1 — STUDY CONTINUATION**\nStudy may continue enrolment without modification to stopping rules.\n\n**RECOMMENDATION 2 — PROTOCOL AMENDMENT (URGENT, within 30 days)**\n- Mandatory baseline HRCT for all newly enrolled patients\n- Enhanced on-treatment HRCT monitoring\n- Prophylactic ondansetron 8mg PO Days 1-7 of each new cycle\n- Exclude patients with prior radiation to >20% of lung volume\n\n**RECOMMENDATION 3 — IB UPDATE**\nIB must be updated to reflect higher-than-anticipated ILD incidence.\n\n**RECOMMENDATION 4 — NEXT REVIEW**\nNext DSMB review triggered at patient #90 (not #100) given ILD signal.\n\n---\n\n## 5. Communication\n\nDSMB Chair communicated recommendations to Dr. Vázquez (Sponsor) by telephone\n18 October 2023 at 17:30 CET. Written recommendations transmitted 20 October.\nSponsor implemented Protocol Amendment 2 (approved 09 November 2023).\n\n## 6. Document Control\n\n| Version | Date | Author | Change |\n|---|---|---|---|\n| 1.0 | 25 Oct 2023 | Dr. Lefebvre | Draft |\n| 1.1 | 02 Nov 2023 | Prof. Lindqvist | Final — approved |\n\nDistribution: DSMB members, independent statistician, Sponsor Medical Monitor only.\n\n*CONFIDENTIAL — UNBLINDED — © 2023 DSMB for Study BIORCE-ONC-2023-001*\n"
+}

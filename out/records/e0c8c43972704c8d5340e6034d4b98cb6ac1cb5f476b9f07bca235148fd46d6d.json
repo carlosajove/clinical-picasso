@@ -1,0 +1,32 @@
+{
+  "classes": [
+    {
+      "class_name": "CRF",
+      "reasoning": "The document is explicitly titled 'eCRF MODULE: SCREENING VISIT' with study ID, form version, site/patient identifiers, and structured data entry tables for demographics, cancer history, eligibility, and laboratory results—all hallmarks of a case report form.",
+      "confidence": 1.0
+    }
+  ],
+  "nct_id": null,
+  "eudract_id": null,
+  "eu_ct_id": null,
+  "isrctn_id": null,
+  "utn_id": null,
+  "ind_number": null,
+  "cta_number": null,
+  "sponsor_protocol_id": "BIORCE-ONC-2023-001",
+  "sponsor_name": null,
+  "trial_title": null,
+  "trial_acronym": null,
+  "intervention": "EGFR/HER2 dual inhibitor",
+  "indication": "Advanced non-small cell lung cancer (NSCLC) with EGFR mutation, post-progression on osimertinib",
+  "therapeutic_area": "Oncology",
+  "phase": "N/A",
+  "summary": "This is an electronic Case Report Form (eCRF) module for the screening visit in study BIORCE-ONC-2023-001, version 2.1. It captures patient demographics, NSCLC cancer history (including EGFR/HER2 status), prior osimertinib treatment, eligibility criteria (inclusion/exclusion), and baseline laboratory/ECG results to determine patient eligibility for trial enrollment.",
+  "references_to": [
+    "RECIST v1.1",
+    "Osimertinib 80mg QD"
+  ],
+  "filename": "File_019.md",
+  "raw_sha256": "e0c8c43972704c8d5340e6034d4b98cb6ac1cb5f476b9f07bca235148fd46d6d",
+  "content": "# eCRF MODULE: SCREENING VISIT\n## Study: BIORCE-ONC-2023-001 | Form Version: 2.1\n## Site ID: ______ | Patient Code: BRC471-___-____\n## Entered by: ______________ | Date: __ / __ / ______\n## Verified by: ______________ | Date: __ / __ / ______\n\n## SECTION 1 — DEMOGRAPHICS\n\n| Field | Value |\n|---|---|\n| Date of Birth | |\n| Sex at Birth | [ ] Male  [ ] Female  [ ] Other |\n| Height (cm) | |\n| Weight (kg) | |\n| BMI (auto-calculated) | |\n\n## SECTION 2 — CANCER HISTORY\n\n| Field | Value |\n|---|---|\n| Date of NSCLC diagnosis | |\n| Histology | [ ] Adenocarcinoma  [ ] Squamous  [ ] Other |\n| Stage at study entry | [ ] IIIB  [ ] IVA  [ ] IVB |\n| EGFR mutation type | [ ] Exon 19 deletion  [ ] L858R  [ ] Other |\n| EGFR test method | [ ] Tissue NGS  [ ] ctDNA  [ ] Other |\n| HER2 amplification status | [ ] Positive  [ ] Negative  [ ] Unknown |\n| CNS metastases | [ ] Yes — stable  [ ] No |\n\n## SECTION 3 — PRIOR TREATMENTS\n\n| Line | Regimen | Start Date | End Date | Reason for Stop | Best Response |\n|---|---|---|---|---|---|\n| 1st | Osimertinib 80mg QD | | | [ ] PD [ ] Toxicity [ ] Other | [ ] CR [ ] PR [ ] SD [ ] PD |\n\n## SECTION 4 — ELIGIBILITY CHECKLIST\n\n**Inclusion Criteria — All must be YES:**\n\n| # | Criterion | Met? |\n|---|---|---|\n| I1 | Age >=18 years | [ ] Yes  [ ] No |\n| I2 | Confirmed advanced NSCLC (Stage IIIB/IV) | [ ] Yes  [ ] No |\n| I3 | Documented activating EGFR mutation | [ ] Yes  [ ] No |\n| I4 | Progression on/after first-line osimertinib | [ ] Yes  [ ] No |\n| I5 | >=1 measurable lesion per RECIST v1.1 | [ ] Yes  [ ] No |\n| I6 | ECOG PS 0-2 | [ ] Yes  [ ] No |\n| I7 | Adequate organ function | [ ] Yes  [ ] No |\n| I8 | Willing to provide tumour biopsy | [ ] Yes  [ ] No |\n| I9 | Signed informed consent | [ ] Yes  [ ] No |\n\n**Exclusion Criteria — All must be NO:**\n\n| # | Criterion | Present? |\n|---|---|---|\n| E1 | Prior EGFR/HER2 dual inhibitor | [ ] Yes  [ ] No |\n| E2 | Active CNS metastases requiring steroids | [ ] Yes  [ ] No |\n| E3 | History of ILD or drug-induced pneumonitis | [ ] Yes  [ ] No |\n| E4 | QTcF >480 ms | [ ] Yes  [ ] No |\n| E5 | Uncontrolled hypertension | [ ] Yes  [ ] No |\n| E6 | Pregnancy or breastfeeding | [ ] Yes  [ ] No |\n| E7 | Concurrent interventional trial | [ ] Yes  [ ] No |\n\n**ELIGIBILITY CONCLUSION:**\n[ ] ELIGIBLE — proceed to enrolment\n[ ] INELIGIBLE — reason: ___________________________________\n[ ] SCREEN FAILURE\n\n## SECTION 5 — SCREENING LABORATORY RESULTS\n\n| Test | Result | Unit | Flag |\n|---|---|---|---|\n| Haemoglobin | | g/dL | [ ] Normal [ ] Abnormal |\n| ANC | | ×10⁹/L | [ ] Normal [ ] Abnormal |\n| Platelets | | ×10⁹/L | [ ] Normal [ ] Abnormal |\n| Creatinine | | µmol/L | [ ] Normal [ ] Abnormal |\n| CrCl (Cockcroft-Gault) | | mL/min | [ ] Normal [ ] Abnormal |\n| ALT | | U/L | [ ] Normal [ ] Abnormal |\n| AST | | U/L | [ ] Normal [ ] Abnormal |\n| QTcF (ECG) | | ms | [ ] Normal [ ] Abnormal |\n| Pregnancy test (if applicable) | | | [ ] Negative [ ] Positive [ ] N/A |\n"
+}

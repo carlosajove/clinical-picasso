@@ -1,0 +1,36 @@
+{
+  "classes": [
+    {
+      "class_name": "Synopsis",
+      "reasoning": "The document explicitly labels section 1 as 'SYNOPSIS' and provides a high-level summary of a clinical protocol including primary endpoint, key secondary endpoints, treatment duration, and countries. It is a condensed overview rather than the full protocol document, despite the header stating 'CLINICAL STUDY PROTOCOL'.",
+      "confidence": 0.85
+    },
+    {
+      "class_name": "CSP",
+      "reasoning": "The document header explicitly states 'CLINICAL STUDY PROTOCOL' and contains protocol elements including inclusion criteria, schedule of assessments, and statistical analysis. However, the brevity and 'synopsis' labeling of section 1 suggest this may be a synopsis rather than the full protocol.",
+      "confidence": 0.15
+    }
+  ],
+  "nct_id": null,
+  "eudract_id": "2022-003891-28",
+  "eu_ct_id": null,
+  "isrctn_id": null,
+  "utn_id": null,
+  "ind_number": null,
+  "cta_number": null,
+  "sponsor_protocol_id": "BIORCE-NEU-2022-004",
+  "sponsor_name": "Biorce Therapeutics S.L., Madrid",
+  "trial_title": "A Phase III, Randomized, Double-Blind, Placebo-Controlled, Multicenter Study to Evaluate the Efficacy and Safety of BRC-209 (Velagostat) in Early Alzheimer's Disease",
+  "trial_acronym": null,
+  "intervention": "BRC-209 (Velagostat) 400 mg QD",
+  "indication": "Early Alzheimer's Disease",
+  "therapeutic_area": "Neurology",
+  "phase": "3",
+  "summary": "This is a synopsis document for a Phase III, randomized, double-blind, placebo-controlled, multicenter trial evaluating BRC-209 (Velagostat) 400 mg daily in early Alzheimer's disease patients. The document provides a high-level overview including the primary endpoint (CDR-SB change at Week 78), key inclusion criteria, schedule of assessments, and statistical analysis plan for 480 patients randomized 2:1 across Spain, UK, Sweden, Netherlands, and Canada.",
+  "references_to": [
+    "NIA-AA 2018"
+  ],
+  "filename": "File_024.html",
+  "raw_sha256": "31ac4fb1939abfd1173a604c306182b77bc0199e86730a3fc74e308abc0db918",
+  "content": "\n\n\n\n\n\n\n\n\n\nCONFIDENTIAL — FOR AUTHORISED PERSONNEL ONLY\n\n\n\n\nBIORCE \nTHERAPEUTICS\n\n\nCLINICAL STUDY PROTOCOL\n\n\nA Phase III, Randomized, Double-Blind, Placebo-Controlled, Multicenter Study\nto Evaluate the Efficacy and Safety of BRC-209 (Velagostat) in Early Alzheimer's Disease\n\n\n\n\nProtocol Number\nBIORCE-NEU-2022-004\n\n\nVersion / Date\n1.0 — 03 June 2022\n\n\nInvestigational Product\nBRC-209 (Velagostat) 400 mg QD\n\n\nIndication\nEarly Alzheimer's Disease\n\n\nSponsor\nBiorce Therapeutics S.L., Madrid\n\n\nEudraCT\n2022-003891-28\n\n\nPhase\nPhase III\n\n\nTarget Enrollment\n480 patients (2:1)\n\n\n\n\n\n\n1. SYNOPSIS\n\n\n\n\nParameter\nDetails\n\n\nPrimary Endpoint\nChange from baseline in CDR-SB at Week 78\n\n\nKey Secondary Endpoints\nADAS-Cog13, ADCS-ADL-MCI, MMSE, amyloid PET, tau PET, safety\n\n\nTreatment Duration\n96 weeks + 24-week follow-up\n\n\nCountries\nSpain, UK, Sweden, Netherlands, Canada\n\n\n\n\n2. INCLUSION CRITERIA\n\n\n\n\nAge 50–80 years\n\n\nMCI due to AD or mild AD dementia (NIA-AA 2018)\n\n\nPositive amyloid PET (Centiloid ≥25) or CSF Aβ42/40 <0.10\n\n\nCDR Global Score 0.5 or 1.0\n\n\nMMSE score 20–30\n\n\nStable AD medications ≥3 months\n\n\nReliable study partner ≥10h/week\n\n\nBrain MRI within 6 months — no significant abnormality\n\n\n\n\n3. SCHEDULE OF ASSESSMENTS (abbreviated)\n\n\n\n\nAssessment\nWk0\nWk13\nWk26\nWk52\nWk78\nEOT\n\n\nCDR-SB\n✓\n✓\n✓\n✓\n✓\n✓\n\n\nADAS-Cog13\n✓\n✓\n✓\n✓\n✓\n✓\n\n\nAmyloid PET\n✓\n✓\n\n\nTau PET\n✓\n✓\n\n\nBlood (haem/chem)\n✓\n✓\n✓\n✓\n✓\n✓\n\n\nStudy Drug\n✓\n✓\n✓\n✓\n✓\n\n\n\n\n4. STATISTICAL ANALYSIS\n\n\n480 patients (2:1) provide 90% power to detect 0.7-point CDR-SB difference at Week 78\n(SD 2.5, two-sided α=0.05, 15% dropout). Primary analysis: MMRM with CDR-SB as\ndependent variable, treatment, visit, treatment-by-visit, baseline CDR-SB, APOE ε4 status.\n\n\n\n\nBIORCE-NEU-2022-004 | Protocol v1.0 | 03 June 2022\n\n\nCONFIDENTIAL © 2022 Biorce Therapeutics S.L.\n\n\n\n\n\n"
+}

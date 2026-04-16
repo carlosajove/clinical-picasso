@@ -1,0 +1,34 @@
+{
+  "classes": [
+    {
+      "class_name": "CRF",
+      "reasoning": "The document is titled 'eCRF — COGNITIVE ASSESSMENT MODULE' at the top and explicitly labeled 'Form NEU-CRF-004 v1.1'. It contains structured data-capture fields for patient assessments including Clinical Dementia Rating (CDR), Mini-Mental State Examination (MMSE), and falls assessment, with checkboxes, scoring tables, and signature blocks typical of case report forms.",
+      "confidence": 1.0
+    }
+  ],
+  "nct_id": null,
+  "eudract_id": null,
+  "eu_ct_id": null,
+  "isrctn_id": null,
+  "utn_id": null,
+  "ind_number": null,
+  "cta_number": null,
+  "sponsor_protocol_id": "BIORCE-NEU-2022-004",
+  "sponsor_name": null,
+  "trial_title": null,
+  "trial_acronym": null,
+  "intervention": null,
+  "indication": null,
+  "therapeutic_area": "Neurology",
+  "phase": null,
+  "summary": "This is an electronic Case Report Form (eCRF) designed to capture cognitive assessment data for individual patients at multiple scheduled visits (Baseline through Week 78 and End of Treatment). It includes standardized neurological instruments: the Clinical Dementia Rating (CDR), Mini-Mental State Examination (MMSE), and a falls assessment with Morse Fall Scale scoring, all to be completed by a trained assessor before study drug dispensing.",
+  "references_to": [
+    "Study BIORCE-NEU-2022-004",
+    "Form NEU-CRF-004 v1.1",
+    "Module v1.1",
+    "Medidata Rave"
+  ],
+  "filename": "File_039.html",
+  "raw_sha256": "54ef90810bb9390e71919c0d17cd87dab6500057c6612e264bcfd9e998e547b5",
+  "content": "\n\n\n\n\n\n\n\n\n\n\n\neCRF — COGNITIVE ASSESSMENT MODULE\n\n\nStudy BIORCE-NEU-2022-004 | Form NEU-CRF-004 v1.1\n\n\n\n\nModule v1.1 | Medidata Rave\n\n\n\n\n\n\nPatient Code\nVEL209-___-____\n\n\nSite ID\n______\n\n\nVisit\n\n\n\n\n-- Select --\n\n\nBaseline (Week 0)\n\n\nWeek 13\nWeek 26\n\n\nWeek 52\nWeek 78\nEOT\n\n\n\n\n\n\nDate\n__ / __ / ______\n\n\n\n\n⚠ Complete all assessments BEFORE study drug dispensing. Quiet, private room. Study partner waits outside.\n\n\nA. CDR — CLINICAL DEMENTIA RATING\n\n\n\n\nDomain\n0 — Normal\n0.5 — Questionable\n1 — Mild\n2 — Moderate\n3 — Severe\n\n\nMemory\n\n\nOrientation\n\n\nJudgement & Problem Solving\n\n\nCommunity Affairs\n\n\nHome & Hobbies\n\n\nPersonal Care\n\n\nCDR-SB (sum all 6 domains, 0–18)\n\n\n\n\nB. MMSE\n\n\n\n\nDomain\nMax\nScore\n\n\nOrientation to time\n5\n\n\nOrientation to place\n5\n\n\nRegistration (3 words)\n3\n\n\nAttention & Calculation\n5\n\n\nRecall (3 words)\n3\n\n\nLanguage (naming, repeat, command, read, write)\n8\n\n\nVisuospatial (copy pentagons)\n1\n\n\nMMSE TOTAL\n30\n\n\n\n\nC. FALLS ASSESSMENT\n\n\nFalls since last visit: [ ] None   [ ] 1   [ ] 2   [ ] 3+\n\nAny fall with injury? [ ] Yes — document as AE   [ ] No\n\nMorse Fall Scale Total: _______   Risk: [ ] Low (0-24)   [ ] Medium (25-44)   [ ] High (>=45)\n\n\n\n\nAssessor Name (PRINT)\n\n\nAssessor Signature\n\n\nDate (DD/MM/YYYY)\n\n\n\n\n\n"
+}

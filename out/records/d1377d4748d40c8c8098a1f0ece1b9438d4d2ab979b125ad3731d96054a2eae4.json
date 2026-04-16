@@ -1,0 +1,33 @@
+{
+  "classes": [
+    {
+      "class_name": "CRF",
+      "reasoning": "Document is explicitly labeled 'eCRF -- CYCLE 2 DAY 1 VISIT' at the top and contains structured per-patient, per-visit data capture fields including vital signs, study drug dispensing, cognitive assessments, falls assessment, and adverse events with investigator signature.",
+      "confidence": 1.0
+    }
+  ],
+  "nct_id": null,
+  "eudract_id": null,
+  "eu_ct_id": null,
+  "isrctn_id": null,
+  "utn_id": null,
+  "ind_number": null,
+  "cta_number": null,
+  "sponsor_protocol_id": "BIORCE-NEU-2022-004",
+  "sponsor_name": null,
+  "trial_title": null,
+  "trial_acronym": null,
+  "intervention": "VEL209 400mg QD tablets",
+  "indication": "Cognitive impairment or dementia",
+  "therapeutic_area": "Neurology",
+  "phase": null,
+  "summary": "This is an electronic Case Report Form (eCRF) documenting the Cycle 2 Day 1 visit for patient VEL209-ES02-004 at site ES-02 in study BIORCE-NEU-2022-004. The form captures vital signs, study drug dispensing and compliance, cognitive assessments (MMSE), falls assessment, adverse events, and study partner observations collected on 28 October 2022.",
+  "references_to": [
+    "Form v1.1",
+    "Week 13 visit",
+    "Week 26"
+  ],
+  "filename": "File_063.txt",
+  "raw_sha256": "d1377d4748d40c8c8098a1f0ece1b9438d4d2ab979b125ad3731d96054a2eae4",
+  "content": "eCRF -- CYCLE 2 DAY 1 VISIT\nStudy: BIORCE-NEU-2022-004 | Form v1.1 | Site: ES-02 | Patient: VEL209-ES02-004\nVisit date: 28 October 2022 | Entered: R.Dominguez | Verified: Dr. I. Fernandez\n\nVITAL SIGNS\n  BP: 138/86 mmHg [slightly elevated -- noted, no action]\n  HR: 78 bpm | Temp: 36.4 degrees C | Weight: 71.2 kg\n\nSTUDY DRUG DISPENSING\n  Kit: VEL-ES02-008 | Tablets dispensed: 30 (400mg QD)\n  Dose: [X] 400mg QD\n  Compliance check (returned C1 tablets): 2 returned\n    Expected: 30 | Returned: 2 | Taken: 28 = 93.3%\n    [Note: patient reports missing 2 morning doses -- documented]\n\nCOGNITIVE ASSESSMENTS (brief -- full assessment at Week 13 visit)\n  MMSE: 24 (baseline: 25 -- change -1, within expected variability)\n  [Full CDR-SB, ADAS-Cog, ADCS-ADL at Week 13 only]\n\nFALLS ASSESSMENT\n  Falls since baseline: 1 (tripped on stairs, no injury)\n  Morse Fall Scale: 35 -- MEDIUM risk\n  Action: Physiotherapy referral discussed with patient and family.\n\nADVERSE EVENTS\n  AE#1: Headache, Grade 1 -- onset Week 2 -- RESOLVED Week 4\n    Relationship: Possibly related | SAE: No | Action: Paracetamol PRN\n  AE#2: Dizziness, Grade 1 -- onset Week 3 -- ongoing\n    Relationship: Possibly related | Action: Advised slow positional changes\n\n  No ARIA symptoms. MRI not due until Week 26.\n\nSTUDY PARTNER PRESENT: [X] Yes -- spouse\nPARTNER OBSERVATIONS: \"Some improvement in finding words, but still\n  forgetting appointments. Overall feels more like himself.\"\n  [Documented verbatim per SOP]\n\nInvestigator: Dr. I. Fernandez   Sig: [SIGNED]   Date: 28/10/2022\n"
+}

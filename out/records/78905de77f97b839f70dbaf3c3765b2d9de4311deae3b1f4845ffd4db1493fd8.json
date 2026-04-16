@@ -1,0 +1,31 @@
+{
+  "classes": [
+    {
+      "class_name": "NOISE",
+      "reasoning": "This document is an IT helpdesk ticket log for Biorce Therapeutics covering July-September 2023. It tracks routine IT issues (hardware, software, access problems) and is not a clinical trial document or regulatory artifact belonging in an eTMF.",
+      "confidence": 1.0
+    }
+  ],
+  "nct_id": null,
+  "eudract_id": null,
+  "eu_ct_id": null,
+  "isrctn_id": null,
+  "utn_id": null,
+  "ind_number": null,
+  "cta_number": null,
+  "sponsor_protocol_id": null,
+  "sponsor_name": null,
+  "trial_title": null,
+  "trial_acronym": null,
+  "intervention": null,
+  "indication": null,
+  "therapeutic_area": null,
+  "phase": null,
+  "summary": "This is an IT helpdesk ticket log from Biorce Therapeutics covering Q3 2023 (July-September). It documents routine IT support issues such as hardware failures, software bugs, access problems, and security incidents, and is not a clinical trial-related document.",
+  "references_to": [
+    "TMF folder"
+  ],
+  "filename": "File_003.md",
+  "raw_sha256": "78905de77f97b839f70dbaf3c3765b2d9de4311deae3b1f4845ffd4db1493fd8",
+  "content": "# IT HELPDESK TICKET LOG — Q3 2023 (July-September)\n## Biorce Therapeutics — IT Department\n### Exported: 02 October 2023\n\n| Ticket # | Date | Submitted By | Category | Priority | Description | Assigned | Status | Resolution |\n|---|---|---|---|---|---|---|---|---|\n| IT-2023-0701 | 03 Jul | C. López | Hardware | Medium | Laptop screen flickering Dell XPS 13 | J. Pérez | Closed | Cable reseated |\n| IT-2023-0702 | 05 Jul | M. Iglesias | Access | High | VPN not connecting Cisco AnyConnect | J. Pérez | Closed | Client reinstalled |\n| IT-2023-0703 | 10 Jul | L. Fischer | Software | Low | Excel crashing pivot tables >500k rows | A. García | Closed | Office 365 patched |\n| IT-2023-0704 | 17 Jul | E. Vázquez | Security | Critical | Suspected phishing email link clicked | A. García | Closed | No compromise; user trained |\n| IT-2023-0705 | 24 Jul | P. Ruiz | Access | Medium | Medidata Rave login locked 3 attempts | J. Pérez | Closed | Password reset |\n| IT-2023-0706 | 01 Aug | R. Moreno | Hardware | High | CEO laptop battery not charging | J. Pérez | Closed | Battery replaced |\n| IT-2023-0707 | 08 Aug | M. Weber | Software | Medium | Veeva Vault unable to upload PDF >50MB | A. García | Closed | Compression guide sent |\n| IT-2023-0708 | 15 Aug | L. Mendoza | Access | Low | New joiner accounts — 3 contractors | A. García | Closed | Accounts created |\n| IT-2023-0709 | 29 Aug | C. López | Access | Medium | Shared drive permissions error TMF folder | A. García | Closed | Permissions corrected |\n| IT-2023-0710 | 12 Sep | F. Marchetti | Hardware | Low | USB-C hub not recognised MacBook Pro | J. Pérez | Closed | Hub replaced under warranty |\n\n**Q3 2023 Summary:** 10 tickets | 10 closed | 0 open | Mean resolution: 1.8 days\n"
+}

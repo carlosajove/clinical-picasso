@@ -1,0 +1,31 @@
+{
+  "classes": [
+    {
+      "class_name": "CRF",
+      "reasoning": "The document is explicitly labeled 'eCRF MODULE: END OF TREATMENT (EOT)' with structured fields for data capture including patient code, visit dates, treatment duration, response assessments, and investigator signature block—characteristic features of a Case Report Form.",
+      "confidence": 1.0
+    }
+  ],
+  "nct_id": "",
+  "eudract_id": "",
+  "eu_ct_id": "",
+  "isrctn_id": "",
+  "utn_id": "",
+  "ind_number": "",
+  "cta_number": "",
+  "sponsor_protocol_id": "BIORCE-ONC-2023-001",
+  "sponsor_name": "",
+  "trial_title": "",
+  "trial_acronym": "",
+  "intervention": "",
+  "indication": "",
+  "therapeutic_area": "Oncology",
+  "phase": "",
+  "summary": "This is an electronic Case Report Form (eCRF) module for capturing End of Treatment (EOT) visit data in study BIORCE-ONC-2023-001. It records the primary reason for discontinuation, total treatment duration and dosing details, best overall response per RECIST v1.1, completion of EOT assessments, and post-study treatment planning.",
+  "references_to": [
+    "RECIST v1.1"
+  ],
+  "filename": "File_015.md",
+  "raw_sha256": "e3258265145ce1a6d04e6ee12026f5d10c6468e64b135f8f4589971733bb68c3",
+  "content": "# eCRF MODULE: END OF TREATMENT (EOT)\n## Study: BIORCE-ONC-2023-001 | Form Version: 2.1\n## Site ID: ______ | Patient Code: BRC471-___-____\n## EOT Date: __ / __ / ______ | Last dose date: __ / __ / ______\n\n## PRIMARY REASON FOR DISCONTINUATION\n\n[ ] Radiographic disease progression (RECIST v1.1) — Date confirmed: __ / __ / ______\n[ ] Clinical disease progression (no radiographic confirmation)\n[ ] Unacceptable toxicity — Primary AE: ___________________________\n[ ] Patient withdrawal of consent\n[ ] Patient decision (non-safety)\n[ ] Investigator decision\n[ ] Death — Cause: ___________________________ Date: __ / __ / ______\n[ ] Protocol deviation requiring discontinuation\n[ ] Other: _____________________________________________________\n\n## TOTAL TREATMENT DURATION\n\n| Field | Value |\n|---|---|\n| Date of first dose | __ / __ / ______ |\n| Date of last dose | __ / __ / ______ |\n| Total cycles completed | |\n| Total cumulative dose received (mg) | |\n| Total planned dose (mg) | |\n| Relative Dose Intensity (%) | *(auto-calculated: actual/planned × 100)* |\n| Number of dose reductions | [ ] 0  [ ] 1  [ ] 2 |\n| Number of dose interruptions | |\n| Total days of interruption | |\n\n## BEST OVERALL RESPONSE (per RECIST v1.1, BICR)\n\n[ ] Complete Response (CR) — Date confirmed: __ / __ / ______\n[ ] Partial Response (PR) — Date first response: __ / __ / ______\n[ ] Stable Disease (SD)\n[ ] Progressive Disease (PD)\n[ ] Non-evaluable (NE) — Reason: _________________________\n\n**Duration of Response (if CR or PR):**\nDate of first response: __ / __ / ______\nDate of progression/last assessment: __ / __ / ______\n\n## EOT ASSESSMENTS COMPLETED\n\n| Assessment | Completed | Notes |\n|---|---|---|\n| Physical exam | [ ] Yes [ ] No | |\n| Vital signs | [ ] Yes [ ] No | |\n| Blood tests (haematology + chemistry) | [ ] Yes [ ] No | |\n| CT scan (tumour assessment) | [ ] Yes [ ] No | |\n| ECG | [ ] Yes [ ] No | |\n| ctDNA sample | [ ] Yes [ ] No | |\n| PRO questionnaires | [ ] Yes [ ] No | |\n\n## POST-STUDY TREATMENT PLAN\n\n**Patient to enter follow-up phase?** [ ] Yes  [ ] No — Reason: _____________\n\n**Next anti-cancer therapy planned?**\n[ ] Yes (specify: _________________________)  [ ] No  [ ] Unknown\n\n*Investigator Signature: ___________________________ Date: __ / __ / ______*\n"
+}

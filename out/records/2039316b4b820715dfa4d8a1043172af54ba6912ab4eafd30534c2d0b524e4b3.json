@@ -1,0 +1,35 @@
+{
+  "classes": [
+    {
+      "class_name": "CSP",
+      "reasoning": "The document is explicitly titled 'Clinical Study Protocol — AMENDMENT 1' and contains protocol-specific structural elements (version control, sponsor information, changes to exclusion criteria, Schedule of Activities, and safety guidance sections). It supersedes the original protocol version 1.0 dated 03 June 2022.",
+      "confidence": 0.98
+    }
+  ],
+  "nct_id": null,
+  "eudract_id": null,
+  "eu_ct_id": null,
+  "isrctn_id": null,
+  "utn_id": null,
+  "ind_number": null,
+  "cta_number": null,
+  "sponsor_protocol_id": "BIORCE-NEU-2022-004",
+  "sponsor_name": "Biorce Therapeutics S.L.",
+  "trial_title": null,
+  "trial_acronym": null,
+  "intervention": "BRC-209 (Velagostat) 400 mg QD oral",
+  "indication": "Early Alzheimer's Disease",
+  "therapeutic_area": "Neurology",
+  "phase": "N/A",
+  "summary": "This is Amendment 1 (Version 1.1) to the clinical study protocol BIORCE-NEU-2022-004, issued on 15 February 2023. The amendment implements safety-driven updates following two cases of asymptomatic ARIA-E (Amyloid-Related Imaging Abnormalities — Edema), including a new exclusion criterion, increased MRI frequency for the first 80 patients, and revised safety guidance for managing ARIA-E events.",
+  "references_to": [
+    "SUPERSEDES VERSION 1.0 (03 June 2022)",
+    "Section 5.2",
+    "Section 6 (SoA)",
+    "Section 8",
+    "ARIA guidelines"
+  ],
+  "filename": "File_017.md",
+  "raw_sha256": "2039316b4b820715dfa4d8a1043172af54ba6912ab4eafd30534c2d0b524e4b3",
+  "content": "# Clinical Study Protocol — AMENDMENT 1\n## BIORCE-NEU-2022-004\n### Version 1.1 | Date: 15 February 2023 | CONFIDENTIAL\n### SUPERSEDES VERSION 1.0 (03 June 2022)\n\n**Sponsor:** Biorce Therapeutics S.L., Madrid, Spain\n**Investigational Product:** BRC-209 (Velagostat) 400 mg QD oral\n**Indication:** Early Alzheimer's Disease\n\n## AMENDMENT REASON\n\nSafety-driven update following two cases of asymptomatic ARIA-E\n(Amyloid-Related Imaging Abnormalities — Edema) detected on routine MRI,\nand investigator request to clarify rescue medication rules.\n\n## CHANGES IMPLEMENTED\n\n### 1. Section 5.2 — New Exclusion Criterion Added\n\n> Patients with any history of ARIA-E or ARIA-H on prior anti-amyloid\n> therapy are excluded.\n\n### 2. Section 6 (SoA) — MRI Frequency Increased\n\nAdditional MRI scans added at Week 8 and Week 18 for the first 80 patients\nenrolled (safety run-in cohort), reviewed by central neuroradiology reader.\n\nIf ARIA incidence in run-in cohort is <5%, standard MRI schedule resumes.\n\n### 3. Section 8 — New Safety Guidance\n\nIn the event of asymptomatic ARIA-E (Grade 1-2 per ARIA guidelines):\n- Study drug must be held\n- MRI repeated in 4 weeks\n- Resumption requires Sponsor Medical Monitor approval\n\n## DOCUMENT HISTORY\n\n| Version | Date | Description |\n|---|---|---|\n| 1.0 | 03 Jun 2022 | Original protocol |\n| 1.1 | 15 Feb 2023 | Amendment 1 — ARIA safety update |\n\n*CONFIDENTIAL — © 2023 Biorce Therapeutics S.L.*\n"
+}

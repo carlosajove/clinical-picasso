@@ -1,0 +1,33 @@
+{
+  "classes": [
+    {
+      "class_name": "NOISE",
+      "reasoning": "This document is a corporate press release announcing the initiation of a Phase III clinical trial. It contains 'FOR IMMEDIATE RELEASE' header, investor contact information, forward-looking statements disclaimer, and is formatted as marketing/corporate communications material rather than a regulated trial master file document.",
+      "confidence": 0.98
+    }
+  ],
+  "nct_id": "NCT05482910",
+  "eudract_id": "2022-003891-28",
+  "eu_ct_id": null,
+  "isrctn_id": null,
+  "utn_id": null,
+  "ind_number": null,
+  "cta_number": null,
+  "sponsor_protocol_id": "BIORCE-NEU-2022-004",
+  "sponsor_name": "Biorce Therapeutics S.L.",
+  "trial_title": null,
+  "trial_acronym": "VELAD-3",
+  "intervention": "BRC-209 (velagostat)",
+  "indication": "Early Alzheimer's disease",
+  "therapeutic_area": "Neurology",
+  "phase": "3",
+  "summary": "This is a corporate press release issued by Biorce Therapeutics S.L. on July 14, 2022, announcing the initiation of patient enrollment in the VELAD-3 Phase III clinical trial studying BRC-209 (velagostat) for early Alzheimer's disease. While it contains trial information, it is a public communications document intended for investors and media, not a regulated trial document.",
+  "references_to": [
+    "VELAD-2 study",
+    "BIORCE-NEU-2020-002",
+    "Phase II data"
+  ],
+  "filename": "File_055.txt",
+  "raw_sha256": "689e220515ecff8162c26cdb1f844f7dcd534ab625736a237526dbbfc1a2ef9f",
+  "content": "FOR IMMEDIATE RELEASE\n\nContact: Investors & Media Relations\nBiorce Therapeutics S.L.\nir@biorce.com | +34 91 500 1299\n14 July 2022\n\n\nBIORCE THERAPEUTICS INITIATES PHASE III CLINICAL TRIAL OF BRC-209\n(VELAGOSTAT) IN EARLY ALZHEIMER'S DISEASE\n\n-- Phase III VELAD-3 Study Enrolling Patients Across Five Countries --\n-- Builds on Significant Phase II Tau PET and Cognitive Results --\n\nMADRID, SPAIN -- Biorce Therapeutics S.L., a clinical-stage biopharmaceutical\ncompany focused on transformative therapies for neurological and metabolic\ndiseases, today announced the initiation of patient enrolment in the Phase III\nVELAD-3 study (BIORCE-NEU-2022-004) evaluating BRC-209 (velagostat) in\npatients with early Alzheimer's disease (AD).\n\n\"The initiation of the VELAD-3 Phase III study represents a pivotal milestone\nfor Biorce and for the Alzheimer's field,\" said Dr. Rafael Moreno, CEO of\nBiorce Therapeutics. \"Our Phase II data demonstrated statistically significant\ntarget engagement -- a 31% reduction in tau PET signal -- along with encouraging\ncognitive outcomes. Velagostat's mechanism, which targets tau aggregation rather\nthan amyloid clearance, offers a differentiated therapeutic strategy.\"\n\nABOUT THE VELAD-3 PHASE III STUDY\n\nDesign: Randomized, double-blind, placebo-controlled, multicenter Phase III\nPatients: 480 (320 velagostat / 160 placebo), aged 50-80\nPopulation: MCI or mild AD dementia, amyloid-confirmed, CDR global 0.5 or 1.0\nPrimary endpoint: Change from baseline in CDR-Sum of Boxes at Week 78\nTreatment duration: 96 weeks\nSites: 42 sites across Spain, UK, Sweden, Netherlands, Canada\nRegistration: EudraCT 2022-003891-28; NCT05482910\nFirst patient enrolled: 12 July 2022\n\nPHASE II RESULTS\n\nVELAD-2 study (BIORCE-NEU-2020-002, n=94, 18 months):\n  Tau PET SUVR (entorhinal): -31% velagostat vs -4% placebo (p=0.003)\n  CDR-SB slowing at 18 months: -0.54 points (p=0.035) -- 30% slowing\n  Plasma p-tau 181: -34% vs -1% placebo (p=0.001)\n  Safety: no ARIA, no hepatotoxicity, no serious CNS adverse events\n\nABOUT BRC-209 (VELAGOSTAT)\n\nVelagostat is an oral tau aggregation inhibitor. It stabilises tau monomers\nin a non-pathological conformation, preventing seeding and propagation of\ntau aggregates. Unlike anti-amyloid therapies, it does not deplete amyloid\nplaques, positioning it as potentially complementary to amyloid-targeting agents.\n\nABOUT BIORCE THERAPEUTICS\n\nClinical-stage biopharmaceutical company, Madrid, Spain. Pipeline:\n  BRC-471 (lumitanib, Phase II, EGFR-mutant NSCLC)\n  BRC-209 (velagostat, Phase III, Alzheimer's disease)\n  BRC-883 (cardanezumab, Phase III, familial hypercholesterolaemia)\n\nFounded 2018. Backed by Novo Holdings, EQT Life Sciences, Sofinnova Partners.\n\nFORWARD-LOOKING STATEMENTS\nThis press release contains forward-looking statements. Actual results may\ndiffer materially due to clinical trial results, regulatory decisions, and\nother factors. Biorce undertakes no obligation to update forward-looking\nstatements.\n\n# # #\nBiorce Therapeutics S.L. | Calle de Serrano 41 | 28001 Madrid\nwww.biorce.com | ir@biorce.com\n"
+}

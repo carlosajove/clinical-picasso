@@ -1,0 +1,35 @@
+{
+  "classes": [
+    {
+      "class_name": "eTMF",
+      "reasoning": "Document is explicitly titled 'eTMF-002 — SITE INITIATION PACKAGE' and contains a Site Initiation Visit (SIV) checklist with monitoring activities, delegation logs, and site activation confirmation. This is a regulated TMF document that does not fit a more specific class.",
+      "confidence": 0.98
+    }
+  ],
+  "nct_id": null,
+  "eudract_id": null,
+  "eu_ct_id": null,
+  "isrctn_id": null,
+  "utn_id": null,
+  "ind_number": null,
+  "cta_number": null,
+  "sponsor_protocol_id": "BIORCE-ONC-2023-001",
+  "sponsor_name": null,
+  "trial_title": null,
+  "trial_acronym": null,
+  "intervention": null,
+  "indication": null,
+  "therapeutic_area": "Oncology",
+  "phase": null,
+  "summary": "This is a Site Initiation Visit (SIV) package for site ES-01 (Hospital Universitario Ramón y Cajal, Madrid, Spain) conducted on 22 March 2023. The document confirms completion of all SIV activities including protocol review, ICF confirmation, eCRF training, IMP storage inspection, and delegation log signatures, resulting in site activation for patient enrollment with the first patient enrolled on 05 April 2023.",
+  "references_to": [
+    "Protocol and all amendments",
+    "ICF latest version (v2.1)",
+    "eCRF training completed (Medidata Rave)",
+    "Lab accreditation certificate ENAC #LAB-2204",
+    "Patient Code: BRC471-ES01-001"
+  ],
+  "filename": "File_023.md",
+  "raw_sha256": "120080bd63734d77e33830480403bb1830f0a58b07b6ea115766a10c2fcd9017",
+  "content": "# eTMF-002 — SITE INITIATION PACKAGE\n## Study: BIORCE-ONC-2023-001\n## Site: Hospital Universitario Ramón y Cajal, Madrid, Spain\n## Site Code: ES-01 | PI: Dr. Ana Beltrán\n## Site Initiation Visit (SIV) Date: 22 March 2023 | CRA: Marcos Iglesias\n\n## SIV CONFIRMATION CHECKLIST\n\n| Item | Status | Notes |\n|---|---|---|\n| Protocol and all amendments reviewed with PI | ✅ Complete | |\n| ICF latest version confirmed (v2.1) | ✅ Complete | |\n| eCRF training completed (Medidata Rave) | ✅ Complete | Certificate on file |\n| IMP storage inspected (temperature log active) | ✅ Complete | Range 15-30°C confirmed |\n| IMP receipt and accountability reviewed | ✅ Complete | |\n| SAE reporting procedure confirmed (24h rule) | ✅ Complete | |\n| Lab accreditation certificate received | ✅ Complete | ENAC #LAB-2204 |\n| Lab normal ranges received | ✅ Complete | Filed in TMF |\n| Delegation log signed by PI | ✅ Complete | |\n| Signature and initials log completed | ✅ Complete | |\n| First patient estimated enrolment | 03 April 2023 | Actual: 05 April 2023 |\n\n**SIV Conclusion:** Site ES-01 ACTIVATED for enrolment as of 22 March 2023.\n\n**First Patient Enrolled:** 05 April 2023 | Patient Code: BRC471-ES01-001\n"
+}

@@ -1,0 +1,33 @@
+{
+  "classes": [
+    {
+      "class_name": "NOISE",
+      "reasoning": "This document is a LinkedIn job posting for a Clinical Data Manager position at Biorce Therapeutics S.L. It contains recruitment information including job responsibilities, qualifications, and benefits, but is not a clinical trial document or regulated trial master file artifact.",
+      "confidence": 1.0
+    }
+  ],
+  "nct_id": null,
+  "eudract_id": null,
+  "eu_ct_id": null,
+  "isrctn_id": null,
+  "utn_id": null,
+  "ind_number": null,
+  "cta_number": null,
+  "sponsor_protocol_id": null,
+  "sponsor_name": null,
+  "trial_title": null,
+  "trial_acronym": null,
+  "intervention": null,
+  "indication": null,
+  "therapeutic_area": null,
+  "phase": null,
+  "summary": "This is a LinkedIn job posting from Biorce Therapeutics S.L. seeking a Clinical Data Manager for their Madrid office. The posting describes the role, qualifications, and compensation for a position supporting Phase II/III clinical trials, but is not itself a trial document.",
+  "references_to": [
+    "ICH E6(R2) GCP",
+    "Medidata Rave",
+    "CDISC CDASH/SDTM"
+  ],
+  "filename": "File_029.md",
+  "raw_sha256": "6714dfd16ca032212f9b885932fe16e4a5e0768c65e5c697999a63f4f8f6a761",
+  "content": "# LinkedIn Job Posting — Biorce Therapeutics S.L.\n\n**Job Title:** Clinical Data Manager\n**Location:** Madrid, Spain (Hybrid — 2 days on-site)\n**Employment Type:** Full-time | **Seniority Level:** Mid-Senior\n**Posted:** 20 November 2023 | **Applications:** 47\n\n---\n\n## About Biorce Therapeutics\n\nBiorce is a clinical-stage biopharmaceutical company based in Madrid,\nfocused on developing transformative therapies in oncology, neurology,\nand cardiology. We currently have three assets in Phase II/III clinical\ndevelopment and are building a world-class clinical operations team.\n\n## The Role\n\nWe are looking for an experienced Clinical Data Manager to join our\ngrowing Data Management team. You will be the data lead on one or more\nof our ongoing Phase II/III trials, working closely with biostatistics,\nclinical operations, and our EDC vendor (Medidata Rave).\n\n## What You'll Do\n\n- Author and maintain Data Management Plans, edit check specifications,\n  and data validation rules\n- Manage external data transfers (lab, PK, PRO, ePRO)\n- Oversee data cleaning activities and query management\n- Participate in database lock and unblinding activities\n- Contribute to CDISC CDASH/SDTM mapping and submission readiness\n- Support regulatory submissions as required\n\n## What We're Looking For\n\n- 4+ years CDM experience in pharma/biotech/CRO\n- Strong expertise with Medidata Rave (study build a plus)\n- Knowledge of CDISC standards (CDASH, SDTM)\n- Familiarity with ICH E6(R2) GCP requirements\n- Fluency in English (Spanish a plus)\n- Bachelor's degree in Life Sciences or Computer Science\n\n## What We Offer\n\n- Salary: €55,000–€70,000 depending on experience\n- Annual performance bonus up to 15%\n- 25 days annual leave + Spanish public holidays\n- Remote working flexibility (3 days/week)\n- Health insurance (Sanitas) + gym allowance\n\n*Biorce Therapeutics is an equal opportunity employer.*\n"
+}

@@ -1,0 +1,33 @@
+{
+  "classes": [
+    {
+      "class_name": "ICF",
+      "reasoning": "Document explicitly identifies itself as 'PARTICIPANT INFORMATION AND INFORMED CONSENT FORM' in the header, contains consent checkboxes with signature blocks for participant and investigator, and the email subject/body confirm this is the 'Ethics Committee-approved ICF v1.0'.",
+      "confidence": 1.0
+    }
+  ],
+  "nct_id": null,
+  "eudract_id": null,
+  "eu_ct_id": null,
+  "isrctn_id": null,
+  "utn_id": null,
+  "ind_number": null,
+  "cta_number": null,
+  "sponsor_protocol_id": "BIORCE-CAR-2024-007",
+  "sponsor_name": "Biorce Therapeutics S.L.",
+  "trial_title": "A Phase III Study of BRC-883 (Cardanezumab) in Patients with Familial High Cholesterol Who Cannot Take Statins",
+  "trial_acronym": null,
+  "intervention": "BRC-883 (Cardanezumab)",
+  "indication": "Heterozygous Familial Hypercholesterolaemia (HeFH) in statin-intolerant patients",
+  "therapeutic_area": "Cardiology",
+  "phase": "3",
+  "summary": "This is an approved Informed Consent Form (version 1.0, dated 01 March 2024) for study BIORCE-CAR-2024-007. The ICF explains the Phase III trial of BRC-883 (Cardanezumab) for patients with familial high cholesterol who cannot take statins, describes risks and benefits, and includes signature blocks for participant and investigator consent.",
+  "references_to": [
+    "ICF v1.0, 01 Mar 2024",
+    "Veeva Vault path: TMF > 02-Regulatory > 02.07-ICF > ICF_v1.0_APPROVED",
+    "earlier studies (n=148)"
+  ],
+  "filename": "File_042.txt",
+  "raw_sha256": "0b590c88ee2767ec4e9347751b6d61a7c1882f0495bcfd04add1d094439b0bc2",
+  "content": "================================================================================\nEMAIL + ATTACHMENT EXPORT\nThread: ICF Distribution -- BIORCE-CAR-2024-007 -- ICF v1.0 APPROVED\n================================================================================\n\nFROM:    Carmen López <c.lopez@biorce.com>\nTO:      site-coordinators-CAR007@biorce.com\nCC:      Camille Dupont <c.dupont@biorce.com>\nDATE:    03 March 2024, 11:22\nSUBJECT: APPROVED ICF v1.0 now in Vault -- BIORCE-CAR-2024-007\n\nDear Site Coordinators,\n\nThe Ethics Committee-approved ICF v1.0 (dated 01 March 2024) for Study\nBIORCE-CAR-2024-007 is now available in Veeva Vault:\n  Path: TMF > 02-Regulatory > 02.07-ICF > ICF_v1.0_APPROVED\n\nIMPORTANT: All new patients enrolled from today must sign ICF v1.0.\n\nThe approved ICF text is reproduced below for offline reference.\n\n------------------------------------------------------------------------\nATTACHMENT: ICF_BIORCE-CAR-2024-007_v1.0_01Mar2024.txt\n------------------------------------------------------------------------\n\n================================================================================\nPARTICIPANT INFORMATION AND INFORMED CONSENT FORM\nStudy: BIORCE-CAR-2024-007 | Version 1.0 | Date: 01 March 2024\n================================================================================\n\nTITLE: A Phase III Study of BRC-883 (Cardanezumab) in Patients with\nFamilial High Cholesterol Who Cannot Take Statins\n\nWHY ARE YOU BEING INVITED?\nYou have Heterozygous Familial Hypercholesterolaemia (HeFH) -- a genetic\ncondition causing high LDL cholesterol -- and cannot tolerate statins.\n\nWHAT IS THE PURPOSE?\nWe are testing BRC-883 (Cardanezumab), a monthly injection that blocks a\nprotein called PCSK9 to lower LDL cholesterol. In earlier studies (n=148):\n  - LDL-C reduced by average 57%\n  - No heart attacks or strokes occurred\n  - Injection site reactions (mild redness) in ~1 in 12 patients\n\nWHAT WILL HAPPEN?\n  - 1 in 2 chance of receiving BRC-883 (vs placebo)\n  - Injection every 4 weeks at the clinic (not self-injected at home)\n  - 52 weeks treatment + 24 weeks follow-up\n  - Blood tests (fasting) at every visit\n\nPOSSIBLE RISKS\n  - Injection site reaction (redness, mild pain): ~8% patients, mild\n  - Liver enzyme rise: rare (1-2%); resolved on drug hold\n  - Unknown risks possible -- closely monitored throughout\n\nVOLUNTARY\nParticipation is entirely voluntary. You may withdraw at any time.\n\nCONTACT: 24/7 safety line: +34 900 345 678\n\nCONSENT\n[ ] I have read and understood this form (v1.0, 01 Mar 2024).      Initials: ___\n[ ] I have had time to ask questions; all answered satisfactorily.  Initials: ___\n[ ] I understand I may withdraw at any time without consequences.    Initials: ___\n[ ] I agree to data collection and processing as described.         Initials: ___\n[ ] I freely agree to take part.                                    Initials: ___\n\nParticipant signature: _____________________  Date: ___/___/______\nInvestigator signature: ____________________  Date: ___/___/______\n\n================================================================================\n(C) 2024 Biorce Therapeutics S.L. | ICF v1.0 | BIORCE-CAR-2024-007\n================================================================================\n"
+}

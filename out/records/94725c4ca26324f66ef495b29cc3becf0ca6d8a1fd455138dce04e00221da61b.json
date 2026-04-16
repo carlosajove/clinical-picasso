@@ -1,0 +1,33 @@
+{
+  "classes": [
+    {
+      "class_name": "IB",
+      "reasoning": "The document explicitly identifies itself as 'IB-001 -- Investigator Brochure' in the header and contains the standard IB sections: summary of the investigational drug (BRC-471/Lumitanib), physicochemical properties, preclinical pharmacology, and clinical studies summary with safety and efficacy data.",
+      "confidence": 1.0
+    }
+  ],
+  "nct_id": null,
+  "eudract_id": null,
+  "eu_ct_id": null,
+  "isrctn_id": null,
+  "utn_id": null,
+  "ind_number": null,
+  "cta_number": null,
+  "sponsor_protocol_id": "BIORCE-ONC-2021-003",
+  "sponsor_name": "Biorce Therapeutics S.L.",
+  "trial_title": null,
+  "trial_acronym": null,
+  "intervention": "BRC-471 (Lumitanib)",
+  "indication": "EGFR-mutant advanced NSCLC following progression on osimertinib",
+  "therapeutic_area": "Oncology",
+  "phase": "1",
+  "summary": "This is Edition 1 of the Investigator's Brochure for BRC-471 (Lumitanib), an orally bioavailable dual EGFR/HER2 tyrosine kinase inhibitor being developed for EGFR-mutant advanced non-small cell lung cancer after osimertinib progression. The IB summarizes the drug's physicochemical properties, preclinical pharmacology, and Phase I clinical study results (BIORCE-ONC-2021-003, n=42) establishing a recommended phase 2 dose of 200 mg BID with 22% confirmed ORR and manageable EGFR-class toxicities.",
+  "references_to": [
+    "Phase I (BIORCE-ONC-2021-003, n=42, data cut 15 Nov 2022)",
+    "Sponsor master copy filed in Veeva Vault",
+    "site file SOP Section 4.2"
+  ],
+  "filename": "File_065.txt",
+  "raw_sha256": "94725c4ca26324f66ef495b29cc3becf0ca6d8a1fd455138dce04e00221da61b",
+  "content": "IB-001 -- Investigator Brochure\nBRC-471 (Lumitanib) -- Edition 1\nDate: 01 December 2022 | CONFIDENTIAL\nSponsor: Biorce Therapeutics S.L., Calle de Serrano 41, 28001 Madrid\n\n===========================================================================\nSECTION 1 -- SUMMARY\n===========================================================================\n\nBRC-471 (Lumitanib) is an orally bioavailable dual inhibitor of EGFR and\nHER2 tyrosine kinases under investigation for EGFR-mutant advanced NSCLC\nfollowing progression on osimertinib.\n\nRP2D of 200 mg BID established in Phase I (BIORCE-ONC-2021-003, n=42).\nConfirmed ORR 22% (9/41 evaluable). DLTs of Grade 3 diarrhoea and Grade 3\nrash at 300 mg BID.\n\n===========================================================================\nSECTION 2 -- PHYSICOCHEMICAL PROPERTIES\n===========================================================================\n\nMolecular Formula: C24H26ClFN4O3\nMolecular Weight:  493.0 g/mol\nAppearance:        White to off-white crystalline powder\nLog P:             2.8\nPrimary CYP:       CYP3A4 (major)\nP-gp substrate:    Yes (limited CNS penetration anticipated)\n\n===========================================================================\nSECTION 3 -- PRECLINICAL PHARMACOLOGY\n===========================================================================\n\nEGFR WT IC50: 0.9 nM | EGFR C797S IC50: 4.2 nM | HER2 IC50: 6.8 nM\nIn vivo: 78% TGI in PC9-OR xenograft (30 mg/kg PO QD, p<0.001 vs vehicle)\nOral bioavailability (rat): 64% | T1/2 (rat): 4.2h\n\n===========================================================================\nSECTION 4 -- CLINICAL STUDIES SUMMARY\n===========================================================================\n\nPhase I (BIORCE-ONC-2021-003, n=42, data cut 15 Nov 2022):\n\nPK (200 mg BID, steady state):\n  Tmax: 2.1h | AUC0-12h: 18,420 ng.h/mL | T1/2: 7.3h | Accum: 1.9x\n\nEfficacy (n=41 evaluable):\n  Confirmed ORR: 22% (9 PR) | DCR: 68%\n\nSafety (n=42):\n  Diarrhoea:         71% (any), 10% (Grade 3+)\n  Acneiform rash:    62% (any),  7% (Grade 3+)\n  Nausea:            48% (any),  5% (Grade 3+)\n  Fatigue:           45% (any),  2% (Grade 3+)\n  Paronychia:        33% (any),  0%\n  ALT increase:      17% (any),  5% (Grade 3+)\n  ILD/Pneumonitis:    5% (any),  2% (Grade 3+)\n\nDLTs at 300 mg BID: Grade 3 diarrhoea (n=2), Grade 3 rash (n=1)\n\n===========================================================================\nSECTION 5 -- BENEFIT-RISK ASSESSMENT\n===========================================================================\n\nFavourable benefit-risk at 200 mg BID. ORR 22% exceeds historical benchmarks\n(8-12%). Safety consistent with EGFR inhibitor class. Monitor ILD/pneumonitis.\n\n===========================================================================\nDOCUMENT HISTORY: Edition 1 | 01 Dec 2022 | Initial IB\n===========================================================================\n\nCONFIDENTIAL -- For Use by Authorized Personnel Only\n(C) 2022 Biorce Therapeutics S.L.\n\n--\n[Site copy filed by: Dr. Horst Schmidt, Site DE-01, 15 Jan 2023]\n[This is a site-filed copy of the IB distributed at the Investigator\nMeeting, Berlin, 12 January 2023. Identical to Sponsor master copy\nfiled in Veeva Vault. Retained per site file SOP Section 4.2.]\n"
+}

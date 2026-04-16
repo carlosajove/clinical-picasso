@@ -1,0 +1,33 @@
+{
+  "classes": [
+    {
+      "class_name": "ICF",
+      "reasoning": "Document explicitly identifies itself as 'Re-Consent Form' with signature blocks for participant and investigator consent. The header states 'ICF-004' and includes version/date metadata typical of Informed Consent Forms.",
+      "confidence": 0.98
+    }
+  ],
+  "nct_id": null,
+  "eudract_id": null,
+  "eu_ct_id": null,
+  "isrctn_id": null,
+  "utn_id": null,
+  "ind_number": null,
+  "cta_number": null,
+  "sponsor_protocol_id": "BIORCE-NEU-2022-004",
+  "sponsor_name": null,
+  "trial_title": null,
+  "trial_acronym": null,
+  "intervention": null,
+  "indication": "Alzheimer's disease",
+  "therapeutic_area": "Neurology",
+  "phase": null,
+  "summary": "This is a re-consent form (ICF Version 2.0) for patients already enrolled in Study BIORCE-NEU-2022-004, explaining a protocol amendment that adds two extra MRI scans at Week 8 and Week 18 for the first 80 patients to monitor for ARIA-E safety events. It includes signature blocks for participant and investigator consent to continue under the updated protocol.",
+  "references_to": [
+    "Study BIORCE-NEU-2022-004",
+    "Amendment 1",
+    "ICF Version 2.0"
+  ],
+  "filename": "File_004.md",
+  "raw_sha256": "9ccbb9b5bc26b1d112369ffed7c83d5100258f98b29c5f4c8f637ff71ac51f20",
+  "content": "# ICF-004 — Re-Consent Form\n## Study BIORCE-NEU-2022-004 — Amendment 1 Update\n### ICF Version 2.0 | Date: 01 April 2023 | CONFIDENTIAL\n\n**Purpose:** This re-consent form is for patients already enrolled.\nIt explains a safety-related change to the study.\n\n## What Has Changed?\n\n### Additional MRI Scans (First 80 Patients Only)\n\nFollowing two cases of ARIA-E (Amyloid-Related Imaging Abnormalities —\nEdema) in other Alzheimer's studies with similar medicines, we are adding\nextra MRI brain scans for the first 80 patients enrolled. These extra\nscans will be done at **Week 8** and **Week 18**.\n\nARIA-E refers to small areas of fluid on the brain visible on MRI.\nIn most cases it causes no symptoms and resolves on its own when study\nmedicine is paused. We want to detect it early.\n\n**If ARIA-E is found:** Study medicine will be paused and MRI repeated\nin 4 weeks. The study doctor will contact you immediately.\n\n**What this means for you:** 2 extra clinic visits (Week 8 and Week 18)\nfor MRI scans only. Each visit takes approximately 90 minutes.\n\n---\n\n**Participant Declaration:** I have read and understood the above\ninformation. I consent to the additional MRI scans and agree to continue\nparticipating in Study BIORCE-NEU-2022-004.\n\n| | |\n|---|---|\n| Participant Signature: | _________________________  Date: ____________ |\n| Investigator Signature: | _________________________  Date: ____________ |\n"
+}

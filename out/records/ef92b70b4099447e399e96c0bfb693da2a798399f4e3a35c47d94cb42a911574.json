@@ -1,0 +1,37 @@
+{
+  "classes": [
+    {
+      "class_name": "CSP",
+      "reasoning": "Document is explicitly titled 'Clinical Study Protocol — AMENDMENT 2' with protocol ID BIORCE-ONC-2023-001, version 2.1. Contains detailed protocol amendments including eligibility criteria, treatment modifications, and schedule of assessments updates, which are characteristic of a formal protocol amendment document.",
+      "confidence": 0.98
+    }
+  ],
+  "nct_id": null,
+  "eudract_id": null,
+  "eu_ct_id": null,
+  "isrctn_id": null,
+  "utn_id": null,
+  "ind_number": null,
+  "cta_number": null,
+  "sponsor_protocol_id": "BIORCE-ONC-2023-001",
+  "sponsor_name": "Biorce Therapeutics S.L.",
+  "trial_title": null,
+  "trial_acronym": null,
+  "intervention": "BRC-471 (Lumitanib) — oral EGFR/HER2 dual inhibitor",
+  "indication": "Advanced/metastatic disease (specific cancer type not stated in document)",
+  "therapeutic_area": "Oncology",
+  "phase": null,
+  "summary": "This is Amendment 2 (Version 2.1) to Clinical Study Protocol BIORCE-ONC-2023-001, issued November 9, 2023, superseding Version 2.0. The amendment introduces five key changes: addition of prophylactic ondansetron for nausea management, expansion of eligibility criteria to permit prior HER2-targeted therapy in early-stage setting, addition of ctDNA collection at Cycle 3 Day 1, addition of Netherlands sites, and inclusion of a HER2-amplified subgroup analysis in the statistical analysis plan.",
+  "references_to": [
+    "Version 2.0 (22 August 2023)",
+    "Version 1.0 (14 Mar 2023)",
+    "Amendment 1 — Updated CNS metastasis criteria",
+    "Section 6.1 — Eligibility",
+    "Section 8.3 — Nausea Prophylaxis",
+    "Schedule of Assessments",
+    "SAP"
+  ],
+  "filename": "File_006.md",
+  "raw_sha256": "ef92b70b4099447e399e96c0bfb693da2a798399f4e3a35c47d94cb42a911574",
+  "content": "# Clinical Study Protocol — AMENDMENT 2\n## BIORCE-ONC-2023-001\n### Version 2.1 | Date: 09 November 2023\n### CONFIDENTIAL — SUPERSEDES VERSION 2.0 (22 August 2023)\n\n**Sponsor:** Biorce Therapeutics S.L., Calle de Serrano 41, 28001 Madrid, Spain\n**Investigational Product:** BRC-471 (Lumitanib) — oral EGFR/HER2 dual inhibitor\n\n## AMENDMENT SUMMARY\n\nThis Amendment 2 has been issued to address the following:\n\n1. **Dose modification update** — Addition of prophylactic antiemetic\n   (ondansetron) following 3 Grade 3 nausea events in Cycle 1 across sites\n2. **Eligibility expansion** — Removal of restriction on prior HER2-targeted\n   therapy in early-stage disease\n3. **New ctDNA timepoint** — ctDNA collection added at C3D1\n4. **Country addition** — Netherlands added (3 sites)\n5. **SAP update** — Pre-specified HER2-amplified subgroup analysis added\n\n> Sites must not enrol new patients until local Ethics Committee approval\n> of Amendment 2 has been obtained.\n\n## KEY CHANGES\n\n### Section 6.1 — Eligibility (Exclusion Criterion 1 updated)\n\n**PREVIOUS:** Prior treatment with any EGFR/HER2 dual inhibitor OR any\nprior HER2-targeted therapy\n\n**NEW:** Prior treatment with any EGFR/HER2 dual inhibitor in the\nadvanced/metastatic setting. Prior HER2-targeted therapy in the early-stage\nor adjuvant setting is permitted if completed >=12 months prior to enrollment.\n\n### Section 8.3 — Nausea Prophylaxis (NEW)\n\nOndansetron 8 mg PO 30 minutes prior to morning BRC-471 dose, Days 1-7\nof Cycle 1. Continue beyond Day 7 at investigator discretion if Grade >=2\nnausea persists.\n\n### Schedule of Assessments — ctDNA addition\n\nctDNA (plasma) now collected at C3D1 in addition to existing timepoints.\n\n## DOCUMENT HISTORY\n\n| Version | Date | Description |\n|---|---|---|\n| 1.0 | 14 Mar 2023 | Original protocol |\n| 2.0 | 22 Aug 2023 | Amendment 1 — Updated CNS metastasis criteria |\n| 2.1 | 09 Nov 2023 | Amendment 2 — Current version |\n\n*CONFIDENTIAL — © 2023 Biorce Therapeutics S.L.*\n"
+}

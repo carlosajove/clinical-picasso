@@ -1,0 +1,34 @@
+{
+  "classes": [
+    {
+      "class_name": "ICF",
+      "reasoning": "The document explicitly identifies itself as 'ICF-002 — Re-Consent Form' with header 'ICF Version 3.0' and includes participant and investigator signature blocks for informed consent. It is a re-consent document explaining protocol changes to already-enrolled participants.",
+      "confidence": 1.0
+    }
+  ],
+  "nct_id": null,
+  "eudract_id": null,
+  "eu_ct_id": null,
+  "isrctn_id": null,
+  "utn_id": null,
+  "ind_number": null,
+  "cta_number": null,
+  "sponsor_protocol_id": "BIORCE-ONC-2023-001",
+  "sponsor_name": null,
+  "trial_title": "A Phase II Study of BRC-471 (Lumitanib) in Advanced Lung Cancer",
+  "trial_acronym": null,
+  "intervention": "BRC-471 (Lumitanib)",
+  "indication": "Advanced Lung Cancer",
+  "therapeutic_area": "Oncology",
+  "phase": "2",
+  "summary": "This is a re-consent form (ICF version 3.0) for already-enrolled participants in Study BIORCE-ONC-2023-001, explaining Amendment 2 changes. The changes include addition of ondansetron anti-nausea medication and an additional liquid biopsy blood sample at Cycle 3. Participants sign to acknowledge the changes and agree to continue in the study.",
+  "references_to": [
+    "Study BIORCE-ONC-2023-001",
+    "Amendment 2",
+    "ICF Version 3.0",
+    "ICF v2.1 dated 09 November 2023"
+  ],
+  "filename": "File_035.md",
+  "raw_sha256": "611b2afdd7c0b432250a6347c1344f9e83231c1043611d9cc476d1d8d4754fc3",
+  "content": "# ICF-002 — Re-Consent Form\n## Study BIORCE-ONC-2023-001 — Amendment 2 Update\n### ICF Version 3.0 | Date: 15 December 2023 | CONFIDENTIAL\n\n**Study:** A Phase II Study of BRC-471 (Lumitanib) in Advanced Lung Cancer\n**Purpose:** You are already enrolled. This re-consent explains important\nchanges made to the study that affect you. Please read carefully and sign\nto confirm you have been informed and wish to continue.\n\n## What Has Changed?\n\n### Change 1 — Anti-Nausea Medicine Added\n\nWe have added ondansetron (an anti-nausea medicine) to be taken 30 minutes\nbefore your morning BRC-471 dose during the first week of each new cycle.\nThis was added after some patients experienced nausea more troublesome than\nexpected. The medicine is widely used, well-tolerated, and provided free.\n\n**What this means for you:** Starting at your next clinic visit, you will\nbe given ondansetron tablets as part of your study supply.\n\n### Change 2 — Additional Blood Sample\n\nWe will take an extra small blood sample (~10 mL) at the start of your\nthird treatment cycle (Day 1 of Cycle 3). This is a \"liquid biopsy\"\n(circulating tumour DNA) to look for early signs of cancer resistance.\n\n## Your Rights Remain Unchanged\n\nParticipation continues to be entirely voluntary. You may withdraw at\nany time without effect on your medical care.\n\n---\n\n**Participant Declaration:** I have been informed of the above changes\nto Study BIORCE-ONC-2023-001 and agree to continue.\n\n| | |\n|---|---|\n| Participant Name (PRINT): | _________________________________ |\n| Participant Signature: | _________________________________ |\n| Date (DD/MM/YYYY): | _________________________________ |\n| Investigator Name (PRINT): | _________________________________ |\n| Investigator Signature: | _________________________________ |\n| Date (DD/MM/YYYY): | _________________________________ |\n\n*ICF v3.0 supersedes v2.1 dated 09 November 2023.*\n"
+}

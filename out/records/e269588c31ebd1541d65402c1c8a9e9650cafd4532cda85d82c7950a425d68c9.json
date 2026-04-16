@@ -1,0 +1,34 @@
+{
+  "classes": [
+    {
+      "class_name": "SmPC / DSUR / DSMB Charter",
+      "reasoning": "Document explicitly identifies itself as 'SUMMARY OF PRODUCT CHARACTERISTICS' in the title and header (Document: BRC471-SMPC-DRAFT-v0.3), contains standard SmPC sections (1. Name of medicinal product, 2. Qualitative and quantitative composition, 3. Pharmaceutical form, 4. Clinical particulars, 5. Pharmacological properties, 6. Pharmaceutical particulars, 7. Marketing authorisation holder), and follows the regulatory SmPC format for medicinal products.",
+      "confidence": 1.0
+    }
+  ],
+  "nct_id": null,
+  "eudract_id": null,
+  "eu_ct_id": null,
+  "isrctn_id": null,
+  "utn_id": null,
+  "ind_number": null,
+  "cta_number": null,
+  "sponsor_protocol_id": "BIORCE-ONC-2023-001",
+  "sponsor_name": "Biorce Therapeutics S.L.",
+  "trial_title": null,
+  "trial_acronym": null,
+  "intervention": "BRC-471 (Lumitanib) 50 mg and 100 mg film-coated tablets",
+  "indication": "Locally advanced or metastatic EGFR-mutant NSCLC (exon 19 deletions or exon 21 L858R) with disease progression on or after third-generation EGFR TKI therapy",
+  "therapeutic_area": "Oncology",
+  "phase": "2",
+  "summary": "This is a draft Summary of Product Characteristics (SmPC) for BRC-471 (Lumitanib), an EGFR/HER2 tyrosine kinase inhibitor indicated for EGFR-mutant NSCLC after progression on third-generation EGFR TKI therapy. The document is marked as pre-submission draft version 0.3 dated 15 January 2024 and is not yet approved for clinical use.",
+  "references_to": [
+    "Protocol v2.1 §7.2",
+    "Phase II (BIORCE-ONC-2023-001, data cut Sep 2023, n=55)",
+    "Phase III data",
+    "Document: BRC471-SMPC-DRAFT-v0.3"
+  ],
+  "filename": "File_045.md",
+  "raw_sha256": "e269588c31ebd1541d65402c1c8a9e9650cafd4532cda85d82c7950a425d68c9",
+  "content": "# SUMMARY OF PRODUCT CHARACTERISTICS\n## BRC-471 (Lumitanib) 50 mg and 100 mg Film-Coated Tablets\n### DRAFT — Pre-submission | Document: BRC471-SMPC-DRAFT-v0.3 | 15 January 2024\n### NOT APPROVED — NOT FOR CLINICAL USE\n\n---\n\n## 1. NAME OF THE MEDICINAL PRODUCT\n\nLumitanib 50 mg film-coated tablets\nLumitanib 100 mg film-coated tablets\n\n## 2. QUALITATIVE AND QUANTITATIVE COMPOSITION\n\nEach 100 mg tablet contains 100 mg of lumitanib.\nExcipient with known effect: lactose monohydrate 45 mg per 100 mg tablet.\n\n## 3. PHARMACEUTICAL FORM\n\nFilm-coated tablet. White to off-white, biconvex.\n100 mg: Oval, ~14 × 8 mm, debossed \"BRC100\".\n\n## 4. CLINICAL PARTICULARS\n\n### 4.1 Therapeutic Indications\n\nLumitanib is indicated as monotherapy for adult patients with locally advanced\nor metastatic EGFR-mutant NSCLC (exon 19 deletions or exon 21 L858R) whose\ndisease has progressed on or after third-generation EGFR TKI therapy.\n\n*[Indication pending EMA approval — to be updated following Phase III data]*\n\n### 4.2 Posology\n\nRecommended dose: **200 mg (two 100 mg tablets) twice daily (BID)**, orally,\napproximately 12 hours apart, without planned rest periods.\n\nDose reductions:\n  - First: 150 mg BID\n  - Second: 100 mg BID\n  - Below 100 mg BID: permanently discontinue\n\n### 4.4 Special Warnings\n\n**ILD/Pneumonitis:** Occurred in ~4% of patients (Grade 3 in ~2%). Monitor\nfor new or worsening respiratory symptoms. Hold for suspected ILD; discontinue\nfor confirmed Grade >=3.\n\n**CYP3A4:** Strong inhibitors increase BRC-471 AUC 2.3-fold. Avoid if possible;\nif unavoidable, reduce dose to 100 mg BID.\n\n**QTc:** Monitor ECG in patients with risk factors.\n\n### 4.8 Undesirable Effects\n\nMost common (>=20%): diarrhoea (71%), acneiform rash (62%), nausea (48%),\nfatigue (45%), paronychia (33%), stomatitis (29%).\n\n## 5. PHARMACOLOGICAL PROPERTIES\n\n### 5.1 Pharmacodynamic Properties\n\nATC code: L01EB [pending]\nMechanism: Dual EGFR/HER2 TKI. EGFR C797S IC50 4.2 nM; HER2 IC50 6.8 nM.\n\nPhase II (BIORCE-ONC-2023-001, data cut Sep 2023, n=55): ORR 29% (95% CI\n17.6-42.9); median PFS 5.4 months.\n\n### 5.2 Pharmacokinetics\n\n| Parameter | Value (200 mg BID, steady state) |\n|---|---|\n| Tmax (h, median) | 2.1 |\n| Cmax,ss (ng/mL) | 892 (CV 31%) |\n| AUC0-12h,ss (ng·h/mL) | 18,420 (CV 28%) |\n| T½ (h) | 7.3 |\n| Primary metabolism | CYP3A4 (major) |\n| Protein binding | 94% |\n\n## 6. PHARMACEUTICAL PARTICULARS\n\nStorage: Below 30°C. Keep in original container with desiccant.\nShelf life: 36 months.\n\n## 7. MARKETING AUTHORISATION HOLDER\n\nBiorce Therapeutics S.L., Calle de Serrano 41, 28001 Madrid, Spain\n\n## 10. DATE OF REVISION\n\n15 January 2024 (Draft v0.3)\n\n*DRAFT — PRE-SUBMISSION — NOT APPROVED*\n*© 2024 Biorce Therapeutics S.L.*\n"
+}

@@ -1,0 +1,35 @@
+{
+  "classes": [
+    {
+      "class_name": "CRF",
+      "reasoning": "This document is explicitly titled 'CASE REPORT FORM -- CYCLE 2 DAY 1 VISIT' at the top and contains structured per-patient, per-visit data capture sections including vital signs, ECOG performance status, study drug dispensing, concomitant medications, adverse events, PRO questionnaires, and laboratory results for patient BRC471-IT01-004.",
+      "confidence": 1.0
+    }
+  ],
+  "nct_id": null,
+  "eudract_id": null,
+  "eu_ct_id": null,
+  "isrctn_id": null,
+  "utn_id": null,
+  "ind_number": null,
+  "cta_number": null,
+  "sponsor_protocol_id": "BIORCE-ONC-2023-001",
+  "sponsor_name": "BIORCE THERAPEUTICS",
+  "trial_title": null,
+  "trial_acronym": null,
+  "intervention": null,
+  "indication": null,
+  "therapeutic_area": "Oncology",
+  "phase": null,
+  "summary": "This is a Case Report Form (CRF) documenting a Cycle 2 Day 1 visit for patient BRC471-IT01-004 in study BIORCE-ONC-2023-001, form version 2.1. The CRF captures vital signs, ECOG performance status, study drug dispensing (200mg BID with 56 tablets from kit KIT-471-IT01-006), concomitant medications, two Grade 1 adverse events (nausea and acneiform dermatitis), completed PRO questionnaires (EORTC QLQ-C30 and QLQ-LC13), and laboratory results showing low hemoglobin (11.8 g/dL).",
+  "references_to": [
+    "Form Version: 2.1",
+    "Protocol (mentioned in handwritten note: 'must use ondansetron per protocol')",
+    "EORTC QLQ-C30",
+    "EORTC QLQ-LC13",
+    "Scan_0094.pdf"
+  ],
+  "filename": "File_047.txt",
+  "raw_sha256": "4cf497c6cc5329c0513243b49beb656840dc6d3786583fd1c442eea47d131384",
+  "content": " BIORCt THER4PEUTICS                                  [SCAN - PAGE 1 OF 3]\n ________________________________________________________________________\n\n CASE  REPOR T  FORM  --  CYCLE  2  DAY  1   V IS IT\n Study:  BIORCE- ONC- 2023- 001         Form  Version:  2.1\n ________________________________________________________________________\n\n S i t e  ID:   IT - 01              Patient  Code:    BRC471 - IT01- 004\n V i s i t  Date:  14/  10 /2023      Entered  by:   G.Ferretti\n                                      Verified  by:  [ILLEGIBLE]\n\n SECTION  1  --  V I T A L   S I G N S   ( pre - dose )\n ________________________________________________________________________\n\n Systolic  BP:    1 2 8      mmHg     [handwritten: \"2nd reading\n Diastolic  BP:    8 2      mmHg       taken 5 min later -- 124/80\"]\n Heart  Rate:      7 4      bpm\n Temperature:    3 6. 8     degrees C\n Weight:           7 1. 5   kg        [handwritten: \"patient reports +1kg\n                                        since last visit - no oedema\"]\n\n SECTION  2  --  ECOG  PS\n [X]  Score  1\n\n SECTION  3  --  STUDY  DRUG  DISPENSING\n Kit  dispensed:     K IT- 471 - IT01 - 006\n Tablets  (100mg):   5 6\n Dose:             [X]  200mg  BID\n Ondansetron:      [X]  Yes\n   [handwritten]:  \"pt asked if she can take domperidone instead --\n    told NO, must use ondansetron per protocol. Follow up next visit.\"\n\n SECTION  4  --  CONCOMITANT  MEDICATIONS\n Omeprazole  20mg  QD      -- GERD          -- Jan-2021  -- ongoing\n Levothyroxine  75mcg  QD  -- Hypothyroidism -- 2019     -- ongoing\n Ibuprofen  400mg  PRN     -- Back  pain     -- [DATE?]  -- No\n   [handwritten: \"approx Oct 2023 self-reported OTC\"]\n   [sticky  note]:  \"NOTE for Monitor: ibuprofen weak CYP inhibitor --\n    discussed w/ PI, no action. Will add to conmed at C3. -- GF 14/10\"\n\n ________________________________________________________________________\n                                                [SCAN - PAGE 2 OF 3]\n ________________________________________________________________________\n\n SECTION  5  --  ADVERSE  EVENTS\n AE#1:  Verbatim:  \"mild  nausea  mornings  Cycle 1 week 2\"\n   MedDRA PT:  Nausea\n   Grade: [X] 1   Relationship: [X] Possibly  SAE: [X] No\n   Action:  Ondansetron  prescribed\n   Ongoing: No  End:  10/10/2023\n\n AE#2:  Verbatim:  \"rash  on  face  pimple-like\"\n   MedDRA PT:  Acneif0rm  dermatitis     [OCR error: \"0\" for \"o\"]\n   Grade: [X] 1   Relationship: [X] Probably  SAE: [X] No\n   Action:  Topical  clindamycin\n   Ongoing: Yes\n\n SECTION  6  --  PRO  QUESTIONNAIRES\n EORTC  QLQ-C30:  [X] Completed\n EORTC  QLQ-LC13: [X] Completed\n [Water stain -- lower section partially obscured]\n G l o b a l  s c o r e: . . . . [ ILLEGIBLE ]\n\n ________________________________________________________________________\n                                                [SCAN - PAGE 3 OF 3]\n ________________________________________________________________________\n\n LABORATORIO  ANALISI  CLINICHE\n Istituto  Nazionale  Tumori,  Milano\n Paziente:  BRC471-IT01-004    Data:  14/10/2023\n\n EMOCROMO\n Hb:        11.8  g/dL  [*L*]  Rif: 12.0-16.0  BASSO\n ANC:        3.4  x10^9/L  [N]\n Piastrine:  214  x10^9/L  [N]\n\n CHIMICA\n ALT:   28  U/L  [N]  Rif: <35\n Creat: 62  umol/L  [N]\n\n [handwritten next to Hb]: \"discussed w/ pt -- fatigue already AE Grade 1\n  Repeat Hb at C3D1. -- EC\"\n\n Firma: Dott.ssa Francesca Marino   Data: 14/10/2023\n\n ________________________________________________________________________\n [END  OF  SCAN  --  3  PAGES]\n [Scanned by: G.Ferretti | Date: 15/10/2023 | File: Scan_0094.pdf]\n ________________________________________________________________________\n"
+}

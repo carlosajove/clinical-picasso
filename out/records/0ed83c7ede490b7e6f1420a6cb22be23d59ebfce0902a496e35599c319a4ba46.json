@@ -1,0 +1,33 @@
+{
+  "classes": [
+    {
+      "class_name": "CSR",
+      "reasoning": "This document is Section 5 ('Safety Results') of a Clinical Study Report, containing detailed analysis of adverse events, treatment exposure, serious adverse events, and safety endpoints including tabulated safety data, adjudication of cardiovascular events, and conclusions supporting continued development. The structure, formal tone, and comprehensive safety summary are characteristic of regulatory CSR documents.",
+      "confidence": 0.95
+    }
+  ],
+  "nct_id": null,
+  "eudract_id": null,
+  "eu_ct_id": null,
+  "isrctn_id": null,
+  "utn_id": null,
+  "ind_number": null,
+  "cta_number": null,
+  "sponsor_protocol_id": null,
+  "sponsor_name": null,
+  "trial_title": null,
+  "trial_acronym": null,
+  "intervention": "PCSK9 inhibitor, 150 mg SC q4w",
+  "indication": "Statin-intolerant patients (cardiovascular disease/hyperlipidemia context)",
+  "therapeutic_area": "Cardiology",
+  "phase": "2",
+  "summary": "This is the safety results section of a Clinical Study Report for a 24-week, placebo-controlled study of an investigational subcutaneous PCSK9 inhibitor in 148 statin-intolerant patients. The document summarizes treatment-emergent adverse events, serious adverse events, hepatic safety (including one ALT elevation), immunogenicity, neurocognitive outcomes, and concludes that the 150 mg SC q4w dose demonstrated a favorable safety profile supporting continued Phase III development.",
+  "references_to": [
+    "ongoing Phase III study",
+    "Phase III protocol amendment (enhanced LFT monitoring)",
+    "published data for approved PCSK9 inhibitors"
+  ],
+  "filename": "File_070.txt",
+  "raw_sha256": "0ed83c7ede490b7e6f1420a6cb22be23d59ebfce0902a496e35599c319a4ba46",
+  "content": "5. SAFETY RESULTS\n\n5.1 Overview of Adverse Events\n\nA total of 148 patients received at least one dose of study treatment\n(74 active, 74 placebo). The median duration of exposure was 23.8 weeks\n(range 1.1-24.6) for the active arm and 23.4 weeks (range 0.9-24.4)\nfor the placebo arm.\n\n  Safety parameter             Active (n=74)   Placebo (n=74)\n  ------------------------------------------------------------\n  Any TEAE                      68.9%           67.6%\n  Grade >=3 TEAE                 5.4%            6.8%\n  SAE                            2.7%            3.9%\n  Discontinuation due to AE      1.4%            1.4%\n  Deaths                         0               0\n\nNo deaths occurred during the study. The two SAEs in the active arm were\na hospitalisation for cellulitis (unrelated) and an ALT elevation (possibly\nrelated; resolved). The four SAEs in the placebo arm comprised two\ncardiovascular events and two infections, all unrelated to study treatment.\n\n5.2 Common Treatment-Emergent Adverse Events\n\nTEAEs occurring in >= 3% of patients in either arm:\n\n  TEAE (MedDRA PT)          Active n(%)   Placebo n(%)\n  ------------------------------------------------------\n  Injection site reaction     6 (8.1%)     3 (3.9%)\n  Nasopharyngitis             5 (6.8%)     5 (7.1%)\n  Back pain                   4 (5.4%)     5 (6.5%)\n  Headache                    3 (4.1%)     4 (5.2%)\n  Myalgia                     2 (3.4%)     3 (4.5%)\n  Influenza                   2 (2.7%)     3 (4.1%)\n  ALT increased               1 (1.4%)     0\n\nAll injection site reactions were Grade 1-2. Mean duration 1.8 days\n(range 1-4 days). No anaphylactic reactions. No discontinuations.\n\nMyalgia was not elevated in the active arm vs placebo (3.4% vs 4.5%),\nan important finding given the statin-intolerant study population.\n\n5.3 Cardiovascular Events\n\nAll potential cardiovascular events were adjudicated by an independent CEC.\nDuring the 24-week treatment period:\n\n  MACE (adjudicated): 0 events (active) vs 2 events (placebo)\n\nThe two MACE events in the placebo arm were attributable to underlying\nhigh-risk cardiovascular disease. The study was not powered for MACE.\n\n5.4 Hepatic Safety\n\nOne patient in the active arm experienced ALT elevation to 3.2x ULN at\nWeek 8. Asymptomatic, detected on routine monitoring. Drug held 3 weeks;\nALT returned to 1.1x ULN. Patient rechallenged without recurrence. Assessed\nas possibly related to study drug.\n\nNo bilirubin elevation. No Hy's Law criteria met.\n\nMean ALT change Week 24: +3.2 U/L (active) vs +1.8 U/L (placebo), p=0.41.\n\nGiven the emerging hepatic signal in the ongoing Phase III study (3 additional\nALT >5x ULN cases), enhanced LFT monitoring has been added to the Phase III\nprotocol as an amendment.\n\n5.5 Immunogenicity\n\nADA incidence: 4.1% (3/74). No neutralising antibodies. No relationship\nbetween ADA status and PK, efficacy, or adverse events.\n\n5.6 Neurocognitive Safety\n\nCANTAB battery at baseline and Week 24 (exploratory). No statistically\nsignificant or clinically meaningful differences on any domain (sustained\nattention, spatial working memory, pattern recognition memory). Consistent\nwith published data for approved PCSK9 inhibitors.\n\n5.7 Conclusions -- Safety\n\nThe investigational product at 150 mg SC q4w demonstrated a favourable\nsafety profile over 24 weeks. No deaths. SAE rate lower in active arm.\nInjection site reactions mild and self-limiting. Single hepatic enzyme\nelevation resolved on drug hold. No myalgia excess. No neurocognitive\nsafety signal. No immunogenicity impact.\n\nThe safety profile supports continued development at 150 mg SC q4w.\nEnhanced hepatic monitoring implemented in the Phase III programme.\n"
+}

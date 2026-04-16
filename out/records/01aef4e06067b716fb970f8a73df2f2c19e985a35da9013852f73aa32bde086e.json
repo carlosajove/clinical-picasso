@@ -1,0 +1,32 @@
+{
+  "classes": [
+    {
+      "class_name": "Medical Publications",
+      "reasoning": "This is a published correspondence article in The Lancet Neurology (Volume 22, Issue 11, November 2023) with a DOI (10.1016/S1474-4422(23)00291-X). It presents a post-hoc analysis of trial data in a peer-reviewed journal format, not a primary trial document.",
+      "confidence": 0.98
+    }
+  ],
+  "nct_id": null,
+  "eudract_id": null,
+  "eu_ct_id": null,
+  "isrctn_id": null,
+  "utn_id": null,
+  "ind_number": null,
+  "cta_number": null,
+  "sponsor_protocol_id": "BIORCE-NEU-2020-002",
+  "sponsor_name": "Biorce Therapeutics S.L.",
+  "trial_title": null,
+  "trial_acronym": "VELAGOSTAT-002",
+  "intervention": "BRC-209 (velagostat)",
+  "indication": "early Alzheimer's disease",
+  "therapeutic_area": "Neurology",
+  "phase": "2",
+  "summary": "This is a peer-reviewed correspondence published in The Lancet Neurology describing a post-hoc analysis of the VELAGOSTAT-002 trial. The publication evaluates plasma phosphorylated tau 181 as an early pharmacodynamic biomarker for predicting tau PET response in Alzheimer's disease patients treated with BRC-209.",
+  "references_to": [
+    "Phase II BIORCE-NEU-2020-002 trial",
+    "Phase III BIORCE-NEU-2022-004 trial"
+  ],
+  "filename": "File_041.html",
+  "raw_sha256": "01aef4e06067b716fb970f8a73df2f2c19e985a35da9013852f73aa32bde086e",
+  "content": "\n\n\n\n\n\n\n\n\n\n\n\nThe Lancet Neurology\n\n\nVolume 22, Issue 11 | November 2023 | Correspondence\n\n\n● Open Access\n\n\n\n\nPlasma phosphorylated tau 181 as an early pharmacodynamic marker for tau aggregation inhibition: post-hoc analysis of the VELAGOSTAT-002 trial\n\n\nFabio Marchetti,¹ Karin Svensson,² Maarten de Boer,³ Elena Vázquez,¹ João Ferreira,⁴ Peter Williams,⁵ Yuki Tanaka⁶\n\n\n¹Biorce Therapeutics, Madrid | ²Karolinska Institutet, Stockholm | ³Amsterdam UMC\n⁴CHULN, Lisbon | ⁵UCL, London | ⁶NCGG, Nagoya\nCorrespondence: f.marchetti@biorce.com\n\n\nDOI: 10.1016/S1474-4422(23)00291-X (fictional) | Published: 02 Nov 2023\n\n\nSummary\n\n\nIn a post-hoc analysis of the Phase II BIORCE-NEU-2020-002 trial (n=94), we evaluated whether plasma p-tau 181 at Week 26 predicted tau PET response at Week 52 in early Alzheimer's disease patients treated with BRC-209 (velagostat). Among 49 BRC-209-treated patients with complete data, a p-tau 181 reduction of ≥25% at Week 26 was observed in 31/49 (63%). Among early responders, 87% showed significant tau PET SUVR reduction at Week 52 (mean −41%), compared with 28% of non-responders (mean −18%; p<0.001). AUC 0.84. These findings support plasma p-tau 181 as an accessible early pharmacodynamic biomarker for BRC-209 target engagement.\n\n\nResults\n\n\n\n\nParameter\nEarly Responders (n=31)\nNon-responders (n=18)\np-value\n\n\nTau PET SUVR change at Wk 52\n−41.3% (SD 12.4)\n−18.1% (SD 14.2)\n<0.001\n\n\nTau PET responders at Wk 52\n87.1% (27/31)\n27.8% (5/18)\n<0.001\n\n\nCDR-SB change at Wk 52\n+0.61\n+1.18\n0.041\n\n\nPlasma p-tau 181 at Wk 52\n−43.2%\n−22.7%\n0.003\n\n\n\n\nDiscussion\n\n\nOur findings suggest early plasma p-tau 181 response during BRC-209 treatment is strongly predictive of subsequent tau PET benefit (AUC 0.84). If replicated prospectively, this could enable adaptive enrichment strategies in future trials. Limitations include the post-hoc, exploratory nature and small sample size. Prospective validation is planned in the Phase III BIORCE-NEU-2022-004 trial.\n\n\n\n\nFunding:\n Biorce Therapeutics S.L.\n\n\nConflicts:\n FM and EV are employees of Biorce Therapeutics S.L.\n\n\n🔓 CC BY 4.0 — Free to reproduce with attribution\n\n\n\n\n\n"
+}

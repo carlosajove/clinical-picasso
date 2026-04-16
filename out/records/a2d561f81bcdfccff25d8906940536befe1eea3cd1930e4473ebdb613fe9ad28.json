@@ -1,0 +1,35 @@
+{
+  "classes": [
+    {
+      "class_name": "eTMF",
+      "reasoning": "This is a Routine Monitoring Visit Report (RMV #3) documenting site monitoring activities including source data verification, subject status, IMP accountability, regulatory document review, and action items. This is a standard TMF document that does not fit a more specific classification.",
+      "confidence": 1.0
+    }
+  ],
+  "nct_id": null,
+  "eudract_id": null,
+  "eu_ct_id": null,
+  "isrctn_id": null,
+  "utn_id": null,
+  "ind_number": null,
+  "cta_number": null,
+  "sponsor_protocol_id": "BIORCE-ONC-2023-001",
+  "sponsor_name": "Biorce Therapeutics S.L.",
+  "trial_title": null,
+  "trial_acronym": null,
+  "intervention": null,
+  "indication": null,
+  "therapeutic_area": "Oncology",
+  "phase": null,
+  "summary": "This is a routine monitoring visit report (RMV #3) for study site ES-02 at Hospital Universitario La Paz, Madrid, conducted on 14 December 2023 by CRA Marcos Iglesias. The report documents the status of 9 enrolled patients, source data verification findings, IMP accountability, regulatory document compliance, and action items including an expired sub-investigator CV and several open data queries.",
+  "references_to": [
+    "Protocol v2.1 (Amendment 2)",
+    "Local EC Amendment 2 approval received 02 Dec 2023",
+    "ICF v3.0 (post-Amendment 2)",
+    "Query Q-ES02-001-003",
+    "Lab normal ranges 2023 edition"
+  ],
+  "filename": "File_009.txt",
+  "raw_sha256": "a2d561f81bcdfccff25d8906940536befe1eea3cd1930e4473ebdb613fe9ad28",
+  "content": "================================================================================\nMONITORING VISIT REPORT\nBIORCE-ONC-2023-001\n================================================================================\nSITE      : Hospital Universitario La Paz, Madrid, Spain\nSITE CODE : ES-02\nVISIT TYPE: Routine Monitoring Visit (RMV #3)\nVISIT DATE: 14 December 2023\nCRA       : Marcos Iglesias, Biorce Clinical Operations\n            m.iglesias@biorce.com | M: +34 618 345 678\n================================================================================\n\n1. VISIT OVERVIEW\n\nCRA arrival / departure           : 08:30 / 17:15\nSite personnel present:\n  Principal Investigator           : Dr. Ignacio Fernandez-Ruiz (AM only)\n  Sub-Investigator                 : Dr. Lucia Castillo (all day)\n  Study Coordinator                : Raquel Dominguez (all day)\n  Pharmacist                       : Dra. Patricia Ruiz (11:00-12:30)\n\nPatients enrolled                  : 9\nPatients active                    : 8\nPatients discontinued              : 1 (disease progression, Cycle 4)\nScreen failures                    : 2\n\n2. SUBJECT STATUS\n\nPatient     Status           Last Visit    Next Visit    Issues\n---------------------------------------------------------------------------\nES02-001    Active C7D1      06 Dec 2023   03 Jan 2024   None\nES02-002    Active C6D1      08 Dec 2023   05 Jan 2024   See note (*)\nES02-003    Active C5D1      11 Dec 2023   08 Jan 2024   None\nES02-004    Active C4D1      12 Dec 2023   09 Jan 2024   None\nES02-005    Active C3D1      10 Dec 2023   07 Jan 2024   None\nES02-006    Active C2D1      13 Dec 2023   10 Jan 2024   None\nES02-007    Active C2D15     05 Dec 2023   05 Jan 2024   None\nES02-008    Active C1D8      12 Dec 2023   27 Dec 2023   None\nES02-009    Discontinued PD Cycle 4 -- EOT completed 30 Nov 2023\n\n(*) ES02-002: CT scan at C5 performed 3 days outside window (Day 59\ninstead of Day 56 +/- 3 days). Classified as minor protocol deviation.\n\n3. SOURCE DATA VERIFICATION (SDV)\n\nSDV scope: 100% for ES02-001 through ES02-006.\n\nModule                   % Done   Discrepancies   Open Queries\n------------------------------------------------------------------\nDemographics             100%     0               0\nEligibility / ICF        100%     0               0\nVital Signs              100%     1 (*)           0 (resolved)\nLaboratory Results       100%     2 (**)          1 (open)\nAdverse Events           100%     0               0\nConcomitant Meds         100%     3 (***)         2 (open)\nDrug Accountability      100%     0               0\nPRO Questionnaires       100%     0               0\nTumour Assessments       100%     0               0\n\n(*) BP recorded without units -- confirmed mmHg verbally. No query raised.\n(**) ALT discrepancy ES02-001 C5D1: CRF 42 U/L vs source 52 U/L.\n     Query raised (Q-ES02-001-003). Creatinine unit conversion verified OK.\n(***) OTC paracetamol/ibuprofen not captured. Queries raised x3.\n     Ibuprofen: CYP interaction flag -- Medical Monitor review requested.\n\nOpen queries (pre-visit): 7 | Resolved: 6 | New: 4 | Post-visit open: 5\n\n4. IMP ACCOUNTABILITY\n\nStorage: 16.2-28.4 degrees C (within 15-30 range). Compliant.\nRunning balance: 96 tablets. Physical count: 96. Reconciled, no discrepancy.\nOndansetron: 42 tablets. Physical count: 42. Reconciled.\n\n5. REGULATORY DOCUMENTS\n\n  Protocol v2.1 (Amendment 2)             : Confirmed in use\n  Local EC Amendment 2 approval           : Received 02 Dec 2023\n  ICF v3.0 (post-Amendment 2)             : Confirmed in use from 03 Dec 2023\n  All active patients re-consented v3.0   : Confirmed (6/6)\n  Sub-investigator CV (Dr. Castillo)      : EXPIRED -- action required\n  Lab normal ranges                       : Current (2023 edition)\n\n6. ACTIONS\n\n  1  Updated CV for Dr. Castillo          R. Dominguez  21 Dec 2023\n  2  Resolve lab query Q-ES02-001-003     A. Sanz       19 Dec 2023\n  3  Resolve conmed queries x3            R. Dominguez  19 Dec 2023\n  4  Medical Monitor review ibuprofen     M. Iglesias   14 Jan 2024\n  5  IMP destruction cert ES02-009        Dra. P. Ruiz  31 Jan 2024\n\n7. NEXT VISIT\n\nProposed: Week of 18 February 2024 (RMV #4)\n\n================================================================================\nCRA: Marcos Iglesias | 20 December 2023\nReviewed: Lena Fischer (Sr. CRA) | 22 December 2023\nCONFIDENTIAL -- BIORCE-ONC-2023-001 -- (C) 2023 Biorce Therapeutics S.L.\n================================================================================\n"
+}

@@ -1,0 +1,37 @@
+{
+  "classes": [
+    {
+      "class_name": "IB",
+      "reasoning": "The document self-identifies as an Investigator Brochure through the 'DOCUMENT HISTORY' section which shows 'Edition 1 05 Sep 2023 Initial IB' and tracks subsequent IB editions. The structure includes comprehensive safety, efficacy, PK, benefit-risk assessment, and monitoring guidance typical of an IB. The header 'Edition 3 | Confidential | January 2025' and 'SUMMARY OF CHANGES FROM PREVIOUS EDITION' are characteristic of IB versioning practices.",
+      "confidence": 0.98
+    }
+  ],
+  "nct_id": null,
+  "eudract_id": null,
+  "eu_ct_id": null,
+  "isrctn_id": null,
+  "utn_id": null,
+  "ind_number": null,
+  "cta_number": null,
+  "sponsor_protocol_id": null,
+  "sponsor_name": null,
+  "trial_title": null,
+  "trial_acronym": null,
+  "intervention": "BRC-883 (150 mg SC q4w; 100 mg SC q4w for moderate renal impairment)",
+  "indication": "Hypercholesterolemia / LDL-C lowering",
+  "therapeutic_area": "Cardiology / Lipidology",
+  "phase": "3",
+  "summary": "This is Edition 3 of an Investigator Brochure for the investigational drug BRC-883, updated January 2025 to incorporate Phase III Week 52 interim analysis data (n=412 randomised, data cut-off 30 September 2024). The document summarizes updated safety findings including a hepatic safety signal (ALT >5x ULN in 2.1% of patients), PK data in renal impairment populations with dosing recommendations, efficacy results showing 56.8% LDL-C reduction, and revised hepatic monitoring guidance.",
+  "references_to": [
+    "Edition 2",
+    "Phase III study",
+    "Week 52 interim analysis data (data cut-off: 30 September 2024)",
+    "Edition 1 05 Sep 2023 Initial IB",
+    "Edition 2 01 Aug 2024 Phase III safety interim, hepatic signal, paed.",
+    "Edition 3 15 Jan 2025 Phase III Week 52 interim, renal PK, immunogenicity",
+    "Phase III primary analysis (Q3 2025)"
+  ],
+  "filename": "File_050.txt",
+  "raw_sha256": "654eac603d5d4d120bac52cd5eb5437d035e3a6e8a002bff7f0c09b0fcd2a0de",
+  "content": "Edition 3 | Confidential | January 2025\n\n1. SUMMARY OF CHANGES FROM PREVIOUS EDITION\n\nThis edition updates the clinical safety and efficacy sections following\ncompletion of enrolment in the Phase III study and availability of the\nWeek 52 interim analysis data (data cut-off: 30 September 2024, n=412\nrandomised, n=389 with at least one post-baseline assessment).\n\nKey updates:\n\n  1.1  New hepatic safety signal -- Grade 3 ALT elevation\n       Three additional cases of ALT >5x ULN confirmed since Edition 2,\n       bringing overall incidence to 2.1% (4/189 exposed in Phase III).\n       All cases resolved on drug hold. One patient permanently discontinued;\n       three successfully rechallenged.\n\n  1.2  Cardiac safety -- QTcF monitoring clarification\n       Pre-specified cardiac safety analysis at 200-patient interim showed\n       no QTcF >500ms, no clinically meaningful change in mean QTcF (+3.2ms).\n       Existing ECG monitoring schedule considered sufficient.\n\n  1.3  Updated PK -- renal impairment subgroup\n       PK sub-study (n=24): AUC increased 38% in moderate renal impairment\n       (eGFR 30-44 mL/min). Dose reduction to 100 mg SC q4w now recommended\n       for patients with eGFR 30-44 mL/min. Patients with eGFR <30 excluded.\n\n  1.4  Immunogenicity update\n       Cumulative ADA incidence in Phase III (n=189): 5.3% (10/189).\n       No neutralising antibodies. No PK or safety impact.\n\n  1.5  Paediatric data update\n       Pilot (n=12, adolescents 14-17, 75mg SC q4w, 24 weeks): LDL-C -48%,\n       sustained. No new safety signals. No paediatric indication claimed.\n\n2. UPDATED PK (steady-state, 150 mg SC q4w)\n\n  Parameter               Phase II (n=74)    Phase III interim (n=189)\n  -----------------------------------------------------------------------\n  Cmax,ss (ug/mL)          22.4 (26%)         23.1 (24%)\n  AUCtau (ug.day/mL)       198 (22%)          204 (21%)\n  T1/2 terminal (days)     17.4               17.8\n  Bioavailability SC       71%                73%\n  ADA incidence            4.1%               5.3%\n  Neutralising ADA         0%                 0%\n\n  Renal impairment PK sub-study:\n    eGFR Normal (>=60): AUC 1.00 (reference) -- standard dose 150mg\n    eGFR Mild (45-59):  AUC 1.18 -- standard dose 150mg\n    eGFR Moderate (30-44): AUC 1.38 -- reduce to 100mg q4w\n    eGFR Severe (<30): not studied -- excluded from trial\n\n3. PHASE III INTERIM EFFICACY (Week 52, n=389, data cut 30 Sep 2024)\n\n  LDL-C change:     -56.8% (BRC-883) vs -3.1% (placebo), p<0.0001\n  ApoB:             -45.2% vs -1.4% (p<0.0001)\n  Non-HDL-C:        -50.7% vs -2.3% (p<0.0001)\n  Lp(a):            -22.4% vs +1.8% (p=0.003)\n  MACE (52wk):      11 events vs 14 events -- HR 0.76 (NS -- not powered)\n\n  LDL-C targets:\n    <1.8 mmol/L Week 52: 66% (BRC-883) vs 3% (placebo)\n    <1.4 mmol/L Week 52: 39% vs 1%\n\n4. PHASE III SAFETY (n=412, data cut 30 Sep 2024)\n\n  Any TEAE:              71.4% vs 69.2%\n  Grade >=3:              7.3% vs 8.1%\n  SAE:                    4.4% vs 5.1%\n  Discontinuation:        2.1% vs 1.5%\n  Injection site reaction: 9.2% vs 4.1% (all Grade 1-2)\n  ALT >5x ULN:            2.1% vs 0% (4 cases -- see 1.1 above)\n\n5. UPDATED HEPATIC MONITORING GUIDANCE\n\n  ALT/AST at: screening, Week 4, 8, 12, 24 (mandatory)\n  ALT >3x ULN: repeat within 2 weeks; may continue drug\n  ALT >5x ULN: hold drug; notify Sponsor within 48h; repeat weekly\n  Rechallenge: permitted after resolution to <2x ULN (Sponsor approval)\n  Permanent DC: if ALT >5x ULN recurs on rechallenge\n\n6. BENEFIT-RISK ASSESSMENT\n\nBenefit-risk remains favourable. LDL-C reduction ~57% consistent across\nPhase II and Phase III interim. Hepatic signal (ALT >5x ULN, 2.1%)\nmanageable with enhanced monitoring. No new safety signals of concern.\nThis document will be updated following Phase III primary analysis (Q3 2025).\n\nDOCUMENT HISTORY\n  Edition 1   05 Sep 2023   Initial IB\n  Edition 2   01 Aug 2024   Phase III safety interim, hepatic signal, paed.\n  Edition 3   15 Jan 2025   Phase III Week 52 interim, renal PK, immunogenicity\n"
+}

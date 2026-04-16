@@ -1,0 +1,29 @@
+{
+  "classes": [
+    {
+      "class_name": "NOISE",
+      "reasoning": "This document is an internal corporate email thread discussing the preparation and finalization of a 2022 Environmental, Social, and Governance (ESG) Report for Biorce. It contains environmental performance metrics, employee statistics, and governance policies but is not a clinical trial artifact, regulatory submission, patient-facing document, or any recognized TMF component. It is corporate communications material unrelated to clinical trial execution.",
+      "confidence": 0.98
+    }
+  ],
+  "nct_id": null,
+  "eudract_id": null,
+  "eu_ct_id": null,
+  "isrctn_id": null,
+  "utn_id": null,
+  "ind_number": null,
+  "cta_number": null,
+  "sponsor_protocol_id": null,
+  "sponsor_name": null,
+  "trial_title": null,
+  "trial_acronym": null,
+  "intervention": null,
+  "indication": null,
+  "therapeutic_area": null,
+  "phase": null,
+  "summary": "This is an email thread export from Biorce employees discussing the draft and final versions of the company's 2022 ESG (Environmental, Social, and Governance) Report. The emails cover internal review comments on emissions reductions, employee wellbeing policies, and corporate sustainability commitments, intended for Board review on 24 March 2023. It is not a clinical trial document.",
+  "references_to": [],
+  "filename": "File_018.txt",
+  "raw_sha256": "2ef84422d8472fc641df942dfd5a7bedf8dbc8d7f5bd573f62f016967ec03fa3",
+  "content": "================================================================================\nEMAIL THREAD EXPORT — BIORCE INTERNAL\nThread: Draft ESG Report 2022 -- ready for your review\n================================================================================\n\n------------------------------------------------------------------------\nFROM:    Lucia Mendoza <l.mendoza@biorce.com>\nTO:      Rafael Moreno <r.moreno@biorce.com>\nCC:      Carmen Lopez <c.lopez@biorce.com>; Javier Ortega <j.ortega@biorce.com>\nDATE:    14 March 2023, 16:42\nSUBJECT: Draft ESG Report 2022 -- ready for your review\n------------------------------------------------------------------------\n\nRafael,\n\nPlease find attached the draft ESG Report 2022 for review ahead of the\nBoard meeting on 24 March.\n\nKey highlights:\n\nENVIRONMENT\n- Scope 1+2 emissions: 184 tCO2e (down 12% from 2021 -- renewable electricity\n  switch April 2022 + reduced travel)\n- Business travel down 23% -- virtual investigator meetings helped significantly\n- Lab waste: 98.4% via accredited hazardous waste channels (target: 100%)\n- Printing down 67% since eTMF rollout in Q2 2022 (~840 kg paper saved annually)\n\nSOCIAL\n- 47 FTE as of December 2022 (+ 3 part-time contractors)\n- Gender: 57% female overall; 50% female in senior leadership\n- Voluntary attrition: 8.5% (vs 13% industry benchmark -- positive)\n- New: flexible working policy (3 remote days/week)\n- Enhanced parental leave (20 weeks primary / 8 weeks secondary carer)\n- EUR 500/employee annual wellbeing budget\n\nGOVERNANCE\n- Code of Ethics and Anti-Bribery Policy approved January 2022\n- 100% employee training completion by March 2022\n- Zero violations reported in 2022\n\nI've highlighted Pages 4 and 8 for your sign-off before we finalise.\n\nCan you return by COB Friday 17 March?\n\nLucia\n\n------------------------------------------------------------------------\nFROM:    Rafael Moreno <r.moreno@biorce.com>\nTO:      Lucia Mendoza <l.mendoza@biorce.com>\nDATE:    16 March 2023, 09:28\nSUBJECT: RE: Draft ESG Report 2022 -- ready for your review\n------------------------------------------------------------------------\n\nLucia,\n\nGreat work. Two comments:\n\nPage 4 (climate targets): Add a forward-looking commitment -- net-zero\nScope 1+2 by 2030, and Scope 3 baseline assessment in 2023. Check with\nJavier that this is operationally realistic before finalising.\n\nPage 8 (office energy rating): The building EPC is a \"D\" -- let's not\nhighlight it. Instead add a note that we are exploring green lease addendum\noptions with the landlord (Inversiones Castellana 41) as part of 2023\nsustainability roadmap. This is factually accurate.\n\nThe people & culture section is particularly strong.\n\nR.\n\n------------------------------------------------------------------------\nFROM:    Lucia Mendoza <l.mendoza@biorce.com>\nTO:      Biorce-Board <board@biorce.com>\nDATE:    17 March 2023, 17:55\nSUBJECT: Biorce ESG Report 2022 -- FINAL for Board Review\n------------------------------------------------------------------------\n\nDear Board Members,\n\nPlease find attached the final ESG Report 2022 for review at the Board\nmeeting on 24 March 2023.\n\nChanges incorporated per Rafael's comments:\n  - Page 4: 2030 Scope 1+2 net-zero target; Scope 3 baseline in 2023\n  - Page 8: EPC rating removed; green lease addendum language added\n\nLucia\n================================================================================\n"
+}

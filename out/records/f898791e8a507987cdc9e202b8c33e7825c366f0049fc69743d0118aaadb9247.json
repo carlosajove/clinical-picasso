@@ -1,0 +1,31 @@
+{
+  "classes": [
+    {
+      "class_name": "CSR",
+      "reasoning": "This document presents efficacy and safety results for a completed randomised controlled trial, including patient disposition, primary endpoint analysis (CDR-SB at Week 78), key secondary endpoints, biomarker data, and detailed safety reporting. The structure and content match a Clinical Study Report section presenting final trial results.",
+      "confidence": 0.98
+    }
+  ],
+  "nct_id": null,
+  "eudract_id": null,
+  "eu_ct_id": null,
+  "isrctn_id": null,
+  "utn_id": null,
+  "ind_number": null,
+  "cta_number": null,
+  "sponsor_protocol_id": null,
+  "sponsor_name": null,
+  "trial_title": null,
+  "trial_acronym": null,
+  "intervention": "velagostat",
+  "indication": "early Alzheimer's disease",
+  "therapeutic_area": "Neurology",
+  "phase": "2/3",
+  "summary": "This is a section of a Clinical Study Report presenting efficacy and safety results for a phase 2/3 trial of velagostat versus placebo in patients with early Alzheimer's disease. The document reports that 477 patients received treatment, the primary endpoint (CDR-SB at Week 78) was met with statistical significance (p<0.001), and all key secondary endpoints including cognitive and functional measures plus tau PET imaging were also met. Safety profile was comparable to placebo with no treatment-related deaths.",
+  "references_to": [
+    "Section 6: Pharmacokinetics"
+  ],
+  "filename": "File_051.txt",
+  "raw_sha256": "f898791e8a507987cdc9e202b8c33e7825c366f0049fc69743d0118aaadb9247",
+  "content": "...continued from previous page\n\n\n4. EFFICACY RESULTS\n\n4.1  Patient Disposition and Analysis Populations\n\nOf 480 patients randomised, 477 received at least one dose of study treatment\n(3 patients withdrew consent before first dose). The mITT population comprised\n477 patients (320 velagostat, 157 placebo). The PP population comprised 431\npatients; 46 excluded due to protocol deviations, most commonly missed cognitive\nassessments outside the protocol window (n=31).\n\n  Disposition              Velagostat (n=320)   Placebo (n=160)\n  -------------------------------------------------------------------\n  Completed 96 weeks         241 (75.3%)          119 (74.4%)\n  Discontinued                79 (24.7%)           41 (25.6%)\n    AE                         22  (6.9%)           11  (6.9%)\n    Withdrawal                 28  (8.8%)           16 (10.0%)\n    Lost to follow-up          14  (4.4%)            8  (5.0%)\n    Death                      15  (4.7%)            6  (3.8%)\n\n  Deaths on study: 21 total. All reviewed by independent adjudication\n  committee. No deaths considered treatment-related.\n\n4.2  Primary Endpoint -- CDR-SB at Week 78\n\n  Timepoint    Velagostat  Placebo   LS Mean Diff   95% CI          p-value\n  ---------------------------------------------------------------------------\n  Week 13       +0.19       +0.38     -0.19         (-0.44, +0.06)   0.14\n  Week 26       +0.43       +0.77     -0.34         (-0.65, -0.03)   0.032\n  Week 52       +0.82       +1.39     -0.57         (-0.93, -0.21)   0.002\n  Week 78       +1.14       +1.87     -0.73         (-1.12, -0.34)  <0.001\n  Week 96       +1.31       +2.14     -0.83         (-1.25, -0.41)  <0.001\n\n  PRIMARY ENDPOINT MET: -0.73 points at Week 78 (p<0.001), exceeding the\n  pre-specified minimal clinically important difference of >=0.5 points.\n\n4.3  Key Secondary Endpoints at Week 78\n\n  ADAS-Cog13:    +2.4 vs +4.1  -- difference -1.7 points (p=0.003)\n  ADCS-ADL-MCI:  -3.2 vs -5.8  -- difference +2.6 points (p=0.001)\n  MMSE:          -1.8 vs -3.1  -- difference +1.3 points (p=0.012)\n  Amyloid PET:   -2.9 vs -1.6  -- NS (p=0.44) -- confirms non-amyloid MOA\n  Tau PET SUVR (entorhinal): -26.4% vs -3.8% (p<0.001)\n  Tau PET SUVR (temporal):   -23.1% vs -3.2% (p<0.001)\n\n  All key secondary endpoints met statistical significance.\n\n4.4  Exploratory Biomarkers\n\n  Plasma p-tau 181 (Week 78): -38.4% (velagostat) vs -2.1% (placebo), p<0.001\n  Plasma NfL (Week 78):       +4.2% vs +18.7% (p=0.002) -- attenuation of\n                               neurodegeneration marker increase\n  APOE e4 subgroup (n=284):   LS mean diff -0.81 (p<0.001)\n  Non-e4 subgroup (n=193):    LS mean diff -0.59 (p=0.018)\n  No significant treatment-by-genotype interaction (p=0.31).\n\n  CSF sub-study (n=60, paired baseline/Week 78):\n    p-tau 181: -41.2% vs -3.4% (p<0.001)\n    Total tau:  -28.7% vs -1.8% (p<0.001)\n    Strongest evidence of central tau target engagement.\n\n4.5  Time to Confirmed Cognitive Decline\n\n  Pre-specified exploratory endpoint (CDR-SB increase >=1 point, confirmed):\n    Velagostat: median 62.4 weeks (95% CI 54.1-NR)\n    Placebo:    median 44.8 weeks (95% CI 38.2-54.6)\n    HR 0.64 (95% CI 0.49-0.84), p=0.001 -- 36% risk reduction\n\n5. SAFETY RESULTS\n\n5.1  Overview\n\n  Parameter                    Velagostat (n=320)   Placebo (n=160)\n  -----------------------------------------------------------------------\n  Any TEAE                      91.3%                88.8%\n  Grade >=3 TEAE                18.4%                17.5%\n  SAE                           14.1%                13.1%\n  Discontinuation due to AE      6.9%                 6.9%\n  Deaths (all cause)             4.7%                 3.8%\n  Deaths (treatment-related)     0%                   0%\n\n5.2  TEAEs of Special Interest\n\n  Falls (any):             22.2% vs 26.9%  -- no excess vs placebo\n  Headache:                26.6% vs 18.1%  -- mild; Grade 3: 0%\n  Nausea:                  20.9% vs 13.8%  -- mild; resolves Week 8\n  Dizziness:               17.8% vs 9.4%   -- mild; no syncope\n  ALT >3x ULN:              1.9% vs 0.6%\n  ARIA-E (MRI):             0%   vs 0%\n  ARIA-H (MRI):             0.3% vs 0%  -- 1 asymptomatic microbleed\n\n...continues on next page (Section 6: Pharmacokinetics)\n"
+}

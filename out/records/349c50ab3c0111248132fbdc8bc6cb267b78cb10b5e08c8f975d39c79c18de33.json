@@ -1,0 +1,37 @@
+{
+  "classes": [
+    {
+      "class_name": "eTMF",
+      "reasoning": "This document is explicitly labeled 'PROTOCOL DEVIATION LOG' tracking protocol deviations across multiple sites and patients for Q1 2024. It is a regulated trial master file record used to document and manage non-compliance events, which is a core TMF document but does not fit the more specific CSP, ICF, CRF, CSR, or IB categories.",
+      "confidence": 0.98
+    }
+  ],
+  "nct_id": null,
+  "eudract_id": null,
+  "eu_ct_id": null,
+  "isrctn_id": null,
+  "utn_id": null,
+  "ind_number": null,
+  "cta_number": null,
+  "sponsor_protocol_id": null,
+  "sponsor_name": null,
+  "trial_title": null,
+  "trial_acronym": null,
+  "intervention": null,
+  "indication": null,
+  "therapeutic_area": null,
+  "phase": null,
+  "summary": "This is a Protocol Deviation Log for Q1 2024 (January–March 2024), version 7, documenting six protocol deviations (DEV-007 to DEV-012) across multiple European sites. The log records visit window excursions, eligibility violations, consent timing issues, laboratory non-compliance, and investigational medicinal product storage excursions, including one major deviation (DEV-008) that was reportable to the Ethics Committee.",
+  "references_to": [
+    "Amendment 2",
+    "Amendment 2 ICF on 27 Jan 2024",
+    "per IMR review",
+    "Central ECG reader confirmation",
+    "Kit numbers PL01-K019 through PL01-K024",
+    "DEV-003",
+    "DEV-008"
+  ],
+  "filename": "Q1_2024_updated_REVIEWED_v3_JL_edits.txt",
+  "raw_sha256": "349c50ab3c0111248132fbdc8bc6cb267b78cb10b5e08c8f975d39c79c18de33",
+  "content": "Version: 7  |  Period covered: January - March 2024  |  Owner: Clinical Ops\nLast updated: 02 April 2024  |  Status: ACTIVE -- open deviations flagged\n\n\nPROTOCOL DEVIATION LOG\n------------------------------------------------------------------------\n\nDev.#   Site     Patient          Type        Description\n------------------------------------------------------------------------\n\nDEV-007  NL-01  [CODE]-NL01-003  Visit window  C4D1 visit on Day 31\n                                               (window D28 +/- 3 days).\n                                               Delay: public holiday.\n         Date occurred: 08 Jan 2024\n         Date reported: 10 Jan 2024\n         Category: Minor\n         Patient impact: None\n         Data impact: Assessments valid per IMR review\n         Corrective action: IRT calendar updated with Dutch holidays\n         Status: CLOSED\n\nDEV-008  ES-01  [CODE]-ES01-014  Eligibility   Screening ECG QTcF 483ms\n                                               (threshold: <=480ms).\n                                               Patient enrolled in error.\n                                               QTcF at C1D1: 477ms.\n         Date occurred: 15 Jan 2024\n         Date reported: 19 Jan 2024\n         Category: MAJOR\n         Patient impact: None. QTcF normalised by C1D1. Patient continues.\n         Data impact: Excluded from PP population. Included in Safety/ITT.\n         Corrective action: Central ECG reader confirmation now required\n                            before enrollment. All ES sites retrained.\n         Reportable to Ethics Committee: YES -- reported 24 Jan 2024\n         Status: CLOSED\n\nDEV-009  DE-02  [CODE]-DE02-001  Consent       Patient signed consent dated\n                                               15 Nov 2023 (pre-Amendment 2)\n                                               2 days after local EC approval\n                                               of Amendment 2 (18 Jan 2024).\n         Date occurred: 20 Jan 2024\n         Date reported: 23 Jan 2024\n         Category: Minor\n         Note: 2-day gap between EC approval and consent switch.\n               Patient re-consented with Amendment 2 ICF on 27 Jan 2024.\n         Status: CLOSED\n\nDEV-010  BE-01  [CODE]-BE01-002  Lab           Fasting requirement not met\n                                               at Week 12 lipid panel.\n                                               Patient ate breakfast before\n                                               attending.\n         Date occurred: 05 Feb 2024\n         Date reported: 07 Feb 2024\n         Category: Minor\n         Data impact: Week 12 LDL-C excluded from primary analysis.\n                      Patient returned 5 days later for fasting draw.\n         Corrective action: Written fasting instructions in Dutch provided.\n                            Coordinator confirms fasting by phone evening before.\n         Status: CLOSED\n\nDEV-011  PL-01  [CODE]-PL01-SITE  IMP         Storage temperature excursion:\n                                               31.4 degrees C for 4 hours on\n                                               14 Feb 2024 (heating malfunction).\n         Date occurred: 14 Feb 2024\n         Date reported: 15 Feb 2024\n         Category: Moderate\n         IMP affected: Kit numbers PL01-K019 through PL01-K024 (6 kits)\n         Sponsor QP assessment: Product quality confirmed UNAFFECTED.\n                                 (Stability supports up to 35C for 72h.)\n         Corrective action: Backup temperature alarm installed.\n         Status: CLOSED\n\nDEV-012  ES-03  [CODE]-ES03-008  Visit window  CT scan Cycle 6 performed\n                                               Day 169 (window Day 168 +/- 3).\n         Category: Minor | Status: CLOSED\n\n\nSUMMARY -- Q1 2024\n\n  New deviations this period:      6 (DEV-007 to DEV-012)\n  Major:                           1 (DEV-008)\n  Moderate:                        1 (DEV-011)\n  Minor:                           4\n  Open at period end:              0\n  Cumulative major (total):        2 (DEV-003, DEV-008)\n  Ethics Committee reports filed:  1 (DEV-008)\n\n------------------------------------------------------------------------\nPrepared by: Carmen Lopez | Reviewed by: Elena Vazquez\n------------------------------------------------------------------------\n"
+}
