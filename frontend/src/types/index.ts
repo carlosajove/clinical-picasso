@@ -60,19 +60,6 @@ export interface CascadeResult {
   total_affected: number;
 }
 
-export interface AuditReport {
-  total_issues: number;
-  errors: number;
-  warnings: number;
-  by_category: Record<string, AuditIssue[]>;
-}
-
-export interface AuditIssue {
-  severity: 'error' | 'warning' | 'info';
-  doc_id: string | null;
-  description: string;
-  details: Record<string, unknown>;
-}
 
 export interface ChatResponse {
   question: string;

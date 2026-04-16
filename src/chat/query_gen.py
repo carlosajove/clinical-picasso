@@ -56,6 +56,8 @@ query name() {{
 - The query must be named `nl_query` with no parameters (we run it as-is)
 - Return only the fields needed to answer the question
 - Keep queries simple — prefer fewer patterns
+- Trial nodes have `protocol_id` as the primary identifier (e.g. "BIORCE-ONC-2023-001") — always include it when returning Trial data
+- When querying trials, always include `$trial.protocol_id` and `$trial.title` in the return
 
 # Graph schema
 
@@ -64,7 +66,7 @@ query name() {{
 # Important
 - Return ONLY the GeneratedQuery JSON. No commentary.
 - The `gq_query` field must contain a valid .gq query string.
-- The `explanation` field should be 1 sentence explaining what the query does.
+- The `explanation` field should be a short, conversational answer to the user's question. Write it as if you're speaking directly to them (e.g. "Here are all the trials in the graph:" or "I found 3 ICFs linked to that protocol."). Do NOT describe the query itself — describe what the results show.
 """
 
 

@@ -8,7 +8,7 @@ interface Props {
   onSelect: (doc: DocumentSummary) => void;
 }
 
-type SortKey = 'filename' | 'document_type' | 'confidence' | 'version' | 'country';
+type SortKey = 'filename' | 'document_type' | 'confidence' | 'version';
 
 export default function DocumentTable({ documents, onSelect }: Props) {
   const [search, setSearch] = useState('');
@@ -89,7 +89,6 @@ export default function DocumentTable({ documents, onSelect }: Props) {
                 ['document_type', 'Type'],
                 ['confidence', 'Confidence'],
                 ['version', 'Version'],
-                ['country', 'Country'],
               ] as [SortKey, string][]).map(([key, label]) => (
                 <th
                   key={key}
@@ -136,7 +135,6 @@ export default function DocumentTable({ documents, onSelect }: Props) {
                     </div>
                   </td>
                   <td className="px-4 py-3 text-slate-600">{doc.version ?? '—'}</td>
-                  <td className="px-4 py-3 text-slate-600">{doc.country ?? '—'}</td>
                   <td className="px-4 py-3 text-slate-500 text-xs truncate max-w-[160px]">
                     {doc.sponsor_protocol_id ?? '—'}
                   </td>
