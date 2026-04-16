@@ -9,7 +9,7 @@ from pathlib import Path
 
 from pydantic import ValidationError
 
-from extraction.schema import ExtractionRecord
+from src.extraction.schema import ExtractionRecord
 
 
 def _cache_path(raw_sha256: str, out_dir: Path) -> Path:

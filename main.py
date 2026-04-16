@@ -16,9 +16,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from extraction import cache
-from extraction.extract import DEFAULT_MODEL, DocumentExtractor
-from extraction.schema import ExtractionRecord
+from src.extraction import cache
+from src.extraction.extract import DEFAULT_MODEL, DocumentExtractor
+from src.extraction.schema import ExtractionRecord
 from src.preprocessing import DocumentRecord as Doc
 from src.preprocessing import Preprocessing
 

@@ -5,7 +5,7 @@ The classification vocabulary is defined once in `extraction.schema.DocumentClas
 describe each class in the prompt so the LLM picks intelligently.
 """
 
-from extraction.schema import DocumentClass
+from src.extraction.schema import DocumentClass
 
 
 # Human-readable description for each class, shown to the LLM.

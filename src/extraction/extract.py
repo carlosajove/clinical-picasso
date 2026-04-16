@@ -4,8 +4,8 @@ from __future__ import annotations
 
 from pydantic_ai import Agent, BinaryContent
 
-from extraction.prompt import EXTRACTION_PROMPT, USER_PROMPT_TEMPLATE
-from extraction.schema import ExtractionRecord, LLMExtraction
+from src.extraction.prompt import EXTRACTION_PROMPT, USER_PROMPT_TEMPLATE
+from src.extraction.schema import ExtractionRecord, LLMExtraction
 from src.preprocessing import DocumentRecord
 
 
