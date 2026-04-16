@@ -1,0 +1,48 @@
+node Document {
+    doc_id:                     String  @key
+    source_file:                String
+    content_hash:               String  @index
+    document_type:              String  @index
+    classification_confidence:  F64
+    raw_classes:                String?
+    version:                    String?
+    status:                     String  @index
+    country:                    String?  @index
+    site_id:                    String?  @index
+    summary:                    String?
+    sponsor_name:               String?
+    sponsor_protocol_id:        String?
+    trial_title:                String?
+    intervention:               String?
+    indication:                 String?
+    phase:                      String?
+}
+
+node Trial {
+    protocol_id:    String  @key
+    nct_id:         String?  @index
+    eudract_id:     String?  @index
+    title:          String?  @index
+    phase:          String?
+    intervention:   String?
+    indication:     String?
+}
+
+edge Supersedes: Document -> Document {
+    reason:         String?
+}
+
+edge DerivedFrom: Document -> Document {
+    derivation_type: String?
+}
+
+edge References: Document -> Document {
+    section:        String?
+    citation_text:  String?
+}
+
+edge Governs: Document -> Document {
+    authority_type: String?
+}
+
+edge BelongsToTrial: Document -> Trial

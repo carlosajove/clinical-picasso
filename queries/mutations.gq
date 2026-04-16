@@ -1,0 +1,39 @@
+query add_document($doc_id: String, $source_file: String, $content_hash: String, $document_type: String, $classification_confidence: F64, $status: String) {
+    insert Document {
+        doc_id: $doc_id,
+        source_file: $source_file,
+        content_hash: $content_hash,
+        document_type: $document_type,
+        classification_confidence: $classification_confidence,
+        status: $status
+    }
+}
+
+query add_trial($protocol_id: String) {
+    insert Trial { protocol_id: $protocol_id }
+}
+
+query add_belongs_to_trial($doc_id: String, $trial_id: String) {
+    insert BelongsToTrial { from: $doc_id, to: $trial_id }
+}
+
+query add_supersedes($new_id: String, $old_id: String, $reason: String) {
+    insert Supersedes { from: $new_id, to: $old_id, reason: $reason }
+}
+
+query add_derived_from($child_id: String, $parent_id: String, $derivation_type: String) {
+    insert DerivedFrom { from: $child_id, to: $parent_id, derivation_type: $derivation_type }
+}
+
+query add_references($from_id: String, $to_id: String, $citation_text: String) {
+    insert References { from: $from_id, to: $to_id, citation_text: $citation_text }
+}
+
+query add_governs($gov_id: String, $doc_id: String, $authority_type: String) {
+    insert Governs { from: $gov_id, to: $doc_id, authority_type: $authority_type }
+}
+
+query mark_superseded($doc_id: String) {
+    update Document set { status: "superseded" }
+    where doc_id = $doc_id
+}

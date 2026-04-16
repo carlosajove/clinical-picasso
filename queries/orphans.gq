@@ -1,0 +1,22 @@
+query find_orphans() {
+    match {
+        $doc: Document
+        not { $doc derivedFrom $_ }
+        not { $doc references $_ }
+        not { $doc governs $_ }
+        not { $doc belongsToTrial $_ }
+        not { $_ derivedFrom $doc }
+        not { $_ references $doc }
+        not { $_ governs $doc }
+        not { $_ supersedes $doc }
+    }
+    return { $doc.doc_id, $doc.document_type, $doc.classification_confidence, $doc.source_file }
+}
+
+query low_confidence($threshold: F64) {
+    match {
+        $doc: Document
+        $doc.classification_confidence < $threshold
+    }
+    return { $doc.doc_id, $doc.document_type, $doc.classification_confidence, $doc.raw_classes, $doc.source_file }
+}

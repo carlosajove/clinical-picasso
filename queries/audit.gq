@@ -1,0 +1,23 @@
+query trial_documents($protocol_id: String) {
+    match {
+        $trial: Trial { protocol_id: $protocol_id }
+        $doc belongsToTrial $trial
+        not { $newer supersedes $doc }
+        $doc.status != "archived"
+    }
+    return { $doc.doc_id, $doc.document_type, $doc.version, $doc.status, $doc.country, $doc.site_id, $doc.source_file }
+}
+
+query all_documents() {
+    match {
+        $doc: Document
+    }
+    return { $doc.doc_id, $doc.document_type, $doc.version, $doc.status, $doc.country, $doc.classification_confidence, $doc.source_file }
+}
+
+query all_trials() {
+    match {
+        $trial: Trial
+    }
+    return { $trial.protocol_id, $trial.title, $trial.nct_id, $trial.eudract_id, $trial.phase }
+}

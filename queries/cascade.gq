@@ -1,0 +1,26 @@
+query cascade_derived($changed_id: String) {
+    match {
+        $changed: Document { doc_id: $changed_id }
+        $affected derivedFrom{1,10} $changed
+        not { $newer supersedes $affected }
+    }
+    return { $affected.doc_id, $affected.document_type, $affected.country, $affected.site_id, $affected.source_file }
+}
+
+query cascade_references($changed_id: String) {
+    match {
+        $changed: Document { doc_id: $changed_id }
+        $affected references{1,10} $changed
+        not { $newer supersedes $affected }
+    }
+    return { $affected.doc_id, $affected.document_type, $affected.country, $affected.site_id, $affected.source_file }
+}
+
+query cascade_governed($changed_id: String) {
+    match {
+        $changed: Document { doc_id: $changed_id }
+        $affected governs{1,10} $changed
+        not { $newer supersedes $affected }
+    }
+    return { $affected.doc_id, $affected.document_type, $affected.country, $affected.site_id, $affected.source_file }
+}
