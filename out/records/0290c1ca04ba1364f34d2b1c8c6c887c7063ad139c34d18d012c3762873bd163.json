@@ -2,26 +2,30 @@
   "classes": [
     {
       "class_name": "eTMF",
-      "reasoning": "Document explicitly titled 'TRIAL MASTER FILE INDEX' with header 'eTMF-001', references DIA TMF Reference Model v3.0, and contains structured inventory of TMF artifacts organized by zones/sections with filing status, version control, and TMF health metrics.",
+      "reasoning": "Document explicitly self-identifies as 'eTMF-001 — TRIAL MASTER FILE INDEX' in the title and provides a structured index of Trial Master File artifacts organized by DIA TMF Reference Model zones and sections, tracking document status, versions, and filing dates.",
       "confidence": 1.0
     }
   ],
-  "nct_id": null,
-  "eudract_id": null,
-  "eu_ct_id": null,
-  "isrctn_id": null,
-  "utn_id": null,
-  "ind_number": null,
-  "cta_number": null,
+  "nct_id": "",
+  "eudract_id": "",
+  "eu_ct_id": "",
+  "isrctn_id": "",
+  "utn_id": "",
+  "ind_number": "",
+  "cta_number": "",
   "sponsor_protocol_id": "BIORCE-ONC-2023-001",
   "sponsor_name": "Biorce Therapeutics S.L.",
-  "trial_title": null,
-  "trial_acronym": null,
-  "intervention": null,
-  "indication": null,
+  "trial_title": "",
+  "trial_acronym": "",
+  "intervention": "",
+  "indication": "",
   "therapeutic_area": "Oncology",
-  "phase": null,
-  "summary": "This is a Trial Master File index document (version 1.3 dated 01 December 2023) for study BIORCE-ONC-2023-001, maintained in Veeva Vault by TMF Lead Carmen López. It provides a structured inventory of all TMF artifacts organized according to the DIA TMF Reference Model v3.0, including filing status, ownership, and TMF health metrics showing 61% completion.",
+  "phase": "",
+  "version": "1.3",
+  "version_ordinal": 1,
+  "country": "",
+  "site_id": "",
+  "summary": "This is a Trial Master File index document (eTMF-001) for study BIORCE-ONC-2023-001, maintained in Veeva Vault. It provides a comprehensive index of all TMF artifacts organized according to the DIA TMF Reference Model v3.0, tracking document filing status, versions, ownership, and overall TMF health metrics. The index shows 61% of artifacts are complete with ongoing site-level documentation in progress.",
   "references_to": [
     "Protocol and Amendments v2.1",
     "Protocol Signature Page v2.1",
@@ -48,10 +52,10 @@
     "Drug Accountability Logs",
     "Monitor Visit Reports",
     "Screening and Enrolment Logs",
-    "DIA TMF Reference Model v3.0",
-    "Veeva Vault (Instance: BIORCE-VAULT-DEV)"
+    "Amendment 1",
+    "Amendment 2",
+    "DIA TMF Reference Model v3.0"
   ],
   "filename": "File_016.md",
-  "raw_sha256": "0290c1ca04ba1364f34d2b1c8c6c887c7063ad139c34d18d012c3762873bd163",
-  "content": "# eTMF-001 — TRIAL MASTER FILE INDEX\n## Study: BIORCE-ONC-2023-001\n## TMF Reference Model: DIA TMF Reference Model v3.0\n## Version: 1.3 | Date: 01 December 2023\n## eTMF Platform: Veeva Vault (Instance: BIORCE-VAULT-DEV)\n## TMF Owner: Carmen López, Trial Master File Lead\n\n## SECTION 1 — TMF STRUCTURE (current status)\n\n| Zone | Section | Artifact | Document Title | Status | Version | Date Filed | Owner |\n|---|---|---|---|---|---|---|---|\n| 01 | 01 | 01.01 | Protocol and Amendments | ✅ Filed | v2.1 | 15 Nov 2023 | Regulatory |\n| 01 | 01 | 01.02 | Protocol Signature Page | ✅ Filed | v2.1 | 15 Nov 2023 | Regulatory |\n| 01 | 01 | 01.03 | Protocol Deviation Log | ✅ Filed | Current | Ongoing | Clinical Ops |\n| 01 | 02 | 01.04 | Investigator Brochure | ✅ Filed | Ed. 2 | 20 Oct 2023 | Medical Affairs |\n| 01 | 02 | 01.05 | IB Acknowledgement | ✅ Filed | | Various | Site Files |\n| 01 | 03 | 01.06 | Sample CRF / eCRF Guidelines | ✅ Filed | v2.1 | 01 Dec 2023 | Data Mgmt |\n| 01 | 03 | 01.07 | eCRF User Manual | ✅ Filed | v1.4 | 01 Aug 2023 | Data Mgmt |\n| 01 | 04 | 01.08 | Statistical Analysis Plan | ✅ Filed | v1.1 | 10 Oct 2023 | Biostatistics |\n| 01 | 05 | 01.10 | Data Management Plan | ✅ Filed | v1.0 | 05 May 2023 | Data Mgmt |\n| 01 | 05 | 01.11 | Edit Check Specifications | 🔄 In Progress | Draft | | Data Mgmt |\n| 02 | 06 | 02.01 | Regulatory Authority Approval (EudraCT) | ✅ Filed | | 02 Mar 2023 | Regulatory |\n| 02 | 06 | 02.02 | EudraCT Registration | ✅ Filed | | 28 Feb 2023 | Regulatory |\n| 02 | 07 | 02.05 | Central Ethics Committee Approval | ✅ Filed | | 10 Mar 2023 | Regulatory |\n| 02 | 07 | 02.06 | Site EC Approvals | 🔄 Partial (8/12 sites) | | | Site Mgmt |\n| 02 | 07 | 02.07 | Informed Consent Forms — Approved | ✅ Filed | v2.1 | 16 Nov 2023 | Regulatory |\n| 02 | 07 | 02.08 | Re-Consent Forms | ✅ Filed | v3.0 | 01 Dec 2023 | Regulatory |\n| 02 | 08 | 02.09 | Insurance/Indemnity Certificate | ✅ Filed | | 01 Mar 2023 | Finance |\n| 02 | 08 | 02.10 | Financial Disclosure Forms | 🔄 Partial (10/14) | | | Site Mgmt |\n| 03 | 09 | 03.01 | Site Initiation Visit Reports | 🔄 Partial (7/12 sites) | | | Clinical Ops |\n| 03 | 09 | 03.03 | Investigator CVs | 🔄 Partial (11/14 current) | | | Site Mgmt |\n| 03 | 10 | 03.05 | Lab Accreditation Certificates | ✅ Filed | | Various | Lab |\n| 03 | 10 | 03.06 | Normal Ranges (per site) | 🔄 Partial (9/12 sites) | | | Lab |\n| 03 | 11 | 03.08 | Drug Accountability Logs | 🔄 Ongoing | | Ongoing | Pharmacy |\n| 03 | 11 | 03.11 | Monitor Visit Reports | 🔄 Ongoing | | Ongoing | Clinical Ops |\n| 03 | 11 | 03.12 | Screening and Enrolment Logs | 🔄 Ongoing | | Ongoing | Clinical Ops |\n\n## SECTION 2 — TMF HEALTH (as of 01 December 2023)\n\n| Metric | Value |\n|---|---|\n| Total artifacts in scope | 46 |\n| Filed / complete | 28 (61%) |\n| In progress / partial | 11 (24%) |\n| Not yet due / N/A | 7 (15%) |\n| Overdue | 3 |\n\n## SECTION 3 — VERSION HISTORY\n\n| Version | Date | Summary |\n|---|---|---|\n| 1.0 | 14 Mar 2023 | Initial |\n| 1.1 | 01 Jun 2023 | Added Sites DE-01 through IT-03 |\n| 1.2 | 25 Aug 2023 | Updated following Amendment 1 |\n| 1.3 | 01 Dec 2023 | Updated following Amendment 2 |\n\n*CONFIDENTIAL — © 2023 Biorce Therapeutics S.L.*\n"
+  "raw_sha256": "0290c1ca04ba1364f34d2b1c8c6c887c7063ad139c34d18d012c3762873bd163"
 }

@@ -2,7 +2,7 @@
   "classes": [
     {
       "class_name": "CSR",
-      "reasoning": "Document explicitly identifies itself as 'CSR-003 — CLINICAL STUDY REPORT' in the title and as 'FINAL REPORT' for study BIORCE-NEU-2020-002. Contains all hallmark CSR elements: synopsis, patient disposition, demographics, efficacy results, biomarkers, safety analysis, and conclusions prepared for regulators at study end.",
+      "reasoning": "Document explicitly self-identifies as 'CLINICAL STUDY REPORT' in the title (CSR-003) and states 'FINAL REPORT' with a data cut-off date of 31 March 2023. Contains all hallmark CSR elements: synopsis, patient disposition, demographics, efficacy results, biomarker data, safety analysis, and conclusions. This is the full trial narrative prepared for regulators at study end.",
       "confidence": 1.0
     }
   ],
@@ -15,17 +15,21 @@
   "cta_number": null,
   "sponsor_protocol_id": "BIORCE-NEU-2020-002",
   "sponsor_name": "Biorce Therapeutics S.L.",
-  "trial_title": "Phase II Study of BRC-209 (Velagostat) in Early Alzheimer's Disease",
+  "trial_title": null,
   "trial_acronym": null,
   "intervention": "BRC-209 (Velagostat) 400 mg QD",
   "indication": "Early Alzheimer's Disease",
   "therapeutic_area": "Neurology",
   "phase": "2",
-  "summary": "This is the final Clinical Study Report for study BIORCE-NEU-2020-002, a Phase II trial evaluating BRC-209 (Velagostat) 400 mg QD versus placebo in 94 patients with early Alzheimer's disease over 52 weeks. The primary endpoint (CDR-SB change) showed statistically significant slowing of progression, with robust tau PET biomarker reduction and acceptable safety, supporting advancement to Phase III.",
+  "version": "FINAL REPORT",
+  "version_ordinal": 1,
+  "country": null,
+  "site_id": null,
+  "summary": "This is the final Clinical Study Report for study BIORCE-NEU-2020-002, a Phase II trial of BRC-209 (Velagostat) 400 mg QD in early Alzheimer's disease. The report documents that BRC-209 met its primary endpoint with statistically significant reduction in CDR-SB progression at Week 52 versus placebo (p=0.035) and demonstrated robust tau biomarker target engagement, supporting advancement to a Phase III study.",
   "references_to": [
-    "Phase III study (BIORCE-NEU-2022-004)"
+    "Phase III study (BIORCE-NEU-2022-004)",
+    "CSR-003"
   ],
   "filename": "File_021.md",
-  "raw_sha256": "72bbc49dc86cbd02f51d489087d48511a9d4fa7fdcba7acdee47fff73dfa0df8",
-  "content": "# CSR-003 — CLINICAL STUDY REPORT\n## Study: BIORCE-NEU-2020-002\n## Phase II Study of BRC-209 (Velagostat) in Early Alzheimer's Disease\n### FINAL REPORT | Date: 30 June 2023 | CONFIDENTIAL\n\n**Data Cut-off:** 31 March 2023\n**Total patients enrolled:** 94 (BRC-209: n=63; Placebo: n=31)\n**Sponsor:** Biorce Therapeutics S.L.\n\n## SYNOPSIS\n\n**Primary Endpoint:** Change from baseline in CDR-SB at Week 52\n\n**Result:** BRC-209 400 mg QD produced a statistically significant reduction\nin CDR-SB progression vs. placebo at 52 weeks (LS mean difference: -0.54\npoints; 95% CI -1.04 to -0.04; p=0.035).\n\n**Key Secondary Findings:**\n- Tau PET SUVR (entorhinal): -31% BRC-209 vs. -4% placebo (p=0.003)\n- Tau PET SUVR (temporal): -28% vs. -4% (p<0.001)\n- Plasma p-tau 181: -34% vs. -1% (p=0.001)\n- MMSE: No significant difference (p=0.21)\n- ADAS-Cog 13: Numerical improvement (p=0.09, non-significant)\n\n## 1. PATIENT DISPOSITION\n\n| Category | BRC-209 (n=63) | Placebo (n=31) |\n|---|---|---|\n| Completed 52 weeks | 49 (78%) | 24 (77%) |\n| Discontinued — AE | 6 (10%) | 2 (6%) |\n| Discontinued — withdrawal | 5 (8%) | 3 (10%) |\n| Lost to follow-up | 3 (5%) | 2 (6%) |\n\n## 2. DEMOGRAPHICS\n\n| Characteristic | BRC-209 | Placebo |\n|---|---|---|\n| Mean age (SD) | 68.4 (7.1) | 67.9 (6.8) |\n| Female (%) | 52% | 55% |\n| APOE e4 carrier (%) | 61% | 58% |\n| Mean CDR-SB baseline (SD) | 2.8 (1.4) | 2.9 (1.5) |\n| Mean MMSE (SD) | 25.6 (3.2) | 25.4 (3.0) |\n| Mean amyloid PET Centiloid (SD) | 78.3 (22.1) | 80.1 (24.3) |\n\n## 3. EFFICACY — CDR-SB AT WEEK 52\n\n| Timepoint | BRC-209 | Placebo | Difference (95% CI) | p-value |\n|---|---|---|---|---|\n| Week 13 | +0.22 | +0.41 | -0.19 (-0.51 to +0.13) | 0.23 |\n| Week 26 | +0.48 | +0.79 | -0.31 (-0.71 to +0.09) | 0.13 |\n| Week 52 | +0.89 | +1.43 | **-0.54 (-1.04 to -0.04)** | **0.035** |\n\n## 4. BIOMARKERS\n\nTau PET findings represent the most robust signal of target engagement.\nReduction of -31% entorhinal and -28% temporal is considered meaningful.\n\nAmyloid PET: No significant change in either arm (p=0.44), confirming\nBRC-209 does not act through amyloid clearance.\n\n## 5. SAFETY\n\n| Parameter | BRC-209 (n=63) | Placebo (n=31) |\n|---|---|---|\n| Any TEAE | 87% | 81% |\n| Grade >=3 TEAE | 14% | 13% |\n| SAEs | 10% | 13% |\n| Deaths | 1 (disease) | 0 |\n| ARIA-E (MRI) | 0% | 0% |\n| Falls (any) | 19% | 24% |\n\n## 6. CONCLUSIONS\n\nBRC-209 400 mg QD demonstrated statistically significant slowing of CDR-SB\nprogression at 52 weeks and robust tau biomarker target engagement. The\nPhase III study (BIORCE-NEU-2022-004) is powered to detect a 0.7-point\ndifference at Week 78, which would be clinically meaningful.\n\n*FINAL REPORT | BIORCE-NEU-2020-002 | CONFIDENTIAL*\n*© 2023 Biorce Therapeutics S.L.*\n"
+  "raw_sha256": "72bbc49dc86cbd02f51d489087d48511a9d4fa7fdcba7acdee47fff73dfa0df8"
 }

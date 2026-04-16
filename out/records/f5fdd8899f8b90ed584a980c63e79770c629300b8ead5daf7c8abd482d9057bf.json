@@ -2,7 +2,7 @@
   "classes": [
     {
       "class_name": "CSP",
-      "reasoning": "The document contains all hallmark sections of a full Clinical Study Protocol: title, synopsis, background/rationale, study objectives (primary and secondary), detailed patient eligibility (inclusion/exclusion criteria), investigational product specifications, schedule of assessments, statistical analysis plan, ethical considerations, and document history showing protocol version control and amendments.",
+      "reasoning": "This document is explicitly labeled 'TITLE' and contains comprehensive protocol elements including objectives, study design, patient eligibility criteria, investigational product details, schedule of assessments, statistical analysis plan, and ethical considerations. Section 10 'DOCUMENT HISTORY' confirms this is 'Version 2.0 Amendment 1' of the 'Original protocol'. Section 2 identifies it as a Phase III randomized, double-blind, placebo-controlled, multicenter study with full protocol structure.",
       "confidence": 0.98
     }
   ],
@@ -17,20 +17,23 @@
   "sponsor_name": null,
   "trial_title": "A Phase III, Randomized, Double-Blind, Placebo-Controlled, Multicenter Study to Evaluate the Efficacy and Safety of an Investigational Anti-PCSK9 Monoclonal Antibody in Statin-Intolerant Patients with Heterozygous Familial Hypercholesterolaemia",
   "trial_acronym": null,
-  "intervention": "Investigational anti-PCSK9 monoclonal antibody (fully human IgG1, 150 mg subcutaneous injection every 4 weeks)",
+  "intervention": "Anti-PCSK9 Monoclonal Antibody (fully human IgG1, 150 mg SC every 4 weeks)",
   "indication": "Heterozygous familial hypercholesterolaemia (HeFH) in statin-intolerant patients",
-  "therapeutic_area": "Cardiology / Lipid Disorders",
+  "therapeutic_area": "Cardiology / Lipidology",
   "phase": "3",
-  "summary": "This is a Phase III clinical study protocol evaluating an investigational anti-PCSK9 monoclonal antibody administered monthly (150 mg SC every 4 weeks) versus placebo in 360 statin-intolerant patients with heterozygous familial hypercholesterolaemia. The primary endpoint is percent change from baseline in LDL-C at Week 24, with 52 weeks of treatment and 24 weeks of follow-up.",
+  "version": "2.0",
+  "version_ordinal": 2,
+  "country": null,
+  "site_id": null,
+  "summary": "This is a Phase III clinical study protocol (Version 2.0, Amendment 1) evaluating an investigational anti-PCSK9 monoclonal antibody administered subcutaneously every 4 weeks in statin-intolerant patients with heterozygous familial hypercholesterolaemia. The randomized, double-blind, placebo-controlled multicenter trial aims to enroll 360 patients and assess percent change in LDL-C at Week 24 as the primary endpoint, with 52 weeks of treatment and 24 weeks of follow-up. The protocol includes comprehensive study design, patient eligibility criteria, assessments, statistical analysis plans, and ethical considerations.",
   "references_to": [
     "Declaration of Helsinki (2013)",
     "ICH E6(R2) GCP",
-    "Simon Broome criteria",
-    "Dutch Lipid Clinic criteria",
+    "Simon Broome or Dutch Lipid Clinic criteria, score >=6",
+    "Phase I data in healthy volunteers",
     "Version 1.0 Original protocol",
-    "Version 2.0 Amendment 1"
+    "Version 2.0 Amendment 1 -- eligibility update, Belgium addition"
   ],
   "filename": "File_069.txt",
-  "raw_sha256": "f5fdd8899f8b90ed584a980c63e79770c629300b8ead5daf7c8abd482d9057bf",
-  "content": "1. TITLE\n\nA Phase III, Randomized, Double-Blind, Placebo-Controlled, Multicenter\nStudy to Evaluate the Efficacy and Safety of an Investigational\nAnti-PCSK9 Monoclonal Antibody in Statin-Intolerant Patients with\nHeterozygous Familial Hypercholesterolaemia\n\n\n2. SYNOPSIS\n\nStudy Phase:        Phase III\nDesign:             Randomized, double-blind, placebo-controlled, 1:1\nPrimary Endpoint:   % change from baseline in LDL-C at Week 24\nTarget Enrollment:  360 patients\nTreatment:          Subcutaneous injection every 4 weeks (at clinic)\nDuration:           52 weeks treatment + 24 weeks follow-up\n\n\n3. BACKGROUND AND RATIONALE\n\nHeterozygous familial hypercholesterolaemia (HeFH) is an autosomal dominant\ndisorder causing lifelong LDL-C elevation and markedly increased cardiovascular\nrisk. Statins are first-line treatment but intolerance affects 5-10% of patients\non high-intensity therapy.\n\nPCSK9 inhibition has emerged as the most effective lipid-lowering strategy for\nstatin-intolerant patients. Approved PCSK9 inhibitors require fortnightly dosing.\nThe investigational product evaluated in this study has an extended half-life\n(~17 days) enabling monthly administration, potentially improving adherence.\n\nPhase I data in healthy volunteers established safety, tolerability, and\npharmacokinetic profile. Monthly dosing achieved exposures consistent with\nrobust PCSK9 inhibition per PK/PD modelling.\n\n\n4. STUDY OBJECTIVES\n\nPRIMARY OBJECTIVE\nTo evaluate the effect of the investigational product versus placebo on LDL-C\nas measured by percent change from baseline at Week 24.\n\nSECONDARY OBJECTIVES\n  1. % change from baseline in ApoB at Week 24\n  2. % change from baseline in Lp(a) at Week 24\n  3. % change from baseline in non-HDL-C at Week 24\n  4. Proportion achieving LDL-C <1.8 mmol/L at Week 24\n  5. Proportion achieving LDL-C <1.4 mmol/L at Week 24\n  6. MACE through Week 52 (adjudicated)\n  7. Safety and tolerability\n\n\n5. PATIENT ELIGIBILITY\n\nINCLUSION CRITERIA\n  1. Age >= 18 years\n  2. Confirmed HeFH (Simon Broome or Dutch Lipid Clinic criteria, score >=6)\n  3. LDL-C >= 3.5 mmol/L on stable non-statin therapy for >= 8 weeks\n  4. Documented statin intolerance:\n       a. CK elevation >= 4x ULN on >= 2 statins, OR\n       b. Myalgia with symptom recurrence on rechallenge with >= 2 statins\n  5. No PCSK9 inhibitor therapy in the prior 12 months\n  6. Fasting triglycerides < 4.5 mmol/L\n\nEXCLUSION CRITERIA\n  1. Homozygous FH\n  2. Active liver disease or ALT/AST > 3x ULN\n  3. eGFR < 30 mL/min\n  4. MI, stroke, or coronary revascularisation within 3 months\n  5. Known hypersensitivity to monoclonal antibody therapy\n  6. Current participation in another interventional trial\n  7. Pregnancy or breastfeeding\n\n\n6. INVESTIGATIONAL PRODUCT\n\nFully human IgG1 anti-PCSK9 monoclonal antibody, 150 mg/mL, SC injection.\nDose: 150 mg SC every 4 weeks.\nRoute: Subcutaneous, administered by study nurse at clinic.\nSupply: Pre-filled single-use auto-injector, 1 mL.\nPlacebo: Matching auto-injector containing vehicle only.\n\n\n7. SCHEDULE OF ASSESSMENTS (ABBREVIATED)\n\nVisit               D1    Wk4   Wk8   Wk12  Wk24  Wk36  Wk52  FU\n-----------------------------------------------------------------------\nFasting lipid panel  X     X     X     X     X     X     X     X\nHepatic panel        X     X     X     X     X     X     X     X\nVital signs          X     X           X     X           X     X\nIMP injection        X     X     X     X     X     X     X\nEQ-5D-5L             X                 X     X           X     X\n\n\n8. STATISTICAL ANALYSIS\n\n360 patients (180 per arm) provides 95% power to detect a 50 percentage point\ndifference in LDL-C change at two-sided alpha 0.05.\n\nPrimary: MMRM with % change from baseline in LDL-C; fixed effects: treatment,\nvisit, treatment-by-visit, baseline LDL-C, stratification factors.\n\nMissing data: Multiple imputation under MAR; tipping-point sensitivity.\n\n\n9. ETHICAL CONSIDERATIONS\n\nConducted in accordance with Declaration of Helsinki (2013), ICH E6(R2) GCP,\nand applicable national regulations. Ethics Committee approval required before\nenrollment. All patients provide written informed consent.\n\n\n10. DOCUMENT HISTORY\n\n  Version 1.0   Original protocol\n  Version 2.0   Amendment 1 -- eligibility update, Belgium addition\n"
+  "raw_sha256": "f5fdd8899f8b90ed584a980c63e79770c629300b8ead5daf7c8abd482d9057bf"
 }

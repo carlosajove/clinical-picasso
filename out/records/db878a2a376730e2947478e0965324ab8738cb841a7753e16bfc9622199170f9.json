@@ -2,7 +2,7 @@
   "classes": [
     {
       "class_name": "CRF",
-      "reasoning": "This document is titled 'eCRF -- CYCLE 1 DAY 8 VISIT' and contains structured per-patient, per-visit data capture fields including vital signs, laboratory results, adverse events, and drug compliance for patient BRC471-ES01-011, with investigator signature and verification fields typical of a Case Report Form.",
+      "reasoning": "Document is labeled 'eCRF -- CYCLE 1 DAY 8 VISIT' in the header and contains per-patient, per-visit data capture fields including vital signs, laboratory results, adverse events, and drug compliance for a specific patient visit. It includes structured data entry fields with entered/verified signatures typical of case report forms.",
       "confidence": 1.0
     }
   ],
@@ -19,13 +19,14 @@
   "trial_acronym": null,
   "intervention": null,
   "indication": null,
-  "therapeutic_area": "Oncology",
+  "therapeutic_area": null,
   "phase": null,
-  "summary": "This is an electronic Case Report Form (eCRF) documenting the Cycle 1 Day 8 visit for patient BRC471-ES01-011 at site ES-01 in study BIORCE-ONC-2023-001. The form captures vital signs, laboratory results (haematology and chemistry), two ongoing adverse events (Grade 2 diarrhoea and Grade 1 dry mouth), and drug compliance data (98.2% compliance with one missed dose).",
-  "references_to": [
-    "Form v2.1"
-  ],
+  "version": "2.1",
+  "version_ordinal": 2,
+  "country": "ES",
+  "site_id": "ES-01",
+  "summary": "This is an electronic Case Report Form (eCRF) documenting a Cycle 1 Day 8 visit for patient BRC471-ES01-011 in study BIORCE-ONC-2023-001. The form captures vital signs, laboratory results (hematology and chemistry), adverse events (Grade 2 diarrhea and Grade 1 dry mouth), and drug compliance data (98.2% adherence) collected on 13 January 2024 at site ES-01.",
+  "references_to": [],
   "filename": "File_060.txt",
-  "raw_sha256": "db878a2a376730e2947478e0965324ab8738cb841a7753e16bfc9622199170f9",
-  "content": "eCRF -- CYCLE 1 DAY 8 VISIT\nStudy: BIORCE-ONC-2023-001 | Form v2.1 | Site: ES-01 | Patient: BRC471-ES01-011\nVisit date: 13 January 2024 | Entered: R.Dominguez | Verified: Dr. A. Beltran\n\nVITAL SIGNS\n  BP: 132/84 mmHg | HR: 76 bpm | Temp: 37.0 degrees C | SpO2: 98% | Weight: 82.1 kg\n\nLABORATORY RESULTS (C1D8)\n\n  Haematology:\n    Hb: 13.8 g/dL [N] | ANC: 4.1 x10^9/L [N] | Platelets: 228 x10^9/L [N]\n\n  Chemistry:\n    ALT: 38 U/L [N -- slightly elevated from baseline 22 U/L, still <ULN]\n    AST: 29 U/L [N] | Creatinine: 74 umol/L [N] | K: 4.2 mmol/L [N]\n\n  Note on ALT: increase 22 to 38 U/L, both below ULN (45 U/L at this site).\n  No action required. Will monitor at C2D1.\n\nADVERSE EVENTS\n  AE#1: Diarrhoea, Grade 2 -- onset Day 4 -- ongoing\n    Action: Loperamide 2mg QID prescribed. Patient counselled.\n    Relationship: Probably related. SAE: No.\n  AE#2: Dry mouth, Grade 1 -- onset Day 5 -- ongoing\n    Relationship: Possibly related. No action.\n\nDRUG COMPLIANCE (patient self-report)\n  Missed doses since C1D1: 1 (Day 6 morning)\n  Compliance: 55/56 tablets = 98.2%\n\nInvestigator: Dr. A. Beltran   Sig: [SIGNED]   Date: 13/01/2024\n"
+  "raw_sha256": "db878a2a376730e2947478e0965324ab8738cb841a7753e16bfc9622199170f9"
 }

@@ -2,7 +2,7 @@
   "classes": [
     {
       "class_name": "IB",
-      "reasoning": "The document explicitly identifies itself as 'IB-002 — Investigator Brochure' in the title and contains characteristic IB content: drug safety data (ILD/pneumonitis signal), pharmacology data (CYP3A4 drug-drug interaction), clinical efficacy data from Phase II interim analysis, and benefit-risk assessment updates.",
+      "reasoning": "Document explicitly titled 'IB-002 — Investigator Brochure' with subtitle 'BRC-471 (Lumitanib) — Edition 2'. Contains drug safety profile, pharmacology (DDI data), updated clinical data from Phase I/II trials, and adverse event summaries—all characteristic components of an Investigator Brochure.",
       "confidence": 1.0
     }
   ],
@@ -21,12 +21,16 @@
   "indication": null,
   "therapeutic_area": "Oncology",
   "phase": "2",
-  "summary": "This is Edition 2 of the Investigator Brochure for BRC-471 (Lumitanib), superseding Edition 1 from December 2022. The document provides updated Phase II interim efficacy data (29% ORR, n=55), a new interstitial lung disease/pneumonitis safety signal with updated monitoring guidance, and confirmed drug-drug interaction data showing CYP3A4 inhibitors significantly increase BRC-471 exposure.",
+  "version": "Edition 2",
+  "version_ordinal": 2,
+  "country": null,
+  "site_id": null,
+  "summary": "This is Edition 2 of the Investigator Brochure for BRC-471 (Lumitanib), an investigational oncology drug sponsored by Biorce Therapeutics S.L. The document provides updated Phase II interim efficacy and safety data, a new ILD/pneumonitis safety signal, confirmed CYP3A4 drug-drug interaction data with itraconazole, and revised benefit-risk assessment, superseding Edition 1 from December 2022.",
   "references_to": [
     "EDITION 1 (01 December 2022)",
-    "BIORCE-ONC-2023-001, n=55, data cut 01 Sep 2023"
+    "BIORCE-ONC-2023-001",
+    "Phase I and Phase II"
   ],
   "filename": "File_032.md",
-  "raw_sha256": "a38e8386a2770595abe170fa40db6831e1f8f730e48dbdbece1143e3eb601e46",
-  "content": "# IB-002 — Investigator Brochure\n## BRC-471 (Lumitanib) — Edition 2\n### Date: 15 October 2023 | CONFIDENTIAL\n### SUPERSEDES EDITION 1 (01 December 2022)\n\n**Sponsor:** Biorce Therapeutics S.L., Madrid, Spain\n\n## WHAT'S NEW IN EDITION 2\n\n1. Updated Phase II interim data (data cut 01 September 2023, n=55 evaluable)\n2. New ILD/pneumonitis signal — 2 additional Grade 3 cases; updated guidance\n3. Updated DDI data: CYP3A4 itraconazole interaction confirmed\n4. Updated benefit-risk assessment\n\n## PHASE II INTERIM DATA (BIORCE-ONC-2023-001, n=55, data cut 01 Sep 2023)\n\n| Endpoint | Result |\n|---|---|\n| Confirmed ORR (BICR) | 29% (16/55) |\n| DCR | 71% |\n| Median PFS | 5.4 months (95% CI 4.1–7.2) |\n| Median DoR | 7.8 months (95% CI 5.1–NR) |\n| Grade >=3 AEs | 38% |\n| Discontinuations due to AEs | 9% |\n\nUpdated ORR (29%) exceeds pre-specified 25% threshold — Stage 2 criterion met.\n\n## ILD/PNEUMONITIS UPDATE\n\nAs of September 2023, 4 confirmed cases across Phase I and Phase II\n(overall incidence 3.7%, n=108):\n\n| Grade | n | Outcome |\n|---|---|---|\n| Grade 2 | 2 | Resolved with drug hold + steroids |\n| Grade 3 | 2 | 1 resolved; 1 ongoing at data cut |\n| Grade 4 | 0 | — |\n\n**Updated guidance:** HRCT required at baseline and at any new respiratory\nsymptom. Low threshold for drug hold pending radiologic evaluation.\n\n## DRUG-DRUG INTERACTION (NEW)\n\nDDI study (n=12 healthy volunteers): itraconazole 200 mg QD caused 2.3-fold\nincrease in BRC-471 AUC. **Strong CYP3A4 inhibitors should be avoided.**\nIf unavoidable, reduce BRC-471 to 100 mg BID.\n\n## DOCUMENT HISTORY\n\n| Edition | Date | Summary |\n|---|---|---|\n| 1 | 01 Dec 2022 | Initial IB |\n| 2 | 15 Oct 2023 | Phase II interim, ILD signal, DDI data |\n\n*CONFIDENTIAL — © 2023 Biorce Therapeutics S.L.*\n"
+  "raw_sha256": "a38e8386a2770595abe170fa40db6831e1f8f730e48dbdbece1143e3eb601e46"
 }

@@ -2,7 +2,7 @@
   "classes": [
     {
       "class_name": "NOISE",
-      "reasoning": "This is a medical affairs scientific slide deck for healthcare professional education by Medical Science Liaisons. It is explicitly marked 'NOT FOR PROMOTIONAL USE -- NOT FOR DISTRIBUTION TO PATIENTS' and is marketing/educational material about an investigational product, not a clinical trial document or TMF artifact.",
+      "reasoning": "This document explicitly identifies itself as a 'MEDICAL AFFAIRS -- SCIENTIFIC SLIDE DECK' for 'HEALTHCARE PROFESSIONAL EDUCATION' and 'For use by trained Medical Science Liaisons only.' It is marketing/educational material summarizing clinical data for commercial purposes, not a regulated trial document (protocol, ICF, CRF, CSR, or TMF artifact). The footer states 'Not for promotional use' but confirms it is prepared by Medical Affairs for scientific exchange, making it commercial support material rather than a clinical trial artifact.",
       "confidence": 0.95
     }
   ],
@@ -13,24 +13,28 @@
   "utn_id": null,
   "ind_number": null,
   "cta_number": null,
-  "sponsor_protocol_id": "BIORCE-ONC-2023-001",
+  "sponsor_protocol_id": null,
   "sponsor_name": "Biorce Therapeutics S.L.",
   "trial_title": null,
   "trial_acronym": null,
   "intervention": "BRC-471 (Lumitanib)",
-  "indication": "EGFR-mutant NSCLC (non-small cell lung cancer) in the post-osimertinib setting",
+  "indication": "EGFR-mutant NSCLC (non-small cell lung cancer), post-osimertinib setting",
   "therapeutic_area": "Oncology",
   "phase": "2",
-  "summary": "This document is a medical affairs scientific slide deck prepared by Biorce Therapeutics for use by Medical Science Liaisons in educating healthcare professionals about BRC-471 (Lumitanib), an investigational drug for EGFR-mutant NSCLC. It summarizes clinical data from Phase I and II trials but is promotional/educational material, not a trial document itself.",
+  "version": "2.1",
+  "version_ordinal": 2,
+  "country": null,
+  "site_id": null,
+  "summary": "This is a medical affairs slide deck prepared by Biorce Therapeutics for Medical Science Liaisons to educate healthcare professionals about the investigational drug BRC-471 (Lumitanib) for EGFR-mutant NSCLC. It summarizes Phase I and Phase II clinical trial data, mechanism of action, and development status. While it references clinical trials (BIORCE-ONC-2021-003 and BIORCE-ONC-2023-001), it is not itself a trial document but rather commercial/educational material.",
   "references_to": [
     "Investigator Brochure BRC-471, Edition 2, October 2023",
     "Phase I BIORCE-ONC-2021-003",
     "Phase II BIORCE-ONC-2023-001",
     "FLAURA",
     "FLAURA2",
-    "Park et al. 2022, n=3,218"
+    "Park et al. 2022, n=3,218",
+    "Draft SmPC"
   ],
   "filename": "File_054.txt",
-  "raw_sha256": "88e6155068060d2755020a7302d5ee60a359a18f7a5022f4dc0f317c848bc4f1",
-  "content": "BIORCE THERAPEUTICS\nMEDICAL AFFAIRS -- SCIENTIFIC SLIDE DECK\n\nBRC-471 (LUMITANIB): CLINICAL DATA SUMMARY FOR\nHEALTHCARE PROFESSIONAL EDUCATION\n\nVersion 2.1 | January 2024\nFor use by trained Medical Science Liaisons only\nNOT FOR PROMOTIONAL USE -- NOT FOR DISTRIBUTION TO PATIENTS\n\n================================================================================\n\n[SLIDE 1 -- TITLE]\nBRC-471 (Lumitanib) in EGFR-Mutant NSCLC:\nClinical Evidence and Positioning in the Post-Osimertinib Setting\n\nMedical Affairs | Biorce Therapeutics S.L.\nData current as of: 01 December 2023\n\nSpeaker note: Remind audience this is an investigational product.\nAll data from clinical trials. BRC-471 not approved anywhere.\n\n[SLIDE 2 -- THE UNMET NEED]\n\nEGFR-mutant NSCLC: ~15% of Western NSCLC patients\nOsimertinib: standard first-line therapy (FLAURA, FLAURA2)\nMedian PFS with first-line osimertinib: 18-22 months\nResistance: virtually universal\n\nResistance mechanisms (Park et al. 2022, n=3,218):\n  HER2 amplification:   ~12%\n  C797S mutation:        ~19%\n  MET amplification:     ~15%\n  No mechanism found:    ~30%\n\nKey message: NO APPROVED STANDARD OF CARE post-osimertinib.\nHistorical ORR with chemotherapy: 8-12%.\n\n[SLIDE 3 -- MECHANISM OF ACTION]\n\nBRC-471 is a dual EGFR/HER2 inhibitor targeting the two most\nactionable resistance mechanisms.\n\n              EGFR (C797S)    HER2 (amplified)\n  IC50:          4.2 nM           6.8 nM\n  Selectivity:   >100x kinase panel\n  Oral:          BID tablet\n\nPreclinical: 78% TGI in PC9-OR xenograft (30 mg/kg QD)\nNot active against MET or KRAS-driven resistance.\n\nSpeaker note: Ready for CNS penetration question -- P-gp substrate,\nlimited BBB crossing; 1 CNS response in Phase I expansion.\n\n[SLIDE 4 -- PHASE I RESULTS]\n\nPhase I BIORCE-ONC-2021-003 (n=42):\n  MTD: 250 mg BID | RP2D: 200 mg BID\n\nSafety at RP2D (expansion cohort, n=20):\n  Grade >=3 AEs: 35%\n  Diarrhoea 71%, rash 62%, nausea 48%\n  ILD/pneumonitis: 5% (1 Grade 3, resolved)\n\nEfficacy (post-osimertinib NSCLC, n=20):\n  ORR: 30% | DCR: 75%\n  HER2-amplified subgroup (n=6): ORR 83%\n\n[SLIDE 5 -- PHASE II INTERIM]\n\nPhase II BIORCE-ONC-2023-001 (n=55 evaluable, data cut Sep 2023):\n\n  Confirmed ORR (BICR): 29.1% (16/55; 95% CI 17.6-42.9)\n  DCR: 70.9%\n  Median PFS: 5.4 months\n  Median DoR: 7.8 months\n  HER2-amplified (n=18): ORR 44.4%\n  HER2-negative (n=37):  ORR 21.6%\n\nSimon Stage 1 criterion MET. Proceeding to Stage 2 (n=120 total).\n\n[SLIDE 6 -- POSITIONING]\n\nPost-osimertinib landscape:\n  1st line: Osimertinib (standard)\n  2nd line: NO APPROVED TARGETED THERAPY\n\nBRC-471 potential positioning (investigational):\n  2nd line post-osimertinib, especially HER2-amplified\n  Biomarker selection: HER2 amp and/or C797S\n\nSpeaker note: Do not position as alternative to approved therapy.\nFrame as investigational option within clinical trial context only.\n\n[SLIDE 7 -- DEVELOPMENT STATUS]\n\nPhase II (BIORCE-ONC-2023-001): Enrolling | Readout expected Q4 2025\nFDA Breakthrough Therapy Designation: Under review (submitted Nov 2023)\nDraft SmPC: In preparation (pre-submission)\n\nPlanned Phase III: Under regulatory discussion | Start anticipated 2026\nCompanion Dx: HER2 FISH/IHC partnership under discussion\n\n================================================================================\nIMPORTANT LEGAL NOTICE\nFor Medical Science Liaison use in scientific exchange only.\nNot for promotional use. Not for patient distribution.\nConsistent with Investigator Brochure BRC-471, Edition 2, October 2023.\nPrepared by: Medical Affairs, Biorce Therapeutics S.L.\nApproved by: CMO | Version 2.1 | 08 January 2024\n(C) 2024 Biorce Therapeutics S.L. All rights reserved.\n================================================================================\n"
+  "raw_sha256": "88e6155068060d2755020a7302d5ee60a359a18f7a5022f4dc0f317c848bc4f1"
 }

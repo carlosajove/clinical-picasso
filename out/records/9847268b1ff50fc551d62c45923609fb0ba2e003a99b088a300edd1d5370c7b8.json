@@ -2,7 +2,7 @@
   "classes": [
     {
       "class_name": "CRF",
-      "reasoning": "This is a case report form for a single patient visit (Patient BRC471-DE01-001 at Site DE-01) documenting vital signs, ECOG performance status, tumour assessment per RECIST v1.1, study drug dispensing, and adverse events. The document explicitly identifies itself as 'eCRF' and includes data entry and verification signatures from M.Weber and Dr. H. Schmidt.",
+      "reasoning": "This is a per-patient, per-visit data capture form labeled 'eCRF -- CYCLE 5 DAY 1 / TUMOUR ASSESSMENT VISIT' containing structured clinical data fields (vital signs, ECOG PS, tumour assessment, study drug dispensing, adverse events) with patient identifier BRC471-DE01-001, data entry and verification signatures, and investigator signature block.",
       "confidence": 1.0
     }
   ],
@@ -19,16 +19,21 @@
   "trial_acronym": null,
   "intervention": null,
   "indication": null,
-  "therapeutic_area": "Oncology",
+  "therapeutic_area": null,
   "phase": null,
-  "summary": "This is an electronic case report form (eCRF) capturing data from a Cycle 5 Day 1 tumour assessment visit on 03 December 2023 for patient BRC471-DE01-001. The form documents vital signs, ECOG performance status, CT-based tumour assessment showing confirmed partial response (PR) per RECIST v1.1 with 50% reduction in target lesions, study drug dispensing (200mg BID tablets), and ongoing Grade 1 adverse events.",
+  "version": "2.1",
+  "version_ordinal": 2,
+  "country": "DE",
+  "site_id": "DE-01",
+  "summary": "This is an electronic Case Report Form (eCRF) capturing clinical data for patient BRC471-DE01-001 at Cycle 5 Day 1 / Tumour Assessment Visit on 03 December 2023. The form documents vital signs, ECOG performance status, tumour assessment per RECIST v1.1 showing confirmed partial response, study drug dispensing details, and ongoing adverse events, with data entry by M.Weber, verification by Dr. H. Schmidt, and investigator signature.",
   "references_to": [
     "Form v2.1",
     "RECIST v1.1",
+    "CT Chest/Abdomen/Pelvis -- performed 01 Dec 2023",
+    "Radiologist report date: 02 December 2023",
     "Confirmatory scan scheduled C7D1, 29 Jan 2024",
     "Date of first PR: 07 October 2023"
   ],
   "filename": "File_062.txt",
-  "raw_sha256": "9847268b1ff50fc551d62c45923609fb0ba2e003a99b088a300edd1d5370c7b8",
-  "content": "eCRF -- CYCLE 5 DAY 1 / TUMOUR ASSESSMENT VISIT\nStudy: BIORCE-ONC-2023-001 | Form v2.1 | Site: DE-01 | Patient: BRC471-DE01-001\nVisit date: 03 December 2023 | Entered: M.Weber | Verified: Dr. H. Schmidt\n\nVITAL SIGNS\n  BP: 124/78 mmHg | HR: 72 bpm | SpO2: 97% | Weight: 76.4 kg\n\nECOG PS: [X] 0 -- Fully active\n\nTUMOUR ASSESSMENT (CT Chest/Abdomen/Pelvis -- performed 01 Dec 2023)\n  Radiologist report date: 02 December 2023\n\n  Site assessment (per RECIST v1.1):\n    Target lesion 1 (RUL, 28mm baseline): 14mm -- DECREASE\n    Target lesion 2 (mediastinal node, 22mm baseline): 11mm -- DECREASE\n    Target lesion 3 (LLL, 18mm baseline): 9mm -- DECREASE\n    Sum of diameters: 34mm (baseline: 68mm) -- change: -50.0%\n    New lesions: NONE\n    Non-target lesions: STABLE\n\n  Site assessment: PARTIAL RESPONSE (PR)\n  [Confirmatory scan scheduled C7D1, 29 Jan 2024]\n  CONFIRMED PR: [X] Yes\n  Date of first PR: 07 October 2023 | Confirmation: 03 December 2023\n\nSTUDY DRUG DISPENSING\n  Kit: KIT-471-DE01-012 | Tablets: 56 x 100mg | Dose: 200mg BID\n  Ondansetron: Yes\n\nADVERSE EVENTS (since last visit -- none new)\n  Ongoing: Acneiform rash Grade 1 (stable, topical Rx ongoing)\n\nInvestigator: Dr. H. Schmidt   Sig: [SIGNED]   Date: 03/12/2023\n"
+  "raw_sha256": "9847268b1ff50fc551d62c45923609fb0ba2e003a99b088a300edd1d5370c7b8"
 }

@@ -126,6 +126,14 @@ Extract only what the document explicitly states. Do not infer.
 
 - `version`   : document version string exactly as stated, e.g. "1.0", "2.1",
   "Amendment 2", "Edition 3". Null if not stated.
+- `version_ordinal` : integer for ordering versions of the same document type.
+  ALWAYS provide this field — it must never be null.
+  Extract the dominant version/amendment number as a single integer.
+  "v1.0" → 1, "v2.1" → 2, "Amendment 3" → 3, "Edition 5" → 5,
+  "Protocol v1.0, Amendment 2" → 3 (original counts as 1, plus 2 amendments).
+  When both a base version and amendment number are present, sum them
+  (base major + amendment count). If no version or amendment number is
+  explicitly stated, default to 1 (the document is the first/only version).
 - `country`   : country this document is scoped to, as ISO 3166-1 alpha-2 code
   (e.g. "ES", "DE", "FR", "US"). Null if the document is not
   country-specific or the country is not stated.

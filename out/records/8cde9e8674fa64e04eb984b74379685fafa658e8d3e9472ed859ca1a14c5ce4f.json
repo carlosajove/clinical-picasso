@@ -2,7 +2,7 @@
   "classes": [
     {
       "class_name": "IB",
-      "reasoning": "Document explicitly identifies itself as 'Investigator Brochure' in the header and throughout. Contains the standard IB content: physicochemical properties, preclinical pharmacology, human PK parameters, and clinical safety data for the investigational drug BRC-209 (Velagostat).",
+      "reasoning": "Document explicitly self-identifies as 'Investigator Brochure' in header, title, and footer. Contains comprehensive drug profile for BRC-209 (Velagostat) including physicochemical properties, preclinical pharmacology, human PK, and clinical safety data typical of an IB.",
       "confidence": 1.0
     }
   ],
@@ -17,15 +17,18 @@
   "sponsor_name": "Biorce Therapeutics S.L.",
   "trial_title": null,
   "trial_acronym": null,
-  "intervention": "BRC-209 (Velagostat) - Selective Tau Aggregation Inhibitor, Oral Tablet, 400 mg QD",
+  "intervention": "BRC-209 (Velagostat), oral tablet, 400 mg QD; Selective Tau Aggregation Inhibitor",
   "indication": "Alzheimer's Disease",
   "therapeutic_area": "Neurology",
   "phase": "2",
-  "summary": "This is the initial Investigator Brochure (Edition 1, dated 10 January 2022) for BRC-209 (Velagostat), a selective tau aggregation inhibitor oral tablet under development for Alzheimer's Disease. The document summarizes physicochemical properties, preclinical pharmacology, human pharmacokinetics, and Phase II clinical safety data (n=94, 52 weeks) showing tau PET reduction and favorable safety profile with no ARIA or hepatotoxicity.",
+  "version": "Edition 1",
+  "version_ordinal": 1,
+  "country": null,
+  "site_id": null,
+  "summary": "This is the initial Investigator Brochure for BRC-209 (Velagostat), a selective tau aggregation inhibitor being developed for Alzheimer's Disease. The document summarizes the drug's physicochemical properties, preclinical pharmacology, human pharmacokinetics from Phase II studies, and 52-week safety data from the BIORCE-NEU-2020-002 trial (n=94).",
   "references_to": [
     "BIORCE-NEU-2020-002, n=94, 52 weeks"
   ],
   "filename": "File_027.html",
-  "raw_sha256": "8cde9e8674fa64e04eb984b74379685fafa658e8d3e9472ed859ca1a14c5ce4f",
-  "content": "\n\n\n\n\n\n\n\n\n\n\n\n\n\nBIORCE \nTHERAPEUTICS\n\n\nCalle de Serrano 41 · 28001 Madrid · Spain\n\n\n\n\nDocument: Investigator Brochure\nProduct: BRC-209 (Velagostat)\nEdition: 1 — INITIAL\nDate: 10 January 2022\nCONFIDENTIAL\n\n\n\n\n\n\nINVESTIGATOR BROCHURE — BRC-209 (VELAGOSTAT)\n\n\nSelective Tau Aggregation Inhibitor · Oral Tablet · Alzheimer's Disease Program\n\n\n\n\n1. Summary\n\n\n\n\nPhase II Headline Data (BIORCE-NEU-2020-002, n=94, 52 weeks):\n\n  Tau PET reduction (entorhinal cortex): −31% vs placebo (p=0.003)\n\n  CDR-SB change at 52 weeks: −0.38 points (p=0.08, non-significant at this timepoint)\n\n  Safety: No ARIA, no hepatotoxicity, no serious CNS adverse events\n\n\n\n2. Physicochemical Properties\n\n\n\n\nProperty\nValue\n\n\nMolecular Formula\nC₂₁H₂₁F₃N₄O\n\n\nMolecular Weight\n418.4 g/mol\n\n\nPrimary CYP\nCYP2C19 (major), CYP3A4 (minor)\n\n\nPlasma protein binding\n91%\n\n\nBrain:plasma ratio\n~0.3\n\n\n\n\n3. Preclinical Pharmacology\n\n\nBRC-209 inhibits heparin-induced tau aggregation IC₅₀ = 180 nM. Binds selectively to tau proline-rich region (Kd 22 nM). No significant activity against 58 kinases at 1 µM including GSK-3β, CDK5, MARK2.\n\n\nIn vivo (PS19 tau transgenic mouse, 40 mg/kg PO QD, 6 months): −44% hippocampal AT8+ tau burden (p<0.01); +18% Morris Water Maze improvement (p<0.05).\n\n\n4. Human PK (Phase II, 400 mg QD)\n\n\n\n\nParameter\nMean (CV%)\n\n\nTmax (h, median)\n3.2\n\n\nAUC₀₋₂₄h,ss (ng·h/mL)\n24,100 (24%)\n\n\nT½ (h)\n9.1 (18%)\n\n\nAccumulation ratio\n2.1\n\n\n\n\n5. Clinical Safety — Phase II (n=94, 52 weeks)\n\n\n\n\nAdverse Event\nBRC-209 (%)\nGrade 3+ (%)\nPlacebo (%)\n\n\nHeadache\n28\n0\n19\n\n\nNausea\n22\n1\n13\n\n\nDiarrhoea\n19\n0\n16\n\n\nDizziness\n18\n1\n10\n\n\nFalls\n19\n3\n24\n\n\nARIA-E (MRI)\n0\n—\n0\n\n\n\n\n6. Document History\n\n\nEdition\nDate\nSummary\n\n\n1\n10 January 2022\nInitial Investigator Brochure\n\n\n\n\nBRC-209 (Velagostat) IB · Edition 1 · 10 January 2022\n\n\nCONFIDENTIAL © 2022 Biorce Therapeutics S.L.\n\n\n\n\n\n"
+  "raw_sha256": "8cde9e8674fa64e04eb984b74379685fafa658e8d3e9472ed859ca1a14c5ce4f"
 }

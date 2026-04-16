@@ -9,8 +9,8 @@ query add_document($doc_id: String, $source_file: String, $content_hash: String,
     }
 }
 
-query add_trial($protocol_id: String) {
-    insert Trial { protocol_id: $protocol_id }
+query add_trial($trial_key: String) {
+    insert Trial { trial_key: $trial_key }
 }
 
 query add_belongs_to_trial($doc_id: String, $trial_id: String) {

@@ -74,6 +74,7 @@ a structured `ExtractionRecord` constrained to the Pydantic schema.
 | `eu_ct_id` | `str?` | EU CT number |
 | `sponsor_protocol_id` | `str?` | Sponsor's internal protocol ID |
 | `version` | `str?` | Document version string |
+| `version_ordinal` | `int?` | Normalized integer for ordering (e.g. "v2.1" → 2, "Amendment 3" → 3) |
 | `country` | `str?` | ISO country |
 | `site_id` | `str?` | Site identifier |
 | `references_to` | `list[str]` | Raw citation strings (resolved in Phase 4) |
@@ -116,8 +117,7 @@ Materializes extraction records into the OmniGraph knowledge graph.
 | Node type | Key | Notable fields |
 |-----------|-----|----------------|
 | **Document** | `doc_id` | `source_file`, `content_hash`, `document_type`, `classification_confidence`, `raw_classes` (JSON), `version`, `status`, `country`, `site_id`, `summary`, `sponsor_name`, `sponsor_protocol_id`, `trial_title`, `intervention`, `indication`, `phase` |
-| **Trial** | `protocol_id` | `nct_id`, `eudract_id`, `title`, `phase`, `intervention`, `indication` |
-| **Phase** | `phase_id` | `trial_id`, `phase_label` (e.g. "1", "2", "2/3", "3") |
+| **Trial** | `trial_key` | `nct_id`, `eudract_id`, `eu_ct_id`, `isrctn_id`, `utn_id`, `ind_number`, `cta_number`, `sponsor_name`, `acronym`, `therapeutic_area`, `title`, `phase`, `intervention`, `indication` |
 
 ### Edges
 
@@ -146,14 +146,15 @@ convert an `ExtractionRecord` into JSONL lines that OmniGraph loads.
 
 Each document is ingested one at a time against the live graph. The function:
 
-1. **Loads** the Document node, Trial node (if trial ID exists), and Phase node
-   (if both trial ID and phase exist). Creates BelongsToTrial, HasPhase, and
-   BelongsToPhase edges as appropriate.
-2. **Resolves versions** — `src/ingest/version_resolver.py::resolve_version()` detects
-   if the new document supersedes an existing one in the same trial + document type.
-   Compares numeric version strings (e.g. 2.2 > 2.1). Creates **Supersedes** edges and
-   marks older docs with `status = "superseded"`.
-3. **Discovers edges** — `src/ingest/linker.py` runs three deterministic passes:
+1. **Loads** the Document node and Trial node (if a trial ID exists).
+2. **Checks for existing duplicates** by content hash (skips if already present).
+3. **Resolves versions** — `src/ingest/version_resolver.py::resolve_version()` detects
+   version relationships bidirectionally: the new document may supersede existing ones,
+   or existing ones may supersede the new document (handles out-of-order ingestion).
+   Prefers `version_ordinal` (LLM-extracted integer) for comparison, falls back to
+   numeric version string parsing. Creates **Supersedes** edges and marks older docs
+   with `status = "superseded"`. Can supersede multiple older versions in one pass.
+4. **Discovers edges** — `src/ingest/linker.py` runs three deterministic passes:
    - `_discover_references()`: matches raw citation strings from `references_to[]` against
      existing documents by source filename or document type.
    - `_discover_derived_from()`: ICF-specific adaptation cascade — site ICF → country ICF

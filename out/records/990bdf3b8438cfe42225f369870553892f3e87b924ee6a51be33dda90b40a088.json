@@ -2,7 +2,7 @@
   "classes": [
     {
       "class_name": "CRF",
-      "reasoning": "Document is explicitly titled 'eCRF MODULE' with structured data capture fields for lipid panel results, hepatic safety labs, and injection site assessments organized by study visit and patient identifiers. Contains typical case report form elements including checkboxes, result fields, and units of measure.",
+      "reasoning": "This document is labeled 'eCRF MODULE' at the top and contains data capture fields for lipid panel and cardiovascular assessments including patient code, visit schedule, lab results, and injection site assessments. It is a structured form designed to collect per-patient, per-visit clinical data.",
       "confidence": 1.0
     }
   ],
@@ -17,16 +17,20 @@
   "sponsor_name": null,
   "trial_title": null,
   "trial_acronym": null,
-  "intervention": "PCSK9-related treatment (injectable, based on PCSK9 measurement field and injection site assessment)",
-  "indication": "Cardiovascular disease (lipid disorder/dyslipidemia)",
+  "intervention": null,
+  "indication": null,
   "therapeutic_area": "Cardiology",
   "phase": null,
-  "summary": "This is a Case Report Form module for capturing lipid panel laboratory results, hepatic safety monitoring data, and injection site assessments across multiple study visits. The form is designed for per-patient data collection in a cardiovascular/lipid study and includes enhanced hepatic monitoring requirements introduced in Protocol Amendment 1.",
+  "version": "2.0",
+  "version_ordinal": 3,
+  "country": null,
+  "site_id": null,
+  "summary": "This is an electronic Case Report Form (eCRF) module for collecting lipid panel and cardiovascular assessment data in study BIORCE-CAR-2024-007. The form captures primary lipid parameters (LDL-C, cholesterol, triglycerides, ApoB, Lp(a), PCSK9), hepatic safety panel results with enhanced monitoring per Amendment 1, and injection site reaction assessments across multiple visit timepoints.",
   "references_to": [
-    "Protocol Amendment 1",
+    "Amendment 1 enhanced monitoring",
+    "Amendment 1",
     "AE module"
   ],
   "filename": "File_026.md",
-  "raw_sha256": "990bdf3b8438cfe42225f369870553892f3e87b924ee6a51be33dda90b40a088",
-  "content": "# eCRF MODULE — LIPID PANEL & CARDIOVASCULAR ASSESSMENTS\n## Study: BIORCE-CAR-2024-007 | Form Version: 2.0\n## Site ID: ______ | Patient Code: CRD883-___-____\n## Visit: [ ] Baseline  [ ] Wk4  [ ] Wk8  [ ] Wk12  [ ] Wk24  [ ] Wk52  [ ] EOT\n## Lab Draw Date: __ / __ / ______  Fasting? [ ] Yes (>=9h)  [ ] No — reason:\n\n## PRIMARY LIPID PANEL\n\n| Parameter | Result | Unit | % Change from Baseline |\n|---|---|---|---|\n| LDL-C | | mmol/L | |\n| Total Cholesterol | | mmol/L | |\n| HDL-C | | mmol/L | |\n| Triglycerides | | mmol/L | |\n| Non-HDL-C (auto-calc) | | mmol/L | |\n| ApoB | | g/L | |\n| Lp(a) | | nmol/L | |\n| PCSK9 (if measured) | | ng/mL | |\n\n**LDL-C method:** [ ] Friedewald  [ ] Direct measurement  [ ] Martin-Hopkins\n\n## HEPATIC SAFETY PANEL (per Amendment 1 enhanced monitoring)\n\n| Test | Result | Unit | xULN | Flag |\n|---|---|---|---|---|\n| ALT | | U/L | | [ ] <1x  [ ] 1-3x  [ ] 3-5x  [ ] >5x |\n| AST | | U/L | | [ ] <1x  [ ] 1-3x  [ ] 3-5x  [ ] >5x |\n| Total Bilirubin | | µmol/L | | [ ] Normal  [ ] Elevated |\n| Alkaline Phosphatase | | U/L | | [ ] Normal  [ ] Elevated |\n\n**If ALT >5x ULN:** [ ] Drug held  [ ] Sponsor Medical Monitor notified\n(date: __ / __ / ______) — *Required per Amendment 1*\n\n## INJECTION SITE ASSESSMENT\n\n**Injection site reaction present?** [ ] No  [ ] Yes\n\nIf yes:\n| Feature | Assessment |\n|---|---|\n| Site | [ ] Abdomen  [ ] Thigh  [ ] Upper arm |\n| Redness | [ ] Absent  [ ] Mild  [ ] Moderate  [ ] Severe |\n| Swelling | [ ] Absent  [ ] Mild (<2.5cm)  [ ] Moderate  [ ] Severe (>5cm) |\n| Pain (0-10 NRS) | Score: _____ |\n| Duration | [ ] <24h  [ ] 1-3 days  [ ] >3 days |\n\n**Document as AE?** [ ] Yes (complete AE module)  [ ] No\n"
+  "raw_sha256": "990bdf3b8438cfe42225f369870553892f3e87b924ee6a51be33dda90b40a088"
 }

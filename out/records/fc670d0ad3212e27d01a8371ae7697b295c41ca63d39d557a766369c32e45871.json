@@ -2,7 +2,7 @@
   "classes": [
     {
       "class_name": "Synopsis",
-      "reasoning": "The document explicitly labels itself 'CLINICAL STUDY PROTOCOL SYNOPSIS' in the header and provides a high-level summary of study BIORCE-ONC-2023-001, including abbreviated inclusion/exclusion criteria, design, endpoints, and statistical plan. The fax footer notes 'For full protocol...refer to full document v1.0 in Veeva Vault,' confirming this is a synopsis rather than the complete protocol.",
+      "reasoning": "The document explicitly identifies itself as 'CLINICAL STUDY PROTOCOL SYNOPSIS' in the header and the fax subject line states 'Protocol Synopsis -- BIORCE-ONC-2023-001 v1.0'. It provides a condensed summary of trial design, objectives, inclusion/exclusion criteria, and statistics rather than the full protocol.",
       "confidence": 0.98
     }
   ],
@@ -21,14 +21,16 @@
   "indication": "EGFR-Mutant Advanced NSCLC Following Progression on First-Line Osimertinib",
   "therapeutic_area": "Oncology",
   "phase": "2",
-  "summary": "This is a synopsis (v1.0, dated 14 March 2023) for a Phase II open-label, single-arm, multicenter trial evaluating BRC-471 (Lumitanib) in 120 patients with EGFR-mutant advanced NSCLC who progressed on first-line osimertinib. The synopsis outlines abbreviated inclusion/exclusion criteria, primary endpoint (ORR per RECIST v1.1), and a Simon two-stage statistical design, with a reference to the full protocol in Veeva Vault.",
+  "version": "1.0",
+  "version_ordinal": 1,
+  "country": "ES",
+  "site_id": "ES-03",
+  "summary": "This is a clinical study protocol synopsis for trial BIORCE-ONC-2023-001, a Phase II open-label, single-arm, multicenter study evaluating BRC-471 (Lumitanib) in 120 patients with EGFR-mutant advanced NSCLC who have progressed on first-line osimertinib. The synopsis summarizes the trial design, primary endpoint (ORR per RECIST v1.1), key inclusion/exclusion criteria, and Simon two-stage statistical design. The document was transmitted via fax to Hospital Clinic Barcelona site ES-03 on 16 March 2023.",
   "references_to": [
-    "Protocol v1.0",
-    "RECIST v1.1",
+    "full document v1.0 in Veeva Vault",
     "VV-BRC-ONC-001-CSP-v1.0",
-    "full document v1.0 in Veeva Vault"
+    "RECIST v1.1"
   ],
   "filename": "Scan_0031_compressed.txt",
-  "raw_sha256": "fc670d0ad3212e27d01a8371ae7697b295c41ca63d39d557a766369c32e45871",
-  "content": " ============================================================\n [FAX  TRANSMISSION  --  RECEIVED  BY  SITE  ES-03]\n ============================================================\n FROM:   Biorce  Therapeutics  S.L.,  Regulatory  Affairs\n TO:     Dr.  Carmen  Fuentes,  Hospital  Clinic  Barcelona\n DATE:   16/03/2023   PAGES:  4  of  4\n RE:     Protocol  Synopsis  --  BIORCE-ONC-2023-001  v1.0\n ============================================================\n\n [POOR  FAX  QUALITY  --  SOME  TEXT  ILLEGIBLE]\n\n CLINICAL  STUDY  PROTOCOL  SYNOPSIS\n ---------------------------------------------------------------\n Study:    BIORCE - ONC - 2023 - 001\n Product:  BRC- 471  (Lum1tanib)           [OCR: \"1\" for \"i\"]\n Sponsor:  B1orce  Therapeutics  S.L.      [OCR: \"1\" for \"i\"]\n Phase:    II   Version: 1.0   Date: 14  March  2023\n ---------------------------------------------------------------\n\n TITLE\n A Phase II,  Open-Label,  Multicenter  Study  to Evaluate  the\n Efficacy  and  Safety  of  BRC-471  (Lumitanib)  in  Patients\n with  EGFR-Mutant  Advanced  NSCLC  Following  Progression  on\n First-Line  Osimertinib\n\n DESIGN         : Open-label,  single-arm,  multicenter\n PRIMARY ENDPOINT: ORR  per  RECIST  v1.1  (BICR)\n ENROLLMENT     : 120  patients\n COUNTRIES      : Spain,  France,  Germany,  Italy\n\n INCLUSION  (abbreviated)\n 1. Age  >=18  years\n 2. Confirmed  advanced  NSCLC  Stage IIIB/IV\n 3. Documented  EGFR  mutation  (ex19del  or  L858R)\n 4. Progression  on/after  first-line  osimertinib\n 5. >=1  measurable  lesion  per  RECIST  v1.1\n 6. ECOG  PS  0-2\n 7. Adequate  organ  function\n 8. Signed  informed  consent\n\n EXCLUSION  (abbreviated)\n 1. Prior  EGFR/HER2  dual  inhibitor\n 2. Active  CNS  metastases  requiring  steroids\n 3. History  of  ILD  or  drug-induced  pneumonitis\n 4. QTcF  >480ms\n 5. Pregnancy  or  breastfeeding\n\n [BLACK  BAND  ARTEFACT  --  TEXT  PARTIALLY  OBSCURED]\n xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n\n STATISTICS\n Simon  two-stage  design\n Stage 1:  35  evaluable  --  need  >=8  responses  to  proceed\n Stage 2:  110  evaluable  --  power  80%\n H0:  ORR=10%    H1:  ORR=25%\n\n [FAINT  TEXT:]\n For  f.ll  pr.tocol  incl.ding  SoA,  SAP,  eth.cal\n cons.derations  refer  to  full  doc.ment  v1.0  in  Ve.va  Vault.\n\n Q.estions:  c.lopez@biorce.com  or  e.vazquez@biorce.com\n\n [END  OF  FAX  TRANSMISSION]\n [Vault ref: VV-BRC-ONC-001-CSP-v1.0]\n ============================================================\n"
+  "raw_sha256": "fc670d0ad3212e27d01a8371ae7697b295c41ca63d39d557a766369c32e45871"
 }

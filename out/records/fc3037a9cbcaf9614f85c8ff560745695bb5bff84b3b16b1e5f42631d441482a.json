@@ -2,7 +2,7 @@
   "classes": [
     {
       "class_name": "ICF",
-      "reasoning": "Document is explicitly titled 'ICF-006 — Re-Consent Form' with version numbering (ICF Version 2.0), contains participant and investigator signature blocks, and describes the re-consent process for enrolled participants due to a safety update.",
+      "reasoning": "Document explicitly identifies itself as 'ICF-006 — Re-Consent Form' in the header and contains participant and investigator signature blocks for obtaining consent to continue study participation under updated conditions.",
       "confidence": 1.0
     }
   ],
@@ -21,11 +21,14 @@
   "indication": null,
   "therapeutic_area": null,
   "phase": null,
-  "summary": "This is a re-consent form (ICF version 2.0) issued to participants already enrolled in Study BIORCE-CAR-2024-007. It informs participants of a protocol amendment requiring more frequent liver blood tests (at Weeks 4, 8, 12, and 24) due to elevated liver enzymes observed in 3 out of 189 treated patients, and obtains their consent to continue under the updated monitoring conditions.",
+  "version": "2.0",
+  "version_ordinal": 2,
+  "country": null,
+  "site_id": null,
+  "summary": "This is a re-consent form (ICF version 2.0) informing currently enrolled participants of a safety update requiring more frequent liver monitoring in Study BIORCE-CAR-2024-007. The update adds liver blood tests at Weeks 4, 8, 12, and 24 following observations of elevated liver enzymes in 3 out of 189 treated patients.",
   "references_to": [
     "ICF v1.0 dated 01 March 2024"
   ],
   "filename": "File_025.md",
-  "raw_sha256": "fc3037a9cbcaf9614f85c8ff560745695bb5bff84b3b16b1e5f42631d441482a",
-  "content": "# ICF-006 — Re-Consent Form\n## Study BIORCE-CAR-2024-007 — Liver Monitoring Update\n### ICF Version 2.0 | Date: 20 September 2024 | CONFIDENTIAL\n\n**Purpose:** A safety update requires that you be re-consented if you are\ncurrently enrolled.\n\n## What Has Changed?\n\n### More Frequent Liver Blood Tests\n\nDuring the ongoing study, 3 patients (out of 189 treated so far) had an\nincrease in their liver enzymes (a blood marker called ALT) to more than\n5 times the upper limit of normal. In all 3 cases the levels returned to\nnormal after the study medicine was paused — no patient suffered lasting\nliver damage. However, we want to monitor this more carefully.\n\n**What this means for you:** You will now have liver blood tests at\n**Weeks 4, 8, 12, and 24** (in addition to your regular blood tests).\nThis requires no extra visits — the extra tests will be done alongside\nyour existing blood draw at these visits.\n\n**If your ALT rises above 5x normal:** The study medicine will be paused\nand your study doctor will contact you within 48 hours. In most cases\nthe medicine can be safely restarted once levels return to normal.\n\n---\n\n**Participant Declaration:** I have read and understood the above\ninformation. I agree to continue my participation in Study\nBIORCE-CAR-2024-007 under the updated conditions.\n\n| | |\n|---|---|\n| Participant Signature: | _________________________ Date: ____________ |\n| Investigator Signature: | _________________________ Date: ____________ |\n\n*ICF v2.0 supersedes v1.0 dated 01 March 2024.*\n"
+  "raw_sha256": "fc3037a9cbcaf9614f85c8ff560745695bb5bff84b3b16b1e5f42631d441482a"
 }
