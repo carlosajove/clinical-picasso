@@ -279,7 +279,7 @@ class OmniGraphClient:
             return results
 
         if name == "find_trial":
-            pid = params["protocol_id"]
+            pid = params.get("trial_key") or params.get("protocol_id")
             trial = self._find_node("Trial", pid)
             if trial:
                 return [self._trial_prefix(trial)]
@@ -344,7 +344,7 @@ class OmniGraphClient:
             return results
 
         if name == "trial_phases":
-            pid = params["protocol_id"]
+            pid = params.get("trial_key") or params.get("protocol_id")
             results = []
             for et, f, t, d in self._edges:
                 if et == "HasPhase" and f == pid:
@@ -499,7 +499,7 @@ class OmniGraphClient:
         # --- audit.gq ---
 
         if name == "trial_documents":
-            pid = params["protocol_id"]
+            pid = params.get("trial_key") or params.get("protocol_id")
             results = []
             for et, doc_id, trial_id, _ in self._edges:
                 if et == "BelongsToTrial" and trial_id == pid:
@@ -525,7 +525,7 @@ class OmniGraphClient:
             return {"inserted": 1}
 
         if name == "add_trial":
-            pid = params["protocol_id"]
+            pid = params.get("trial_key") or params.get("protocol_id")
             self._nodes["Trial"][pid] = dict(params)
             return {"inserted": 1}
 

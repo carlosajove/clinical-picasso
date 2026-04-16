@@ -166,7 +166,7 @@ def _build_review_context(
 
         # Current documents in the trial
         try:
-            trial_docs = client.query("trial_documents", {"protocol_id": trial_key})
+            trial_docs = client.query("trial_documents", {"trial_key": trial_key})
             if trial_docs:
                 sections.append("")
                 sections.append("Current (non-superseded) documents in this trial:")
