@@ -43,7 +43,7 @@ def save(record: ExtractionRecord, out_dir: Path) -> Path:
         suffix=".tmp",
         delete=False,
     ) as tmp:
-        tmp.write(record.model_dump_json(indent=2))
+        tmp.write(record.model_dump_json(indent=2, exclude={"content"}))
         tmp_path = Path(tmp.name)
 
     os.replace(tmp_path, target)

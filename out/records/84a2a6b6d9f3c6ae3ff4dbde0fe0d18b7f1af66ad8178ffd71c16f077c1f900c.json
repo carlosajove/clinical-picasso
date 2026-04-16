@@ -2,7 +2,7 @@
   "classes": [
     {
       "class_name": "CRF",
-      "reasoning": "The document is explicitly titled 'eCRF MODULE — ADVERSE EVENT MODULE' and contains structured data fields for capturing per-patient adverse event information including AE identification, CTCAE grading, SAE criteria, causality assessment, and investigator signature blocks. It identifies itself as 'Form Version: 2.1' and includes patient code entry fields.",
+      "reasoning": "This is a Case Report Form (CRF) titled 'eCRF MODULE — ADVERSE EVENT MODULE' with data capture fields for recording adverse events per patient. It includes structured data entry fields for patient code, MedDRA coding, CTCAE grading, causality assessment, and investigator signature block—all hallmarks of a CRF.",
       "confidence": 1.0
     }
   ],
@@ -21,13 +21,19 @@
   "indication": null,
   "therapeutic_area": "Oncology",
   "phase": null,
-  "summary": "This is a blank Case Report Form module designed to capture adverse event (AE) data for individual patients in study BIORCE-ONC-2023-001. It collects AE verbatim description, MedDRA coding, CTCAE severity grading, seriousness criteria (SAE determination), causality to investigational product BRC-471, and actions taken regarding study drug and concomitant medications.",
+  "version": "2.1",
+  "version_ordinal": 2,
+  "country": null,
+  "site_id": null,
+  "summary": "This is an electronic Case Report Form (eCRF) module for capturing individual adverse events in the BIORCE-ONC-2023-001 oncology study. It collects standardized AE data including MedDRA coding, NCI CTCAE v5.0 grading, seriousness criteria, causality to investigational drug BRC-471, and actions taken, with one form completed per adverse event per patient.",
   "references_to": [
     "MedDRA Preferred Term (PT)",
     "System Organ Class (SOC)",
-    "NCI CTCAE v5.0"
+    "NCI CTCAE v5.0",
+    "Study: BIORCE-ONC-2023-001",
+    "Form Version: 2.1",
+    "BRC-471"
   ],
   "filename": "File_007.md",
-  "raw_sha256": "84a2a6b6d9f3c6ae3ff4dbde0fe0d18b7f1af66ad8178ffd71c16f077c1f900c",
-  "content": "# eCRF MODULE — ADVERSE EVENT MODULE\n## Study: BIORCE-ONC-2023-001 | Form Version: 2.1\n## Site ID: ______ | Patient Code: BRC471-___-____\n## Reporting Period: from __ / __ / ______ to __ / __ / ______\n\n> Complete one form per adverse event. Use MedDRA Preferred Term (PT)\n> and System Organ Class (SOC). Grade per NCI CTCAE v5.0.\n\n## AE IDENTIFICATION\n\n| Field | Value |\n|---|---|\n| AE Description (verbatim) | |\n| MedDRA PT (coded by DM) | |\n| MedDRA SOC | |\n| AE start date | __ / __ / ______ |\n| AE ongoing? | Yes / No — End date: __ / __ / ______ |\n| AE outcome | Resolved / Resolved with sequelae / Ongoing / Fatal / Unknown |\n\n## SEVERITY\n\n| CTCAE Grade | Description | Select |\n|---|---|---|\n| Grade 1 | Mild; asymptomatic; no intervention needed | [ ] |\n| Grade 2 | Moderate; minimal intervention indicated | [ ] |\n| Grade 3 | Severe; hospitalisation indicated | [ ] |\n| Grade 4 | Life-threatening; urgent intervention | [ ] |\n| Grade 5 | Death related to AE | [ ] |\n\n## SERIOUSNESS CRITERIA (check all that apply)\n\n[ ] Death\n[ ] Life-threatening\n[ ] Hospitalisation (initial or prolonged)\n[ ] Persistent or significant disability/incapacity\n[ ] Congenital anomaly/birth defect\n[ ] Important medical event\n\n**Is this an SAE?** Yes (SAE #: _______) / No\n\n*If SAE: Date sponsor notified: __ / __ / ______ (must be within 24 hours)*\n\n## CAUSALITY ASSESSMENT\n\n| Assessment | Select |\n|---|---|\n| Definitely related to BRC-471 | [ ] |\n| Probably related to BRC-471 | [ ] |\n| Possibly related to BRC-471 | [ ] |\n| Unlikely related to BRC-471 | [ ] |\n| Unrelated to BRC-471 | [ ] |\n\n## ACTIONS TAKEN\n\n**Study drug action:**\n[ ] No change\n[ ] Dose reduced (new dose: _______ mg BID)\n[ ] Drug interrupted (dates: __ / __ / ______ to __ / __ / ______)\n[ ] Drug permanently discontinued\n\n**Concomitant medication given for AE?**\n[ ] Yes — Medication: _____________ Dose: _____________ Start: __ / __ / ______\n[ ] No\n\n## NARRATIVE (required for SAEs and Grade 3+ events)\n\n_______________________________________________________________\n_______________________________________________________________\n\n**Investigator signature:** ___________________________ Date: __ / __ / ______\n"
+  "raw_sha256": "84a2a6b6d9f3c6ae3ff4dbde0fe0d18b7f1af66ad8178ffd71c16f077c1f900c"
 }

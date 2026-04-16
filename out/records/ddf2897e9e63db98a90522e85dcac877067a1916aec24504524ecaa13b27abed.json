@@ -2,8 +2,8 @@
   "classes": [
     {
       "class_name": "eTMF",
-      "reasoning": "This is a cover letter from the sponsor to investigators distributing Investigator Brochure Edition 2 and requesting acknowledgement of receipt. It describes updates to the IB but is not the IB itself. Cover letters and acknowledgement forms for IB distribution are regulatory TMF documents.",
-      "confidence": 0.95
+      "reasoning": "This is a formal distribution cover letter from the sponsor to investigators regarding the release of Investigator Brochure Edition 2, including mandatory acknowledgement requirements. It is a TMF document that does not fit other specific classes—it is administrative correspondence documenting IB distribution and receipt.",
+      "confidence": 0.92
     }
   ],
   "nct_id": null,
@@ -20,8 +20,12 @@
   "intervention": "BRC-471 (Lumitanib)",
   "indication": null,
   "therapeutic_area": "Oncology",
-  "phase": "2",
-  "summary": "This is a sponsor cover letter dated 15 October 2023 notifying investigators of the distribution of Investigator Brochure Edition 2 for BRC-471 (Lumitanib). The letter summarizes key updates (phase II efficacy data, ILD/pneumonitis safety signal, CYP3A4 drug-drug interaction data) and requires all investigators to sign and return an acknowledgement form within 14 days.",
+  "phase": null,
+  "version": "Edition 2",
+  "version_ordinal": 2,
+  "country": null,
+  "site_id": null,
+  "summary": "This is a cover letter from Biorce Therapeutics dated 15 October 2023 distributing Investigator Brochure Edition 2 for BRC-471 (Lumitanib) to all principal investigators and sub-investigators on study BIORCE-ONC-2023-001. The letter highlights critical updates including new Phase II efficacy data, an updated ILD/pneumonitis safety signal requiring immediate action, new drug-drug interaction data with CYP3A4 inhibitors, and includes a mandatory acknowledgement form that must be returned within 14 days before enrolling new patients.",
   "references_to": [
     "Investigator Brochure Edition 2 for BRC-471 (Lumitanib), dated 15 October 2023",
     "Edition 1 (01 December 2022)",
@@ -29,6 +33,5 @@
     "Vault ID: VV-BRC-ONC-001-IB-Ed2-ACK"
   ],
   "filename": "File_057.txt",
-  "raw_sha256": "ddf2897e9e63db98a90522e85dcac877067a1916aec24504524ecaa13b27abed",
-  "content": "BIORCE THERAPEUTICS S.L.\nCalle de Serrano 41 | 28001 Madrid | Spain\n\n                                                15 October 2023\n\nTo: All Principal Investigators and Sub-Investigators\n    Study BIORCE-ONC-2023-001\n\nRe: Distribution of Investigator Brochure (IB), Edition 2 --\n    BRC-471 (Lumitanib) -- and Mandatory Acknowledgement\n\nDear Investigator,\n\nPlease find enclosed Investigator Brochure Edition 2 for BRC-471 (Lumitanib),\ndated 15 October 2023. This edition supersedes Edition 1 (01 December 2022)\nand must be read in full before enrolling or treating any further patients.\n\nEdition 2 contains the following material updates which may affect your\nassessment of the benefit-risk profile and your conduct of the study:\n\n1. UPDATED PHASE II INTERIM EFFICACY DATA\n   Phase II study (n=55 evaluable, data cut 01 September 2023):\n   Confirmed ORR 29% (16/55; 95% CI 17.6-42.9) by BICR, exceeding the 25%\n   threshold. Median PFS 5.4 months. HER2-amplified subgroup ORR 44%.\n\n2. UPDATED ILD/PNEUMONITIS SIGNAL -- ACTION REQUIRED\n   Two additional Grade 3 cases confirmed since Edition 1, total now 4 cases\n   (incidence 3.7%). All resolved. IMMEDIATE ACTIONS:\n\n   a) Review updated risk-minimisation guidance in Section 4.3 of IB Edition 2:\n      - Baseline HRCT required for all newly enrolled patients\n      - Low threshold for drug hold at any new respiratory symptoms\n\n   b) Brief all site staff on updated ILD/pneumonitis guidance\n\n   c) Complete and return the IB Acknowledgement Form within 14 days\n\n3. NEW DRUG-DRUG INTERACTION DATA (CYP3A4)\n   DDI study (n=12): 2.3-fold increase in BRC-471 AUC with itraconazole.\n   If strong CYP3A4 inhibitor unavoidable: reduce BRC-471 to 100 mg BID.\n   Please review all concomitant medications at the next patient visit.\n\nACTION REQUIRED -- IB ACKNOWLEDGEMENT\n\nAll investigators and sub-investigators must sign and return the acknowledgement\nbelow within 14 days. Return to: c.lopez@biorce.com or Vault ID: VV-BRC-ONC-001-IB-Ed2-ACK\n\nDo not enrol any new patients until you have read and acknowledged IB Edition 2.\n\nMedical questions: Dr. Elena Vázquez (e.vazquez@biorce.com)\nLogistical questions: Carmen López (c.lopez@biorce.com)\n\nYours sincerely,\nDr. Elena Vázquez, VP Clinical Development\n\n================================================================================\nIB ACKNOWLEDGEMENT FORM\n\nStudy: BIORCE-ONC-2023-001 | IB Edition 2 | 15 October 2023\n\nI confirm that I have received and read IB Edition 2 for BRC-471 (Lumitanib)\nand understand the updated safety and efficacy information.\n\nName (PRINT): _________________________________________________\n\nRole: [ ] Principal Investigator   [ ] Sub-Investigator\n\nSite code: _____________\n\nSignature: _________________________________________________\n\nDate: _____ / _____ / __________\n\nReturn to: c.lopez@biorce.com by 29 October 2023\n================================================================================\n"
+  "raw_sha256": "ddf2897e9e63db98a90522e85dcac877067a1916aec24504524ecaa13b27abed"
 }

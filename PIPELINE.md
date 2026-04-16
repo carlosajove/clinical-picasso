@@ -11,15 +11,28 @@
 |---|--------------------|----------|----------|---------------------------------------------------------|------------------------------------|
 | 1 | Preprocessing      | per-file | yes      | deduplicated, content-extracted `DocumentRecord`s       | `src/preprocessing.py`             |
 | 2 | Extraction         | per-doc  | yes      | one `ExtractionRecord` per doc (cached on disk)         | `src/extraction/extract.py`        |
-| 3 | Graph creation     | per-doc  | no       | Document + Trial nodes, BelongsToTrial edges            | `src/graph/serializer.py`          |
-| 4 | Ingestion          | per-doc  | no       | version chains, typed edges, change reports             | `src/ingest/ingestion.py`          |
+| 3 | Graph creation     | per-doc  | no       | Document + Trial + Phase nodes, typed edges             | `src/graph/serializer.py`          |
+| 4 | Ingestion + Review | per-doc  | no       | version chains, typed edges, reviewer verdicts, amendment cascade | `src/ingest/ingestion.py`, `src/ingest/reviewer.py` |
 | 5 | Refinement         | global   | no       | reclassification, orphan connection, edge discovery     | `src/ingest/refinement.py`         |
 | 6 | Audit              | global   | no       | inconsistency flags + audit report                      | `src/cascade/inconsistency_checker.py` |
 
 Phases 1–2 are embarrassingly parallel. Phases 3–6 operate against the shared graph.
 
-The main orchestrator (`main.py`) currently runs Phases 1–2. Phases 3–6 are invoked
-through `ingest()` and the refinement/audit modules.
+The main orchestrator (`main.py`) runs all 6 phases. CLI flags:
+- `--extract-only` — Phases 1–2 only
+- `--graph-only` — Phases 3–6 only (uses cached records)
+- `--no-review` — skip the LLM reviewer in Phase 4
+
+### Graph hierarchy
+
+```
+Trial (protocol_id)
+  └── Phase (phase_id = "{trial}::phase:{label}")
+        └── Document (doc_id)
+```
+
+Documents connect to Trial via `BelongsToTrial` and to Phase via `BelongsToPhase`.
+Documents without a phase value skip the Phase layer but still connect to Trial.
 
 ---
 
@@ -61,6 +74,7 @@ a structured `ExtractionRecord` constrained to the Pydantic schema.
 | `eu_ct_id` | `str?` | EU CT number |
 | `sponsor_protocol_id` | `str?` | Sponsor's internal protocol ID |
 | `version` | `str?` | Document version string |
+| `version_ordinal` | `int?` | Normalized integer for ordering (e.g. "v2.1" → 2, "Amendment 3" → 3) |
 | `country` | `str?` | ISO country |
 | `site_id` | `str?` | Site identifier |
 | `references_to` | `list[str]` | Raw citation strings (resolved in Phase 4) |
@@ -103,17 +117,20 @@ Materializes extraction records into the OmniGraph knowledge graph.
 | Node type | Key | Notable fields |
 |-----------|-----|----------------|
 | **Document** | `doc_id` | `source_file`, `content_hash`, `document_type`, `classification_confidence`, `raw_classes` (JSON), `version`, `status`, `country`, `site_id`, `summary`, `sponsor_name`, `sponsor_protocol_id`, `trial_title`, `intervention`, `indication`, `phase` |
-| **Trial** | `protocol_id` | `nct_id`, `eudract_id`, `title`, `phase`, `intervention`, `indication` |
+| **Trial** | `trial_key` | `nct_id`, `eudract_id`, `eu_ct_id`, `isrctn_id`, `utn_id`, `ind_number`, `cta_number`, `sponsor_name`, `acronym`, `therapeutic_area`, `title`, `phase`, `intervention`, `indication` |
 
 ### Edges
 
 | Edge type | Direction | Data fields | Meaning |
 |-----------|-----------|-------------|---------|
 | **BelongsToTrial** | Document → Trial | — | Document is part of this trial |
+| **HasPhase** | Trial → Phase | — | Trial has this phase grouping |
+| **BelongsToPhase** | Document → Phase | — | Document belongs to this phase |
 | **Supersedes** | Document → Document | `reason` | Newer version replaces older |
 | **DerivedFrom** | Document → Document | `derivation_type` | Adaptation hierarchy (site/country/protocol) |
 | **References** | Document → Document | `citation_text` | Explicit textual citation |
 | **Governs** | Document → Document | `authority_type` | Regulatory/governance authority |
+| **Amends** | Document → Document | `amendment_label`, `scope` | Amendment modifies base protocol |
 
 **Serialization:** `serialize_document()`, `serialize_trial()`, `serialize_belongs_to_trial()`
 convert an `ExtractionRecord` into JSONL lines that OmniGraph loads.
@@ -122,31 +139,40 @@ convert an `ExtractionRecord` into JSONL lines that OmniGraph loads.
 
 ---
 
-## Phase 4 — Ingestion (per-doc, against the graph)
+## Phase 4 — Ingestion + Review (per-doc, against the graph)
 
-**Module:** `src/ingest/ingestion.py`
-**Function:** `ingest(record, client) → IngestResult`
+**Modules:** `src/ingest/ingestion.py`, `src/ingest/reviewer.py`
+**Function:** `ingest(record, client, reviewer=None) → IngestResult`
 
 Each document is ingested one at a time against the live graph. The function:
 
 1. **Loads** the Document node and Trial node (if a trial ID exists).
 2. **Checks for existing duplicates** by content hash (skips if already present).
 3. **Resolves versions** — `src/ingest/version_resolver.py::resolve_version()` detects
-   if the new document supersedes an existing one in the same trial + document type.
-   Compares numeric version strings (e.g. 2.2 > 2.1). Creates **Supersedes** edges and
-   marks older docs with `status = "superseded"`.
+   version relationships bidirectionally: the new document may supersede existing ones,
+   or existing ones may supersede the new document (handles out-of-order ingestion).
+   Prefers `version_ordinal` (LLM-extracted integer) for comparison, falls back to
+   numeric version string parsing. Creates **Supersedes** edges and marks older docs
+   with `status = "superseded"`. Can supersede multiple older versions in one pass.
 4. **Discovers edges** — `src/ingest/linker.py` runs three deterministic passes:
    - `_discover_references()`: matches raw citation strings from `references_to[]` against
      existing documents by source filename or document type.
    - `_discover_derived_from()`: ICF-specific adaptation cascade — site ICF → country ICF
      → master ICF → CSP, inferred from `site_id` and `country` metadata. Creates
      **DerivedFrom** edges with `derivation_type` (site_adaptation, protocol_derivation).
-   - `_discover_governs()`: regulatory/governance linking (implementation placeholder).
-5. **Optionally refines classification** — `src/ingest/classifier.py` checks if the top
-   two class candidates are within 0.15 confidence of each other (`needs_refinement()`).
-   If so, `build_refinement_context()` queries the graph for the trial's document-type
-   distribution to inform a reclassification pass.
-6. **Returns** an `IngestResult` with a change report listing all nodes/edges created.
+   - `_discover_governs()`: regulatory/governance linking.
+4. **Reviewer agent** (optional, LLM-powered) — `src/ingest/reviewer.py::DocumentReviewer`
+   validates the document against graph context:
+   - **Classification validation**: checks if the assigned type is correct given the
+     trial's existing documents. Reclassifies if needed.
+   - **Amendment detection**: identifies protocol amendments by version string, graph
+     context (existing base CSP), and document content. Creates **Amends** edges and
+     runs cascade analysis to find affected downstream documents.
+   - **Edge suggestions**: proposes edges the deterministic linker may have missed.
+   - **Inconsistency flagging**: detects phase mismatches, metadata conflicts, etc.
+   - **Fast-path skip**: high-confidence, non-amendment, non-CSP documents skip the LLM
+     call. Override with `force=True`.
+5. **Returns** an `IngestResult` with change report, reviewer verdict, and amendment impact.
 
 ---
 
@@ -215,11 +241,12 @@ Excludes already-superseded nodes. Returns affected document IDs + metadata.
 
 | File | Purpose | Key queries |
 |------|---------|-------------|
-| `mutations.gq` | CRUD | `add_document`, `add_trial`, `add_belongs_to_trial`, `add_supersedes`, `add_derived_from`, `add_references`, `add_governs`, `mark_superseded` |
-| `match_existing.gq` | Lookups | `find_version_match`, `find_trial`, `find_trial_by_nct`, `find_doc_by_hash` |
+| `mutations.gq` | CRUD | `add_document`, `add_trial`, `add_belongs_to_trial`, `add_supersedes`, `add_derived_from`, `add_references`, `add_governs`, `add_phase`, `add_has_phase`, `add_belongs_to_phase`, `add_amends`, `mark_superseded`, `update_document_type` |
+| `match_existing.gq` | Lookups | `find_version_match`, `find_trial`, `find_trial_by_nct`, `find_doc_by_hash`, `find_amendment_targets` |
 | `inconsistencies.gq` | Audit | `stale_parents`, `stale_references`, `stale_governance`, `superseded_documents`, `current_documents` |
-| `cascade.gq` | Impact | `cascade_derived`, `cascade_references`, `cascade_governed` |
+| `cascade.gq` | Impact | `cascade_derived`, `cascade_references`, `cascade_governed`, `cascade_amendment` |
 | `orphans.gq` | Cleanup | `find_orphans`, `low_confidence` |
+| `phase.gq` | Phase hierarchy | `find_phase`, `phase_documents`, `trial_phases` |
 | `audit.gq` | Reporting | Audit-specific aggregations |
 
 ### Natural language query interface
@@ -260,9 +287,9 @@ These are planned in `CLAUDE.md` but not present in the codebase:
 - **Semantic diff engine:** section-level diff between document versions (currently
   version chains are detected but content diffs are not computed).
 - **UI / frontend:** the system is backend-only; no web interface exists.
-- **Multi-agent orchestration:** single-agent LLM calls only; no agent-to-agent routing.
-- **Full refinement re-LLM calls:** refinement steps 1, 4, 5 identify candidates but
-  don't yet invoke the LLM for reclassification or edge validation.
+- **Full refinement re-LLM calls in sweep:** refinement steps 1, 4, 5 identify candidates
+  but don't yet invoke the LLM for reclassification. Per-document reclassification is
+  handled by the reviewer agent in Phase 4.
 
 ---
 

@@ -2,7 +2,7 @@
   "classes": [
     {
       "class_name": "CSR",
-      "reasoning": "The document explicitly identifies itself as 'INTERIM CLINICAL STUDY REPORT' in the title and footer. It presents efficacy and safety results with data cut-off, patient enrollment numbers, and statistical analyses typical of a CSR format.",
+      "reasoning": "Document explicitly identifies itself as 'INTERIM CLINICAL STUDY REPORT' in the title and footer, with CSR-002 designation. Contains full clinical study report structure including synopsis, efficacy/safety findings, data cut-off dates, and DSMB review conclusions typical of a regulatory CSR document.",
       "confidence": 0.98
     }
   ],
@@ -21,13 +21,16 @@
   "indication": "EGFR-Mutant NSCLC Post-Osimertinib",
   "therapeutic_area": "Oncology",
   "phase": "2",
-  "summary": "This is an interim Clinical Study Report for study BIORCE-ONC-2023-001, documenting Stage 1 completion of a Simon two-stage Phase II trial evaluating BRC-471 in EGFR-mutant NSCLC patients post-osimertinib progression. The report presents efficacy outcomes (ORR 29.1%, median PFS 5.4 months) and safety data from 67 enrolled patients with data cut-off September 1, 2023, concluding that pre-specified criteria were met and the study will proceed to Stage 2.",
+  "version": "CSR-002",
+  "version_ordinal": 2,
+  "country": null,
+  "site_id": null,
+  "summary": "This is an interim clinical study report (CSR-002) for protocol BIORCE-ONC-2023-001, covering Stage 1 completion of a Simon two-stage Phase II study of BRC-471 in EGFR-mutant NSCLC patients following osimertinib treatment. The report includes efficacy and safety data from 67 enrolled patients with a data cut-off of September 1, 2023, demonstrating that the pre-specified Stage 1 response criterion was met (29% ORR), allowing the study to proceed to Stage 2 enrollment.",
   "references_to": [
     "Protocol Amendment 2",
-    "DSMB October 2023 review",
-    "Simon two-stage design"
+    "Simon two-stage design",
+    "DSMB October 2023 review"
   ],
   "filename": "File_028.md",
-  "raw_sha256": "9a378d799b4e39666aaf42201553d58a6a6dc6bf1af789bb13116958fba2fc3c",
-  "content": "# CSR-002 — INTERIM CLINICAL STUDY REPORT\n## Study: BIORCE-ONC-2023-001\n## Phase II Study of BRC-471 in EGFR-Mutant NSCLC Post-Osimertinib\n### INTERIM REPORT (Stage 1 Completion) | Date: 15 December 2023 | CONFIDENTIAL\n\n**Data Cut-off:** 01 September 2023\n**Patients enrolled at data cut:** 67\n**Patients evaluable for efficacy:** 55\n\n## SYNOPSIS\n\nThis interim report covers Stage 1 completion of the Simon two-stage design\n(55 evaluable patients). The pre-specified Stage 1 criterion was met\n(13/35 responses in first 35 evaluable patients, 37%). Updated ORR at this\ninterim: 29% (16/55), meeting the pre-specified threshold for study success.\n\n## KEY EFFICACY FINDINGS\n\n| Endpoint | Result (data cut 01 Sep 2023) |\n|---|---|\n| Confirmed ORR (BICR) | 29.1% (16/55; 95% CI 17.6–42.9) |\n| DCR | 70.9% (39/55) |\n| Median PFS | 5.4 months (95% CI 4.1–7.2) |\n| Median DoR | 7.8 months (95% CI 5.1–NR) |\n| Ongoing responses at data cut | 9/16 (56%) |\n\n## KEY SAFETY FINDINGS\n\n| Safety Parameter | Result |\n|---|---|\n| Grade >=3 TEAEs | 38% |\n| SAEs | 15% |\n| Discontinuations due to AEs | 9% |\n| ILD/Pneumonitis (all grades) | 6% (4/67) |\n| Fatal AEs (study drug-related) | 0 |\n\n## DSMB REVIEW\n\nDSMB October 2023 review conclusion: Study may continue as planned.\nNausea prophylaxis protocol amendment approved.\n\n## OVERALL CONCLUSION\n\nStage 1 criterion met. Study proceeds to Stage 2 (enrolment to continue\nto 120 patients). Protocol Amendment 2 implemented addressing nausea\nprophylaxis, ctDNA timepoint addition, and eligibility expansion.\nFull final CSR to be prepared following completion of 24-month follow-up.\n\n*INTERIM REPORT | BIORCE-ONC-2023-001 | CONFIDENTIAL*\n*© 2023 Biorce Therapeutics S.L.*\n"
+  "raw_sha256": "9a378d799b4e39666aaf42201553d58a6a6dc6bf1af789bb13116958fba2fc3c"
 }

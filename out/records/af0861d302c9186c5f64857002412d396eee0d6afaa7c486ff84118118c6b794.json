@@ -2,8 +2,8 @@
   "classes": [
     {
       "class_name": "eTMF",
-      "reasoning": "This is a formal approval letter ('Avis favorable') from the French Ethics Committee (Comité de Protection des Personnes Île-de-France VI) dated February 28, 2023, regarding a clinical trial. It is a regulated TMF document that does not fit the more specific classes such as protocol, ICF, or CSR.",
-      "confidence": 0.98
+      "reasoning": "This is an official Ethics Committee (Comité de Protection des Personnes) approval letter dated 28 February 2023, providing favorable opinion for a clinical trial. It contains regulatory approval documentation and observations, which are part of the Trial Master File but do not fit more specific categories like ICF, Protocol, or CSR.",
+      "confidence": 0.95
     }
   ],
   "nct_id": null,
@@ -21,15 +21,17 @@
   "indication": "cancer bronchique non à petites cellules (CBNPC) avec mutation EGFR, en progression après osimertinib en première ligne",
   "therapeutic_area": "Oncology",
   "phase": "2",
-  "summary": "This is an ethics committee approval letter issued by the Comité de Protection des Personnes Île-de-France VI on February 28, 2023, granting favorable opinion for study BIORCE-ONC-2023-001. The letter references protocol v1.0 and includes mandatory observations requiring revisions to the patient information notice before enrollment can begin.",
+  "version": null,
+  "version_ordinal": 1,
+  "country": "FR",
+  "site_id": null,
+  "summary": "This is a favorable ethics committee opinion letter from the Comité de Protection des Personnes Île-de-France VI dated 28 February 2023, approving the conduct of a Phase II clinical trial evaluating BRC-471 (Lumitanib) in NSCLC patients with EGFR mutation at Institut Gustave Roussy. The letter references Protocol v1.0 and provides mandatory observations regarding informed consent documentation that must be addressed before patient enrollment begins.",
   "references_to": [
-    "Protocole v1.0",
-    "BIORCE-ONC-2023-001, version 1.0, 14 mars 2023",
+    "Protocole BIORCE-ONC-2023-001, version 1.0, 14 mars 2023",
     "Notice d'information (Section 5 — Risques)",
     "Section 9 (Données personnelles)",
     "Règlement UE 2016/679"
   ],
   "filename": "File_043.txt",
-  "raw_sha256": "af0861d302c9186c5f64857002412d396eee0d6afaa7c486ff84118118c6b794",
-  "content": "COMITÉ DE PROTECTION DES PERSONNES\nILE-DE-FRANCE VI\nHôpital Pitié-Salpêtrière\n47-83 Boulevard de l'Hôpital, 75013 Paris\ncpp.idf6@aphp.fr\n\n                                        Paris, le 28 février 2023\n\nRéf. dossier CPP : IDF6-2023-A00412-39\n\nÀ l'attention de :\nDr. Christian Dupont\nInvestigateur Principal, Institut Gustave Roussy\n114 Rue Édouard Vaillant, 94800 Villejuif, France\n\nObjet : Avis favorable — Étude BIORCE-ONC-2023-001 — Protocole v1.0\n\nMonsieur le Docteur,\n\nLe Comité de Protection des Personnes Île-de-France VI s'est réuni en\nséance plénière le 22 février 2023 pour examiner votre demande d'avis\nconcernant la recherche interventionnelle susmentionnée.\n\nIDENTIFICATION DE LA RECHERCHE\n\nTitre :\n  Étude de Phase II, en ouvert, multicentrique, visant à évaluer\n  l'efficacité et la tolérance de BRC-471 (Lumitanib) chez des patients\n  atteints d'un cancer bronchique non à petites cellules (CBNPC) avec\n  mutation EGFR, en progression après osimertinib en première ligne.\n\nPromoteur   : Biorce Therapeutics S.L., Madrid, Espagne\nNuméro EudraCT : 2023-001234-11\nProtocole   : BIORCE-ONC-2023-001, version 1.0, 14 mars 2023\nProduit     : BRC-471 (Lumitanib), 200 mg deux fois par jour, voie orale\nCatégorie   : Recherche Interventionnelle à Risques et Contraintes Minimes\n\nAVIS DU COMITÉ\n\nAprès délibération, le CPP IDF VI émet un AVIS FAVORABLE à la\nréalisation de cette recherche sur le site de l'Institut Gustave Roussy,\nsous réserve des observations suivantes :\n\nOBSERVATIONS OBLIGATOIRES (avant tout début d'inclusion) :\n\n  1. Notice d'information (Section 5 — Risques) : Mentionner\n     explicitement le risque de pneumopathie interstitielle avec\n     fréquence indicative (~5% tous grades). Le libellé actuel est\n     insuffisamment précis.\n\n  2. Section 9 (Données personnelles) : Ajouter référence explicite\n     au RGPD (Règlement UE 2016/679) et préciser les droits des\n     participants (accès, rectification, effacement).\n\nOBSERVATIONS INFORMATIVES (sans blocage) :\n\n  3. Le CPP recommande de décrire plus précisément la procédure de\n     biopsie tumorale dans la notice d'information.\n\n  4. Le CPP recommande que les résultats de la recherche soient\n     communiqués aux participants à l'issue de l'étude.\n\nVALIDITÉ ET OBLIGATIONS\n\nLe présent avis est valable pour la version du protocole citée ci-dessus.\nToute modification substantielle devra faire l'objet d'une nouvelle\nsoumission avant mise en oeuvre.\n\nLa Présidente du CPP IDF VI\n\nPr. Marie-Claire Fontaine\n[Signature]\n\nRéférence : CPP IDF6-2023-A00412-39 — Avis favorable du 28/02/2023\n"
+  "raw_sha256": "af0861d302c9186c5f64857002412d396eee0d6afaa7c486ff84118118c6b794"
 }

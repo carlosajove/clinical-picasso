@@ -2,7 +2,7 @@
   "classes": [
     {
       "class_name": "NOISE",
-      "reasoning": "This is a catering invoice (INV-2023-CAT-0441) from Sabores Mediterráneos S.L. billing Biorce Therapeutics for food, beverages, and equipment for an investigator meeting. It is a commercial vendor invoice, not a trial master file document or regulatory artifact.",
+      "reasoning": "This is a catering invoice from Sabores Mediterráneos S.L. to Biorce Therapeutics S.L. for an investigator meeting. It is a commercial billing document for food, beverage, and AV services, not a regulated clinical trial document or TMF artifact.",
       "confidence": 1.0
     }
   ],
@@ -21,11 +21,16 @@
   "indication": null,
   "therapeutic_area": null,
   "phase": null,
-  "summary": "This is a commercial catering invoice dated 14 September 2023 from Sabores Mediterráneos S.L. to Biorce Therapeutics S.L. for catering services provided at a BRC-471 Investigator Meeting held on 8-9 September 2023 at Hotel Arts Barcelona. It is not a clinical trial document but rather a financial vendor invoice.",
+  "version": null,
+  "version_ordinal": 1,
+  "country": "ES",
+  "site_id": null,
+  "summary": "This is a commercial catering and event services invoice dated 14 September 2023 from a Barcelona-based catering company (Sabores Mediterráneos S.L.) to Biorce Therapeutics S.L. for services provided at an investigator meeting held 08–09 September 2023. While the event pertains to a clinical trial compound (BRC-471), the document itself is a vendor invoice, not a trial master file document.",
   "references_to": [
-    "BRC-471 Investigator Meeting 2023"
+    "BRC-471 Investigator Meeting 2023",
+    "Hotel Arts Barcelona",
+    "Invoice INV-2023-CAT-0441"
   ],
   "filename": "File_022.html",
-  "raw_sha256": "30001d5ccd692708f8b512cf59d2cc485467d3690417d1b7edb2354d10f1d8bb",
-  "content": "\n\n\n\n\n\n\n\n\n\n\n\n\n\nSabores Mediterráneos S.L.\n\n\nCarrer de Provença 213, 08036 Barcelona\n\n    NIF: B-63241789 · Tel: +34 93 451 2233\n\n    IBAN: ES43 2100 0418 4502 0012 6789\n\n\n\n\n\n\nINV-2023-CAT-0441\n\n\nInvoice Date: 14 September 2023\nDue Date: 14 October 2023\nStatus: AWAITING PAYMENT\n\n\n\n\n\n\n\n\n\n\nBill To\n\n\nBiorce Therapeutics S.L.\n\n    Calle de Serrano 41, 28001 Madrid\n\n    NIF: B-87654321\n\n    Attention: Lucía Mendoza, Events & Meetings\n  \n\n\n\n\nEvent Details\n\n    Event: BRC-471 Investigator Meeting 2023\n\n    Dates: 08–09 September 2023\n\n    Venue: Hotel Arts Barcelona\n\n    Guest count: 58\n  \n\n\n\n\n\n\nService\nQty\nUnit Price (€)\nTotal (€)\n\n\nWelcome cocktail reception (Day 1, 18:00–19:30)\n58 pax\n42.00\n2,436.00\n\n\nGala dinner (Day 1, 20:00) — 3-course, wine pairing\n58 pax\n95.00\n5,510.00\n\n\nCoffee breaks × 2 (Day 2)\n58 pax × 2\n18.00\n2,088.00\n\n\nWorking lunch buffet (Day 2, 13:00)\n58 pax\n55.00\n3,190.00\n\n\nAudio-visual equipment rental (Day 2)\n1 day\n850.00\n850.00\n\n\nService staff — 2 waiters × 2 days × 8 hours\n32 hours\n22.00\n704.00\n\n\n\n\n\n\nSubtotal\n€14,778.00\n\n\nIVA (21%)\n€3,103.38\n\n\nTOTAL DUE\n€17,881.38\n\n\n\n\n\n\nPayment Instructions\n\n  Transfer within 30 days to: Sabores Mediterráneos S.L.\n\n  IBAN: ES43 2100 0418 4502 0012 6789 | BIC: CAIXESBBXXX\n\n  Reference: INV-2023-CAT-0441 / Biorce-Sep23\n\n\n\nSabores Mediterráneos S.L. · NIF B-63241789 · Questions: contabilidad@saboresmediterraneos.es\n\n\n\n"
+  "raw_sha256": "30001d5ccd692708f8b512cf59d2cc485467d3690417d1b7edb2354d10f1d8bb"
 }

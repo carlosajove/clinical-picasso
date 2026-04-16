@@ -2,7 +2,7 @@
   "classes": [
     {
       "class_name": "IB",
-      "reasoning": "Document explicitly self-identifies as 'INVESTIGATOR BROCHURE' in the header and footer. Contains typical IB sections: updated efficacy data from Phase II extension, safety summary, pharmacogenomic guidance, and biomarker results for the investigational drug BRC-209 (Velagostat).",
+      "reasoning": "The document explicitly identifies itself as 'INVESTIGATOR BROCHURE' in the title and footer. It contains comprehensive information about the investigational drug BRC-209 (Velagostat), including efficacy data, safety profiles, pharmacogenomics, and dosing guidance—all characteristic elements of an Investigator Brochure.",
       "confidence": 1.0
     }
   ],
@@ -13,22 +13,25 @@
   "utn_id": null,
   "ind_number": null,
   "cta_number": null,
-  "sponsor_protocol_id": null,
+  "sponsor_protocol_id": "BRC-209",
   "sponsor_name": "Biorce Therapeutics S.L.",
   "trial_title": null,
   "trial_acronym": null,
   "intervention": "BRC-209 (Velagostat)",
-  "indication": "Not explicitly stated in document",
-  "therapeutic_area": "Not explicitly stated in document",
+  "indication": null,
+  "therapeutic_area": null,
   "phase": "2",
-  "summary": "This is Edition 2 of the Investigator Brochure for BRC-209 (Velagostat), an investigational drug sponsored by Biorce Therapeutics S.L., dated 20 January 2023. The document presents updated efficacy and safety data from an 18-month Phase II extension study (n=71 completers), new biomarker findings (plasma NfL and p-tau 181), CYP2C19 poor metabolizer pharmacogenomic guidance, and updated falls risk assessments.",
+  "version": "Edition 2",
+  "version_ordinal": 2,
+  "country": null,
+  "site_id": null,
+  "summary": "This is Edition 2 of the Investigator Brochure for BRC-209 (Velagostat), an investigational therapeutic sponsored by Biorce Therapeutics. The document provides updated efficacy and safety data from an 18-month Phase II extension study (n=94), new biomarker findings (plasma p-tau 181, NfL), pharmacogenomic guidance for CYP2C19 poor metabolizers, and falls risk assessment to support investigators in conducting clinical trials with this compound.",
   "references_to": [
-    "Edition 1 dated 10 January 2021 (Initial IB)",
-    "Phase II 18-Month Extension study (n=71 completers)",
+    "Edition 1, dated 10 January 2021 (noted as initial IB with date error comment)",
+    "Phase II 18-Month Extension data (n=71 completers)",
     "Pharmacogenomic sub-study (n=18)",
-    "Phase II study (n=94, 52 weeks)"
+    "Morse Fall Scale"
   ],
   "filename": "File_067.txt",
-  "raw_sha256": "ed2ae484b44ab3384756566bef98527080cf9e3d8e45d2bf1fc8911061347ae7",
-  "content": "================================================================================\nINVESTIGATOR BROCHURE\nBRC-209 (VELAGOSTAT)\nEDITION 2                              <-- COVER SAYS EDITION 2\nDate: 20 January 2023 | CONFIDENTIAL\n================================================================================\nSponsor: Biorce Therapeutics S.L., Madrid, Spain\n\nWHAT'S NEW IN THIS EDITION\n\n1. 18-month extension data from Phase II (n=71 completers)\n2. New biomarker data: plasma NfL and p-tau 181 results\n3. CYP2C19 poor metabolizer guidance\n4. Updated falls risk guidance\n\n===========================================================================\nSECTION 1 -- UPDATED EFFICACY DATA (Phase II 18-Month Extension)\n===========================================================================\n\nCDR-SB at 18 months:\n  BRC-209:  +1.24 (LS mean change from baseline)\n  Placebo:  +1.78\n  Difference: -0.54 points (p=0.035) -- statistically significant\n\nTau PET SUVR (temporal composite) at Week 52:\n  BRC-209: -28% | Placebo: -4% | p<0.001\n\nPlasma p-tau 181 at Week 52:\n  BRC-209: -34% (p=0.001) -- novel finding reported in this edition\n\nPlasma NfL at Week 52: no significant difference (p=0.31) -- exploratory\n\n===========================================================================\nSECTION 2 -- CYP2C19 POOR METABOLIZERS\n===========================================================================\n\nPharmacogenomic sub-study (n=18): 4 CYP2C19 poor metabolizers with\n2.8-fold higher BRC-209 AUC. Two experienced Grade 2 dizziness.\nCYP2C19 genotyping recommended; PM patients start at 200 mg QD.\n\n===========================================================================\nSECTION 3 -- FALLS RISK GUIDANCE\n===========================================================================\n\nFalls incidence over 18 months: 19% (BRC-209) vs 24% (placebo).\nNo excess risk attributable to BRC-209. Morse Fall Scale encouraged.\n\n===========================================================================\nSECTION 4 -- SAFETY SUMMARY (Phase II, n=94, 52 weeks)\n===========================================================================\n\n  Adverse Event         BRC-209 (n=63)   Placebo (n=31)\n  --------------------------------------------------------\n  Headache              28%              19%\n  Nausea                22%              13%\n  Diarrhoea             19%              16%\n  Dizziness             18%              10%\n  Fatigue               17%              13%\n  ALT increase           8%               3%\n  Falls                 19%              24%\n  ARIA-E (MRI)           0%               0%\n  SAEs                  10%              13%\n\n===========================================================================\nDOCUMENT HISTORY\n===========================================================================\n\n  Edition   Date              Description\n  ---------------------------------------------------------------\n  1         10 January 2021   Initial IB      <-- *** DATE ERROR: should\n                                                   be 10 January 2022 ***\n  2         20 January 2023   Current edition\n\n===========================================================================\n                                          [FOOTER -- ALL PAGES]\nBRC-209 (Velagostat) | Investigator Brochure | Edition 1  <-- FOOTER SAYS\n20 January 2023 | CONFIDENTIAL                               EDITION 1,\n(C) 2023 Biorce Therapeutics S.L.                           COVER SAYS 2\n===========================================================================\n"
+  "raw_sha256": "ed2ae484b44ab3384756566bef98527080cf9e3d8e45d2bf1fc8911061347ae7"
 }

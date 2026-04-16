@@ -2,8 +2,8 @@
   "classes": [
     {
       "class_name": "NOISE",
-      "reasoning": "This is a curriculum vitae (CV) for Dr. Elena Conti, a medical oncologist. While the CV mentions participation in clinical trials (BIORCE-ONC-2023-001, ORCHARD, MARIPOSA-2, PAPILLON), the document itself is a personal professional resume, not a trial master file document or any regulated clinical trial artifact. CVs are sometimes stored in eTMF as investigator qualification documentation, but the document itself is not a trial-specific document and does not serve a direct trial function.",
-      "confidence": 0.95
+      "reasoning": "This document is a curriculum vitae (CV) of a clinical trial investigator (Elena Conti, MD, PhD), listing personal details, education, publications, and financial disclosures. It is not a trial-specific document such as a protocol, consent form, case report form, or any other regulated TMF artifact.",
+      "confidence": 1.0
     }
   ],
   "nct_id": null,
@@ -13,24 +13,29 @@
   "utn_id": null,
   "ind_number": null,
   "cta_number": null,
-  "sponsor_protocol_id": "BIORCE-ONC-2023-001",
-  "sponsor_name": "Biorce Therapeutics",
+  "sponsor_protocol_id": null,
+  "sponsor_name": null,
   "trial_title": null,
   "trial_acronym": null,
-  "intervention": "BRC-471",
-  "indication": "EGFR-mutant NSCLC post-osimertinib",
-  "therapeutic_area": "Oncology",
-  "phase": "2",
-  "summary": "This is a curriculum vitae for Dr. Elena Conti, MD, PhD, an Associate Professor of Medical Oncology at Istituto Nazionale dei Tumori in Milano, Italy. The CV details her educational background, clinical research activities as a principal investigator on several oncology trials, publications, and financial disclosures. While it mentions trial participation, it is not itself a clinical trial document.",
+  "intervention": null,
+  "indication": null,
+  "therapeutic_area": null,
+  "phase": null,
+  "version": null,
+  "version_ordinal": 1,
+  "country": null,
+  "site_id": null,
+  "summary": "This is a curriculum vitae for Dr. Elena Conti, an Associate Professor of Medical Oncology at Istituto Nazionale dei Tumori in Milano, Italy. The CV includes her education, training, current position, clinical research activities (including principal investigator roles in several oncology trials), selected publications, and financial disclosures. It is not a clinical trial document but rather a professional credentials document.",
   "references_to": [
     "BIORCE-ONC-2023-001",
     "ORCHARD (BioNTech/AstraZeneca)",
     "MARIPOSA-2 (Janssen/AstraZeneca)",
     "PAPILLON (Janssen)",
     "ICH E6(R2)",
-    "EU CTR 536/2014"
+    "EU CTR 536/2014",
+    "ADAURA sub-study",
+    "PAPILLON translational"
   ],
   "filename": "File_056.txt",
-  "raw_sha256": "b91377ab4a363ecd326475787278127a92c7c224210cb52ca3f014ec7dd07b2e",
-  "content": "CURRICULUM VITAE\n\n================================================================================\nPERSONAL DETAILS\n================================================================================\n\nName:           Elena Conti, MD, PhD\nTitle:          Associate Professor of Medical Oncology\nInstitution:    Istituto Nazionale dei Tumori, Milano, Italy\nDepartment:     Thoracic Tumours Unit\nEmail:          e.conti@istitutotumori.mi.it\nDate of birth:  14 April 1978\nMedical Licence: Ordine dei Medici, Provincia di Milano #38721\n\n================================================================================\nEDUCATION\n================================================================================\n\n2008  PhD, Molecular Oncology, Università degli Studi di Milano\n      Thesis: \"Mechanisms of acquired resistance to EGFR inhibitors in NSCLC\"\n2004  MD (Laurea in Medicina e Chirurgia), summa cum laude, Milano\n\n================================================================================\nPOSTGRADUATE TRAINING\n================================================================================\n\n2005-2008  Residency, Medical Oncology, Istituto Nazionale dei Tumori\n2009-2010  Research Fellowship, Memorial Sloan Kettering Cancer Center, New York\n           Laboratory of Dr. William Pao (Thoracic Oncology)\n\n================================================================================\nCURRENT POSITION\n================================================================================\n\n2018-present  Associate Professor, Università degli Studi di Milano /\n              Istituto Nazionale dei Tumori\n2014-present  Senior Consultant, Thoracic Tumours Unit, INT Milano\n\n================================================================================\nCLINICAL RESEARCH\n================================================================================\n\nPRINCIPAL INVESTIGATOR (selected):\n\n  BIORCE-ONC-2023-001   Biorce Therapeutics   2023-ongoing\n    Phase II, BRC-471, EGFR-mutant NSCLC post-osimertinib\n    Site: IT-01 | Enrolled: 9 patients (Dec 2023)\n\n  ORCHARD (BioNTech/AstraZeneca)              2021-2023\n    Phase II platform trial, 2nd-line NSCLC | Enrolled: 14 patients\n\n  MARIPOSA-2 (Janssen/AstraZeneca)            2022-2023\n    Phase III, amivantamab + lazertinib | Enrolled: 11 patients\n\n  PAPILLON (Janssen)                          2020-2022\n    Phase III, amivantamab + chemo, EGFR exon 20 | Enrolled: 8 patients\n\nGCP TRAINING: ICH E6(R2) -- last completed March 2023\n              EU CTR 536/2014 training -- completed June 2022\n\n================================================================================\nSELECTED PUBLICATIONS (last 5 years)\n================================================================================\n\n1. Conti E et al. Real-world outcomes of osimertinib in EGFR-mutant NSCLC:\n   Italian cohort. Lung Cancer. 2023;178:32-41. IF: 5.3\n\n2. Conti E, Marchetti F et al. HER2 amplification as resistance mechanism\n   to osimertinib. ESMO Open. 2022;7(4):100548. IF: 7.1\n\n3. Conti E et al. Liquid biopsy for EGFR monitoring during osimertinib.\n   Journal of Thoracic Oncology. 2021;16(8):1394-1403. IF: 20.4\n\nTotal publications: 67 | H-index: 22 | Citations: 1,847\n\n================================================================================\nFINANCIAL DISCLOSURES (last 3 years)\n================================================================================\n\nAdvisory boards / Honoraria:\n  AstraZeneca, Janssen, Roche, MSD, BMS, Biorce Therapeutics\n\nResearch grants (institutional):\n  AstraZeneca (ADAURA sub-study), Janssen (PAPILLON translational)\n\nStocks / equity: None\n\nSignature: _______________________  Date: January 2024\n================================================================================\n"
+  "raw_sha256": "b91377ab4a363ecd326475787278127a92c7c224210cb52ca3f014ec7dd07b2e"
 }

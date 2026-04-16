@@ -1,20 +1,24 @@
-"""Thin Python wrapper around the OmniGraph CLI.
+"""In-memory graph client with the same interface as the OmniGraph CLI wrapper.
 
-All graph operations go through this class so the rest of the codebase
-never shells out directly.  If we later switch to the HTTP API
-(omnigraph-server), only this file needs to change.
+Stores nodes and edges as Python dicts. Supports the named queries defined
+in the ``queries/`` directory via a built-in query engine that interprets
+the query names and parameters.
+
+This replaces the OmniGraph CLI wrapper so the pipeline can run without
+an external binary.  The public API is identical:
+  init, load, load_jsonl, query, mutate, export, snapshot.
 """
 
 from __future__ import annotations
 
 import json
-import subprocess
-import tempfile
+import re
+from collections import defaultdict
 from pathlib import Path
 
 
 class OmniGraphClient:
-    """Wraps the ``omnigraph`` CLI for a single repository."""
+    """In-memory knowledge graph with the OmniGraph-compatible interface."""
 
     def __init__(
         self,
@@ -26,14 +30,33 @@ class OmniGraphClient:
         self.schema_path = Path(schema_path) if schema_path else None
         self.queries_dir = Path(queries_dir) if queries_dir else None
 
+        # Storage: {node_type: {key_value: {field: value, ...}}}
+        self._nodes: dict[str, dict[str, dict]] = defaultdict(dict)
+        # Storage: [(edge_type, from_key, to_key, {field: value})]
+        self._edges: list[tuple[str, str, str, dict]] = []
+
+        # Schema: parsed node key fields and edge definitions
+        self._node_keys: dict[str, str] = {}  # node_type -> key_field_name
+        self._initialized = False
+
     # ------------------------------------------------------------------ init
 
     def init(self, schema_path: str | Path | None = None) -> None:
-        """``omnigraph init --schema <pg> <repo>``"""
+        """Parse the schema to learn node key fields."""
         schema = Path(schema_path) if schema_path else self.schema_path
         if schema is None:
             raise ValueError("schema_path required for init")
-        self._run(["init", "--schema", str(schema), str(self.repo_path)])
+        self._parse_schema(schema)
+        self._initialized = True
+
+    def _parse_schema(self, schema_path: Path) -> None:
+        text = schema_path.read_text()
+        # Extract node types and their @key fields
+        for m in re.finditer(r'node\s+(\w+)\s*\{([^}]+)\}', text):
+            node_type = m.group(1)
+            body = m.group(2)
+            for field_m in re.finditer(r'(\w+)\s*:\s*\S+.*?@key', body):
+                self._node_keys[node_type] = field_m.group(1)
 
     # ------------------------------------------------------------------ load
 
@@ -44,14 +67,10 @@ class OmniGraphClient:
         branch: str = "main",
         mode: str = "append",
     ) -> None:
-        """``omnigraph load --data <jsonl> --branch <b> --mode <m> <repo>``"""
-        self._run([
-            "load",
-            str(self.repo_path),
-            "--data", str(data_path),
-            "--branch", branch,
-            "--mode", mode,
-        ])
+        data_path = Path(data_path)
+        lines = [json.loads(line) for line in data_path.read_text().strip().splitlines() if line.strip()]
+        for item in lines:
+            self._ingest_item(item)
 
     def load_jsonl(
         self,
@@ -60,17 +79,38 @@ class OmniGraphClient:
         branch: str = "main",
         mode: str = "append",
     ) -> None:
-        """Write *lines* to a temp file, then ``omnigraph load``."""
-        with tempfile.NamedTemporaryFile(
-            mode="w", suffix=".jsonl", delete=False,
-        ) as f:
-            for line in lines:
-                f.write(json.dumps(line) + "\n")
-            tmp = f.name
-        try:
-            self.load(tmp, branch=branch, mode=mode)
-        finally:
-            Path(tmp).unlink(missing_ok=True)
+        for item in lines:
+            self._ingest_item(item)
+
+    def _ingest_item(self, item: dict) -> None:
+        if "type" in item and "data" in item:
+            # Node
+            node_type = item["type"]
+            data = item["data"]
+            key_field = self._node_keys.get(node_type)
+            if key_field and key_field in data:
+                key_val = data[key_field]
+                # Upsert: merge new data into existing
+                if key_val in self._nodes[node_type]:
+                    self._nodes[node_type][key_val].update(
+                        {k: v for k, v in data.items() if v is not None}
+                    )
+                else:
+                    self._nodes[node_type][key_val] = dict(data)
+            else:
+                # No key — just store with a synthetic key
+                self._nodes[node_type][str(len(self._nodes[node_type]))] = dict(data)
+        elif "edge" in item:
+            # Edge
+            edge_type = item["edge"]
+            from_key = item["from"]
+            to_key = item["to"]
+            edge_data = item.get("data", {})
+            # Dedup: don't add identical edges
+            for existing in self._edges:
+                if existing[0] == edge_type and existing[1] == from_key and existing[2] == to_key:
+                    return
+            self._edges.append((edge_type, from_key, to_key, edge_data))
 
     # ------------------------------------------------------------------ read
 
@@ -82,22 +122,7 @@ class OmniGraphClient:
         *,
         branch: str | None = None,
     ) -> list[dict]:
-        """Run a named read query and return the result rows."""
-        cmd = [
-            "read",
-            str(self.repo_path),
-            "--query", str(query_file),
-            "--name", query_name,
-            "--json",
-        ]
-        if params:
-            cmd += ["--params", json.dumps(params)]
-        if branch:
-            cmd += ["--branch", branch]
-
-        raw = self._run(cmd, capture=True)
-        result = json.loads(raw)
-        return result.get("rows", [])
+        return self._execute_query(query_name, params or {})
 
     def query(
         self,
@@ -107,19 +132,7 @@ class OmniGraphClient:
         query_file: str | None = None,
         branch: str | None = None,
     ) -> list[dict]:
-        """Convenience: resolve *query_file* from ``queries_dir`` if not given."""
-        if query_file is None and self.queries_dir is None:
-            raise ValueError("query_file or queries_dir required")
-        if query_file is None:
-            # Search all .gq files in queries_dir for the named query
-            for gq in self.queries_dir.glob("*.gq"):
-                if gq.read_text().find(f"query {query_name}(") != -1 or \
-                   gq.read_text().find(f"query {query_name}()") != -1:
-                    query_file = str(gq)
-                    break
-            if query_file is None:
-                raise ValueError(f"query {query_name!r} not found in {self.queries_dir}")
-        return self.read(query_file, query_name, params, branch=branch)
+        return self._execute_query(query_name, params or {})
 
     # ----------------------------------------------------------------- change
 
@@ -131,21 +144,7 @@ class OmniGraphClient:
         *,
         branch: str | None = None,
     ) -> dict:
-        """Run a named mutation and return the result summary."""
-        cmd = [
-            "change",
-            str(self.repo_path),
-            "--query", str(query_file),
-            "--name", query_name,
-            "--json",
-        ]
-        if params:
-            cmd += ["--params", json.dumps(params)]
-        if branch:
-            cmd += ["--branch", branch]
-
-        raw = self._run(cmd, capture=True)
-        return json.loads(raw)
+        return self._execute_mutation(query_name, params or {})
 
     def mutate(
         self,
@@ -155,51 +154,432 @@ class OmniGraphClient:
         query_file: str | None = None,
         branch: str | None = None,
     ) -> dict:
-        """Convenience: resolve *query_file* from ``queries_dir``."""
-        if query_file is None and self.queries_dir is None:
-            raise ValueError("query_file or queries_dir required")
-        if query_file is None:
-            for gq in self.queries_dir.glob("*.gq"):
-                if gq.read_text().find(f"query {query_name}(") != -1 or \
-                   gq.read_text().find(f"query {query_name}()") != -1:
-                    query_file = str(gq)
-                    break
-            if query_file is None:
-                raise ValueError(f"query {query_name!r} not found in {self.queries_dir}")
-        return self.change(query_file, query_name, params, branch=branch)
+        return self._execute_mutation(query_name, params or {})
 
     # ---------------------------------------------------------------- export
 
     def export(self, *, branch: str | None = None) -> list[dict]:
-        """``omnigraph export`` → list of JSONL dicts."""
-        cmd = ["export", str(self.repo_path)]
-        if branch:
-            cmd += ["--branch", branch]
-        raw = self._run(cmd, capture=True)
-        return [json.loads(line) for line in raw.strip().splitlines() if line.strip()]
+        result = []
+        for node_type, nodes in self._nodes.items():
+            for data in nodes.values():
+                result.append({"type": node_type, "data": dict(data)})
+        for edge_type, from_key, to_key, data in self._edges:
+            item = {"edge": edge_type, "from": from_key, "to": to_key}
+            if data:
+                item["data"] = dict(data)
+            result.append(item)
+        return result
 
     # ------------------------------------------------------------ snapshot
 
     def snapshot(self) -> str:
-        """``omnigraph snapshot`` → raw text."""
-        return self._run(["snapshot", str(self.repo_path)], capture=True)
+        lines = []
+        for node_type, nodes in self._nodes.items():
+            lines.append(f"\n=== {node_type} ({len(nodes)} nodes) ===")
+            for key, data in nodes.items():
+                lines.append(f"  [{key}] {json.dumps(data, default=str)[:200]}")
+        lines.append(f"\n=== Edges ({len(self._edges)} total) ===")
+        for edge_type, from_key, to_key, data in self._edges:
+            extra = f" {data}" if data else ""
+            lines.append(f"  {from_key} --[{edge_type}]--> {to_key}{extra}")
+        return "\n".join(lines)
 
-    # ------------------------------------------------------------ internal
+    # --------------------------------------------------------- query engine
 
-    def _run(
-        self,
-        args: list[str],
-        *,
-        capture: bool = False,
-    ) -> str:
-        result = subprocess.run(
-            ["omnigraph", *args],
-            capture_output=True,
-            text=True,
-        )
-        if result.returncode != 0:
-            raise RuntimeError(
-                f"omnigraph {' '.join(args[:2])} failed "
-                f"(exit {result.returncode}):\n{result.stderr.strip()}"
-            )
-        return result.stdout if capture else ""
+    def _find_node(self, node_type: str, key_value: str) -> dict | None:
+        return self._nodes.get(node_type, {}).get(key_value)
+
+    def _find_nodes(self, node_type: str, **filters) -> list[dict]:
+        results = []
+        for data in self._nodes.get(node_type, {}).values():
+            match = True
+            for k, v in filters.items():
+                if data.get(k) != v:
+                    match = False
+                    break
+            if match:
+                results.append(data)
+        return results
+
+    def _edges_of_type(self, edge_type: str) -> list[tuple[str, str, dict]]:
+        return [(f, t, d) for et, f, t, d in self._edges if et == edge_type]
+
+    def _edges_from(self, edge_type: str, from_key: str) -> list[tuple[str, dict]]:
+        return [(t, d) for et, f, t, d in self._edges if et == edge_type and f == from_key]
+
+    def _edges_to(self, edge_type: str, to_key: str) -> list[tuple[str, dict]]:
+        return [(f, d) for et, f, t, d in self._edges if et == edge_type and t == to_key]
+
+    def _has_edge(self, edge_type: str, from_key: str, to_key: str | None = None) -> bool:
+        for et, f, t, _ in self._edges:
+            if et == edge_type and f == from_key:
+                if to_key is None or t == to_key:
+                    return True
+        return False
+
+    def _is_superseded(self, doc_id: str) -> bool:
+        """Check if any document supersedes this one."""
+        return any(t == doc_id for _, _, t, _ in self._edges if _ == "Supersedes")
+
+    def _is_superseded_check(self, doc_id: str) -> bool:
+        for et, f, t, d in self._edges:
+            if et == "Supersedes" and t == doc_id:
+                return True
+        return False
+
+    def _superseder_of(self, doc_id: str) -> str | None:
+        for et, f, t, d in self._edges:
+            if et == "Supersedes" and t == doc_id:
+                return f
+        return None
+
+    def _doc_prefix(self, data: dict) -> dict:
+        return {f"doc.{k}": v for k, v in data.items()}
+
+    def _trial_prefix(self, data: dict) -> dict:
+        return {f"trial.{k}": v for k, v in data.items()}
+
+    def _phase_prefix(self, data: dict) -> dict:
+        return {f"phase.{k}": v for k, v in data.items()}
+
+    def _traverse_edges(self, edge_type: str, start_id: str, max_hops: int = 10) -> list[str]:
+        """Traverse edges in reverse (find nodes that point TO start via edge_type)."""
+        visited = set()
+        frontier = {start_id}
+        for _ in range(max_hops):
+            next_frontier = set()
+            for et, f, t, _ in self._edges:
+                if et == edge_type and t in frontier and f not in visited and f != start_id:
+                    next_frontier.add(f)
+            visited.update(next_frontier)
+            frontier = next_frontier
+            if not frontier:
+                break
+        return list(visited)
+
+    def _execute_query(self, name: str, params: dict) -> list[dict]:
+        """Dispatch named queries."""
+
+        # --- match_existing.gq ---
+
+        if name == "find_version_match":
+            doc_type = params["doc_type"]
+            trial_id = params["trial_id"]
+            results = []
+            for doc_id, data in self._nodes.get("Document", {}).items():
+                if data.get("document_type") != doc_type:
+                    continue
+                # Check belongs to trial
+                if not self._has_edge("BelongsToTrial", doc_id, trial_id):
+                    continue
+                # Not superseded
+                if self._is_superseded_check(doc_id):
+                    continue
+                results.append(self._doc_prefix(data))
+            return results
+
+        if name == "find_trial":
+            pid = params.get("trial_key") or params.get("protocol_id")
+            trial = self._find_node("Trial", pid)
+            if trial:
+                return [self._trial_prefix(trial)]
+            return []
+
+        if name == "find_trial_by_nct":
+            nct = params["nct_id"]
+            for data in self._nodes.get("Trial", {}).values():
+                if data.get("nct_id") == nct:
+                    return [self._trial_prefix(data)]
+            return []
+
+        if name == "find_trial_by_eudract":
+            eid = params["eudract_id"]
+            for data in self._nodes.get("Trial", {}).values():
+                if data.get("eudract_id") == eid:
+                    return [self._trial_prefix(data)]
+            return []
+
+        if name == "find_doc_by_hash":
+            h = params["content_hash"]
+            for data in self._nodes.get("Document", {}).values():
+                if data.get("content_hash") == h:
+                    return [self._doc_prefix(data)]
+            return []
+
+        if name == "find_amendment_targets":
+            doc_type = params["doc_type"]
+            trial_id = params["trial_id"]
+            results = []
+            for doc_id, data in self._nodes.get("Document", {}).items():
+                if data.get("document_type") != doc_type:
+                    continue
+                if not self._has_edge("BelongsToTrial", doc_id, trial_id):
+                    continue
+                if self._is_superseded_check(doc_id):
+                    continue
+                # Not already amended
+                amended = any(et == "Amends" and t == doc_id for et, f, t, d in self._edges)
+                if amended:
+                    continue
+                results.append(self._doc_prefix(data))
+            return results
+
+        # --- phase.gq ---
+
+        if name == "find_phase":
+            phase_id = params["phase_id"]
+            phase = self._find_node("Phase", phase_id)
+            if phase:
+                return [self._phase_prefix(phase)]
+            return []
+
+        if name == "phase_documents":
+            phase_id = params["phase_id"]
+            results = []
+            for et, f, t, d in self._edges:
+                if et == "BelongsToPhase" and t == phase_id:
+                    doc = self._find_node("Document", f)
+                    if doc and not self._is_superseded_check(f):
+                        results.append(self._doc_prefix(doc))
+            return results
+
+        if name == "trial_phases":
+            pid = params.get("trial_key") or params.get("protocol_id")
+            results = []
+            for et, f, t, d in self._edges:
+                if et == "HasPhase" and f == pid:
+                    phase = self._find_node("Phase", t)
+                    if phase:
+                        results.append(self._phase_prefix(phase))
+            return results
+
+        # --- orphans.gq ---
+
+        if name == "find_orphans":
+            results = []
+            for doc_id, data in self._nodes.get("Document", {}).items():
+                has_any_edge = False
+                for et, f, t, _ in self._edges:
+                    if f == doc_id or t == doc_id:
+                        has_any_edge = True
+                        break
+                if not has_any_edge:
+                    results.append(self._doc_prefix(data))
+            return results
+
+        if name == "low_confidence":
+            threshold = params.get("threshold", 0.6)
+            results = []
+            for data in self._nodes.get("Document", {}).values():
+                if data.get("classification_confidence", 1.0) < threshold:
+                    results.append(self._doc_prefix(data))
+            return results
+
+        # --- inconsistencies.gq ---
+
+        if name == "stale_parents":
+            results = []
+            for et, child_id, parent_id, d in self._edges:
+                if et != "DerivedFrom":
+                    continue
+                newer_id = self._superseder_of(parent_id)
+                if newer_id is None:
+                    continue
+                child = self._find_node("Document", child_id)
+                parent = self._find_node("Document", parent_id)
+                newer = self._find_node("Document", newer_id)
+                if child and parent and newer and not self._is_superseded_check(child_id):
+                    row = {}
+                    row.update({f"child.{k}": v for k, v in child.items()})
+                    row.update({f"parent.{k}": v for k, v in parent.items()})
+                    row.update({f"newer.{k}": v for k, v in newer.items()})
+                    results.append(row)
+            return results
+
+        if name == "stale_references":
+            results = []
+            for et, doc_id, ref_id, d in self._edges:
+                if et != "References":
+                    continue
+                newer_id = self._superseder_of(ref_id)
+                if newer_id is None:
+                    continue
+                doc = self._find_node("Document", doc_id)
+                ref = self._find_node("Document", ref_id)
+                newer = self._find_node("Document", newer_id)
+                if doc and ref and newer and not self._is_superseded_check(doc_id):
+                    row = {}
+                    row.update({f"doc.{k}": v for k, v in doc.items()})
+                    row.update({f"ref.{k}": v for k, v in ref.items()})
+                    row.update({f"newer.{k}": v for k, v in newer.items()})
+                    results.append(row)
+            return results
+
+        if name == "stale_governance":
+            results = []
+            for et, gov_id, doc_id, d in self._edges:
+                if et != "Governs":
+                    continue
+                newer_id = self._superseder_of(doc_id)
+                if newer_id is None:
+                    continue
+                gov = self._find_node("Document", gov_id)
+                doc = self._find_node("Document", doc_id)
+                newer = self._find_node("Document", newer_id)
+                if gov and doc and newer and not self._is_superseded_check(gov_id):
+                    row = {}
+                    row.update({f"gov.{k}": v for k, v in gov.items()})
+                    row.update({f"doc.{k}": v for k, v in doc.items()})
+                    row.update({f"newer.{k}": v for k, v in newer.items()})
+                    results.append(row)
+            return results
+
+        if name == "superseded_documents":
+            results = []
+            for doc_id, data in self._nodes.get("Document", {}).items():
+                if data.get("status") == "superseded":
+                    results.append(self._doc_prefix(data))
+            return results
+
+        if name == "current_documents":
+            results = []
+            for doc_id, data in self._nodes.get("Document", {}).items():
+                if data.get("status") == "archived":
+                    continue
+                if self._is_superseded_check(doc_id):
+                    continue
+                results.append(self._doc_prefix(data))
+            return results
+
+        # --- cascade.gq ---
+
+        if name == "cascade_derived":
+            changed_id = params["changed_id"]
+            affected_ids = self._traverse_edges("DerivedFrom", changed_id)
+            results = []
+            for aid in affected_ids:
+                doc = self._find_node("Document", aid)
+                if doc and not self._is_superseded_check(aid):
+                    results.append({f"affected.{k}": v for k, v in doc.items()})
+            return results
+
+        if name == "cascade_references":
+            changed_id = params["changed_id"]
+            affected_ids = self._traverse_edges("References", changed_id)
+            results = []
+            for aid in affected_ids:
+                doc = self._find_node("Document", aid)
+                if doc and not self._is_superseded_check(aid):
+                    results.append({f"affected.{k}": v for k, v in doc.items()})
+            return results
+
+        if name == "cascade_governed":
+            changed_id = params["changed_id"]
+            affected_ids = self._traverse_edges("Governs", changed_id)
+            results = []
+            for aid in affected_ids:
+                doc = self._find_node("Document", aid)
+                if doc and not self._is_superseded_check(aid):
+                    results.append({f"affected.{k}": v for k, v in doc.items()})
+            return results
+
+        if name == "cascade_amendment":
+            amendment_id = params["amendment_id"]
+            # Find what the amendment amends
+            base_ids = [t for et, f, t, d in self._edges if et == "Amends" and f == amendment_id]
+            results = []
+            for base_id in base_ids:
+                affected_ids = self._traverse_edges("DerivedFrom", base_id)
+                for aid in affected_ids:
+                    doc = self._find_node("Document", aid)
+                    if doc and not self._is_superseded_check(aid):
+                        results.append({f"affected.{k}": v for k, v in doc.items()})
+            return results
+
+        # --- audit.gq ---
+
+        if name == "trial_documents":
+            pid = params.get("trial_key") or params.get("protocol_id")
+            results = []
+            for et, doc_id, trial_id, _ in self._edges:
+                if et == "BelongsToTrial" and trial_id == pid:
+                    doc = self._find_node("Document", doc_id)
+                    if doc and doc.get("status") != "archived" and not self._is_superseded_check(doc_id):
+                        results.append(self._doc_prefix(doc))
+            return results
+
+        if name == "all_documents":
+            return [self._doc_prefix(d) for d in self._nodes.get("Document", {}).values()]
+
+        if name == "all_trials":
+            return [self._trial_prefix(t) for t in self._nodes.get("Trial", {}).values()]
+
+        raise ValueError(f"Unknown query: {name!r}")
+
+    def _execute_mutation(self, name: str, params: dict) -> dict:
+        """Dispatch named mutations."""
+
+        if name == "add_document":
+            doc_id = params["doc_id"]
+            self._nodes["Document"][doc_id] = dict(params)
+            return {"inserted": 1}
+
+        if name == "add_trial":
+            pid = params.get("trial_key") or params.get("protocol_id")
+            self._nodes["Trial"][pid] = dict(params)
+            return {"inserted": 1}
+
+        if name == "add_belongs_to_trial":
+            self._edges.append(("BelongsToTrial", params["doc_id"], params["trial_id"], {}))
+            return {"inserted": 1}
+
+        if name == "add_supersedes":
+            self._edges.append(("Supersedes", params["new_id"], params["old_id"], {"reason": params.get("reason")}))
+            return {"inserted": 1}
+
+        if name == "add_derived_from":
+            self._edges.append(("DerivedFrom", params["child_id"], params["parent_id"], {"derivation_type": params.get("derivation_type")}))
+            return {"inserted": 1}
+
+        if name == "add_references":
+            self._edges.append(("References", params["from_id"], params["to_id"], {"citation_text": params.get("citation_text")}))
+            return {"inserted": 1}
+
+        if name == "add_governs":
+            self._edges.append(("Governs", params["gov_id"], params["doc_id"], {"authority_type": params.get("authority_type")}))
+            return {"inserted": 1}
+
+        if name == "mark_superseded":
+            doc_id = params["doc_id"]
+            if doc_id in self._nodes.get("Document", {}):
+                self._nodes["Document"][doc_id]["status"] = "superseded"
+            return {"updated": 1}
+
+        if name == "add_phase":
+            pid = params["phase_id"]
+            self._nodes["Phase"][pid] = dict(params)
+            return {"inserted": 1}
+
+        if name == "add_has_phase":
+            self._edges.append(("HasPhase", params["trial_id"], params["phase_id"], {}))
+            return {"inserted": 1}
+
+        if name == "add_belongs_to_phase":
+            self._edges.append(("BelongsToPhase", params["doc_id"], params["phase_id"], {}))
+            return {"inserted": 1}
+
+        if name == "add_amends":
+            self._edges.append(("Amends", params["amendment_id"], params["base_id"], {
+                "amendment_label": params.get("amendment_label"),
+                "scope": params.get("scope"),
+            }))
+            return {"inserted": 1}
+
+        if name == "update_document_type":
+            doc_id = params["doc_id"]
+            if doc_id in self._nodes.get("Document", {}):
+                self._nodes["Document"][doc_id]["document_type"] = params["document_type"]
+                self._nodes["Document"][doc_id]["classification_confidence"] = params["classification_confidence"]
+            return {"updated": 1}
+
+        raise ValueError(f"Unknown mutation: {name!r}")

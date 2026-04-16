@@ -2,7 +2,7 @@
   "classes": [
     {
       "class_name": "IB",
-      "reasoning": "Document explicitly identifies itself as 'IB-006 — Investigator Brochure' in the title and header. It provides updated safety, pharmacology, and clinical data for the investigational drug BRC-883 (Cardanezumab), which is the core purpose of an Investigator Brochure. Includes edition tracking and supersedes prior edition.",
+      "reasoning": "The document explicitly identifies itself as 'IB-006 — Investigator Brochure' in the title and presents comprehensive drug information for BRC-883 (Cardanezumab), including safety data, monitoring guidance, clinical trial updates, and dosing information—all characteristic of an Investigator Brochure.",
       "confidence": 1.0
     }
   ],
@@ -13,7 +13,7 @@
   "utn_id": null,
   "ind_number": null,
   "cta_number": null,
-  "sponsor_protocol_id": "BIORCE-CAR-2024-007",
+  "sponsor_protocol_id": "IB-006",
   "sponsor_name": "Biorce Therapeutics S.L.",
   "trial_title": null,
   "trial_acronym": null,
@@ -21,13 +21,15 @@
   "indication": "HeFH (Heterozygous Familial Hypercholesterolemia)",
   "therapeutic_area": "Cardiology",
   "phase": "3",
-  "summary": "This is Edition 2 of the Investigator Brochure for BRC-883 (Cardanezumab), dated 01 August 2024, superseding Edition 1 from 05 September 2023. It provides updated safety information from Phase III interim data (hepatic safety signal with ALT elevations), new monitoring guidance, and exploratory pediatric pilot data in adolescents with HeFH.",
+  "version": "Edition 2",
+  "version_ordinal": 2,
+  "country": null,
+  "site_id": null,
+  "summary": "This is Edition 2 of the Investigator Brochure for BRC-883 (Cardanezumab), dated 01 August 2024, which supersedes Edition 1 from 05 September 2023. The document presents updated safety information from Phase III trial BIORCE-CAR-2024-007, including a new hepatic safety finding (3 cases of ALT >5x ULN), revised monitoring guidance, and exploratory pediatric pilot data in adolescents aged 14-17 with HeFH.",
   "references_to": [
-    "BIORCE-CAR-2024-007",
-    "Edition 1 (05 September 2023)",
-    "Phase III safety interim (n=189 enrolled, data cut 15 Jun 2024)"
+    "Phase III BIORCE-CAR-2024-007 safety interim",
+    "Edition 1 (05 September 2023)"
   ],
   "filename": "File_020.md",
-  "raw_sha256": "1553cd8dbda223c34365823d8a8eb1d9580717ea02793838799cf4ce2833e761",
-  "content": "# IB-006 — Investigator Brochure\n## BRC-883 (Cardanezumab) — Edition 2\n### Date: 01 August 2024 | CONFIDENTIAL\n### SUPERSEDES EDITION 1 (05 September 2023)\n\n**Sponsor:** Biorce Therapeutics S.L., Madrid, Spain\n\n## WHAT'S NEW IN EDITION 2\n\n1. Phase III BIORCE-CAR-2024-007 safety interim (n=189 enrolled, data cut 15 Jun 2024)\n2. New hepatic safety finding: 3 cases of ALT >5x ULN — updated monitoring guidance\n3. Pediatric HeFH pilot data (n=12, adolescents 14-17 years) — exploratory\n4. Updated immunogenicity section\n\n## HEPATIC SAFETY UPDATE\n\nThree cases of ALT elevation >5x ULN (without bilirubin elevation) confirmed\nin the Phase III interim (n=189 exposed):\n- All 3 resolved within 4-6 weeks of drug hold\n- 2 patients resumed at full dose without recurrence\n- 1 patient discontinued\n\n**Updated Monitoring Guidance:**\n- ALT/AST at Weeks 4, 8, 12, and 24 (in addition to existing schedule)\n- Drug held for ALT >5x ULN; Sponsor Medical Monitor notified within 48h\n- Rechallenge permitted after resolution to <2x ULN with Sponsor approval\n\n## PEDIATRIC EXPLORATORY DATA\n\nPilot (n=12, HeFH patients aged 14-17, 75 mg SC q4w, 12 weeks):\n- Mean LDL-C reduction: -48% (similar magnitude to adults at lower dose)\n- No new safety signals; injection site reactions in 2 patients (mild)\n- No pediatric indication is claimed; data presented for context only\n\n## DOCUMENT HISTORY\n\n| Edition | Date | Summary |\n|---|---|---|\n| 1 | 05 Sep 2023 | Initial IB |\n| 2 | 01 Aug 2024 | Phase III safety interim, hepatic signal, pediatric pilot |\n\n*CONFIDENTIAL | © 2024 Biorce Therapeutics S.L.*\n"
+  "raw_sha256": "1553cd8dbda223c34365823d8a8eb1d9580717ea02793838799cf4ce2833e761"
 }

@@ -2,7 +2,7 @@
   "classes": [
     {
       "class_name": "CRF",
-      "reasoning": "Document header explicitly states 'eCRF -- CYCLE 3 DAY 1 VISIT' and contains structured per-patient, per-visit data fields including vital signs, ECOG performance status, study drug dispensing, dose modifications, concomitant medications, adverse events, and PRO questionnaires with investigator signature.",
+      "reasoning": "This is explicitly labeled 'eCRF -- CYCLE 3 DAY 1 VISIT' at the top and contains structured per-patient, per-visit data capture fields including vital signs, ECOG status, study drug dispensing details, concomitant medications, adverse events, and PRO questionnaires with investigator signature.",
       "confidence": 1.0
     }
   ],
@@ -14,21 +14,23 @@
   "ind_number": null,
   "cta_number": null,
   "sponsor_protocol_id": "BIORCE-ONC-2023-001",
-  "sponsor_name": null,
+  "sponsor_name": "BIORCE",
   "trial_title": null,
   "trial_acronym": null,
-  "intervention": "100mg tablets, 200mg BID dosing",
+  "intervention": null,
   "indication": null,
-  "therapeutic_area": "Oncology",
+  "therapeutic_area": null,
   "phase": null,
-  "summary": "This is an electronic Case Report Form (eCRF) documenting Cycle 3 Day 1 visit data for patient BRC471-NL01-002 in study BIORCE-ONC-2023-001 at site NL-01. It captures vital signs, ECOG performance status, study drug dispensing (200mg BID from Kit-471-NL01-008), concomitant medications, ongoing adverse events (acneiform rash and fatigue), and completed patient-reported outcome questionnaires, signed by investigator Dr. R. de Boer on 22 November 2023.",
+  "version": "2.1",
+  "version_ordinal": 2,
+  "country": "NL",
+  "site_id": "NL-01",
+  "summary": "This is an electronic Case Report Form capturing data from a Cycle 3 Day 1 visit for patient BRC471-NL01-002 at site NL-01. The form documents vital signs, ECOG performance status, study drug dispensing (200mg BID dosing with ondansetron), concomitant medications, adverse events (acneiform rash and fatigue), and completion of PRO questionnaires, verified by investigator Dr. R. de Boer on 22 November 2023.",
   "references_to": [
-    "Form v2.1",
     "Amendment 2, from C2D1",
     "EORTC QLQ-C30",
     "QLQ-LC13"
   ],
   "filename": "File_059.txt",
-  "raw_sha256": "9a1b0b2e8bbf694c9c1ce4c0673f3b4a9f3bd724217fa2439bba3288f2390cfb",
-  "content": "eCRF -- CYCLE 3 DAY 1 VISIT\nStudy: BIORCE-ONC-2023-001 | Form v2.1 | Site: NL-01 | Patient: BRC471-NL01-002\nVisit date: 22 November 2023 | Entered: K.Visser | Verified: [pending]\n\nVITAL SIGNS (pre-dose)\n  Systolic BP:  118 mmHg | Diastolic: 74 mmHg | HR: 68 bpm\n  Weight: 58.2 kg | SpO2: 97% | Temp: 36.6 degrees C\n\nECOG PS: [X] 1 -- Ambulatory, restricted strenuous activity\n\nSTUDY DRUG DISPENSING\n  Kit dispensed: KIT-471-NL01-008\n  Tablets (100mg): 56\n  Dose: [X] 200mg BID (no reductions to date)\n  Ondansetron 8mg dispensed: [X] Yes (per Amendment 2, from C2D1)\n\nDOSE MODIFICATIONS SINCE LAST VISIT: None\n\nCONCOMITANT MEDICATIONS\n  Levothyroxine 50mcg QD -- Hypothyroidism -- since 2015 -- ongoing\n  Paracetamol 1g PRN -- headache -- since C1 -- ongoing (OTC)\n  No CYP3A4 inhibitors or inducers identified.\n\nADVERSE EVENTS (since last visit)\n  AE#1: Acneiform rash, face/chest -- Grade 1 -- ongoing from C1D8\n    Relationship: Probably related   SAE: No\n    Action: Topical doxycycline; stable, no worsening\n  AE#2: Fatigue -- Grade 1 -- ongoing -- possibly related -- no action\n  No new AEs\n\nPRO QUESTIONNAIRES\n  EORTC QLQ-C30: [X] Completed   QLQ-LC13: [X] Completed\n\nInvestigator: Dr. R. de Boer   Sig: [SIGNED]   Date: 22/11/2023\n"
+  "raw_sha256": "9a1b0b2e8bbf694c9c1ce4c0673f3b4a9f3bd724217fa2439bba3288f2390cfb"
 }

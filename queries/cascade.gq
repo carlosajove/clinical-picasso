@@ -24,3 +24,14 @@ query cascade_governed($changed_id: String) {
     }
     return { $affected.doc_id, $affected.document_type, $affected.country, $affected.site_id, $affected.source_file }
 }
+
+query cascade_amendment($amendment_id: String) {
+    match {
+        $amendment: Document { doc_id: $amendment_id }
+        $base: Document
+        $amendment amends $base
+        $affected derivedFrom{1,10} $base
+        not { $newer supersedes $affected }
+    }
+    return { $affected.doc_id, $affected.document_type, $affected.country, $affected.site_id, $affected.source_file, $affected.version }
+}

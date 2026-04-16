@@ -2,7 +2,7 @@
   "classes": [
     {
       "class_name": "IB",
-      "reasoning": "Document explicitly titled 'IB-004 — Investigator Brochure' with subtitle 'BRC-209 (Velagostat) — Edition 2'. Contains characteristic IB content including efficacy data, pharmacogenomic guidance, safety updates, and document revision history tracking editions.",
+      "reasoning": "Document explicitly identifies itself as 'IB-004 — Investigator Brochure' in the header and contains comprehensive drug information including efficacy data, pharmacogenomic guidance, safety information (falls risk), and biomarker data for BRC-209 (Velagostat).",
       "confidence": 1.0
     }
   ],
@@ -21,11 +21,15 @@
   "indication": null,
   "therapeutic_area": null,
   "phase": "2",
-  "summary": "This is Edition 2 of an Investigator Brochure for BRC-209 (Velagostat), dated 20 January 2023, superseding Edition 1 from 10 January 2022. It summarizes updated efficacy data from an 18-month Phase II extension study (n=71), new biomarker findings (plasma p-tau 181, NfL), pharmacogenomic guidance for CYP2C19 poor metabolizers, and updated falls risk assessment recommendations.",
+  "version": "Edition 2",
+  "version_ordinal": 2,
+  "country": null,
+  "site_id": null,
+  "summary": "This is Edition 2 of the Investigator Brochure for BRC-209 (Velagostat), dated 20 January 2023, superseding Edition 1 from 10 January 2022. The document provides comprehensive information about the investigational drug including updated 18-month Phase II extension efficacy data, new biomarker findings (plasma p-tau 181 and NfL), pharmacogenomic guidance for CYP2C19 poor metabolizers, and updated falls risk assessment guidance.",
   "references_to": [
-    "Edition 1 (10 January 2022)"
+    "SUPERSEDES EDITION 1 (10 January 2022)",
+    "Edition 1, 10 Jan 2022"
   ],
   "filename": "File_002.md",
-  "raw_sha256": "176fccd832d1f03c409ce789d0c79d00cffa51c7bdada19da836c79a58a11f13",
-  "content": "# IB-004 — Investigator Brochure\n## BRC-209 (Velagostat) — Edition 2\n### Date: 20 January 2023 | CONFIDENTIAL\n### SUPERSEDES EDITION 1 (10 January 2022)\n\n## WHAT'S NEW IN EDITION 2\n\n1. 18-month extension data from Phase II (n=71 completers)\n2. New biomarker data: plasma NfL and p-tau 181 results\n3. CYP2C19 poor metabolizer guidance added\n4. Updated falls risk guidance\n\n## UPDATED EFFICACY DATA (Phase II 18-Month Extension)\n\nAmong 71 patients who completed the 18-month extension, BRC-209 produced:\n- CDR-SB at 18 months: -0.54 points vs. placebo (p=0.035) — significant\n- Tau PET SUVR (temporal composite): -28% vs. -4% placebo (p<0.001)\n- Plasma p-tau 181: -34% vs. -1% (p=0.001) — novel finding\n- Plasma NfL: No significant difference (p=0.31) — exploratory\n\nThe p-tau 181 reduction suggests target engagement extends to downstream\ntau phosphorylation pathways, not just aggregation.\n\n## CYP2C19 POOR METABOLIZERS (NEW)\n\nA pharmacogenomic sub-study (n=18) identified 4 CYP2C19 poor metabolizers\nwith 2.8-fold higher BRC-209 AUC. Two experienced Grade 2 dizziness.\nCYP2C19 genotyping recommended prior to enrollment; PM patients start at\n200 mg QD (reduced dose).\n\n## FALLS RISK GUIDANCE (UPDATED)\n\nFalls incidence over 18 months: 19% (BRC-209) vs. 24% (placebo).\nNo excess risk attributable to BRC-209. Morse Fall Scale assessment\nencouraged at each visit.\n\n## DOCUMENT HISTORY\n\n| Edition | Date | Summary |\n|---|---|---|\n| 1 | 10 Jan 2022 | Initial IB |\n| 2 | 20 Jan 2023 | 18-month extension, p-tau 181, CYP2C19 DDI, falls |\n\n*CONFIDENTIAL | © 2023 Biorce Therapeutics S.L.*\n"
+  "raw_sha256": "176fccd832d1f03c409ce789d0c79d00cffa51c7bdada19da836c79a58a11f13"
 }

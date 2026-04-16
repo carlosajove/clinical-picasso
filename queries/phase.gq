@@ -1,0 +1,23 @@
+query find_phase($phase_id: String) {
+    match {
+        $phase: Phase { phase_id: $phase_id }
+    }
+    return { $phase.phase_id, $phase.trial_id, $phase.phase_label }
+}
+
+query phase_documents($phase_id: String) {
+    match {
+        $phase: Phase { phase_id: $phase_id }
+        $doc belongsToPhase $phase
+        not { $newer supersedes $doc }
+    }
+    return { $doc.doc_id, $doc.document_type, $doc.version, $doc.status, $doc.source_file }
+}
+
+query trial_phases($protocol_id: String) {
+    match {
+        $trial: Trial { protocol_id: $protocol_id }
+        $trial hasPhase $phase
+    }
+    return { $phase.phase_id, $phase.phase_label }
+}

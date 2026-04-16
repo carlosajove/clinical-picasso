@@ -9,8 +9,8 @@ query add_document($doc_id: String, $source_file: String, $content_hash: String,
     }
 }
 
-query add_trial($protocol_id: String) {
-    insert Trial { protocol_id: $protocol_id }
+query add_trial($trial_key: String) {
+    insert Trial { trial_key: $trial_key }
 }
 
 query add_belongs_to_trial($doc_id: String, $trial_id: String) {
@@ -35,5 +35,26 @@ query add_governs($gov_id: String, $doc_id: String, $authority_type: String) {
 
 query mark_superseded($doc_id: String) {
     update Document set { status: "superseded" }
+    where doc_id = $doc_id
+}
+
+query add_phase($phase_id: String, $trial_id: String, $phase_label: String) {
+    insert Phase { phase_id: $phase_id, trial_id: $trial_id, phase_label: $phase_label }
+}
+
+query add_has_phase($trial_id: String, $phase_id: String) {
+    insert HasPhase { from: $trial_id, to: $phase_id }
+}
+
+query add_belongs_to_phase($doc_id: String, $phase_id: String) {
+    insert BelongsToPhase { from: $doc_id, to: $phase_id }
+}
+
+query add_amends($amendment_id: String, $base_id: String, $amendment_label: String, $scope: String) {
+    insert Amends { from: $amendment_id, to: $base_id, amendment_label: $amendment_label, scope: $scope }
+}
+
+query update_document_type($doc_id: String, $document_type: String, $classification_confidence: F64) {
+    update Document set { document_type: $document_type, classification_confidence: $classification_confidence }
     where doc_id = $doc_id
 }

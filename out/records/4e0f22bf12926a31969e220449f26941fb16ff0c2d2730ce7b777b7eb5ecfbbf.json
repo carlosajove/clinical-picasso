@@ -2,7 +2,7 @@
   "classes": [
     {
       "class_name": "ICF",
-      "reasoning": "Document explicitly titled 'INFORMED CONSENT FORM' with signature blocks for participant and investigator consent, structured consent checklist ('I have read and understood this form', 'I agree to take part in this study'), and typical ICF sections covering purpose, risks, benefits, voluntary participation, and withdrawal rights.",
+      "reasoning": "Document explicitly titled 'INFORMED CONSENT FORM' with signature blocks for participant and investigator, including consent statements to be initialed, and standard ICF sections covering study purpose, risks, benefits, voluntary participation, and withdrawal rights.",
       "confidence": 1.0
     }
   ],
@@ -21,13 +21,14 @@
   "indication": "EGFR-mutant NSCLC that has progressed on osimertinib",
   "therapeutic_area": "Oncology",
   "phase": "2",
-  "summary": "This is version 2.1 of the Informed Consent Form for study BIORCE-ONC-2023-001, a Phase II trial testing BRC-471 (Lumitanib) in patients with advanced EGFR-mutant non-small cell lung cancer progressing after osimertinib. The document explains the study purpose, procedures, risks, benefits, and patient rights, and includes signature blocks for participant and investigator consent.",
+  "version": "2.1",
+  "version_ordinal": 2,
+  "country": null,
+  "site_id": null,
+  "summary": "This is version 2.1 of the Informed Consent Form for a Phase II clinical trial testing BRC-471 (Lumitanib) in patients with advanced EGFR-mutant non-small cell lung cancer that has progressed on osimertinib. The document explains study procedures, risks including diarrhea and skin rash, potential benefits, participant rights to withdraw, and includes signature blocks for both participant and investigator consent.",
   "references_to": [
-    "ICF v2.0 (22 August 2023)",
-    "ondansetron (anti-nausea)",
-    "EU GDPR"
+    "ICF v2.0 (22 August 2023)"
   ],
   "filename": "File_014.html",
-  "raw_sha256": "4e0f22bf12926a31969e220449f26941fb16ff0c2d2730ce7b777b7eb5ecfbbf",
-  "content": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBIORCE \nTHERAPEUTICS\n\n\nStudy: BIORCE-ONC-2023-001  |  ICF v2.1  |  Date: 09 November 2023\n\n  EudraCT: 2023-001234-11  |  Supersedes ICF v2.0 (22 August 2023)\n\n\n\n\nINFORMED CONSENT FORM\n\n\nA Phase II Study of BRC-471 (Lumitanib) in Advanced Lung Cancer\n\n\nIMPORTANT:\n Please read this document carefully. You may take it home.\nAsk any questions before signing. Participation is completely voluntary.\n\n\n1. Introduction\n\n\nYou are being asked to take part in a clinical research study testing BRC-471 (Lumitanib),\nan experimental medicine, in patients with EGFR-mutant NSCLC that has progressed on osimertinib.\n\n\n2. Purpose of This Study\n\n\nWe want to find out whether BRC-471 can shrink or stop your cancer, how long any benefit lasts,\nwhat side effects it causes, and how your body processes it.\n\n\n3. Duration\n\n\nYou will take BRC-471 until your cancer grows or side effects are unmanageable.\nMost patients remain on treatment for several months to over a year.\nFollow-up visits every 12 weeks for at least one year after stopping.\n\n\n4. What Will Happen\n\n\nVisit\nWhat happens\n\n\nScreening (up to 4 weeks)\nBlood tests, CT scan, ECG, physical exam, tumour biopsy if needed\n\n\nTreatment cycles (28 days each)\nBRC-471 tablets twice daily; blood tests; CT every 8 weeks\n\n\nEnd of Treatment\nFull assessment — scans, blood tests, questionnaires\n\n\nFollow-up\nVisits or calls every 12 weeks\n\n\nYou will take \n2 tablets of BRC-471 twice a day\n. Also: ondansetron (anti-nausea)\nduring the first week of each cycle. Do not crush or chew tablets.\n\n\n5. Possible Risks\n\n\nSide Effect\nHow Common\nUsually Mild?\n\n\nDiarrhoea\n~7 in 10 patients\nUsually mild\n\n\nSkin rash\n~6 in 10 patients\nUsually mild-moderate\n\n\nNausea\n~5 in 10 patients\nAnti-nausea medicine given\n\n\nFatigue\n~5 in 10 patients\nUsually mild\n\n\nLung inflammation\n~1 in 25 patients\nCan be serious — contact team if breathless\n\n\n6. Possible Benefits\n\n\nYou may benefit if BRC-471 shrinks or slows your cancer. This cannot be guaranteed.\n\n\n7. Your Right to Withdraw\n\n\nParticipation is entirely voluntary.\n You may withdraw at any time\nwithout penalty or effect on your standard medical care.\n\n\n8. Privacy\n\n\nData processed per EU GDPR. Study documents use a participant code, not your name.\n\n\n9. Costs\n\n\nNo cost to you. Medicine provided free. Reasonable travel expenses reimbursed.\n\n\n10. Contact\n\n\nFor...\nContact\n\n\nStudy / health questions\nYour study doctor (details on file)\n\n\nYour rights\nLocal Ethics Committee (site-provided)\n\n\nUrgent safety (24/7)\n+34 900 123 456\n\n\n\n\n11. Consent\n\n\nInitial each statement, then sign below.\n\n\nI have read and understood this form (v2.1, 09 November 2023).\n\n\nI have had the opportunity to ask questions and all have been answered.\n\n\nI understand participation is voluntary and I may withdraw at any time.\n\n\nI agree to collection and processing of my personal data.\n\n\nI agree to take part in this study.\n\n\n\n\nParticipant Full Name (PRINT)\n\n\nParticipant Signature\n\n\nDate (DD/MM/YYYY)\n\n\nInvestigator Full Name (PRINT)\n\n\nInvestigator Signature\n\n\nDate (DD/MM/YYYY)\n\n\n\n\nA signed copy will be given to you.\n\n\n\n\nBIORCE-ONC-2023-001 ICF v2.1 · CONFIDENTIAL · © 2023 Biorce Therapeutics S.L.\n\n\n\n"
+  "raw_sha256": "4e0f22bf12926a31969e220449f26941fb16ff0c2d2730ce7b777b7eb5ecfbbf"
 }

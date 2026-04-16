@@ -115,10 +115,10 @@ def _resolve_trial_duplicates(
     match is sufficient.
     """
     trials = client.query("all_trials")
-    seen_titles: dict[str, str] = {}  # title → first protocol_id
+    seen_titles: dict[str, str] = {}  # title → first trial_key
     for row in trials:
         title = (row.get("trial.title") or "").strip().lower()
-        pid = row["trial.protocol_id"]
+        pid = row["trial.trial_key"]
         if not title:
             continue
         if title in seen_titles and seen_titles[title] != pid:

@@ -2,7 +2,7 @@
   "classes": [
     {
       "class_name": "CRF",
-      "reasoning": "Document is labeled 'eCRF MODULE: CYCLE 1 DAY 1 (BASELINE / FIRST DOSE)' and contains structured data capture fields for vital signs, performance status, drug dispensing, concomitant medications, PK sampling, adverse events, and PRO questionnaires—all characteristic features of a Case Report Form designed for per-patient, per-visit data capture.",
+      "reasoning": "This is a structured Case Report Form for capturing per-patient, per-visit data. It includes sections for vital signs, ECOG performance status, study drug dispensing, concomitant medications, PK sampling, adverse events, and PRO questionnaires. The header explicitly identifies it as 'eCRF MODULE' with form version 2.1, site ID, and patient code fields for data entry.",
       "confidence": 1.0
     }
   ],
@@ -20,14 +20,16 @@
   "intervention": null,
   "indication": null,
   "therapeutic_area": "Oncology",
-  "phase": "N/A",
-  "summary": "This is a Case Report Form (eCRF) module for Cycle 1 Day 1 of study BIORCE-ONC-2023-001, version 2.1. It captures baseline and first-dose data including vital signs, ECOG performance status, study drug dispensing details (100mg tablets with dosing options 100-200mg BID), concomitant medications, pharmacokinetic sampling time points, adverse events, and patient-reported outcome questionnaires (EORTC QLQ-C30 and QLQ-LC13).",
+  "phase": null,
+  "version": "2.1",
+  "version_ordinal": 2,
+  "country": null,
+  "site_id": null,
+  "summary": "This is an electronic Case Report Form (eCRF) module for Cycle 1 Day 1 (Baseline / First Dose) visit data capture in study BIORCE-ONC-2023-001. The form collects vital signs, ECOG performance status, study drug dispensing details, concomitant medications, pharmacokinetic sampling records, adverse events, and patient-reported outcome questionnaires (EORTC QLQ-C30 and QLQ-LC13) for individual patients at a specific clinical visit.",
   "references_to": [
-    "Form Version: 2.1",
     "EORTC QLQ-C30",
     "EORTC QLQ-LC13"
   ],
   "filename": "File_033.md",
-  "raw_sha256": "e2ee1ab86c46c326d6d86ae4f4159e93f2281706f8506c1736960c660b828b81",
-  "content": "# eCRF MODULE: CYCLE 1 DAY 1 (BASELINE / FIRST DOSE)\n## Study: BIORCE-ONC-2023-001 | Form Version: 2.1\n## Site ID: ______ | Patient Code: BRC471-___-____\n## Visit Date: __ / __ / ______  On time / Early (+__ days) / Late (+__ days)\n\n## SECTION 1 — VITAL SIGNS (pre-dose)\n\n| Parameter | Value | Unit | Time |\n|---|---|---|---|\n| Systolic BP | | mmHg | |\n| Diastolic BP | | mmHg | |\n| Heart Rate | | bpm | |\n| Temperature | | °C | |\n| SpO2 | | % | |\n| Weight | | kg | |\n\n## SECTION 2 — ECOG PERFORMANCE STATUS\n\n[ ] 0 — Fully active  [ ] 1 — Ambulatory, light work\n[ ] 2 — Self-care, up >50% waking hours  [ ] 3 — Limited self-care\n\n## SECTION 3 — STUDY DRUG DISPENSING\n\n| Field | Value |\n|---|---|\n| Drug kit number dispensed | |\n| Tablets dispensed (100 mg) | |\n| Dose prescribed | [ ] 200 mg BID  [ ] 150 mg BID  [ ] 100 mg BID |\n| Dispensed by (initials) | |\n| Patient counselled on dosing | [ ] Yes |\n| Ondansetron (8mg) dispensed | [ ] Yes  [ ] No — reason: |\n\n## SECTION 4 — CONCOMITANT MEDICATIONS\n\n| Medication | Indication | Dose/Freq | Start Date | Ongoing? |\n|---|---|---|---|---|\n| | | | | [ ] Yes  [ ] No |\n| | | | | [ ] Yes  [ ] No |\n| | | | | [ ] Yes  [ ] No |\n\nCYP3A4 strong inhibitors? [ ] Yes (specify: ________)  [ ] No\nCYP3A4 strong inducers?   [ ] Yes (specify: ________)  [ ] No\n\n## SECTION 5 — PK SAMPLING (C1D1)\n\n| Sample | Planned Time | Actual Time | Volume (mL) | Collected? |\n|---|---|---|---|---|\n| Pre-dose (0h) | Prior to AM dose | | 4 | [ ] Yes  [ ] No |\n| 1h post-dose | | | 4 | [ ] Yes  [ ] No |\n| 2h post-dose | | | 4 | [ ] Yes  [ ] No |\n| 4h post-dose | | | 4 | [ ] Yes  [ ] No |\n\n## SECTION 6 — ADVERSE EVENTS\n\n[ ] No adverse events to report\n\n| AE Term | Start Date | Ongoing? | Grade | Relationship | SAE? |\n|---|---|---|---|---|---|\n| | | [ ] Y [ ] N | [ ] 1 [ ] 2 [ ] 3 [ ] 4 | [ ] Related [ ] Unlikely [ ] Unrelated | [ ] Y [ ] N |\n\n## SECTION 7 — PRO QUESTIONNAIRES\n\nEORTC QLQ-C30: [ ] Completed  [ ] Not done — reason: ________\nEORTC QLQ-LC13: [ ] Completed  [ ] Not done — reason: ________\n"
+  "raw_sha256": "e2ee1ab86c46c326d6d86ae4f4159e93f2281706f8506c1736960c660b828b81"
 }

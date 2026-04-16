@@ -12,3 +12,8 @@ __pycache__/
 frontend/node_modules/
 graph_repo/*
 frontend/*
+node_modules/
+graph_repo/
+frontend/dist/
+frontend/.vite/
+graph_repo
