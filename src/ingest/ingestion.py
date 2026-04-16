@@ -65,7 +65,7 @@ def ingest(
 
     # Only create Trial node if it doesn't already exist
     if trial_key is not None:
-        existing = client.query("find_trial", {"protocol_id": trial_key})
+        existing = client.query("find_trial", {"trial_key": trial_key})
         if not existing:
             trial_line = serialize_trial(record)
             if trial_line is not None:
@@ -73,7 +73,7 @@ def ingest(
             changes.append(GraphChange(
                 action="created_node",
                 target_type="Trial",
-                details={"protocol_id": trial_key},
+                details={"trial_key": trial_key},
             ))
 
         edge_line = serialize_belongs_to_trial(record)

@@ -192,8 +192,8 @@ def _check_missing_doc_types(client: OmniGraphClient, report: AuditReport) -> No
     """Trials that are missing expected document types."""
     trials = client.query("all_trials")
     for trial_row in trials:
-        pid = trial_row["trial.protocol_id"]
-        docs = client.query("trial_documents", {"protocol_id": pid})
+        pid = trial_row["trial.trial_key"]
+        docs = client.query("trial_documents", {"trial_key": pid})
         types_present = {row.get("doc.document_type") for row in docs}
 
         for expected in EXPECTED_TYPES:
@@ -250,8 +250,8 @@ def _check_metadata_conflicts(client: OmniGraphClient, report: AuditReport) -> N
     """Documents in the same trial with conflicting metadata."""
     trials = client.query("all_trials")
     for trial_row in trials:
-        pid = trial_row["trial.protocol_id"]
-        docs = client.query("trial_documents", {"protocol_id": pid})
+        pid = trial_row["trial.trial_key"]
+        docs = client.query("trial_documents", {"trial_key": pid})
 
         sponsors = set()
         phases = set()

@@ -19,13 +19,21 @@ node Document {
 }
 
 node Trial {
-    protocol_id:    String  @key
-    nct_id:         String?  @index
-    eudract_id:     String?  @index
-    title:          String?  @index
-    phase:          String?
-    intervention:   String?
-    indication:     String?
+    trial_key:        String  @key
+    nct_id:           String?  @index
+    eudract_id:       String?  @index
+    eu_ct_id:         String?  @index
+    isrctn_id:        String?  @index
+    utn_id:           String?  @index
+    ind_number:       String?  @index
+    cta_number:       String?  @index
+    sponsor_name:     String?  @index
+    acronym:          String?  @index
+    therapeutic_area: String?
+    title:            String?  @index
+    phase:            String?
+    intervention:     String?
+    indication:       String?
 }
 
 edge Supersedes: Document -> Document {

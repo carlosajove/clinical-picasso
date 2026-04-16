@@ -103,7 +103,7 @@ Materializes extraction records into the OmniGraph knowledge graph.
 | Node type | Key | Notable fields |
 |-----------|-----|----------------|
 | **Document** | `doc_id` | `source_file`, `content_hash`, `document_type`, `classification_confidence`, `raw_classes` (JSON), `version`, `status`, `country`, `site_id`, `summary`, `sponsor_name`, `sponsor_protocol_id`, `trial_title`, `intervention`, `indication`, `phase` |
-| **Trial** | `protocol_id` | `nct_id`, `eudract_id`, `title`, `phase`, `intervention`, `indication` |
+| **Trial** | `trial_key` | `nct_id`, `eudract_id`, `eu_ct_id`, `isrctn_id`, `utn_id`, `ind_number`, `cta_number`, `sponsor_name`, `acronym`, `therapeutic_area`, `title`, `phase`, `intervention`, `indication` |
 
 ### Edges
 

@@ -63,9 +63,17 @@ def serialize_trial(record: ExtractionRecord) -> dict | None:
     return {
         "type": "Trial",
         "data": {
-            "protocol_id": key,
+            "trial_key": key,
             "nct_id": record.nct_id,
             "eudract_id": record.eudract_id,
+            "eu_ct_id": record.eu_ct_id,
+            "isrctn_id": record.isrctn_id,
+            "utn_id": record.utn_id,
+            "ind_number": record.ind_number,
+            "cta_number": record.cta_number,
+            "sponsor_name": record.sponsor_name,
+            "acronym": record.trial_acronym,
+            "therapeutic_area": record.therapeutic_area,
             "title": record.trial_title,
             "phase": record.phase,
             "intervention": record.intervention,

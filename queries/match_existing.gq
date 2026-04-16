@@ -1,6 +1,6 @@
 query find_version_match($doc_type: String, $trial_id: String) {
     match {
-        $trial: Trial { protocol_id: $trial_id }
+        $trial: Trial { trial_key: $trial_id }
         $doc: Document { document_type: $doc_type }
         $doc belongsToTrial $trial
         not { $newer supersedes $doc }
@@ -8,25 +8,25 @@ query find_version_match($doc_type: String, $trial_id: String) {
     return { $doc.doc_id, $doc.version, $doc.status, $doc.source_file }
 }
 
-query find_trial($protocol_id: String) {
+query find_trial($trial_key: String) {
     match {
-        $trial: Trial { protocol_id: $protocol_id }
+        $trial: Trial { trial_key: $trial_key }
     }
-    return { $trial.protocol_id, $trial.title, $trial.nct_id, $trial.eudract_id }
+    return { $trial.trial_key, $trial.title, $trial.nct_id, $trial.eudract_id }
 }
 
 query find_trial_by_nct($nct_id: String) {
     match {
         $trial: Trial { nct_id: $nct_id }
     }
-    return { $trial.protocol_id, $trial.title, $trial.nct_id }
+    return { $trial.trial_key, $trial.title, $trial.nct_id }
 }
 
 query find_trial_by_eudract($eudract_id: String) {
     match {
         $trial: Trial { eudract_id: $eudract_id }
     }
-    return { $trial.protocol_id, $trial.title, $trial.eudract_id }
+    return { $trial.trial_key, $trial.title, $trial.eudract_id }
 }
 
 query find_doc_by_hash($content_hash: String) {

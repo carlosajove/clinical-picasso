@@ -28,7 +28,7 @@ def get_trial_type_distribution(
     """Query the graph for how many documents of each type exist in a trial."""
     rows = client.query(
         "trial_documents",
-        {"protocol_id": trial_key},
+        {"trial_key": trial_key},
     )
     counts: dict[str, int] = {}
     for row in rows:
