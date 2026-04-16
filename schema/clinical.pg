@@ -46,3 +46,18 @@ edge Governs: Document -> Document {
 }
 
 edge BelongsToTrial: Document -> Trial
+
+node Phase {
+    phase_id:       String  @key
+    trial_id:       String  @index
+    phase_label:    String  @index
+}
+
+edge HasPhase: Trial -> Phase
+
+edge BelongsToPhase: Document -> Phase
+
+edge Amends: Document -> Document {
+    amendment_label: String?
+    scope:           String?
+}

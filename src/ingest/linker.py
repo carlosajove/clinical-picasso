@@ -20,6 +20,11 @@ class DiscoveredEdge:
     params: dict         # params for the mutation
 
 
+def detect_amendment_signal(record: ExtractionRecord) -> bool:
+    """Fast deterministic check: does this look like an amendment?"""
+    return "amendment" in (record.version or "").lower()
+
+
 def discover_edges(
     record: ExtractionRecord,
     client: OmniGraphClient,

@@ -35,3 +35,14 @@ query find_doc_by_hash($content_hash: String) {
     }
     return { $doc.doc_id, $doc.document_type, $doc.version, $doc.status }
 }
+
+query find_amendment_targets($doc_type: String, $trial_id: String) {
+    match {
+        $trial: Trial { protocol_id: $trial_id }
+        $doc: Document { document_type: $doc_type }
+        $doc belongsToTrial $trial
+        not { $newer supersedes $doc }
+        not { $amend amends $doc }
+    }
+    return { $doc.doc_id, $doc.version, $doc.source_file, $doc.status }
+}
