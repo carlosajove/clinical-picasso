@@ -57,7 +57,7 @@ export default function GraphView() {
         // Node entry
         const nodeLabel = item.type as string;
         const data = (item.data ?? {}) as Record<string, unknown>;
-        const id = (data.doc_id ?? data.protocol_id ?? '') as string;
+        const id = (data.doc_id ?? data.trial_key ?? data.protocol_id ?? data.id ?? '') as string;
 
         if (!id) continue;
 

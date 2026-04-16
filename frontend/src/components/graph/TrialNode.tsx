@@ -13,7 +13,7 @@ export default function TrialNode({ data }: NodeProps) {
       </div>
 
       <p className="text-xs font-semibold mt-1 truncate max-w-[150px]">
-        {d.protocol_id || d.title || 'Unknown Trial'}
+        {d.trial_key || d.protocol_id || d.title || 'Unknown Trial'}
       </p>
 
       <Handle type="source" position={Position.Bottom} className="!bg-white !w-2 !h-2" />
