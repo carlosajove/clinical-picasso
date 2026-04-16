@@ -120,6 +120,19 @@ Extract only what the document states. Do not infer from general knowledge.
 - `therapeutic_area`  : higher-level area (e.g. "Oncology", "Cardiology")
 - `phase`             : one of "1", "1/2", "2", "2/3", "3", "4", "N/A"
 
+# Document versioning and scope
+
+Extract only what the document explicitly states. Do not infer.
+
+- `version`   : document version string exactly as stated, e.g. "1.0", "2.1",
+  "Amendment 2", "Edition 3". Null if not stated.
+- `country`   : country this document is scoped to, as ISO 3166-1 alpha-2 code
+  (e.g. "ES", "DE", "FR", "US"). Null if the document is not
+  country-specific or the country is not stated.
+- `site_id`   : clinical site or center identifier exactly as stated, e.g.
+  "Site 001", "Center 42", "Investigator Site 101". Null if the
+  document is not site-specific or the site is not stated.
+
 # Summary
 
 `summary`: 2-3 sentences plainly describing what this document is and its

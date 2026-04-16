@@ -69,6 +69,11 @@ class LLMExtraction(BaseModel):
     therapeutic_area: str | None = None
     phase: str | None = None
 
+    # Document versioning and scope - needed for graph version chains and cascades.
+    version: str | None = None       # e.g. "1.0", "2.1", "Amendment 2"
+    country: str | None = None       # ISO 3166-1 alpha-2 if possible, e.g. "ES", "DE"
+    site_id: str | None = None       # site/center number, e.g. "Site 001", "Center 42"
+
     # Content.
     summary: str | None = None
 

@@ -24,8 +24,8 @@ from pathlib import Path
 
 from pydantic import ValidationError
 
-from extraction import cache
-from extraction.schema import ExtractionRecord
+from src.extraction import cache
+from src.extraction.schema import ExtractionRecord
 from src.preprocessing import Preprocessing
 
 
